@@ -1,0 +1,264 @@
+[Wed, 28 Oct 2015 05:39:37 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 05:39:37 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 05:39:37 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 05:39:37 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 28 Oct 2015 05:42:08 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 05:42:08 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 05:42:08 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 05:42:08 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 28 Oct 2015 05:50:19 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 05:50:19 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 05:50:19 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 05:50:19 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 28 Oct 2015 05:57:14 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 05:57:14 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 05:57:14 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 05:57:14 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 28 Oct 2015 06:09:10 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 06:09:10 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 06:09:10 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 06:09:10 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 28 Oct 2015 06:13:17 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 06:13:17 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 06:13:17 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 06:13:17 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 28 Oct 2015 06:17:23 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 06:17:23 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 06:17:23 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 06:17:23 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 28 Oct 2015 06:18:36 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 06:18:36 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 06:18:36 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 06:18:36 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 28 Oct 2015 06:20:05 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 06:20:05 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 06:20:05 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 06:20:05 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 28 Oct 2015 06:29:13 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 06:29:13 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 06:29:13 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 06:29:13 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 28 Oct 2015 06:30:54 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 06:30:54 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 06:30:54 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 06:30:54 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 28 Oct 2015 06:32:46 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 06:32:46 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 06:32:46 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 06:32:46 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 28 Oct 2015 06:35:10 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 06:35:10 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 06:35:10 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 06:35:10 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 28 Oct 2015 06:36:51 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 06:36:51 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 06:36:51 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 06:36:51 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 28 Oct 2015 06:40:41 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 06:40:41 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 06:40:41 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 06:40:41 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 28 Oct 2015 06:44:17 +0000] [http://www.sylc-export.com/.*] Connecting to  ...
+[Wed, 28 Oct 2015 06:44:17 +0000] [http://www.sylc-export.com/.*] PURGE /.* HTTP/1.1
+[Wed, 28 Oct 2015 06:44:17 +0000] [http://www.sylc-export.com/.*] Host: www.sylc-export.com
+[Wed, 28 Oct 2015 06:44:17 +0000] [http://www.sylc-export.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/blog/] Connecting to  ...
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/blog/] PURGE /blog/ HTTP/1.1
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/blog/] Host: www.sylc-export.com
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/blog/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/blog/page/2/] Connecting to  ...
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/blog/page/2/] PURGE /blog/page/2/ HTTP/1.1
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/blog/page/2/] Host: www.sylc-export.com
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/blog/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/feed/] Connecting to  ...
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/feed/] PURGE /feed/ HTTP/1.1
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/feed/] Host: www.sylc-export.com
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Connecting to  ...
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] PURGE /2013/07/12/chrysler-ou-lheritage-perdu/ HTTP/1.1
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Host: www.sylc-export.com
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.sylc-export.com
+[Wed, 04 Nov 2015 12:55:32 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/blog/] Connecting to  ...
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/blog/] PURGE /blog/ HTTP/1.1
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/blog/] Host: www.sylc-export.com
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/blog/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/blog/page/2/] Connecting to  ...
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/blog/page/2/] PURGE /blog/page/2/ HTTP/1.1
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/blog/page/2/] Host: www.sylc-export.com
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/blog/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/feed/] Connecting to  ...
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/feed/] PURGE /feed/ HTTP/1.1
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/feed/] Host: www.sylc-export.com
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Connecting to  ...
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] PURGE /2013/07/12/chrysler-ou-lheritage-perdu/ HTTP/1.1
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Host: www.sylc-export.com
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.sylc-export.com
+[Wed, 04 Nov 2015 22:22:24 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/blog/] Connecting to  ...
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/blog/] PURGE /blog/ HTTP/1.1
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/blog/] Host: www.sylc-export.com
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/blog/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/blog/page/2/] Connecting to  ...
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/blog/page/2/] PURGE /blog/page/2/ HTTP/1.1
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/blog/page/2/] Host: www.sylc-export.com
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/blog/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/feed/] Connecting to  ...
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/feed/] PURGE /feed/ HTTP/1.1
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/feed/] Host: www.sylc-export.com
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/] Connecting to  ...
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/] PURGE / HTTP/1.1
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/] Host: www.sylc-export.com
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.sylc-export.com
+[Thu, 05 Nov 2015 23:38:21 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/blog/] Connecting to  ...
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/blog/] PURGE /blog/ HTTP/1.1
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/blog/] Host: www.sylc-export.com
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/blog/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/blog/page/2/] Connecting to  ...
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/blog/page/2/] PURGE /blog/page/2/ HTTP/1.1
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/blog/page/2/] Host: www.sylc-export.com
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/blog/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/feed/] Connecting to  ...
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/feed/] PURGE /feed/ HTTP/1.1
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/feed/] Host: www.sylc-export.com
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Connecting to  ...
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] PURGE /2013/07/12/chrysler-ou-lheritage-perdu/ HTTP/1.1
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Host: www.sylc-export.com
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.sylc-export.com
+[Fri, 06 Nov 2015 07:50:18 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/blog/] Connecting to  ...
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/blog/] PURGE /blog/ HTTP/1.1
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/blog/] Host: www.sylc-export.com
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/blog/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/blog/page/2/] Connecting to  ...
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/blog/page/2/] PURGE /blog/page/2/ HTTP/1.1
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/blog/page/2/] Host: www.sylc-export.com
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/blog/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/feed/] Connecting to  ...
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/feed/] PURGE /feed/ HTTP/1.1
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/feed/] Host: www.sylc-export.com
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Connecting to  ...
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] PURGE /2013/07/12/chrysler-ou-lheritage-perdu/ HTTP/1.1
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Host: www.sylc-export.com
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.sylc-export.com
+[Fri, 06 Nov 2015 08:51:30 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/blog/] Connecting to  ...
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/blog/] PURGE /blog/ HTTP/1.1
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/blog/] Host: www.sylc-export.com
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/blog/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/blog/page/2/] Connecting to  ...
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/blog/page/2/] PURGE /blog/page/2/ HTTP/1.1
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/blog/page/2/] Host: www.sylc-export.com
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/blog/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/feed/] Connecting to  ...
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/feed/] PURGE /feed/ HTTP/1.1
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/feed/] Host: www.sylc-export.com
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Connecting to  ...
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] PURGE /2013/07/12/chrysler-ou-lheritage-perdu/ HTTP/1.1
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Host: www.sylc-export.com
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.sylc-export.com
+[Mon, 09 Nov 2015 14:34:34 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/blog/] Connecting to  ...
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/blog/] PURGE /blog/ HTTP/1.1
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/blog/] Host: www.sylc-export.com
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/blog/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/blog/page/2/] Connecting to  ...
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/blog/page/2/] PURGE /blog/page/2/ HTTP/1.1
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/blog/page/2/] Host: www.sylc-export.com
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/blog/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/feed/] Connecting to  ...
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/feed/] Host: www.sylc-export.com
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Connecting to  ...
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] PURGE /2013/07/12/chrysler-ou-lheritage-perdu/ HTTP/1.1
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Host: www.sylc-export.com
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.sylc-export.com
+[Tue, 10 Nov 2015 00:36:08 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/blog/] Connecting to  ...
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/blog/] PURGE /blog/ HTTP/1.1
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/blog/] Host: www.sylc-export.com
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/blog/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/blog/page/2/] Connecting to  ...
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/blog/page/2/] PURGE /blog/page/2/ HTTP/1.1
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/blog/page/2/] Host: www.sylc-export.com
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/blog/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/feed/] Connecting to  ...
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/feed/] PURGE /feed/ HTTP/1.1
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/feed/] Host: www.sylc-export.com
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Connecting to  ...
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] PURGE /2013/07/12/chrysler-ou-lheritage-perdu/ HTTP/1.1
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Host: www.sylc-export.com
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.sylc-export.com
+[Sat, 14 Nov 2015 08:10:35 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/blog/] Connecting to  ...
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/blog/] PURGE /blog/ HTTP/1.1
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/blog/] Host: www.sylc-export.com
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/blog/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/blog/page/2/] Connecting to  ...
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/blog/page/2/] PURGE /blog/page/2/ HTTP/1.1
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/blog/page/2/] Host: www.sylc-export.com
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/blog/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/feed/] Connecting to  ...
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/feed/] PURGE /feed/ HTTP/1.1
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/feed/] Host: www.sylc-export.com
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Connecting to  ...
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] PURGE /2013/07/12/chrysler-ou-lheritage-perdu/ HTTP/1.1
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Host: www.sylc-export.com
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.sylc-export.com
+[Sat, 14 Nov 2015 12:01:24 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Sat, 14 Nov 2015 21:16:49 +0000] [http://www.sylc-export.com/blog/] Connecting to  ...
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/blog/] PURGE /blog/ HTTP/1.1
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/blog/] Host: www.sylc-export.com
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/blog/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/blog/page/2/] Connecting to  ...
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/blog/page/2/] PURGE /blog/page/2/ HTTP/1.1
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/blog/page/2/] Host: www.sylc-export.com
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/blog/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/feed/] Connecting to  ...
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/feed/] PURGE /feed/ HTTP/1.1
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/feed/] Host: www.sylc-export.com
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Connecting to  ...
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] PURGE /2013/07/12/chrysler-ou-lheritage-perdu/ HTTP/1.1
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Host: www.sylc-export.com
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/2013/07/12/chrysler-ou-lheritage-perdu/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.sylc-export.com
+[Sat, 14 Nov 2015 21:16:50 +0000] [http://www.sylc-export.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.

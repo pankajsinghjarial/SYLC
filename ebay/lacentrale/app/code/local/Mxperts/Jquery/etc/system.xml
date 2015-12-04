@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category Mxperts
+ * @package Mxperts_Jquery
+ * @authors TMEDIA cross communications <info@tmedia.de>, Johannes Teitge <teitge@tmedia.de>, Igor Jankovic <jankovic@tmedia.de>, Daniel Sasse <daniel.sasse@golox.eu>
+ * @copyright TMEDIA cross communications, Doris Teitge-Seifert
+ * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+
+<!--
+  TABS: in jqueryall
+-->
+
+    <sections>
+        <mxperts translate="label" module="mxperts">
+            <label>jQuery</label>            
+            <tab>jqueryall</tab>           
+            <sort_order>340</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <jquerysettings translate="label">
+                    <label>jQuery Settings</label>
+                                <comment><![CDATA[    
+                            <a href="http://www.mxperts.de" target="_blank"><IMG border="0" src="http://www.mxperts.de/mxpertsjQuery.jpg"></a>
+                            
+                            <div style="margin-top:4px;margin-bottom:4px; color:gray;">Jquery-Base: the modified jQuery-Script from <a href="http://jquery.com/" target="_blank">http://jquery.com/</a> to run jQuery in noConflict() mode. </div>
+                            
+                            <div style="margin-top:4px;"><b>TMEDIA cross communications, <a href="mailto:info@tmedia.de">info@tmedia.de</a></b><br /> 
+                            Johannes Teitge, Daniel Sasse, Igor Jankovic<br /><br /></div>                                                 
+                            
+                            <hr /><br />                                                        
+                            ]]>
+                    </comment>                                                            
+                                        
+                    <frontend_type>text</frontend_type>
+                    <sort_order>9</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>                    
+                    <fields>                   
+                    
+                        <!-- Status des Moduls -->                    
+                        <active translate="label">
+                            <!-- Bezeichnung des Eingabefeldes -->                        
+                            <label>Enabled</label>
+                            <!-- Kommentar -->
+                            <comment><![CDATA[<b>enable</b> or <b>disable</b> jQuery.]]></comment>                            
+                            <!-- Eingabetyp (text,select,mutliselect, text, texarea, etc...) -->                            
+                            <frontend_type>select</frontend_type>
+                            <!-- Model welches die Inhalte dere Auswahl liefert -->                            
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <!-- Position im Backend -->                            
+                            <sort_order>0</sort_order>
+                            <!-- Anzeige der jeweiligen Konfig.-Bereiches -->                                                                                    
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </active>
+
+                        <jquery_version translate="label">
+                            <label>Version</label>                            
+                            <frontend_type>select</frontend_type>
+                            <source_model>jquery/source_version</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </jquery_version>
+                        
+                        <jquery_always_latest translate="label">
+                            <label>Use always latest version</label>                                                                                    
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </jquery_always_latest>                                       
+                        
+                        
+                        <jquery_noconflict translate="label">
+                            <label>NoConflict-Mode</label>
+                            <comment><![CDATA[Should be <b>enabled</b> on Magento! Disable only for testing.]]></comment>                                                        
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </jquery_noconflict>
+                        
+                        <jquery_minified translate="label">
+                            <label>Minified and Gzipped</label>
+                            <comment><![CDATA[Enable it for <b>PRODUCTION</b>]]></comment>                                                                                    
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </jquery_minified>                                       
+                        
+                        <jquery_functionality translate="label">                        
+                            <label>jQuery functionality check</label>
+                            <comment><![CDATA[if you see a new text in the editfied of topseach in frontend, jQuery runs correct.]]></comment>                                                        
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>adminhtml/system_config_source_yesno</source_model>                            
+                            <sort_order>5</sort_order>                                                                                    
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </jquery_functionality>     
+                                                
+                                            
+                    </fields>
+                </jquerysettings>
+                
+                
+                <jqueryscript1 translate="label">
+                    <label>jQuery Script1</label>
+                    <comment><![CDATA[     ]]></comment>                                                                                                    
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>                    
+                    <fields>                    
+                        <active translate="label">                       
+                            <label>Enabled</label>
+                            <comment><![CDATA[<b>enable</b> or <b>disable</b> Script 1.]]></comment>                                                        
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>adminhtml/system_config_source_yesno</source_model>                            
+                            <sort_order>0</sort_order>                                                                                    
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </active>
+                        <code translate="label">                       
+                            <label>jQuery-Code</label>                                                        
+                            <frontend_type>textarea</frontend_type>                                                        
+                            <sort_order>1</sort_order>                                                                                    
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </code>
+                        <ready translate="label">                       
+                            <label>Ready</label>
+                            <comment><![CDATA[insert jQuery(function() { ...]]></comment>                                                        
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>adminhtml/system_config_source_yesno</source_model>                            
+                            <sort_order>2</sort_order>                                                                                    
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </ready>                                                                      
+                    </fields>                   
+                </jqueryscript1>
+                
+                <jqueryscript2 translate="label">
+                    <label>jQuery Script2</label>
+                    <comment><![CDATA[     ]]></comment>                                                                                                    
+                    <frontend_type>text</frontend_type>
+                    <sort_order>11</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>                    
+                    <fields>
+                        <active translate="label">                       
+                            <label>Enabled</label>
+                            <comment><![CDATA[<b>enable</b> or <b>disable</b> Script 2.]]></comment>                                                        
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>adminhtml/system_config_source_yesno</source_model>                            
+                            <sort_order>0</sort_order>                                                                                    
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </active>
+                        <code translate="label">                       
+                            <label>jQuery-Code</label>                                                        
+                            <frontend_type>textarea</frontend_type>                                                        
+                            <sort_order>1</sort_order>                                                                                    
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </code>                                            
+                        <ready translate="label">                       
+                            <label>Ready</label>
+                            <comment><![CDATA[insert jQuery(function() { ...]]></comment>                                                        
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>adminhtml/system_config_source_yesno</source_model>                            
+                            <sort_order>2</sort_order>                                                                                    
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </ready>                                                                      
+                    
+                    </fields>                   
+                </jqueryscript2>
+                               
+                <jqueryjs translate="label">
+                    <label>SKIN: Javacript-Files</label>
+                    <comment><![CDATA[Javascripts aus Ihrem Skin-Verzeichnis]]></comment>                                                                                                    
+                    <frontend_type>text</frontend_type>
+                    <sort_order>12</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>                    
+                    <fields>
+                        <active translate="label">                       
+                            <label>Enabled</label>
+                            <comment><![CDATA[<b>enable</b> or <b>disable</b> Skin - Javascript]]></comment>                                                        
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>adminhtml/system_config_source_yesno</source_model>                            
+                            <sort_order>0</sort_order>                                                                                    
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </active>
+                        <code translate="label">                       
+                            <label>Javascript-Dateiname(n)</label>                                              
+                            <comment><![CDATA[Tragen Sie pro Zeile einen Datei ein.]]></comment>                                      
+                            <frontend_type>textarea</frontend_type>                                                        
+                            <sort_order>1</sort_order>                                                                                    
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </code>                                            
+                    
+                    </fields>                   
+                </jqueryjs>
+                
+                <jquerycss translate="label">
+                    <label>SKIN: CSS-Files</label>
+                    <comment><![CDATA[CSS aus Ihrem Skin-Verzeichnis]]></comment>                                                                                                    
+                    <frontend_type>text</frontend_type>
+                    <sort_order>13</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>                    
+                    <fields>
+                        <active translate="label">                       
+                            <label>Enabled</label>
+                            <comment><![CDATA[<b>enable</b> or <b>disable</b> Skin - CSS]]></comment>                                                        
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>adminhtml/system_config_source_yesno</source_model>                            
+                            <sort_order>0</sort_order>                                                                                    
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </active>
+                        <code translate="label">                       
+                            <label>CSS-Dateiname(n)</label>                                              
+                            <comment><![CDATA[Tragen Sie pro Zeile einen Datei ein.]]></comment>                                      
+                            <frontend_type>textarea</frontend_type>                                                        
+                            <sort_order>1</sort_order>                                                                                    
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </code>                                            
+                    
+                    </fields>                   
+                </jquerycss>
+                
+<!--                
+                <jqueryui translate="label">
+                    <label>jQuery user interface (UI)</label>
+                    <comment><![CDATA[This is the jQuery UI-Code without Themes]]></comment>                                                                                                    
+                    <frontend_type>text</frontend_type>
+                    <sort_order>14</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>                    
+                    <fields>
+                        <active_compressed translate="label">                       
+                            <label>Enabled</label>
+                            <comment><![CDATA[<b>enable</b> or <b>disable</b> Skin - CSS]]></comment>                                                        
+                            <frontend_type>select</frontend_type>                            
+                            <source_model>adminhtml/system_config_source_yesno</source_model>                            
+                            <sort_order>0</sort_order>                                                                                    
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </active_compressed>
+
+                        <note1 translate="label">                       
+                            <label>CSS-Dateiname(n)</label>                                              
+                            <comment><![CDATA[Tragen Sie pro Zeile einen Datei ein.]]></comment>                                      
+                            <frontend_type>note</frontend_type>                                                        
+                            <sort_order>1</sort_order>                                                                                    
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </note1>                                            
+                    
+                    </fields>                   
+                </jqueryui>
+-->                                                                                                     
+                                                                                   
+                
+            </groups>
+        </mxperts>
+    </sections>
+    
+</config>

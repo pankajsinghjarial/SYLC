@@ -1,0 +1,84 @@
+
+/* styles.css */
+
+/* 1  */ div.wpcf7 {
+/* 2  */ 	margin: 0;
+/* 3  */ 	padding: 0;
+/* 4  */ }
+/* 5  */ 
+/* 6  */ div.wpcf7-response-output {
+/* 7  */ 	margin: 2em 0.5em 1em;
+/* 8  */ 	padding: 0.2em 1em;
+/* 9  */ }
+/* 10 */ 
+/* 11 */ div.wpcf7 .screen-reader-response {
+/* 12 */ 	position: absolute;
+/* 13 */ 	overflow: hidden;
+/* 14 */ 	clip: rect(1px, 1px, 1px, 1px);
+/* 15 */ 	height: 1px;
+/* 16 */ 	width: 1px;
+/* 17 */ 	margin: 0;
+/* 18 */ 	padding: 0;
+/* 19 */ 	border: 0;
+/* 20 */ }
+/* 21 */ 
+/* 22 */ div.wpcf7-mail-sent-ok {
+/* 23 */ 	border: 2px solid #398f14;
+/* 24 */ }
+/* 25 */ 
+/* 26 */ div.wpcf7-mail-sent-ng {
+/* 27 */ 	border: 2px solid #ff0000;
+/* 28 */ }
+/* 29 */ 
+/* 30 */ div.wpcf7-spam-blocked {
+/* 31 */ 	border: 2px solid #ffa500;
+/* 32 */ }
+/* 33 */ 
+/* 34 */ div.wpcf7-validation-errors {
+/* 35 */ 	border: 2px solid #f7e700;
+/* 36 */ }
+/* 37 */ 
+/* 38 */ span.wpcf7-form-control-wrap {
+/* 39 */ 	position: relative;
+/* 40 */ }
+/* 41 */ 
+/* 42 */ span.wpcf7-not-valid-tip {
+/* 43 */ 	color: #f00;
+/* 44 */ 	font-size: 1em;
+/* 45 */ 	display: block;
+/* 46 */ }
+/* 47 */ 
+/* 48 */ .use-floating-validation-tip span.wpcf7-not-valid-tip { 
+/* 49 */ 	position: absolute;
+/* 50 */ 	top: 20%;
+
+/* styles.css */
+
+/* 51 */ 	left: 20%;
+/* 52 */ 	z-index: 100;
+/* 53 */ 	border: 1px solid #ff0000;
+/* 54 */ 	background: #fff;
+/* 55 */ 	padding: .2em .8em;
+/* 56 */ }
+/* 57 */ 
+/* 58 */ span.wpcf7-list-item {
+/* 59 */ 	margin-left: 0.5em;
+/* 60 */ }
+/* 61 */ 
+/* 62 */ .wpcf7-display-none {
+/* 63 */ 	display: none;
+/* 64 */ }
+/* 65 */ 
+/* 66 */ div.wpcf7 img.ajax-loader {
+/* 67 */ 	border: none;
+/* 68 */ 	vertical-align: middle;
+/* 69 */ 	margin-left: 4px;
+/* 70 */ }
+/* 71 */ 
+/* 72 */ div.wpcf7 div.ajax-error {
+/* 73 */ 	display: none;
+/* 74 */ }
+/* 75 */ 
+/* 76 */ div.wpcf7 .placeheld {
+/* 77 */ 	color: #888;
+/* 78 */ }

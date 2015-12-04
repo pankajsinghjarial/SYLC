@@ -1,0 +1,63 @@
+[11-Aug-2013 13:36:02] PHP Fatal error:  Call to undefined function  get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[11-Aug-2013 13:38:31] PHP Fatal error:  Call to undefined function  add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[11-Aug-2013 20:20:49] PHP Fatal error:  Call to undefined function  get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[11-Aug-2013 20:28:30] PHP Fatal error:  Call to undefined function  add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[12-Aug-2013 03:01:50] PHP Fatal error:  Call to undefined function  get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[12-Aug-2013 03:16:59] PHP Fatal error:  Call to undefined function  add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[12-Aug-2013 10:59:33] PHP Fatal error:  Call to undefined function  get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[12-Aug-2013 11:12:18] PHP Fatal error:  Call to undefined function  add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[12-Nov-2013 22:09:41] PHP Fatal error:  Call to undefined function  get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[13-Nov-2013 06:55:35] PHP Fatal error:  Call to undefined function  get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[13-Nov-2013 11:24:22] PHP Fatal error:  Call to undefined function  get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[13-Nov-2013 18:22:49] PHP Fatal error:  Call to undefined function  get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[14-Nov-2013 16:42:31] PHP Fatal error:  Call to undefined function  add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[15-Nov-2013 01:22:57] PHP Fatal error:  Call to undefined function  add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[15-Nov-2013 10:02:39] PHP Fatal error:  Call to undefined function  add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[15-Nov-2013 17:44:26] PHP Fatal error:  Call to undefined function  add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[21-Jan-2014 09:46:44 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[21-Jan-2014 11:18:38 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[21-Jan-2014 17:05:33 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[21-Jan-2014 19:55:22 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[21-Jan-2014 23:49:17 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[22-Jan-2014 02:08:21 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[22-Jan-2014 04:57:33 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[22-Jan-2014 07:46:26 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[05-May-2014 14:14:52 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[05-May-2014 20:42:10 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[05-May-2014 21:33:01 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[06-May-2014 03:21:10 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[06-May-2014 03:27:54 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[06-May-2014 11:18:50 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[06-May-2014 12:23:40 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[07-May-2014 19:10:58 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[06-Aug-2014 22:37:15 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[06-Aug-2014 22:39:34 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[07-Aug-2014 18:54:58 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[07-Aug-2014 19:25:53 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[08-Aug-2014 11:19:14 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[17-Dec-2014 20:44:55 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[18-Dec-2014 04:17:13 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[18-Dec-2014 18:21:03 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[19-Dec-2014 08:42:54 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[20-Dec-2014 12:32:51 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[20-Dec-2014 18:47:27 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[21-Dec-2014 01:55:24 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[22-Dec-2014 00:05:04 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[10-Jul-2015 11:04:27 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[14-Jul-2015 20:03:14 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[18-Jul-2015 13:20:59 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[25-Jul-2015 22:16:43 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[12-Aug-2015 12:11:57 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[25-Aug-2015 15:43:48 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[25-Aug-2015 15:45:32 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[25-Aug-2015 23:50:47 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[25-Aug-2015 23:51:22 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[26-Aug-2015 05:35:45 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[26-Aug-2015 05:36:05 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[26-Aug-2015 11:49:26 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[26-Aug-2015 11:49:56 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49
+[15-Sep-2015 00:45:27 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[18-Sep-2015 15:59:31 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[22-Sep-2015 23:03:33 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[29-Sep-2015 08:01:16 America/Denver] PHP Fatal error:  Call to undefined function get_terms() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/window.php on line 3
+[05-Oct-2015 17:55:49 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-core/js/tinymce3/tinymce.php on line 49

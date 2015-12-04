@@ -1,0 +1,117 @@
+<style>
+	.sitemap a {
+		color: #272727;
+		text-decoration: none;
+	}
+	.sitemap ul {
+		list-style-type: none;
+	}
+	.sitemap .head_6 {
+		color: #C70000;
+		font-family: 'robotoregular',Arial,Helvetica,sans-serif;
+		font-size: 17px;
+		font-weight: normal;
+		line-height: 25px;
+	  }
+	  .sitemap {
+		padding: 0 15px;
+	  }
+	  .site_menus > li {
+		float: left;
+		width: 200px;
+		margin: 5px 0;
+	  }
+	 .inner_page_content_area .head_1 {
+		margin: 0 0 10px;
+		
+	  }
+	  .sitemap ul.site_menus li ul  {
+  margin: 0 0 0 14px;
+  list-style: square;
+}
+.sitemap ul.site_menus li ul li {
+  margin: 0 0 8px;
+}
+.sitemap ul.site_menus li a .head_6 {
+  margin: 0 0 5px;
+}
+.site_menus > li:nth-child(7) {
+  clear: both;
+}
+</style>
+<?php if(isset($_SESSION['sentmail_txt'])){ echo $_SESSION['sentmail_txt']; unset($_SESSION['sentmail_txt']);}?>
+<div class="main_middle">
+    <div class="middle">
+     <div class="middle_two">
+     <img class="top_page_banner" src="<?php echo DEFAULT_URL."/images/banner/banner_02_988x166.jpg"?>" alt="<?php  echo $terms->name; ?>"/>
+     <div class="inner_page_one">
+        <div class="inner_page_content_area">
+        <div class="inner_page_content_area_top">&nbsp;</div>
+        <div class="sitemap">
+			<div class="head_1">Plan du site</div>
+			<ul class="site_menus">
+				
+				<li>
+					<a href="<?php echo DEFAULT_URL; ?>"><div class="head_6">Accueil</div></a>
+					<ul>
+						<li><a href="<?php echo DEFAULT_URL; ?>/page/<?php echo $common->getPageSlug('58'); ?>">Qui Sommes-Nous?</a></li>
+						<li><a href="<?php echo DEFAULT_URL; ?>/page/<?php echo $common->getPageSlug('53'); ?>">Présentation</a></li>
+						<li><a href="<?php echo DEFAULT_URL;?>#recherche_id">Recherche</a></li>
+						<li><a href="<?php echo DEFAULT_URL;?>#most_viewed_id">Véhicules Populaires</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="<?php echo DEFAULT_URL; ?>/announces"><div class="head_6">Les Annonces</div></a>
+					<ul>
+						<li><a href="<?php echo DEFAULT_URL; ?>/nosstock">Nos Stocks</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="<?php echo DEFAULT_URL; ?>/page/<?php echo $common->getPageSlug('52'); ?>"><div class="head_6">Services</div></a>
+					<ul>
+						<li><a href="<?php echo DEFAULT_URL; ?>/page/<?php echo $commons->getPageSlug('54'); ?>">Notre mission</a></li>
+						<li><a href="<?php echo DEFAULT_URL; ?>/page/<?php echo $commons->getPageSlug('47'); ?>">Nos Garanties</a></li>
+						<li><a href="<?php echo DEFAULT_URL?>/page/<?php echo $commons->getPageSlug('48'); ?>">Logistiques</a></li>
+						<li><a href="<?php echo DEFAULT_URL?>/page/<?php echo $commons->getPageSlug('49'); ?>">Conseils</a></li>
+						<li><a href="<?php echo DEFAULT_URL?>/page/<?php echo $commons->getPageSlug('50'); ?>">Calculateur</a></li>
+						<li><a href="<?php echo DEFAULT_URL?>/page/<?php echo $commons->getPageSlug('51'); ?>">Devis</a></li>
+						<li><a href="<?php echo DEFAULT_URL?>/faq">FAQ</a></li>
+					</ul>
+				</li>
+				
+				<li><a <?php if(basename(array_shift(explode('?', $_SERVER['REQUEST_URI'])))=='presentation') { ?> class="active" <?php } ?> href="<?php echo DEFAULT_URL; ?>/page/<?php echo $commons->getPageSlug('53'); ?>"><div class="head_6">Presentation</div></a></li>
+				
+				<li><a <?php if(basename(array_shift(explode('?', $_SERVER['REQUEST_URI'])))=='nosstock') { ?> class="active" <?php } ?> href="<?php echo DEFAULT_URL; ?>/nosstock"><div class="head_6">Nos stocks</div></a>
+					<ul>
+					  <li><a href="<?php echo DEFAULT_URL; ?>/nosstock?stockType=neuf">Neuf</a></li>
+					  <li><a href="<?php echo DEFAULT_URL; ?>/nosstock?stockType=classic">Classic Car</a></li>
+					</ul>
+				</li>
+				
+				<li><a <?php if(basename(array_shift(explode('?', $_SERVER['REQUEST_URI'])))=='contacts') { ?> class="active" <?php } ?> href="<?php echo DEFAULT_URL; ?>/contacts"><div class="head_6">Contact</div></a></li>
+				
+				<li><a href="<?php echo DEFAULT_URL; ?>/page/<?php echo $common->getPageSlug('12'); ?>"><div class="head_6">Terms &amp; Conditions</div></a></li>
+				
+				<li><a href="<?php echo DEFAULT_URL; ?>/page/privacy-policy"><div class="head_6">Privacy Policy</div></a> </li>
+				
+				<li><a href="<?php echo DEFAULT_URL; ?>/page/<?php echo $common->getPageSlug('44'); ?>"><div class="head_6">DMCA Policy</div></a> </li>
+				
+				<li><a href="<?php echo DEFAULT_URL; ?>/page/<?php echo $common->getPageSlug('45'); ?>"><div class="head_6">Product Label</div></a></li>
+				
+				<li><a href="<?php echo DEFAULT_URL."/loginaccount"?>"><div class="head_6">Creez un compte</div></a> </li>
+                <li><a href="<?php echo DEFAULT_URL."/loginaccount"?>"><div class="head_6">MA S&eacute;lection</div></a></li>
+				
+			</ul>
+		</div>
+
+<div class="inner_page_content_area_bottom">&nbsp;</div>
+</div>
+<div class="clear"></div>
+</div>   
+  <?php  include(LIST_ROOT."/includes/views/staticsidebar.php"); ?>
+<div class="clear"></div>
+</div></div> 
+<div class="clear"></div>
+</div>
+

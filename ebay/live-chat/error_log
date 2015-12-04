@@ -1,0 +1,3 @@
+[26-Oct-2015 17:48:49 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'httpsylc_sylcUse '@'localhost' (using password: YES) in /home/sylcexpo/public_html/ebay/live-chat/class/mysql_db.php on line 122
+[26-Oct-2015 17:48:49 America/Denver] PHP Warning:  mysql_errno() expects parameter 1 to be resource, string given in /home/sylcexpo/public_html/ebay/live-chat/class/mysql_db.php on line 335
+[26-Oct-2015 17:48:49 America/Denver] PHP Warning:  mysql_error() expects parameter 1 to be resource, string given in /home/sylcexpo/public_html/ebay/live-chat/class/mysql_db.php on line 336

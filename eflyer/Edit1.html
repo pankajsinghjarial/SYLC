@@ -1,0 +1,40 @@
+<html>
+<head>
+<body>
+<script>
+function myFunk(){
+	var elem = document.getElementById("inpt").value;
+	var pic = document.getElementById("img2");
+		
+		if (elem == ""){
+		pic.src = "//www.youtube.com/embed/c8TIHh1P6MQ?autoplay=1&cc_load_policy=0&showinfo=0&modestbranding=1&controls=0&iv_load_policy=3&loop=1"; 
+	}
+}
+	
+	
+</script>
+<div class="ELEM"  ><iframe id="img2" width="560" height="315" src="//www.youtube.com/embed/DOOS1Clt6KQ?autoplay=1&cc_load_policy=0&showinfo=0&modestbranding=1&controls=0&iv_load_policy=3&loop=1" frameborder="0" allowfullscreen></iframe>
+
+<hr/>
+reponse: <input id="inpt" type="text"/>
+<input type="button" value="envoyer" onclick="myFunk()"/> 
+</div>
+<style>
+	body{
+background-color:#00aff0;
+}
+  div.ELEM{
+  	margin-left:auto;
+    margin-right:auto;
+  	width:560;
+  	height:315;
+  	background-image:URL(http://www.wallpaperfunda.com/wp-content/uploads/2014/03/images-2-660x330.jpg);
+  }
+	</style>
+
+
+
+</body>
+</head>
+</html>
+

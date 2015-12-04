@@ -1,0 +1,197 @@
+body, html{overflow:auto;min-width: 1160px;}
+
+#sylc_wrapper { width: 80%; margin-right: auto; margin-left: auto; }
+
+
+.create_account_box {padding: 30px 0px 20px; display:box; }
+
+.account_title {  }
+.account_box_gray .account_title span{background: #00a3f0; color:#fff;}
+.account_title span{ font: 20px/25px Tahoma, Geneva, sans-serif, Helvetica, sans-serif; color: #00a3f0;  padding: 6px 15px; border-radius:0 5px 5px 0; -moz-border-radius:0 5px 5px 0; -o-border-radius:0 5px 5px 0; -webkit-border-radius:0 5px 5px 0; -ms-border-radius:0 5px 5px 0; position:relative; }
+
+input.input_acc00 {border: 1px solid #cdcdcd; font: 12px Arial, Helvetica, sans-serif; color: #5f5e5e; width:20%; padding:4px; margin-right:1%; }
+input.input_acc {border: 1px solid #cdcdcd; font: 12px Arial, Helvetica, sans-serif; color: #5f5e5e; width:36%; padding:4px; }
+input.input_acc02 {border: 1px solid #cdcdcd; font: 12px Arial, Helvetica, sans-serif; color: #5f5e5e; width:60%; padding:4px; }
+
+input.order_now_bt { font:bold 16px Arial, Helvetica, sans-serif; color: #fff; background: url(../images/order-now-bt.gif) repeat-x left top #000; height: 34px; padding:0 20px; border-style: none; cursor: pointer; border-radius: 6px; position:relative;float: left;margin-bottom: 10px;  margin-left: 2px;}
+
+.account_box_gray{background: #f1f1f1;}
+.account_box{ border: 1px solid #dedede; border-radius:6px;width: 48%; padding-top:20px; position:relative;min-height: 292px;box-sizing:border-box;
+-ms-box-sizing:border-box;
+-o-box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkitbox-sizing:border-box; }
+ 
+.account_box ul { padding: 10px 0;  margin:0 16px;  list-style: none outside none; }
+.account_box ul li { font: 14px/18px Arial, Helvetica, sans-serif; color: #333333; padding-bottom: 15px; overflow:hidden; }
+.account_box ul.accunt_reg { border-top: 1px dotted #333333; margin: 10px 16px 0px 16px;   padding:0 0 20px  0; }
+
+.account_box ul li span { display: block; padding-bottom:5px; }
+.account_box ul li span span{ display:inline; color:#F00;}
+.account_box ul li a.blue{ text-decoration:none;}
+.account_box ul li a { font: 14px Tahoma, Geneva, sans-serif; color: #ba110d; text-decoration: underline; cursor: pointer; }
+.account_box ul li a:hover{ text-decoration:none;}
+.accunt_reg li .account_title span { padding:35px 0 19px  0px; }
+.account_box ul li span.left_text {
+  display: block;
+ float:left; width:29%;
+}
+.wid_auto{ width:auto !important;}
+.f_left{ float:left;}
+.f_right{ float:right;}
+.vehicle_btn_wrap{ text-align:right; padding:15px 0;}
+.vehicle_tabing{ width:100%;  display:box; overflow:hidden;}
+#content_vehicle{ width:85%; border: 1px solid #cdcdcd; float:right; padding:1%;  position:relative;11;
+box-sizing:border-box;
+-ms-box-sizing:border-box;
+-o-box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkitbox-sizing:border-box; }
+
+ul.main_tabs {
+  float: left;
+  width: 15%;
+}
+ul.main_tabs > li {
+  padding-bottom: 5%;
+}
+
+#tabs a {
+
+
+  border:solid #ccc 1px; border-right:none;
+  color: #333;
+  display: block;
+  font:100%  arial,serif,helvetica; text-decoration:none;
+  padding: 4% 3%;
+  border-radius: 5px 0 0 5px;
+  position:relative; z-index:10; background:url(../images/tab_nav_rep.gif) repeat-x left top #e4e4e4;
+ 
+}
+#tabs a#current{ z-index:11; left:1px; background:#fff; color:#333;}
+
+.account_box ul li span.more_opnal {
+  display: inline-block;
+  width: 14%;
+}
+.car_info_box{ width:65%; border:none;}
+.car_width{ width:35%; border:none;}
+.car_photo{ width:auto;}
+.car_photo img{ width:100%; height:auto; display:block;}
+.car_photo a {
+  background: url("../images/order-now-bt.gif") repeat-x scroll left top #000000;
+  border-radius: 6px 6px 6px 6px;
+  border-style: none;
+  color: #FFFFFF !important;
+  display: block;
+  font: bold 16px Arial,Helvetica,sans-serif !important;
+  height: 20px !important;
+  margin: 7px auto;
+  padding: 6px 16px !important;
+  position: relative;
+  text-align: center;
+  text-decoration: none !important;
+  width: 114px;
+}
+
+.select_acc02{border: 1px solid #cdcdcd; font: 12px Arial, Helvetica, sans-serif; color: #5f5e5e; width:45%; padding:2px 2px 2px 4px;}
+.select_acc03{border: 1px solid #cdcdcd; font: 12px Arial, Helvetica, sans-serif; color: #5f5e5e; width:61.5%; padding:2px 2px 2px 4px;}
+.select_acc13{border: 1px solid #cdcdcd; font: 12px Arial, Helvetica, sans-serif; color: #5f5e5e; width:61.5%; padding:2px 2px 2px 4px;float: left !important;}
+.status_raw { background: #fff; border: 1px solid #ccc; font: bold 15px Arial, Helvetica, sans-serif; color: #333; padding:2% 1%; text-align:center; }
+.rep_titles { font: bold 20px Arial, Helvetica, sans-serif; color: #333; padding:1% 0; }
+.rep_titles a { font: normal 14px Arial, Helvetica, sans-serif; color: #036; text-decoration: underline; padding-left: 2%; }
+.rep_titles a:hover{ text-decoration:none;}
+.status_raw strong{ padding-right:2%;}
+.car_info_collm { padding-top: 2%; }
+table.three_collm_tbl{ border-collapse:collapse;width:100%;  border:1px solid #ccc; border-right:none; border-bottom:none;}
+table.three_collm_tbl th{ padding:1% ; font:bold 16px/18px Arial, Helvetica, sans-serif; color:#fff; background-color:#696; text-align:left; }
+table.three_collm_tbl td{padding:1%; font: 14px/18px Arial, Helvetica, sans-serif; color:#333; vertical-align:middle; border:1px solid #ccc; border-left:none; border-top:none; word-wrap: break-word;} 
+.pop_titles { font: bold 20px Arial, Helvetica, sans-serif; color: #333; padding:1% 2%; background-color:#669966; color:#fff; margin-bottom:1%; }
+.no_bdr{   width:100%;}
+.accessoptions {
+  padding-left: 174px;
+padding-bottom: 20px;
+}
+.accessoptions > input[type="checkbox"] {
+  float: none;
+  margin-right: 5px;
+  vertical-align: sub;
+}
+.account_box ul li a.my_links_update{
+  background: none repeat scroll 0 0 #F1F1F1;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px 3px 3px 3px;
+  color: #333333;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+ul.set_images_wrap{ overflow:hidden;}
+ul.set_images_wrap li{ width:180px; margin:0 9px 20px; float:left;}
+ul.set_images_wrap li span{ display:block; padding:8px 0; text-align:center;}
+ul.set_images_wrap li input[type="radio"]{ float: none;
+    margin-right: 5px;
+    vertical-align: sub;}
+.pop_button_gap{ text-align:center; padding-bottom:20px;}
+
+.imgdel { margin-bottom: 3px;
+margin-right: 5px;
+vertical-align: bottom;}
+.caroufredsel_wrapper{ height: 170px !important; border-bottom: 2px solid #ccc;  margin-bottom: 12px !important;}
+.caroufredsel_wrapper ul#foo4{ height: 170px !important;}
+#inline_announce_content0 textarea {
+  height: 68px;
+  width: 61%;
+}
+#p_scents0 p{ color:#000 !important;}
+.assign_btn1{float: left;text-decoration: none; font:bold 16px Arial, Helvetica, sans-serif; color: #fff; background: url(../images/order-now-bt.gif) repeat-x left top #000; height: 20px; padding:6px 20px 9px; border-radius: 6px;}
+.assign_btn1:hover{ color:#ffffff;}
+.notes_btn1{background: url("../images/order-now-bt.gif") repeat-x scroll left top #000000;
+    border-radius: 6px 6px 6px 6px;
+    border-style: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font: bold 16px Arial,Helvetica,sans-serif;
+    height: 34px;
+    padding: 0 20px;
+    position: relative;}
+.assign_msg{color: #026701; float: left; font-family: verdana; font-size: 12px; padding-left: 12px; padding-top: 8px; }
+.assign_frm input{padding-bottom: 0;}
+.assign_frm ul li{padding-bottom: 10px;}
+.assign_frm input{float: left; margin: 2px 7px 0 0;}
+.save_bt{margin: 0 0 10px 192px;}
+
+.newusercheck input.info_chkbx{float: left; margin: 2px 7px 0 0;}
+.dataTables_info {
+  color: #FFFFFF;
+  line-height: 39px;
+  margin-bottom: -34px;
+  display: none;
+}
+#notesfield{ width:96%; padding:6px 10px; border:1px solid #f4f4f4; box-shadow:2px 2px 2px #ccc inset;}
+
+.odd td {font: 12px/18px "Helvetica Neue",Helvetica,Arial,sans-serif;}
+.even td {font: 12px/18px "Helvetica Neue",Helvetica,Arial,sans-serif;}
+.retour_btn {
+  background: url("../images/order-now-bt.gif") repeat-x scroll left top #000000;
+  border-radius: 6px 6px 6px 6px;
+  border-style: none;
+  color: #FFFFFF;
+  float: right;
+  font: bold 16px Arial,Helvetica,sans-serif;
+  padding: 3px 20px;
+  position: relative;
+  margin: 0 39px 10px 0;
+}
+
+/*may 13th 2013*/
+.assign_orderfrm{ padding:0px;}
+.assign_order_ul{}
+.assign_order_ul li{ background:#c4f3c4; padding:7px !important;}
+.assign_order_ul li:nth-child(2n){ background:#ffffff;}
+.assign_order_ul li select{ float:right;}
+
+
+.admin_input{width:280px; height:auto; border:1px solid #000; padding:6px 10px; background:#f4f4f4;font:normal 14px Georgia, "Times New Roman", Times, serif; color:#3b3b3b;}

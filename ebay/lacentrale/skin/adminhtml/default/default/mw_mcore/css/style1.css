@@ -1,0 +1,72 @@
+@CHARSET "ISO-8859-1";
+
+.mw_extend_trial
+	{
+		margin:5px; font-size:12px; cursor:pointer;
+		color:#303030;
+    }
+.mw_buy
+	{
+		margin:5px; font-size:12px; cursor:pointer; 
+		color:#3399FF;
+	}
+
+.mw_active
+	{
+		margin:5px; font-size:12px; cursor:pointer;
+		color:green;
+	}
+	
+.mw_dev
+	{
+		margin:5px; font-size:12px; cursor:pointer;		
+	}
+.mw_text_trial
+	{
+	color:black; font-weight:bold
+	}
+.mw_text_activated
+	{
+	color:green; font-weight:bold
+	}
+.mw_text_disable
+	{
+	color:red; font-weight:bold
+	}
+.mw_announce
+	{
+	color:#505050;
+	}
+#mw_mcore_notification
+	{
+	/*margin-left:20px; */
+	line-height:25px;
+	list-style:none
+	}
+a
+	{
+	cursor:pointer;
+	}
+#mw_mcore_notification
+	{
+	clear:both;
+	}
+#mw_mcore_notification_reload{
+width:100%;
+}
+.mcore_right_notification
+	{
+	float:right; margin-left:50px;
+	}
+.mcore_right_notification span
+	{
+	padding: 0 5px;
+	}
+.mcore_remind
+	{
+		color:green; text-decoration:none;
+	}
+.mcore_display
+	{
+	text-decoration:none; color:red;
+	}

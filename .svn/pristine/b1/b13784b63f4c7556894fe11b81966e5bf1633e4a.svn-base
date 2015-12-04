@@ -1,0 +1,217 @@
+@media (min-width:1026px){
+.mobile_item{ display:none; }
+.desktop_item{ display:block; }
+}
+
+@media (max-width:1025px){
+.mobile_item{ display:block; }
+.desktop_item{ display:none; }
+
+.section_indent, .section, .nav_left, .nav_right, .logo, .member_login, .topbox, .Presentation_box, .containt, .newcar_outer, .newcar_head, .newcar_box, section, .footer_top li:first-child, .inner_container, .wrapper_indent, .big_title, .stock_outer, .footer_right, .transit_outer, .transit_outer span, .stock_outer span, .stock_indent img, .wrapper_indent01, .wrapper_indent01 .container_left, .classic_car_outer, .media_outer, .media_outer li img, .news_outer, .news_outer_heading, .brand_logo_outer, .detail_wrapper, .detail_01, .detail_02, .car_show_indent
+{ width:100%; }
+
+.product_gallery .ad-gallery, #single_product_page_container, .ad-gallery .ad-image-wrapper
+{ width:100% !important; }
+
+.form_box, .container_right
+{ width:90%; }
+
+img, .car_outer, .car_detail, .car_price, aside, .chatbox, .moment_outer, .content_box, .footer_left, .footer_right, .container_right
+{ max-width:100%; }
+
+
+.logo, .nav_left, .nav_right, .member_login, .newcar_head, .newcar_box, .footer_top, .footer_right, .topbox, .wrapper_indent, .newcar_outer, .containt, .wrapper_indent01 .container_left, .media_outer, .classic_car_outer, .wpcf7-form p, .car_description, .detail_02
+{ text-align:center; }
+
+.logo, .member_login, .topbox
+{ position:inherit; }
+
+.member_login, .nav_left li, .nav_right li, .Presentation_box, .containt, .newcar_box, aside, .footer_top li, .link_outer, .footer_right ul, .container_left, .containt_indent, .container_right, .footer_left, .footer_right, .transit_outer span, .stock_outer span, .media_outer li, .classic_car_outer li, .brand_logo_outer li, .car_description li, .detail_02, .ditail_icon
+{ float:none; }
+
+.detail_02 .wp-socializer ul li{ float: none !important; }
+
+.car_outer, .car_detail, .car_price, .form_box, #mobile_menu_btn, aside, .wrapper_indent01 .containt_nav, .media_outer, .classic_car_outer li, .detail_outer
+{ margin:0 auto; }
+
+.nav_left li, .nav_right li, #mobile_menu_btn span, .transit_outer span, .stock_outer span
+{ display:block; }
+
+#cboxOverlay, #colorbox
+{ display:none !important; }
+/*#cboxContent{ width:100% !important; }
+#cboxLoadedContent
+{ max-width:100% !important; }*/
+
+
+
+.container_left, .container_right, .media_outer li, .classic_car_outer li, .brand_logo_outer li, .wp-socializer ul li
+{ display:inline-block; }
+
+
+#mobile_menu_co
+{ display:none; }
+
+.container_outer .wrapper
+{ overflow:hidden; height:auto; }
+
+
+body{ background-position: 50% 90px !important; background-size: 190% auto; background-color: #222; }
+#mobile_menu_btn div{ display:inline-block; margin:0 auto; background: #222222; padding: 7px; }
+#mobile_menu_btn span{ width:25px; height:2px; margin-bottom:7px; background:#ffffff; }
+
+.wrapper{ width:95%; }
+.nav_left, .nav_right{ padding:0; }
+.nav_left li, .nav_right li{ padding: 6px 0 !important; margin: 0 auto 2px; }
+.member_login{ left: 0; right: 0; }
+.section{ min-width:310px; }
+.section_indent{ height: 30%; min-width: inherit; }
+nav, .copyright_outer, .topbox_outer{ height:auto; }
+.nav_wrapper{ background: #222222; margin-top: 20px; }
+.logo{ left: 0; right: 0; margin-bottom: 10px; }
+.topbox_outer, .container_outer, section, footer, .inner_container{ min-width:inherit; }
+.topbox{ top:inherit; height:auto; }
+.Presentation_box p, .newcar_head p, .newcar_head p{ font-size:120%; }
+.Presentation p{ font-size:80%; line-height:1.1em; }
+.Presentation_box, .newcar_box{ display:inline-block; vertical-align: top; margin:0 auto 10px; }
+
+/*section{ height:100px; }*/
+
+.footer_top{ height:auto !important; }
+.footer_top li{ display:inline-block; margin:0 auto !important; }
+.socil_icon li{ margin-left: 5px !important; }
+.footer_left{ margin:10px auto; text-align:center; }
+.link_outer, .footer_right ul{ text-align:left; display:inline-block; }
+.footer_right{ border-top: 1px dotted #575555; border-left: none; padding: 10px 0 10px; }
+footer{ padding-bottom:30px; }
+.copyright_outer p{ line-height:1em; padding: 12px 0; }
+.Presentation_box{ text-align:left; width:95%; }
+.mobile_menu_btn_cont{ text-align: right; width: 85%; margin: 0 auto; }
+.Presentation_box{ text-align:left; }
+#mobile_menu_btn{ display:inline-block; width:auto; }
+.car_detail{ text-align:left; }
+
+.inner_container{ margin-top:100px; }
+.inner_banner1{ background-size: 200% auto; }
+.big_title{ padding: 10px 0 50px; }
+.containt_indent{ width: 96%; padding: 20px 2% 20px; min-height:inherit; }
+.socil_icon li{ width:auto !important; }
+.containt_nav li a, .containt_nav li a:hover{ font-size:80%; padding:5px 10px; }
+.containt_nav{ min-height:inherit; padding-bottom:20px; }
+.containt_indent p{ font-size:80%; text-align:left; }
+.containt_indent p span{ font-size:120%; }
+.footer_top li, .footer_top li a{ font-size:100%; }
+
+.topbox_outer .topbox{ text-align:center; }
+
+.transit_outer{ margin: 10px auto 10px; }
+
+.footer_top .socil_icon{ text-align: center; width: 100%; overflow: hidden; }
+.footer_top .socil_icon > ul{ float: none; display: inline-block; vertical-align: top; width: auto; }
+.footer_top .socil_icon > div{ float: none !important; display: inline-block; }
+
+.footer_right ul, .footer_left .link_outer{ margin: 5px 1% 5px; }
+.transit_outer img, .stock_indent{ display:inline-block; vertical-align:top; }
+.stock_indent{ background-size:100%; }
+.stock_indent p{ width:100%; }
+.stock_indent p{ width: 83%; font-size: 120%; margin: 0 auto; text-align: left; padding: 7px 2%; }
+.media_outer li{ vertical-align:top; }
+
+.contact_outer, .form_outer, .form_table, .form_table tbody, .form_table tr, .form_table td, .form_table .form_text{ width:100%; text-align:center; display:block; }
+.contact_outer{ margin: 10px auto 10px; }
+.checkbox{ float:none; }
+.form_text01{ padding-top:1px; }
+.form_table tr{ margin-bottom:10px; }
+.input_outer_02, .input_outer_01, .input_outer, .input_outer_03{ margin:0 auto; }
+.brand_logo_outer li{ margin:10px 0; }
+
+.inner_container .inner_banner1 .big_title{ font-size: 34px; }
+.detail_title{ margin-top: 0px; }
+.detail_outer{ width:93%; }
+.car_description ul{ margin:0; }
+.form_table{ margin-top:10px; }
+.contact_outer{ min-height:inherit; }
+
+.containt_indent ul li{ margin: 0 2% 10px; display: inline-block; width: 44%; }
+
+}
+
+
+
+@media (max-width:380px){
+section{ height: 150px; }
+.inner_container{ margin-top:150px; }
+.transit_outer img { margin: 0 auto 10px; }
+.media_outer li{ margin: 0 auto 15px; }
+.inner_banner2{ background-size: 220%; }
+.classic_car_outer li{ margin-top:10px; }
+}
+
+@media (min-width:381px) and (max-width:420px){
+section{ height: 180px; }
+.inner_container{ margin-top:180px; }
+.transit_outer img { margin: 0 auto 10px; }
+.media_outer li{ margin: 15px auto 0 !important; }
+.inner_banner2{ background-size: 200%; }
+.classic_car_outer li{ margin-top:10px; }
+}
+
+@media (min-width:421px) and (max-width:570px){
+section{ height: 250px; }
+.inner_container{ margin-top:250px; }
+.inner_banner2{ background-size: 130%; }
+}
+
+@media (min-width:571px) and (max-width:650px){
+section{ height: 280px; }
+.inner_container{ margin-top:280px; }
+.inner_banner2{ background-size: 150%; padding-top:50px; }
+}
+
+@media (min-width:651px) and (max-width:750px){
+section{ height: 350px; }
+.inner_container{ margin-top:350px; }
+.inner_banner2{ background-size: 150%; padding-top:50px; }
+}
+
+@media (min-width:751px) and (max-width:770px){
+section{ height: 370px; }
+.inner_container{ margin-top:370px; }
+.inner_banner2{ background-size: 150%; padding-top:50px; }
+}
+
+@media (min-width:771px) and (max-width:1025px){
+section{ height: 500px; }
+.inner_container{ margin-top:500px; }
+.Presentation_box, .newcar_box, .stock_indent, .transit_outer img, .containt_indent ul li{ width: 28%; margin: 15px 1.5% 15px !important; padding-bottom: 10px; }
+.inner_banner2{ background-size: 130%; padding-top:90px; }
+.wrapper_indent01 .container_left{ display: inline-block; width: auto; margin: 10px; float: left; }
+.classic_car_outer{ width: 75%; display: inline-block; float: right; margin-top: 10px; }
+/*.nav_left{ display: inline-block; width: auto; padding:0; }
+.nav_left li, .nav_right li{ display: inline-block; margin: 0px; padding: 6px 12px !important; }
+.nav_right{ width:auto; }
+.nav_wrapper{ margin-top: 0px; padding: 16px 0 5px; }
+.mobile_menu_btn_cont{ display:none; }
+#mobile_menu_co{ display:block !important; }
+.logo.desktop_item{ display:inline-block; width: auto; }*/
+#mobile_menu_co .wrapper{ overflow: hidden; }
+.nav_left, .nav_right{ display: inline-block; vertical-align:top; width: 30%; }
+.member_login{ top: 0; position: absolute; left: 0; right: 0; margin: 0 auto; width: 30%; display: inline-block; }
+nav{ position:relative; }
+
+}
+
+
+
+
+
+@media (min-width:421px) and (max-width:670px){
+.Presentation_box, .newcar_box, .stock_indent, .transit_outer img, .media_outer li, .classic_car_outer li, .containt_indent ul li{ width: 47%; margin: 10px 1% 10px !important; padding-bottom: 5px; }
+.wrapper_indent01 .container_left .containt_nav, .wrapper_indent01 .container_left .textwidget{ display: inline-block; margin-top: 20px; vertical-align: top; margin-right:2%; }
+
+}
+
+@media (min-width:671px) and (max-width:770px){
+.Presentation_box, .newcar_box, .stock_indent, .transit_outer img, .media_outer li, .classic_car_outer li, .containt_indent ul li{ width: 28%; margin: 15px 1.5% 15px !important; padding-bottom: 8px; }
+.wrapper_indent01 .container_left .containt_nav, .wrapper_indent01 .container_left .textwidget{ display: inline-block; margin-top: 20px; vertical-align: top; margin-right:2%; }
+}

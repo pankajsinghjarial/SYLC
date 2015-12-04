@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /announces.php
+Disallow: /ebay/

@@ -1,0 +1,87 @@
+/*if you just want to adjust the size of the stage and the thumbnails, you can do so by editing the following lines: */
+.product_gellery {
+  position: relative;
+  top:12px;
+  padding-bottom:90px;
+}
+
+.pika-thumbs ul.right_thums li{width: 108px; height:84px; margin:0 10px 10px 0; float: left; list-style-type: none;   cursor: pointer;}
+.pika-thumbs > li{ margin:0;}
+.pika-thumbs li img{ width:100px !important; height:76px !important; border:4px solid #d9d9d9;}
+.pika-stage {width: 458px;}
+
+.pikachoose {width: 520px; }
+.pika-stage {position: relative;  border: 4px solid #d9d9d9; text-align:center;height:auto; left:238px; z-index:60;}
+	.pika-stage img{ display:block;}
+	/*if you change the padding on pika-stage you must adjust the top left of this to match! */
+	.pika-stage .main-image {position: absolute; top: 10px; left: 10px;}
+	.pika-stage .pika-aniwrap{position: absolute; top: 10px; left: 0px;}
+	.pika-stage .pika-aniwrap{width:100%;}
+	.pika-stage .pika-ani {position:relative;display: none;z-index:2;margin:0 auto;}
+	.pika-stage img {border:0;height:100%;height: 263px;width: 458px;}
+	
+
+.pika-stage .caption {position: absolute; background: #000; background: rgba(0,0,0,0.5);  border: 1px solid #141414; font-size: 11px; 
+			color: #fafafa; padding: 10px; text-align: right; bottom: 15px; right: 10px;}
+	.pika-stage .caption p {padding: 0; margin: 0; line-height: 14px;}
+
+.pika-imgnav a {position: absolute; text-indent: -5000px; display: block;z-index:3;}
+	.pika-imgnav a.previous {background: url(../images/prev.png) no-repeat left 45%;  bottom: -56px;
+    cursor: pointer;
+    height: 14%;
+    left: 174px;
+    width: 32px;}
+	.pika-imgnav a.next {background: url(../images/next.png) no-repeat right 45%; height: 14%; width: 32px; bottom: -56px; right: 174px;cursor:pointer;}
+	.pika-imgnav a.play {background: url(../images/play.png) no-repeat 0% 50%;cursor: pointer;
+    display: block;
+   height: 41px;
+    left: 46%;
+    width: 39px; bottom:-57px;}
+	.pika-imgnav a.pause {background: url(../images/pause.png) no-repeat 0% 50%; height: 100px;cursor: pointer;
+    display: block;
+   height: 41px;
+    left: 46%;
+    width: 39px;bottom:-57px;}
+
+.pika-textnav {display:none;}
+	
+.pika-thumbs {margin: 00px 0 0 0px; padding: 0; overflow: hidden; position:absolute; top:0; z-index:50;}
+	 
+		.pika-thumbs li:last {margin: 0;}
+		.pika-thumbs li .clip {position:relative;height:100%;text-align: center; vertical-align: center; overflow: hidden;}
+
+/*for the tool tips*/
+.pika-tooltip{font-size:12px;position:absolute;color:white;padding:3px; background-color: rgba(0,0,0,0.7);border:3px solid black; max-width: 180px;}
+.pika-counter{position: absolute;bottom: 25px;left:15px;color:white;background:rgba(0,0,0,0.7);font-size:11px;padding:3px;-moz-border-radius: 5px;border-radius:5px;}
+		
+		
+/* jCarousel Styles */
+/*if you're not using the carousel you can delete everything below this */
+.jcarousel-skin-pika .jcarousel-container-horizontal { padding: 15px 20px;}
+.jcarousel-skin-pika .jcarousel-clip-horizontal {height: 90px; width: 485px;}
+.jcarousel-skin-pika .jcarousel-item-horizontal { margin-right: 10px;}
+
+#sidead{
+	width: 160px;
+	height:100%;
+	position:absolute;
+	top:0;
+	right:0;}
+	
+body .one .bsa_it_ad, #bsap_1258380, .one{
+	height:290px;
+	margin-top:65px;}
+	
+.pika-thumbs ul.right_thums{ float:left;  }	
+.pika-thumbs ul {
+  float: right;
+  width: 236px;
+}
+.pika-thumbs ul li { margin:0 0 10px 10px;width: 108px; height:84px;   float: left; list-style-type: none;   cursor: pointer;}
+
+.pika-stage a {
+ 
+  /*background: url(../images/zoom.png) no-repeat center  center;*/
+  
+ 
+}

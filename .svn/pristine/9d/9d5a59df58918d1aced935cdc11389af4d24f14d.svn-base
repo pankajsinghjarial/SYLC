@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<html>
+  <head>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
+  </head>
+  <body>
+    <div id="okidoki"><canvas id="myCanvas" class="myCanvas"></canvas></div>
+    <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script>
+  <script type="text/javascript">
+  
+var red = [0, 100, 63];
+var orange = [40, 100, 60];
+var green = [75, 100, 40];
+var blue = [196, 77, 55];
+var purple = [280, 50, 60];
+
+var myName = "Dylan Bells";
+var letterColors = [red, orange, green, blue, purple];
+if (10<3){
+bubbleShape = "square";
+}
+else{
+    bubbleShape = "circle";
+}
+
+
+
+
+
+drawName(myName, letterColors);
+bounceBubbles();
+  
+  
+  </script>
+<style>
+  #okidoki{
+    margin-top:5%;
+ margin-left:15%;
+  
+  }
+</body>
+</html>

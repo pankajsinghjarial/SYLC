@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package>
+    <name>Mage_Cybermut</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>CM-CIC p@iement
+CyberMUT Paiement / Paiement CIC integration</summary>
+    <description>This extension provides CM-CIC p@iement (CyberMUT / CIC payment) integration. For payments through Credit Mutuel Group (Credit Mutuel, CIC, OBC).
+Compatible with CM-CIC versions 1.2 and 3.0.
+
+Changelog :
+1.0.1 :
+- bug fixed on key encryption (thanks to Christophe)
+- bug fixed when browser previous button is used</description>
+    <notes>Changelog :
+1.0.1 :
+- bug fixed on key encryption (thanks to Christophe)
+- bug fixed when browser previous button is used
+
+Features:
+- compatible with versions 1.2 and 3.0
+- easy back-end configuration
+- auto-selected front-end language
+- selectable order status on placing order
+- selectable order status on payment success
+- selectable order status on payment failure
+- selectable order status on customer cancellation
+- automatic payment confirmation
+- back-end french language
+- customer notification on payment success
+- put the order on "Order confirmation email sent" status when payment is accepted
+- order is cancelled when it passes in cancelled status
+
+URL CGI to communicate to CM/CIC is:
+http://www.domain.com/cybermut/payment/notify/</notes>
+    <authors><author><name>Quadra Team</name><user>auto-converted</user><email>magento@quadra-informatique.fr</email></author></authors>
+    <date>2010-04-12</date>
+    <time>07:38:52</time>
+    <contents><target name="magelocale"><dir name="en_US"><file name="Mage_Cybermut.csv" hash="5d32b212262ab40e94eac3db0ca848b4"/></dir><dir name="fr_FR"><file name="Mage_Cybermut.csv" hash="a0c87ae453c1e00bee3ed60a00f0d237"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="images"><dir name="media"><dir name="cybermut"><file name="cb.gif" hash="297387b1588bc880bd9d9abe00db73c5"/><file name="master.gif" hash="1fd622c6300f37711c983074be1fdae5"/><file name="visa.gif" hash="d2b7afda7cfdf78ae63b0c71f99beac8"/></dir></dir></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="cybermut.xml" hash="67bd36d185041fb617740843cdda71db"/></dir><dir name="template"><dir name="cybermut"><file name="error.phtml" hash="baff7801312a42a9fa2e9e377b7df384"/><file name="form.phtml" hash="257da4bc0a2558b0e56b2898353d11f9"/></dir></dir></dir></dir></dir></target><target name="magelocal"><dir name="Mage"><dir name="Cybermut"><dir name="Block"><file name="Error.php" hash="6d5b976a6a8ae7b13fdac84501c76668"/><file name="Form.php" hash="c81b697c08e32a24eae1f47cc85538ba"/><file name="Redirect.php" hash="06929bf524ccb25cf8cc0b27ac426f8b"/></dir><dir name="controllers"><file name="PaymentController.php" hash="2a9fde9f4650f3000a6785f17be68419"/></dir><dir name="etc"><file name="config.xml" hash="291193e512442edbbfd5f5da36253280"/><file name="system.xml" hash="1e219fd8b8d7fd106995d7ce57d343ea"/></dir><dir name="Helper"><file name="Data.php" hash="a4fd0df0200c87f03b63b0023dc8e3b4"/></dir><dir name="Model"><dir name="Api"><file name="Debug.php" hash="e463f9ac5184c2ef3c9d01710493fec1"/></dir><dir name="Mysql4"><dir name="Api"><dir name="Debug"><file name="Collection.php" hash="e163f2ef72becbb675061e391921b39e"/></dir><file name="Debug.php" hash="3625a56bb1de53b849572047484835dd"/></dir><file name="Setup.php" hash="d332f47137d8c297d355b625c0be63e5"/></dir><dir name="Source"><file name="Bank.php" hash="fa34f32e929004a7a652cd680e0234a1"/><file name="Language.php" hash="6d9bef29f931b3e6d7c5931c63ca1ada"/></dir><dir name="System"><dir name="Config"><dir name="Backend"><file name="Keyencrypted.php" hash="5044f45f868fe29b9b7869a744314564"/></dir><dir name="Source"><dir name="Order"><dir name="Status"><file name="Accepted.php" hash="d739e93b32aa3f32a00a16eaec3afb24"/><file name="Canceled.php" hash="f0b8a7e8fe444b7eb9a14d9102f2ebf5"/><file name="New.php" hash="09dcbdbbf01af9b8a34d24fcf575335c"/><file name="Refused.php" hash="40f56b98b8f2e1c21ba512c15ba11f48"/></dir><file name="Status.php" hash="3223fbbb2da4b2fd03cf13a506e076d7"/></dir><file name="Version.php" hash="159d095fe513f11d53d13bf8157e52ce"/></dir></dir></dir><file name="Payment.php" hash="8b3a4990bd470a49cb4a663c59d06107"/></dir><dir name="sql"><dir name="cybermut_setup"><file name="mysql4-install-0.1.0.php" hash="51afcbf5b13177d09edbf08865e556cd"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mage_Cybermut.xml" hash="eed53acb4f6b560f399814b55bdcdfc5"/></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>

@@ -1,0 +1,392 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+
+a.button {
+    background: transparent url('bg_button_a.gif') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.button span {
+    background: transparent url('bg_button_span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+a.button:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+} 
+
+ 
+input {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 1;
+	padding: 1;	
+	background-color: #FDFDFD;
+	border: 1px solid #313A46;
+}
+select {
+	margin: 1;
+	padding: 1;	
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #FDFDFD;
+	border: 1px solid #313A46;
+}
+textarea {
+	margin: 1;
+	padding: 1;	
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #FDFDFD;
+	border: 1px solid #313A46;
+}
+table {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.operator {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.operatorName {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+.guest {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.guestName {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+ 
+.tabNav { 
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color:#000000; 
+}
+
+	a.tabNav				{ text-decoration:none }
+	a:link.tabNav			{ text-decoration:none }
+	a:hover.tabNav		{ color:#003300; text-decoration:none }
+
+.adminnavtop { 
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color:#FFFFFF; 
+}
+	a.adminnavtop				{ text-decoration:none }
+	a:link.adminnavtop			{ text-decoration:none }
+	a:hover.adminnavtop		{ color:#CCFFCC; text-decoration:none }
+
+
+.adminnavleft { 
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color:#000066; 
+}
+	a.adminnavleft				{ text-decoration:none }
+	a:link.adminnavleft			{ text-decoration:none }
+	a:hover.adminnavleft		{ color:#006600; text-decoration:none }
+		
+.header { 
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 20px; 
+   font-weight: bold; 
+   color: #000000;
+}  
+
+.wh { 
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 20px; 
+   font-weight: bold; 
+   color: #000000;
+} 
+
+td {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#000000; 
+}
+
+.standbox {
+width: 450px;
+height: 300px;
+margin: 0 0 10px 0;
+padding: 10px;
+border: 1px;
+background: #a5cbf7;
+font-size: 11px;
+}
+
+.loginbox {
+width: 333px;
+height: 248px;
+margin: 0 0 10px 0;
+padding: 10px;
+border: 0px;
+border-top: none;
+background: #F3F3F3 url(images/login.jpg) no-repeat 0 0;
+font-size: 11px;
+}
+
+
+/* tabbed boxes */
+td.tabon {
+	background: #a5cbf7;
+	border-top: outset #ffffff 2px;
+	border-left: outset #ffffff 2px;
+	border-right: outset #cccccc 2px;
+	border-bottom: none;
+}
+td.taboff {
+	background: #d6ebff;
+	border-top: solid #cccccc 1px;
+	border-left: solid #cccccc 1px;
+	border-right: solid #cccccc 1px;
+	border-bottom: solid #cccccc 2px;
+}
+td.tabsp {
+	border-bottom: solid #cccccc 2px;
+}
+td.tabox {
+	background-color: #a5cbf7;
+	border-left: solid #cccccc 2px;
+	border-right: solid #cccccc 2px;
+	border-bottom: solid #cccccc 2px;
+}
+
+A.tabbed:link {
+	color: #08245b;
+	text-decoration: none;
+}
+
+A.tabbed:visited {
+	color: #08245b;
+	text-decoration: none;
+}
+
+A.tabbed:active {
+	color: red;
+	text-decoration: none;
+}
+
+A.tabbed:hover {
+	color: #666666;
+	text-decoration: underline;
+}
+
+TD.tabbed {
+	font-family: Osaka,verdana,Sans-Serif;
+	font-size: 8pt
+}
+
+TR.tabbed {
+	font-family: Osaka,verdana,Sans-Serif;
+	font-size: 8pt
+}
+
+ 
+
+bordertable {
+	border: 1px black solid;
+}
+
+.bordertable{
+ border: 1px black solid;
+}
+
+.button{
+	border: 1px black solid;
+	font-family: Osaka,verdana,Sans-Serif;
+	font-size: 8pt;
+	/*width: 100px; too small for some translations*/
+}
+
+.text{
+	border: 1px black solid;
+	font-family: Osaka,verdana,Sans-Serif;
+	font-size: 8pt;
+	height: 12pt;
+}
+
+/* Standard table 'spreadsheet' style */
+table.tbl {
+	background: #a5cbf7;
+}
+
+table.tbl TH {
+	background-color: #08245b;
+	color: #ffffff;
+	list-style-type: disc;
+	list-style-position: inside;
+	border: outset #D1D1CD 1px;
+	font-weight: normal;
+	text-align:center;
+}
+
+table.tbl td {
+	background-color: #ffffff;
+}
+
+/* a 'standard' table */
+table.std {
+	border: solid #08245b 2px;
+	background: #d6ebff;
+}
+table.std TH {
+	background-color: #08245b;
+	color: white;
+	list-style-type: disc;
+	list-style-position: inside;
+	border: outset #D1D1CD 1px;
+}
+
+table.std td.hilite {
+	background-color: #ffffff;
+}
+
+
+
+/* tabbed boxes */
+td.tabon {
+	background: #a5cbf7;
+	border-top: outset #ffffff 2px;
+	border-left: outset #ffffff 2px;
+	border-right: outset #cccccc 2px;
+	border-bottom: none;
+}
+td.taboff {
+	background: #d6ebff;
+	border-top: solid #cccccc 1px;
+	border-left: solid #cccccc 1px;
+	border-right: solid #cccccc 1px;
+	border-bottom: solid #cccccc 2px;
+}
+td.tabsp {
+	border-bottom: solid #cccccc 2px;
+}
+td.tabox {
+	background-color: #a5cbf7;
+	border-left: solid #cccccc 2px;
+	border-right: solid #cccccc 2px;
+	border-bottom: solid #cccccc 2px;
+}
+
+/* Message styles */
+.warning {
+	color: red
+}
+.error {
+	color: red
+}
+.message {
+	color: #08245b;
+}
+
+.no_ {
+	color: red
+}
+
+
+/* MAIN NAVIGATION
+========================================== */
+/* changes the navigation tabs: 
+   
+   left-tab.gif  - the left part of the non-active tab with the background of 
+                   the tab repeated for 200 pixels                   
+   right-tab.gif - the very right top part of the non-active tab.   
+   left-tab-on.gif - the left part of the active tab with the background of 
+                   the tab repeated for 200 pixels      
+   right-tab-on.gif - the very right top part of the non-active tab.                       
+    \*/
+#navigation span
+{
+background: url(left-tab.gif) left top no-repeat;
+padding-left: 10px;
+}
+
+#navigation span a
+{
+color: #000;
+background: url(right-tab.gif) right top no-repeat;
+padding-right: 10px;
+text-decoration: none;
+padding-top: 2px;
+}
+
+#navigation span, #navigation span a
+{
+display: block;
+height: 33px;
+float: left;
+}
+ 
+/* Hide from IE5-Mac \*/
+#navigation span, #navigation span a
+{
+float: none
+} 
+/* End hide */
+
+#navigation span.ontab
+{
+background: url(left-tab-on.gif) left top no-repeat;
+padding-left: 10px
+padding-top: 2px;
+}
+
+#navigation span.ontab a
+{
+color: #000;
+background: url(right-tab-on.gif) right top no-repeat;
+padding-right: 10px;
+padding-top: 2px;
+text-align: center;
+}
+ 
+#navigation td
+{
+float: left;
+margin: 0;
+}
+ 
+
+ 

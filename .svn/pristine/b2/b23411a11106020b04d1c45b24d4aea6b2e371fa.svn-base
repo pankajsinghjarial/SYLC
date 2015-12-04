@@ -1,0 +1,280 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+</head>
+
+<body>
+
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td>
+				<table width="100%" border="1" cellspacing="0" cellpadding="0"
+					align="center">
+					<tr>
+						<td height="22" align="center" bgcolor="#000" style="color: #fff;">MERCHANT
+							PROCESSING APPLICATION AND AGREEMENT</td>
+					</tr>
+					<tr>
+						<td width="100%" align="center" height="62px">&nbsp;</td>
+					</tr>
+				</table>
+
+			</td>
+		</tr>
+		<tr>
+			<td align="left">
+
+				<table width="100%" border="1" cellspacing="0" cellpadding="0"
+					align="center">
+					<tr>
+						<td style="height: 21px;" align="left">
+							<table width="100%" bgcolor="#000" border="0" cellspacing="0"
+								cellpadding="0">
+								<tr>
+									<td width="15%" align="center" bgcolor="#ffffff"
+										style="font-size: 65%">TotalApp1504(ia)</td>
+									<td width="65%" align="center"
+										style="font-size: 100%; color: #fff; font-weight: bold;">1.
+										BUSINESS INFORMATION</td>
+									<td width="15%" align="center" bgcolor="#ffffff"
+										style="font-size: 65%">TotalApp1504(ia)</td>
+								</tr>
+							</table>
+
+
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<table width="100%" height="34" border="0" cellspacing="0"
+								cellpadding="0">
+								<tr>
+									<td width="12%" valign="bottom" align="left"
+										style="font-size: 65%; font-weight: bold;"><input name=""
+										style="float: left; margin: 2px 4px 0 0;" type="checkbox"
+										value="">Sole Proprietor</td>
+									<td width="12%" valign="bottom" align="left"
+										style="font-size: 65%; font-weight: bold;"><input name=""
+										style="float: left; margin: 2px 4px 0 0;" type="checkbox"
+										value="">Partnership</td>
+									<td width="12%" valign="bottom" align="left"
+										style="font-size: 65%; font-weight: bold;"><input name=""
+										style="float: left; margin: 2px 4px 0 0;" type="checkbox"
+										value="">Public Corp.</td>
+									<td width="12%" valign="bottom" align="left"
+										style="font-size: 65%; font-weight: bold;"><input name=""
+										style="float: left; margin: 2px 4px 0 0;" type="checkbox"
+										value="">Private Corp.</td>
+									<td width="12%" valign="bottom" align="left"
+										style="font-size: 65%; font-weight: bold;"><input name=""
+										style="float: left; margin: 2px 4px 0 0;" type="checkbox"
+										value="">Tax Exempt</td>
+									<td width="12%" valign="bottom" align="left"
+										style="font-size: 65%; font-weight: bold;"><input name=""
+										style="float: left; margin: 2px 4px 0 0;" type="checkbox"
+										value="">LLC</td>
+									<td width="28%" valign="bottom" align="left"
+										style="font-size: 65%; font-weight: bold;">State Filed:</td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<table width="100%" height="45" border="0" cellspacing="0"
+								cellpadding="0">
+								<tr>
+									<td width="50%" align="left" valign="top"
+										style="font-size: 65%; font-weight: bold; border-right: 1px solid #333;">Legal
+										Name:</td>
+									<td width="50%" align="left" valign="top"
+										style="font-size: 65%; font-weight: bold;">DBA Name:</td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<table width="100%" height="45" border="0" cellspacing="0"
+								cellpadding="0">
+								<tr>
+									<td width="50%" align="left" valign="top"
+										style="font-size: 65%; font-weight: bold; border-right: 1px solid #333;">Legal
+										Address:</td>
+									<td width="50%" align="left" valign="top"
+										style="font-size: 65%; font-weight: bold;">DBA Address:</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td align="left"><table width="100%" height="45" border="0"
+								cellspacing="0" cellpadding="0">
+								<tr>
+									<td width="50%" valign="top" align="left">
+										<table width="100%" height="45" border="0" cellspacing="0"
+											cellpadding="0">
+											<tr>
+												<td valign="top" align="left" width="60%"
+													style="font-size: 65%; font-weight: bold; border-right: 1px solid #333;">Legal
+													City:</td>
+												<td valign="top" align="left" width="20%"
+													style="font-size: 65%; font-weight: bold; border-right: 1px solid #333;">State:</td>
+												<td valign="top" align="left" width="20%"
+													style="font-size: 65%; font-weight: bold; border-right: 1px solid #333;">ZIP:</td>
+											</tr>
+										</table>
+									</td>
+									<td width="50%" valign="top" align="left">
+										<table width="100%" height="45" border="0" cellspacing="0"
+											cellpadding="0">
+											<tr>
+												<td valign="top" width="60%" align="left"
+													style="font-size: 65%; font-weight: bold; border-right: 1px solid #333;">DBA
+													City:</td>
+												<td valign="top" width="20%" align="left"
+													style="font-size: 65%; font-weight: bold; border-right: 1px solid #333;">State:</td>
+												<td valign="top" width="20%" align="left"
+													style="font-size: 65%; font-weight: bold;">ZIP:</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table></td>
+					</tr>
+					<tr>
+						<td align="left">
+							<table width="100%" height="45" border="0" cellspacing="0"
+								cellpadding="0">
+								<tr>
+									<td width="50%" align="left" valign="top"
+										style="font-size: 65%; font-weight: bold; border-right: 1px solid #333;">Contact
+										Name:</td>
+									<td width="50%" align="left" valign="top"
+										style="font-size: 65%; font-weight: bold;">Contact
+										E-Mail:</td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<table width="100%" height="45" border="0" cellspacing="0"
+								cellpadding="0">
+								<tr>
+									<td width="50%" valign="top" align="left">
+										<table width="100%" height="45" border="0" cellspacing="0"
+											cellpadding="0">
+											<tr>
+												<td width="50%" align="left" valign="top"
+													style="font-size: 65%; font-weight: bold; border-right: 1px solid #333;">Business
+													Phone:</td>
+												<td width="50%" align="left" valign="top"
+													style="font-size: 65%; font-weight: bold; border-right: 1px solid #333;">Business
+													Fax:</td>
+											</tr>
+										</table>
+
+
+									</td>
+									<td width="50%" align="left" valign="top"
+										style="font-size: 65%; font-weight: bold;">Customer
+										Service Phone:</td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<table width="100%" height="45" border="0" cellspacing="0"
+								cellpadding="0">
+								<tr>
+									<td width="50%" align="left" valign="top"
+										style="font-size: 65%; font-weight: bold; border-right: 1px solid #333;">Cardholder
+										Descriptor: (21 Characters  Must Include Phone # if Keyed
+										Merchant)</td>
+									<td width="50%" valign="top" align="left">
+										<table width="100%" height="45" border="0" cellspacing="0"
+											cellpadding="0">
+											<tr>
+												<td width="72%" valign="top" align="left"
+													style="font-size: 65%; font-weight: bold; border-right: 1px solid #333;">Website
+													URL:</td>
+												<td width="28%" valign="top" align="left"
+													style="font-size: 65%; font-weight: bold;">Business
+													Start Date:</td>
+											</tr>
+										</table>
+
+									</td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<table width="100%" height="45" border="0" cellspacing="0"
+								cellpadding="0">
+								<tr>
+									<td width="25%" valign="top" align="left"
+										style="font-size: 65%; font-weight: bold; border-right: 1px solid #333;">Name
+										<span style="font-size: 90%; font-weight: normal;">(as
+											it appears on your income tax return)</span>
+									</td>
+									<td width="25%" align="left" valign="top"
+										style="font-size: 65%; font-weight: bold; border-right: 1px solid #333;">FEDERAL
+										TAX ID # <span style="font-size: 90%; font-weight: normal;">(as
+											it appears on your income tax return)</span>
+									</td>
+									<td width="50%" valign="top" align="left"
+										style="font-size: 65%; font-weight: bold;"><input name=""
+										style="float: left; margin: 2px 6px 10px 0;" type="checkbox"
+										value="">I certify that I am a foreign
+										entity/nonresident alien.<br /> <span
+										style="font-size: 90%; font-weight: normal;">(If
+											checked, please attach IRS Form W-8.)</span></td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>
+					<tr>
+						<td height="25" align="left" valign="top"
+							style="font-size: 65%; font-weight: bold;">NOTE: <span
+							style="font-size: 90%; font-weight: normal;">Failure to
+								provide accurate information may result in a withholding of
+								merchant funding per IRS regulations. (See Part II, Section A3
+								of your Program Guide for further information.)</span></td>
+					</tr>
+					<tr>
+						<td align="left">
+							<table width="100%" height="100" border="0" cellspacing="0"
+								cellpadding="0">
+								<tr>
+									<td width="10%" valign="top" align="left"
+										style="font-size: 65%; font-weight: bold; border-right: 1px solid #333;">SIC
+										/MCC:</td>
+									<td width="90%" align="left" valign="top"
+										style="font-size: 65%; font-weight: bold;">Detailed
+										Explanation of Type of Merchan dise, Products or Services
+										Sold:</td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>
+				</table>
+
+
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>

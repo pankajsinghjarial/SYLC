@@ -1,0 +1,46 @@
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2010 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 257 2010-07-27 23:06:56Z emartin24 $
+ */
+
+#basic-modal-content {display:none;}
+#basic-modal-content1 {display:none;}
+#basic-modal-content3 {display:none;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#simplemodal-container {width:750px; height:500px; color:#414141; background-color:#fff; border:10px solid #CFCFCF; padding:0;}
+#simplemodal-container .simplemodal-data {padding:0;}
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; font-size:12px; margin-bottom:12px; padding:0;}
+#simplemodal-container a {color:#414141;}
+
+#simplemodal-container a.modalCloseImg {background:url(../images/fancy_close.png) no-repeat; width:30px; height:30px; display:inline; z-index:3200; position:absolute; top:-23px; right:-28px; cursor:pointer;}
+#simplemodal-container h3 {color:#84b8d9;}
+
+#basic-modal-content h3, #basic-modal-content1 h3, #basic-modal-content3 h3{ background: url("../images/red_strip.png") repeat-x scroll left top transparent;
+    color: #FFFFFF;
+    font: bold 15px Verdana,Geneva,sans-serif;
+    height: 18px;
+		width:720px;
+    padding-bottom: 14px;
+    padding-left: 12px;
+    padding-top: 14px;
+    position: absolute;
+    text-transform: uppercase;}
+		
+		.poppadding{padding:60px 20px 15px 20px;}
+		h2.pop_heading{font-weight:bold; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#414141; padding:0 0 10px 0;}
+		.poppadding p{text-align:left; padding:0 0 10px 0; line-height:20px; font-size:14px; font-family:Arial, Helvetica, sans-serif;}
+		
+		.poppadding ul{list-style:none outside none; margin:0 0 0 30px; padding:0 0 0 0;}
+		.poppadding ul li{list-style:square; margin:0 0 0 0; padding:0 0 8px 10px; font-size:14px; color:#414141; line-height:18px; font-family:Arial, Helvetica, sans-serif;}

@@ -1,0 +1,39 @@
+[12-Aug-2013 15:20:14] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[12-Aug-2013 23:29:09] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[13-Aug-2013 05:21:04] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[13-Aug-2013 11:21:42] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[09-Nov-2013 06:14:56] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[09-Nov-2013 12:51:46] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[09-Nov-2013 23:29:55] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[10-Nov-2013 06:10:19] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[22-Jan-2014 19:52:43 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[23-Jan-2014 04:05:18 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[23-Jan-2014 07:03:38 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[23-Jan-2014 13:23:30 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[23-Jan-2014 15:55:05 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[28-Mar-2014 15:12:31 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[28-Mar-2014 21:41:35 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[29-Mar-2014 01:42:15 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[29-Mar-2014 17:05:46 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[04-Jul-2014 06:56:28 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[04-Jul-2014 14:04:43 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[04-Jul-2014 20:50:55 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[04-Jul-2014 22:45:56 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[05-Jul-2014 04:49:47 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[12-Dec-2014 11:41:37 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[12-Dec-2014 17:14:02 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[13-Dec-2014 00:31:41 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[14-Dec-2014 18:14:45 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[23-Jan-2015 10:26:01 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[24-Jan-2015 17:04:06 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[18-Apr-2015 09:32:23 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[19-Apr-2015 02:09:43 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[19-Apr-2015 10:22:38 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[23-May-2015 08:17:40 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[23-May-2015 15:30:59 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[23-May-2015 21:57:40 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[24-May-2015 03:15:47 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[21-Sep-2015 19:16:57 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[22-Sep-2015 02:46:08 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[22-Sep-2015 08:56:06 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570
+[22-Sep-2015 14:57:44 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-languages/EN_en.php on line 570

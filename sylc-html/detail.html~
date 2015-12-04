@@ -1,0 +1,333 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Sylc-news</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="css/colorbox.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/html5.js"></script>
+<script type="text/javascript" src="js/IE9.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/jquery.colorbox.js"></script>
+<script>
+	$(document).ready(function(){
+		//Examples of how to assign the ColorBox event to elements
+		$(".youtube").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+		$(".form").colorbox({iframe:true, innerWidth:410, innerHeight:330});
+		$(".inline").colorbox({inline:true, width:"33%"});
+	});
+</script>
+
+<script type="text/javascript" src="js/jquery.aw-showcase.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function()
+{
+	$("#showcase").awShowcase(
+	{
+		content_width:			392,
+		content_height:			304,
+		fit_to_parent:			false,
+		auto:					false,
+		interval:				3000,
+		continuous:				false,
+		loading:				true,
+		tooltip_width:			200,
+		tooltip_icon_width:		32,
+		tooltip_icon_height:	32,
+		tooltip_offsetx:		18,
+		tooltip_offsety:		0,
+		arrows:					true,
+		buttons:				true,
+		btn_numbers:			true,
+		keybord_keys:			true,
+		mousetrace:				false, /* Trace x and y coordinates for the mouse */
+		pauseonover:			true,
+		stoponclick:			true,
+		transition:				'vslide', /* hslide/vslide/fade */
+		transition_delay:		300,
+		transition_speed:		500,
+		show_caption:			'onhover', /* onload/onhover/show */
+		thumbnails:				true,
+		thumbnails_position:	'outside-last', /* outside-last/outside-first/inside-last/inside-first */
+		thumbnails_direction:	'vertical', /* vertical/horizontal */
+		thumbnails_slidex:		0, /* 0 = auto / 1 = slide one thumbnail / 2 = slide two thumbnails / etc. */
+		dynamic_height:			false, /* For dynamic height to work in webkit you need to set the width and height of images in the source. Usually works to only set the dimension of the first slide in the showcase. */
+		speed_change:			true, /* Set to true to prevent users from swithing more then one slide at once. */
+		viewline:				false /* If set to true content_width, thumbnails, transition and dynamic_height will be disabled. As for dynamic height you need to set the width and height of images in the source. */
+	});
+});
+
+</script>
+</head>
+<body>
+<!-- nav start -->
+<nav>
+  <div class="wrapper">
+    <div class="nav_left">
+      <ul>
+        <li><a href="index.html">Accueil</a> </li>
+        <li><a href="presentation.html">Présentation</a></li>
+        <li><a href="media.html">Média</a></li>
+        <li><a href="classic_car.html">Inventaire</a></li>
+      </ul>
+    </div>
+    <div class="nav_right">
+      <ul>
+        <li><a href="search_classic_car.html">Recherche</a></li>
+        <li><a href="notre-mission.html">Logistique</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <!-- logo start -->
+    <div class="logo"><a href="index.html"><img  src="images/logo.png" width="300" height="77" alt=""></a></div>
+    <!-- logo start --> 
+  </div>
+</nav>
+<!-- nav end --> 
+<!-- inner_container start -->
+<div class="inner_container">
+  <div class="inner_banner1">
+    <div class="wrapper">
+      <div class="big_title">&nbsp;</div>
+      <div class="detail_wrapper">
+             <div class="detail_01">
+             	<div class="detail_title">
+                <p><span>2012 Volkswagen Touareg TDI Sport - 34 173€</span><br>Dealer: Hovey Motorcars  |  1610 Waukegan Rd Glenview IL 60025,  888-416-8523</p>
+                </div>
+                <div class="detail_outer">
+                <div style="width: 524px; margin: auto;">
+	
+	<!-- This is the button used to switch between One Page and Slideshow. -->
+
+	<div id="showcase" class="showcase">
+		<div class="showcase-slide">
+			<div class="showcase-content">
+				<img src="images/01.jpg" alt="01" />
+			</div>
+			<div class="showcase-thumbnail">
+				<img src="images/01.jpg" alt="" width="110"  />
+			</div>
+		</div>
+        
+		<div class="showcase-slide">
+			<div class="showcase-content">
+				<img src="images/02.jpg" alt="02" />
+			</div>
+			<div class="showcase-thumbnail">
+				<img src="images/02.jpg" alt="02" width="110" />
+			</div>			
+		</div>
+		<div class="showcase-slide">
+			<div class="showcase-content">
+				<img src="images/03.jpg" alt="03" />
+			</div>
+			<div class="showcase-thumbnail">
+				<img src="images/03.jpg" alt="" width="110"  />
+			</div>
+		</div>
+		<div class="showcase-slide">
+			<div class="showcase-content">
+				<img src="images/04.jpg" alt="04" />
+			</div>
+			<div class="showcase-thumbnail">
+            <img src="images/04.jpg" alt="" width="110" />
+			</div>
+		</div>
+		<div class="showcase-slide">
+			<div class="showcase-content">
+				<img src="images/05.jpg" alt="05" />
+			</div>
+			<div class="showcase-thumbnail">
+            <img src="images/05.jpg" alt="" width="110" />
+			</div>
+		</div>
+		<div class="showcase-slide">
+			<div class="showcase-content">
+				<img src="images/06.jpg" alt="06" />
+			</div>
+			<div class="showcase-thumbnail">
+				<img src="images/06.jpg" alt="" width="110"  />
+			</div>
+		</div>
+		<div class="showcase-slide">
+			<div class="showcase-content">
+				<img src="images/07.jpg" alt="07" />
+			</div>
+			<div class="showcase-thumbnail">
+				<img src="images/07.jpg" alt="" width="110"  />
+			</div>
+		</div>
+	</div>
+
+</div>
+                  
+                </div>
+               <div class="car_description">
+                <p>Dark Green Gray Metallic, 2 door, Coupe, Automatic, 3.4L V6 12V MPFI OHV</p>
+                <ul>
+                <li><a  class="inline" href="#detail_form" title=""><img src="images/button02.jpg" alt=""></a></li>
+                </ul>
+                
+                </div>
+             </div>
+             
+             <div class="detail_02">
+             	<div class="ditail_icon">
+                <img src="images/icon003.jpg" width="147" height="28" alt="">
+                </div>
+                <div class="clear"></div>
+                <div class="detail_03">
+                <p><span>1958 Pontiac Bonneville HARD TOP</span><br>Stock ID: #CONSIGN2</p>
+                </div>
+                
+                <div class="description_outer">
+                <table class="description_table">
+                <tr>
+                <td ><div class="table_text001">Vin</div></td>
+                <td ><div class="table_text001">PS58H2443</div></td>
+                </tr>
+                <tr>
+                <td ><div class="table_text001">Fuel</div></td>
+                <td ><div class="table_text001">Gasoline</div></td>
+                </tr>
+                <tr>
+                <td ><div class="table_text001">Mileage</div></td>
+                <td ><div class="table_text001">69,993.00 Mi</div></td>
+                </tr>
+                <tr>
+               <td ><div class="table_text001">Body Style</div></td>
+                <td ><div class="table_text001">Sedan</div></td>
+                </tr>
+                <tr>
+               <td ><div class="table_text003">Prix</div></td>
+                <td ><div class="table_text004">$39,988.00 USD </div></td>
+                </tr>
+                </table>
+                </div>
+             
+             </div>
+             
+             <div class="clear"></div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- inner_container end -->
+<div class="clear"></div>
+<!-- footer start -->
+<footer>
+  <div class="wrapper">
+    <div class="footer_top">
+      <ul>
+        <li>
+          <div class="socil_icon">
+            <ul>
+              <li><a href="http://www.facebook.com/Sylccorporation" target="_blank"><img src="images/fb-icon.png" width="30" height="30" alt=""></a></li>
+              <li><a href="http://www.youtube.com/user/yoathome?feature=results_main" target="_blank"><img src="images/youtube.png" width="30" height="30" alt=""></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><img src="images/phone-icon.png" class="img_left" alt="">(Fr) 01.76.63.32.16</li>
+        <li><img src="images/icon02.png" class="img_left01" alt="">Hollywood, FL 33020</li>
+        <li><img src="images/message-icon.png" class="img_left" alt=""><a href="mailto:info@sylc-export.com">info@sylc-export.com</a></li>
+      </ul>
+    </div>
+    <div class="footer_left">
+      <div class="link_outer">
+        <p>Liens du Site</p>
+        <ul>
+          <li><a href="presentation.html">Présentation</a></li>
+          <li><a href="media.html">Média</a></li>
+          <li><a href="classic_car.html">Inventaire</a></li>
+          <li><a href="search_classic_car.html">Recherche</a></li>
+        </ul>
+      </div>
+      <div class="link_outer">
+        <p>À Propos de Nous</p>
+        <ul>
+          <li><a href="notre-mission.html">Logistique</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="our_services.html">Nos services</a></li>
+          <li><a href="contact.html">Contactez-nous</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer_right">
+      <p>Top Marques à Vendre</p>
+      <ul>
+        <li><a href="new_car.html">Dodge</a></li>
+        <li><a href="new_car.html">Lincone</a></li>
+        <li><a href="new_car.html">Ford</a></li>
+        <li><a href="new_car.html">General Motors</a></li>
+      </ul>
+      <ul>
+        <li><a href="new_car.html">Chevrolet</a></li>
+        <li><a href="new_car.html">Cadillac</a></li>
+        <li><a href="new_car.html">Jeep</a></li>
+        <li><a href="new_car.html">Hummer</a></li>
+      </ul>
+      <ul>
+        <li><a href="new_car.html">Pontiac</a></li>
+        <li><a href="new_car.html">Buick</a></li>
+        <li><a href="new_car.html">GMC</a></li>
+        <li><a href="new_car.html">Mustang</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div class="copyright_outer">
+    <p>Hollywood, FL 33020  |  Numero Francais: 01.76.63.32.16<br>
+      Droits d'auteur © <a href="#">SYLC.com.</a> Tous droits réservés </p>
+  </div>
+</footer>
+<!-- footer end -->
+
+<!-- form start -->
+<div style="display:none">
+<div id="detail_form" class="detail_form_outer01" >
+	<div class="detail_form_title">
+    <p>ENREGISTREZ-VOUS ET RECEVEZ DES ALERTES SUR CETTE VOITURE.</p>
+    </div>
+    <div class="detail_form_content">
+    <div class="form_outer">
+          <table class="form_table">
+                    
+                   
+                   
+                    <tr>
+                    <td class="form_td0111"><div class="form_text">Nom:</div></td>
+                    <td><div class="input_outer"><input name="" type="text" class="input_01" value=""    /></div></td>
+                    </tr>
+                    <tr>
+                    <td class="form_td0111"><div class="form_text">Prénom:</div></td>
+                    <td><div class="input_outer"><input name="" type="text" class="input_01" value=""    /></div></td>
+                    </tr>
+                    <tr>
+                    <td class="form_td0111"><div class="form_text">Email :</div></td>
+                    <td><div class="input_outer"><input name="" type="text" class="input_01" value=""    /></div></td>
+                    </tr>
+                    <tr>
+                    <td class="form_td0111"><div class="form_text">Numéro de téléphone:</div></td>
+                    <td><div class="input_outer"><input name="" type="text" class="input_01" value=""    /></div></td>
+                    </tr>
+              
+              
+                     <tr>
+                     <td></td>
+                    <td><input name="submit" type="submit" class="submit_btn" value="" /></td>
+                    </tr>
+                    
+           </table>
+          </div>
+          </div>
+</div>
+</div>
+<!-- form end --> 
+</body>
+</html>

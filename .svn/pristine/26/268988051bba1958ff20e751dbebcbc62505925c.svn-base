@@ -1,0 +1,111 @@
+/* Default style definitions */
+
+
+
+body,p { margin:0; padding:0; font-size:10px;font-family :Arial, Helvetica, sans-serif; line-height: 16px; }
+#wrapper { width:100%;}
+
+p.small_text {
+  padding-right: 10px;
+}
+.header_right p { font-weight:bold; }
+.header_right p strong { font-size:22px; font-weight:bold; line-height:28px; }
+.invoice_text { font-size:22px; font-family:Arial, Helvetica, sans-serif; color:#F60; font-weight:bold; line-height:20px; text-align:right; background-color:Gainsboro ; padding:20px 20%; }
+.gap_invoice{ padding:20px 0;}
+.purchase_tbl{padding-bottom:20px;}
+.tbl_bdr{ padding:2%; border: 2px solid black; }
+.tbl_bdr p { font-weight:bold;}
+.line_bdr { font-size:15px; color:#666; border-bottom:dotted 1px black; }
+.invoice_tbl { border:2px solid #787878; border-right:none;}
+.invoice_tbl th { background-color:gray; padding:5px 0; border-right:1px solid black; border-bottom:1px solid black; }
+.invoice_tbl td { padding:1%; border:2px solid black; border-left:none; border-top:none; text-align:center; }
+.invoice_tbl td p{ white-space:normal; text-align:left; } 
+.middl_head { text-align:center; font:bold 14px Arial, Helvetica, sans-serif; color:000; background:#e1e1e1; padding:1%; }
+.midd_tbl { border:1px solid #ccc; }
+.midd_tbl td p { font-size:13px; font-weight:bold; text-align:left }
+.midd_tbl td p strong{ font-weight:bold;}
+.invoice_tbl td p.small_text { font: normal 12px/18px Arial, Helvetica, sans-serif; text-align:right; }
+.invoice_tbl td p.small_text strong { font-size:14px; font-family:Arial, Helvetica, sans-serif; }
+.invoice_tbl td p.small_text span { font:bold 14px/18px Arial, Helvetica, sans-serif; color:#F60; }
+.small_more{padding:12px 0; border:4px double #000000; border-left:none; border-right:none;}
+input.btm_input { border:1px solid gray; padding:5px; width:200px; }
+input.submit{cursor:pointer; border:1px solid gray; padding:6px 15px; color:#fff; background-color: Orange; font-size:14px;font-family:  Helvetica; }
+.btm_heading{ color:#F60; text-align:center; font-family:Helvetica; font-size:16px; font-weight:bold; }
+.invoice_tbl td .border_no{border-right:none; border-bottom:none;}
+.same_tbl{ padding:5px 0;}
+
+
+.test_table{border:1px solid red;}
+.test_table td{background-color:green;}
+
+
+.table01{border:2px solid black;}
+.table01 td{font-family: Helvetica;
+padding: 6px 2px; vertical-align: top;}
+.table01 td td{padding:0px;}
+
+.details_table{border:1px solid black;}
+.details_table th{background-color:black; padding-top:12px; padding-right:12px; padding-bottom:12px; padding-left:12px; font-family:Helvetica; color:white;}
+.details_table td{padding-top:12px; padding-left:12px; padding-bottom:12px; padding-right:12px; font-family:Helvetica;}
+.bottom_text td{ text-align:right;  font-family:Helvetica;}
+ .bottom_text td.first_text{ text-align:left;  font-family:Helvetica;font-size: 11px}
+td.invoice_bg { background-imgage: url(bg_invoice.gif); background-position:center center; background-repeat:repeat-x; background-color:gray; font-size:22px; font-family:Helvetica; font-weight:bold; color: #F60; text-align: right; padding:10px 20px;   }
+
+
+
+
+
+
+h1{ font:bold 20px/24px Arial, Helvetica, sans-serif; margin:0; padding:10px 10px;}
+.text_content p {
+  text-align: justify;
+  font-size: .8em;
+  margin: 0.5em;
+  padding: 6px;
+}
+table.separate {
+  margin-top: 2em;
+}
+
+table.separate thead {
+  background-color: #eeeeee;
+}
+
+table.separate tbody {
+  background-color: #ffffee;
+}
+
+table.separate th, table.separate td {
+  padding: 3pt;
+}
+
+table.separate {
+  border-collapse: separate;
+  border-spacing: 3pt;
+  border: 3pt solid #000;
+  width:70%;
+}
+
+table.separate td {
+  border: 2pt solid #000;
+}
+.text_content{ padding-bottom:20px;padding-top: 20px;} 
+
+.table01 strong {
+    vertical-align: top; line-height: 16px;
+}
+
+.text_content p.drawItDesc02 {
+  font-size: 14px;
+  text-align: inherit;
+}
+
+ul.sigNav02 {
+  width: 20%;
+}
+
+.sigWrapper02.current {
+
+    width: 20% !important;
+}
+.btm_tbll td{ padding-bottom:10px;}

@@ -1,0 +1,93 @@
+#sylc_wrapper { width: 80%; margin-right: auto; margin-left: auto; }
+
+
+.create_account_box { overflow: hidden; padding: 30px 0px 20px; display:box; }
+
+.account_title {  }
+.account_box_gray .account_title span{background: #00a3f0; color:#fff;}
+.account_title span{ font: 20px/25px Tahoma, Geneva, sans-serif, Helvetica, sans-serif; color: #00a3f0;  padding: 6px 15px; border-radius:0 5px 5px 0; -moz-border-radius:0 5px 5px 0; -o-border-radius:0 5px 5px 0; -webkit-border-radius:0 5px 5px 0; -ms-border-radius:0 5px 5px 0; position:relative; }
+
+input.input_acc00 {border: 1px solid #cdcdcd; font: 12px Arial, Helvetica, sans-serif; color: #5f5e5e; width:20%; padding:4px; margin-right:1%; }
+input.input_acc {border: 1px solid #cdcdcd; font: 12px Arial, Helvetica, sans-serif; color: #5f5e5e; width:36%; padding:4px; }
+input.input_acc02 {border: 1px solid #cdcdcd; font: 12px Arial, Helvetica, sans-serif; color: #5f5e5e; width:60%; padding:4px; }
+
+input.order_now_bt { font:bold 16px Arial, Helvetica, sans-serif; color: #fff; background: url(../images/order-now-bt.gif) repeat-x left top #000; height: 34px; padding:0 20px; border-style: none; cursor: pointer; border-radius: 6px; position:relative;  }
+
+.account_box_gray{background: #f1f1f1;}
+.account_box{ border: 1px solid #dedede; border-radius:6px;width: 48%; padding-top:20px; position:relative;min-height: 292px;box-sizing:border-box;
+-ms-box-sizing:border-box;
+-o-box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkitbox-sizing:border-box; }
+ 
+.account_box ul { padding: 10px 0;  margin:0 16px; }
+.account_box ul li { font: 14px/18px Arial, Helvetica, sans-serif; color: #333333; padding-bottom: 15px; overflow:hidden; }
+.account_box ul.accunt_reg { border-top: 1px dotted #333333; margin: 10px 16px 0px 16px;   padding:0 0 20px  0; }
+
+.account_box ul li span { display: block; padding-bottom:5px; }
+.account_box ul li span span{ display:inline; color:#F00;}
+.account_box ul li a.blue{ text-decoration:none;}
+.account_box ul li a { font: 14px Tahoma, Geneva, sans-serif; color: #ba110d; text-decoration: underline; }
+.account_box ul li a:hover{ text-decoration:none;}
+.accunt_reg li .account_title span { padding:35px 0 19px  0px; }
+.account_box ul li span.left_text {
+  display: block;
+ float:left; width:30%;
+}
+.wid_auto{ width:auto !important;}
+.f_left{ float:left;}
+.f_right{ float:right;}
+.vehicle_btn_wrap{ text-align:right; padding:15px 0;}
+.vehicle_tabing{ width:100%;  display:box; overflow:hidden;}
+#content_vehicle{ width:85%; border: 1px solid #cdcdcd; float:right; padding:1%;  position:relative;11;
+box-sizing:border-box;
+-ms-box-sizing:border-box;
+-o-box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkitbox-sizing:border-box; }
+
+ul.main_tabs {
+  float: left;
+  width: 15%;
+}
+ul.main_tabs > li {
+  padding-bottom: 5%;
+}
+
+#tabs a {
+
+
+  border:solid #ccc 1px; border-right:none;
+  color: #333;
+  display: block;
+  font:100%  arial,serif,helvetica; text-decoration:none;
+  padding: 4% 3%;
+  border-radius: 5px 0 0 5px;
+  position:relative; z-index:10; background:url(../images/tab_nav_rep.gif) repeat-x left top #e4e4e4;
+ 
+}
+#tabs a#current{ z-index:11; left:1px; background:#fff; color:#333;}
+
+.account_box ul li span.more_opnal {
+  display: inline-block;
+  width: 14%;
+}
+.car_info_box{ width:65%; border:none;}
+.car_width{ width:35%; border:none;}
+.car_photo{ width:auto;}
+.car_photo img{ width:100%; height:auto; display:block;}
+.car_photo a{ padding:10px; display:block; text-align:center;}
+
+.select_acc02{border: 1px solid #cdcdcd; font: 12px Arial, Helvetica, sans-serif; color: #5f5e5e; width:36%; padding:2px 2px 2px 4px;}
+.select_acc03{border: 1px solid #cdcdcd; font: 12px Arial, Helvetica, sans-serif; color: #5f5e5e; width:61.5%; padding:2px 2px 2px 4px;}
+.status_raw { background: #fff; border: 1px solid #ccc; font: bold 15px Arial, Helvetica, sans-serif; color: #333; padding:2% 1%; text-align:center; }
+.rep_titles { font: bold 20px Arial, Helvetica, sans-serif; color: #333; padding:1% 0; }
+.rep_titles a { font: normal 14px Arial, Helvetica, sans-serif; color: #036; text-decoration: underline; padding-left: 2%; }
+.rep_titles a:hover{ text-decoration:none;}
+.status_raw strong{ padding-right:2%;}
+.car_info_collm { padding-top: 2%; }
+table.three_collm_tbl{ border-collapse:collapse;width:100%;  border:1px solid #ccc; border-right:none; border-bottom:none;}
+table.three_collm_tbl th{ padding:1% ; font:bold 16px/18px Arial, Helvetica, sans-serif; color:#fff; background-color:#696; text-align:left; }
+table.three_collm_tbl td{padding:1%; font: 14px/18px Arial, Helvetica, sans-serif; color:#333; vertical-align:middle; border:1px solid #ccc; border-left:none; border-top:none;} 
+.pop_titles { font: bold 20px Arial, Helvetica, sans-serif; color: #333; padding:1% 2%; background-color:#669966; color:#fff; margin-bottom:1%; }
+.no_bdr{   width:100%;}

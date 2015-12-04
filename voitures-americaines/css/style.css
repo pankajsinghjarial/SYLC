@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	margin:0px;
+	padding:0px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	background:#0e1025 url(../images/bg.jpg) repeat-x left top;
+}
+
+
+img{border:0;}
+.left{float:left; width:100%;}
+.right{float:right; width:100%;}
+
+.f_left{float:left;}
+.f_right{float:right;}
+
+.alignleft{text-align:left;}
+.aligncenter{text-align:center;}
+.alignright{text-align:right;}
+
+
+/*------------- wrapper -------------*/
+
+#wrapper {
+	width:960px;
+	margin:0 auto;
+}
+/*------------- header --------------*/
+
+#header {
+	width:960px;
+	height:117px;
+	overflow:hidden;
+	
+}
+
+.logo_part{float:left; width:391px; }
+.logo{margin-top:30px;}
+.contact_us_part{float:right; width:569px; }
+.call_now{float:left; margin-left:138px; font-size:20px; color:#dadada; margin-top:53px; margin-right:17px;}
+.call_now_img{float:left; background:url(../images/top_line.jpg) no-repeat left top;}
+.contact_us{float:left; color:#a4a3a1; margin-top:33px; margin-right:7px; margin-left:15px;}
+.join_now{float:left; margin-left:2px; margin-top:39px;}
+
+.banner_bottom_line{width:960px; height:4px;}
+
+/*------------- banner --------------*/
+#banner{width:960px; margin:0px; padding:0px;}
+
+/*------------- content --------------*/
+#content{width:960px; margin:0px; padding:0px; background:#0e1025 url(../images/content_bg.jpg) no-repeat left top; height:399px;}
+
+.left_col{float:left; width:643px;}
+.right_col{float:right; width:317px;}
+
+.contact_box{float:left; margin:120px 0px 0px 17px; }
+
+
+.contact_box input.textbox{background:transparent; font-family:Arial, Helvetica, sans-serif; border:none; width:232px; padding:10px; height:17px; margin-bottom:8px; color:#707070;}
+.contact_box input.textbox2{background:transparent; font-family:Arial, Helvetica, sans-serif; border:none;  width:232px; padding:10px; height:17px; height:17px; margin-bottom:8px; color:#707070;}
+
+.contact_box input.submit{margin-left:48px; margin-top:8px;}
+.left_col ul.listing{margin:0px; padding:0px; width:100%; list-style-type:none; margin-left:32px; margin-top:59px;}
+.left_col ul.listing li{margin:0px; padding:0px; background:url(../images/bullet.jpg) no-repeat left top; margin-bottom:26px;}
+
+
+.left_col ul.listing li span{position:relative; left:15px; top:-8px; color:#dadada; font-size:20px; font-family:Arial, Helvetica, sans-serif;}
+
+.arrow{position:absolute; width:668px; height:119px; margin-left:-18px; margin-top:8px; }
+
+/*------------- footer --------------*/
+
+#footer{width:960px; height:142px; margin:0px; padding:0px;}
+
+.copyright{float:left; margin:35px 48px 0 21px; color:#ffdd9d; line-height:18px; text-transform:uppercase;}
+
+.foo_contactus{float:left; margin:35px 54px 0 32px; color:#ffdd9d; line-height:18px;}
+.foo_icons{float:left; margin:35px 0px 0 50px; color:#ffdd9d; line-height:18px;}
+.icons{margin:17px 0px 0px 0px;}
+.icons img{margin:0px 8px 0px 0px;}
+
+.massege_div{
+color: #FF0000;
+    float: left;
+    font-size: 30px;
+   padding-bottom:5px;
+margin:auto;	
+	}
+
+
+
+
+.massege_error_div{
+
+color: #FF0000;
+    float: left;
+    font-size: 30px;
+    
+    width: 500px; }
+	
+ 
+.select{
+	position: absolute;
+	width:218px;  
+	height:35px;
+	padding: 0px 24px 0px 10px;
+	color: #707070;
+	font: 12px/30px Arial, Helvetica, sans-serif;
+/*	background: url(../images/select.jpg) no-repeat;*/
+	overflow: hidden;
+ 
+}	
+	 

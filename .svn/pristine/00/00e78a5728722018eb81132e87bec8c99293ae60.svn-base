@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.popup_main_outer{  height:auto; overflow:hidden; position:relative; background:#fff; border:1px solid #393939; box-shadow:0 0 1px 1px #313131; border-radius:5px; padding:10px;}
+
+.popup_main{ width:auto; height:auto; border:1px solid #d8d8d8; border-radius:5px; padding:20px;}
+.popup_title{ font:28px/30px 'helvetica_condensedmedium'; color:#cc0000; text-align:center; border-bottom:3px solid #4b4b4b; padding:0 0 16px;} 
+.popup_title span {font:18px/30px 'helvetica_condensedmedium'; color:#575757; display:block;}
+
+.popup_main ul { list-style:none; padding:20px 0 0 10px;}
+.popup_main ul li { margin:0 0 10px;}
+.popup_main ul li .label { font:normal 14px Arial, Helvetica, sans-serif; color:#7a7a7a; padding:0 0 4px 4px;}
+.popup_textbox { width:360px; height:auto; overflow:hidden; padding:8px 10px; font:normal 13px/14px Arial, Helvetica, sans-serif; color:#333; border:1px solid #bebeb9; background:url(../images/popup-from-textbox.png) repeat-x top left;}
+.popup_submit{ width:170px; height:37px; border:0; cursor:pointer; background:url(../images/submit-popup.png) no-repeat; display:block; text-indent:-999em; margin:20px 0 0;}
+.red{color:red}
+.error_msg {
+  color: red;
+  text-align:left !important;
+  min-height: 20px !important;
+}

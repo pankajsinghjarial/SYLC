@@ -1,0 +1,548 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Slyc Newslatter</title>
+</head>
+
+<body>
+		<div style="width:600px; margin:auto; text-align:center" >
+		<table style="width:600px; margin:auto" width="600" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<table cellpadding="0" cellspacing="0">
+					<tr>
+						<td><a href="#"><img src="http://seobranddev.com/sylc/img/menu1_01.gif" alt=" " style="display:block; border:0;" ></a></td>
+						<td><a href="#"><img src="http://seobranddev.com/sylc/img/menu1_02.gif" alt=" " style="display:block; border:0;" ></a></td>
+						<td><a href="#"><img src="http://seobranddev.com/sylc/img/menu1_03.gif" alt=" " style="display:block; border:0;" ></a></td>
+						<td><a href="#"><img src="http://seobranddev.com/sylc/img/menu1_04.gif" alt=" " style="display:block; border:0;" ></a></td>
+						<td><a href="#"><img src="http://seobranddev.com/sylc/img/menu1_05.gif" alt=" " style="display:block; border:0;" ></a></td>
+						<td><a href="#"><img src="http://seobranddev.com/sylc/img/menu1_06.gif" alt=" " style="display:block; border:0;" ></a></td>
+						<td><a href="#"><img src="http://seobranddev.com/sylc/img/menu1_07.gif" alt=" " style="display:block; border:0;" ></a></td>
+						<td><a href="#"><img src="http://seobranddev.com/sylc/img/menu1_08.gif" alt=" " style="display:block; border:0;" ></a></td>
+						<td><a href="#"><img src="http://seobranddev.com/sylc/img/menu1_09.gif" alt=" " style="display:block; border:0;" ></a></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<!-- banner-->
+		<tr>
+			<td>
+				<img src="http://seobranddev.com/sylc/img/banner.gif" alt=" " style="display:block; border:0px;" >
+			</td>
+		</tr>
+		<!-- banner-->
+		
+		
+		<tr>
+			<td style="height:20px;" height="20"> 	</td>
+		</tr>
+		
+		
+		<tr>
+			<td>
+				<table cellpadding="0" cellspacing="0" style="background: #555555; width:600px;" width="600">
+					<tr>
+						<td width="300" style="width:300px; text-align:left; color:#fff; font-size:18px; padding-top:5px; padding-bottom:5px; padding-left:5px">
+						VOITURES NEUVES</td>
+						<td width="300" style="width:300px; text-align:right; color:#fff; font-size:14px;  padding-top:5px; padding-bottom:5px; padding-right:5px;">
+						<a href="#" style="color:#fff;">VIEW ALL</a></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<table cellpadding="0" cellspacing="0">
+					<tr><td style="height:10px" headers="10px;"></td></tr>
+				</table>
+			</td>
+		</tr>
+		
+		<!-- product section -->
+		
+			<tr>
+				<td >
+					<table cellpadding="0" cellspacing="0" style="width:600px;" width="600">
+						<tr>
+							<td>
+								<table cellpadding="1" cellspacing="1" style="width:190px; border:1px #e2e2e2 solid" width="190">
+									<tr>
+										<td>
+											<img src="http://seobranddev.com/sylc/img/car-img.gif" alt=" " style="display:block; border:0">
+										</td>
+									</tr>
+									<tr>
+										<td style="font-family:Arial; font-size:18px; text-align:center; color:#000; height:40px;" headers="40">
+											Mustang V6
+										</td>
+									</tr>
+
+									<tr>
+										<td style="border-top: 1px #e4e4e4 solid; height:40px;">
+											<table cellpadding="0" cellspacing="0">
+												<tr>
+													<td style="font-family:Arial; font-size:18px; text-align:left; color:#000;  font-size:20px; color:#cf0000; padding-left:5px ;width:90px" width="90">$58,345</td>
+													<td style="font-family:Arial; font-size:18px; color:#000; width:90px;" width="90" align="right">
+													<img src="http://seobranddev.com/sylc/img/detaild.gif" alt=" " style="display:block; border:0;" ></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+
+								</table>
+							</td>
+							
+											
+							<!-- product 2-->
+							
+							<td style="padding-left:9px ; padding-right:9px;">
+								<table cellpadding="1" cellspacing="1" style="width:190px; border:1px #e2e2e2 solid" width="190">
+									<tr>
+										<td>
+											<img src="http://seobranddev.com/sylc/img/car-img.gif" alt=" " style="display:block; border:0">
+										</td>
+									</tr>
+									<tr>
+										<td style="font-family:Arial; font-size:18px; text-align:center; color:#000; height:40px;" headers="40">
+											Mustang V6
+										</td>
+									</tr>
+
+									<tr>
+										<td style="border-top: 1px #e4e4e4 solid; height:40px;">
+											<table cellpadding="0" cellspacing="0">
+												<tr>
+													<td style="font-family:Arial; text-align:left; color:#000;  font-size:20px; color:#cf0000; padding-left:5px ;width:90px" width="90">$58,345</td>
+													<td style="font-family:Arial; font-size:18px; color:#000; width:90px;" width="90" align="right">
+													<img src="http://seobranddev.com/sylc/img/detaild.gif" alt=" " style="display:block; border:0;" ></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+
+								</table>
+							</td>
+
+							
+							
+							<!-- product --3  -->
+							
+						<td>
+								<table cellpadding="1" cellspacing="1" style="width:190px; border:1px #e2e2e2 solid" width="190">
+									<tr>
+										<td>
+											<img src="http://seobranddev.com/sylc/img/car-img.gif" alt=" " style="display:block; border:0">
+										</td>
+									</tr>
+									<tr>
+										<td style="font-family:Arial; font-size:18px; text-align:center; color:#000; height:40px;" headers="40">
+											Mustang V6
+										</td>
+									</tr>
+
+									<tr>
+										<td style="border-top: 1px #e4e4e4 solid; height:40px;">
+											<table cellpadding="0" cellspacing="0">
+												<tr>
+													<td style="font-family:Arial;text-align:left; color:#000;  font-size:20px; color:#cf0000; padding-left:5px ;width:90px" width="90">$58,345</td>
+ 													<td style="font-family:Arial; font-size:18px; color:#000; width:90px;" width="90" align="right">
+													<img src="http://seobranddev.com/sylc/img/detaild.gif" alt=" " style="display:block; border:0;" ></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+
+								</table>
+							</td>
+
+							
+							
+						</tr>
+					</table>
+				</td>
+			</tr>
+		
+		<!-- product section -->
+		<tr>
+			<td>
+				<table>
+					<tr><td height="5" style="height:5px;"></td></tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr>
+				<td >
+					<table cellpadding="0" cellspacing="0" style="width:600px;" width="600">
+						<tr>
+							<td>
+								<table cellpadding="1" cellspacing="1" style="width:190px; border:1px #e2e2e2 solid" width="190">
+									<tr>
+										<td>
+											<img src="http://seobranddev.com/sylc/img/car-img.gif" alt=" " style="display:block; border:0">
+										</td>
+									</tr>
+									<tr>
+										<td style="font-family:Arial; font-size:18px; text-align:center; color:#000; height:40px;" headers="40">
+											Mustang V6
+										</td>
+									</tr>
+
+									<tr>
+										<td style="border-top: 1px #e4e4e4 solid; height:40px;">
+											<table cellpadding="0" cellspacing="0">
+												<tr>
+													<td style="font-family:Arial; font-size:18px; text-align:left; color:#000;  font-size:20px; color:#cf0000; padding-left:5px ;width:90px" width="90">$58,345</td>
+													<td style="font-family:Arial; font-size:18px; color:#000; width:90px;" width="90" align="right">
+													<img src="http://seobranddev.com/sylc/img/detaild.gif" alt=" " style="display:block; border:0;" ></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+
+								</table>
+							</td>
+							
+											
+							<!-- product 2-->
+							
+							<td style="padding-left:9px ; padding-right:9px;">
+								<table cellpadding="1" cellspacing="1" style="width:190px; border:1px #e2e2e2 solid" width="190">
+									<tr>
+										<td>
+											<img src="http://seobranddev.com/sylc/img/car-img.gif" alt=" " style="display:block; border:0">
+										</td>
+									</tr>
+									<tr>
+										<td style="font-family:Arial; font-size:18px; text-align:center; color:#000; height:40px;" headers="40">
+											Mustang V6
+										</td>
+									</tr>
+
+									<tr>
+										<td style="border-top: 1px #e4e4e4 solid; height:40px;">
+											<table cellpadding="0" cellspacing="0">
+												<tr>
+													<td style="font-family:Arial; text-align:left; color:#000;  font-size:20px; color:#cf0000; padding-left:5px ;width:90px" width="90">$58,345</td>
+													<td style="font-family:Arial; font-size:18px; color:#000; width:90px;" width="90" align="right">
+													<img src="http://seobranddev.com/sylc/img/detaild.gif" alt=" " style="display:block; border:0;" ></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+
+								</table>
+							</td>
+
+							
+							
+							<!-- product --3  -->
+							
+						<td>
+								<table cellpadding="1" cellspacing="1" style="width:190px; border:1px #e2e2e2 solid" width="190">
+									<tr>
+										<td>
+											<img src="http://seobranddev.com/sylc/img/car-img.gif" alt=" " style="display:block; border:0">
+										</td>
+									</tr>
+									<tr>
+										<td style="font-family:Arial; font-size:18px; text-align:center; color:#000; height:40px;" headers="40">
+											Mustang V6
+										</td>
+									</tr>
+
+									<tr>
+										<td style="border-top: 1px #e4e4e4 solid; height:40px;">
+											<table cellpadding="0" cellspacing="0">
+												<tr>
+													<td style="font-family:Arial;text-align:left; color:#000;  font-size:20px; color:#cf0000; padding-left:5px ;width:90px" width="90">$58,345</td>
+ 													<td style="font-family:Arial; font-size:18px; color:#000; width:90px;" width="90" align="right">
+													<img src="http://seobranddev.com/sylc/img/detaild.gif" alt=" " style="display:block; border:0;" ></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+
+								</table>
+							</td>
+
+							
+							
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+		
+		
+		
+		<!-- product section 2 end -->
+		
+		<tr>
+			<td>
+				<table>
+					<tr><td height="1" style="height:1px;"></td></tr>
+				</table>
+			</td>
+		</tr>
+		
+		<!-- black table section -->
+		<tr>
+			<td>
+				<table cellpadding="0" cellspacing="5" style="background:#000000; width:600px; padding:9px 9px;" width="600">
+					<tr>
+						<td style="width:160px" width="160"> <img src="http://seobranddev.com/sylc/img/man-post-1.gif" alt=" " style=" display:block; border:0" ></td>
+						<td style="width:410px; vertical-align:top;" width="410" valign="top">
+							<table cellpadding="0" cellspacing="0" style="width:405px; text-align:left; color:#fff;" width="405">
+								<tr>
+									<td valign="top" style="vertical-align:top; font-size:20px; height:40px;" height="40">PRÉSENTATION</td>
+								</tr>
+								<tr>
+									<td  valign="top" style="vertical-align:top; font-size:12px; height:65px" height="65">
+									SYLC COR PORATION, établi depuis 7 ans dans le secteur de l’automobile, est spécialisé 	dans l’exportation de véhicules en tous genres 										en provenance des 	Etats Unis. </td>
+								</tr>
+								
+								<tr>
+									<td  valign="top" style="vertical-align:top; font-size:12px;"><a href="#" style="color: #004997;">Read more </a></td>
+								</tr>
+								
+							</table>
+						</td>
+						
+					</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<!-- padding table-->
+		<tr>
+			<td height="5" style="height:5px;"></td>
+		</tr>
+		
+		<!-- black table section -->
+		<tr>
+			<td>
+				<table cellpadding="0" cellspacing="5" style="background:#000000; width:600px; padding:9px 9px;" width="600">
+					<tr>
+						<td style="width:160px" width="160"> <img src="http://seobranddev.com/sylc/img/car-red.gif" alt=" " style=" display:block; border:0" ></td>
+						<td style="width:410px; vertical-align:top;" width="410" valign="top">
+							<table cellpadding="0" cellspacing="0" style="width:405px; text-align:left; color:#fff;" width="405">
+								<tr>
+									<td valign="top" style="vertical-align:top; font-size:20px; height:40px;" height="40">NEWS</td>
+								</tr>
+								<tr>
+									<td  valign="top" style="vertical-align:top; font-size:12px; height:40px" height="40"><span style="color: #cf0000;">
+									La e-Brochure Mustang</span><br>Téléchargez gratuitement la brochure. Rentrez simplement vos...  </td>
+								</tr>
+								
+								<tr>
+									<td  valign="top" style="vertical-align:top; font-size:12px;"><a href="#" style="color: #004997;">Read more </a></td>
+								</tr>
+								
+							</table>
+						</td>
+						
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+		
+		
+		<!-- black table section end -->
+		<!-- padding table-->
+		<tr>
+			<td>
+				<table>
+					<tr><td height="1" style="height:1px;"></td></tr>
+				</table>
+			</td>
+		</tr>
+
+		<!--- bottom 3 banner section -->
+		
+		<tr>
+			<td>
+				<table cellpadding="0" cellspacing="0" style="width:600px" width="600">
+					<tr>
+						<td style="width:200px;" width="200"><a href="3"> <img src="http://seobranddev.com/sylc/img/banner-left-small.gif" alt=" " style=" display:block; border:0" ></a></td>
+					
+						<td style="width:200px; padding-left:4px ; padding-right:4px;" width="200">
+							<table cellpadding="0" cellspacing="0" style="width:200px;" width="200">
+								<tr><td> <a><img src="http://seobranddev.com/sylc/img/davis-bnr.gif" alt=" " style=" display:block; border:0;" ></a></td></tr>
+								<tr><td style="padding-top: 4px;"> <a><img src="http://seobranddev.com/sylc/img/calssic-bnr.gif" alt=" " style=" display:block; border:0;" ></a></td></tr>
+								<tr><td> <a><img src="http://seobranddev.com/sylc/img/media-bnr.gif" alt=" " style=" display:block; border:0;" ></a></td></tr>
+							</table>
+						</td>
+					
+					<td style="width:200px;" width="200"><a href="#"> <img src="http://seobranddev.com/sylc/img/view-all-bnr.gif" alt=" " style="display:block; border:0"> </a></td>
+					
+					</tr>
+				</table>
+			</td>
+		</tr>
+		
+		
+		<!-- padding table-->
+		<tr>
+			<td>
+				<table>
+					<tr><td height="10" style="height:10px;"></td></tr>
+				</table>
+			</td>
+		</tr>
+
+		<!-- banner section last -->
+		
+		
+		<tr>
+			<td> 
+				<table cellpadding="0" cellspacing="0" style="width:600px; border:1px #e2e2e2 solid; padding-bottom: 5px;" width="600">
+					<tr>
+						<td style="font-size: 22px; color: #000; text-align: left; height:28px; vertical-align:top; padding-left:10px; padding-top:10px;" height="28" valign="top">			Les Accessoires</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<table cellpadding="1" cellspacing="1" style="width:600px">
+								<tr>
+									<td width="190" style="width:190px; vertical-align:top;" valign="top">
+										<table cellpadding="1" cellspacing="1" style="width:185px; margin:auto;" align="center" width="185;">
+											<tr>
+												<td><a href="#"><img src="http://seobranddev.com/sylc/img/bottom-bnr-1.gif" alt=" " style="display:block; border:0px;"></a></td>
+											</tr>
+											<tr>
+												<td style="background: #d1d1d1; text-align: center; color: #cf0000; font-size: 15px; padding-top: 10px; padding-bottom:10px">
+												Plaquesf Americaines <br>$50 les 2 </td>
+											</tr>
+
+										</table>
+									</td>
+									
+									
+									<td width="190" style="width:190px; vertical-align:top;" valign="top">
+										<table cellpadding="1" cellspacing="1" style="width:185px; margin:auto;" align="center" width="185;">
+											<tr>
+												<td><a href="#"><img src="http://seobranddev.com/sylc/img/bottom-bnr-2.gif" alt=" " style="display:block; border:0px; "></a></td>
+											</tr>
+											<tr>
+												<td style="background: #d1d1d1; text-align: center; color: #cf0000; font-size: 15px; padding-top: 10px; padding-bottom:10px">
+												Telecharger la Brouchure <br>Mustang Gratuitement </td>
+											</tr>
+
+										</table>
+									</td>
+
+
+
+								<td width="190" style="width:190px; vertical-align:top;" valign="top">
+										<table cellpadding="1" cellspacing="1" style="width:185px; margin:auto;" align="center" width="185;">
+											<tr>
+												<td><a href="#"><img src="http://seobranddev.com/sylc/img/bottom-bnr-3.gif" alt=" " style="display:block; border:0px;"></a></td>
+											</tr>
+											<tr>
+												<td style="background: #d1d1d1; text-align: center; color: #cf0000; font-size: 15px; padding-top: 10px; padding-bottom:10px">
+												Revues Techniques<br>&nbsp;  </td>
+											</tr>
+
+										</table>
+									</td>
+
+									
+									
+								</tr>							
+							 </table>
+						</td>
+					</tr>
+					
+					
+				</table>
+			</td>
+		</tr>
+		
+		<!-- padding table-->
+		<tr>
+			<td>
+				<table>
+					<tr><td height="20" style="height:20px;"></td></tr>
+				</table>
+			</td>
+		</tr>
+
+		<!-- footer for social -->
+		
+		<tr>
+			<td>
+				<table cellpadding="0" cellspacing="0" style="width:600px; background: #2f2f2f; border-top:1px #000000 solid; border-bottom:1px #c8c8c8 solid;" width="600" bgcolor="2f2f2f" >
+					<tr>
+						<td width="180" height="50" style="width:180px; height:50px;">
+							<table cellpadding="0" cellspacing="0" style="width:160px;" width="160" align="center">
+							<tr>
+								<td><a href="#"><img src="http://seobranddev.com/sylc/img/facebook.gif" alt=" " style="display:block; border:0px;"></a></td>
+								<td><a href="#"><img src="http://seobranddev.com/sylc/img/tweeter.gif" alt=" " style="display:block; border:0px;"></a></td>
+								<td><a href="#"><img src="http://seobranddev.com/sylc/img/google.gif" alt=" " style="display:block; border:0px;"></a></td>
+								<td><a href="#"><img src="http://seobranddev.com/sylc/img/pintrest.gif" alt=" " style="display:block; border:0px;"></a></td>
+							</tr>
+							</table>
+						</td>
+						
+						<td width="420" style="width:420px; text-align:right">
+							<table cellpadding="0" cellspacing="0" style="width:410px;" align="right">
+								<tr>
+									<td width="220" style="width:220px;">
+										<table cellpadding="0" cellspacing="0" align="right" >
+											<tr>
+												<td><img src="http://seobranddev.com/sylc/img/telephone.gif" alt=" " style="display:block; border:0"></td>
+												<td style=" text-align:right; padding-left:10px"><a href="callto:01.76.63.32.16"  style="color: #c5c5c5; text-decoration: none;">(Fr) 01.76.63.32.16</a></td>
+											</tr>
+										</table>
+									</td>
+									
+									<td width="220" style="width:220px;">
+										<table cellpadding="0" cellspacing="0" align="right" >
+											<tr>
+												<td><img src="http://seobranddev.com/sylc/img/mail.gif" alt=" " style="display:block; border:0"></td>
+												<td style=" text-align:right; padding-right:10px;  padding-left:5px"><a href="mailto:info@sylc-export.com"  style="color: #c5c5c5; text-decoration: none;">info@sylc-export.com</a></td>
+											</tr>
+										</table>
+									</td>
+
+									
+									
+								</tr>
+							</table>
+						</td>
+						
+					</tr>	
+				</table>
+			</td>
+		</tr>
+		
+		<!-- footer 2 start -->
+		
+		<tr>
+			<td>
+				<table cellpadding="0" cellspacing="0" style="width:600px; border-top:1px #707070 solid;" width="600px;">
+					<tr>
+						<td style="background: #bdbdbd; text-align: center; padding-top: 15px; padding-bottom:15px; font-size: 11px; color: #2c2c2c;">
+						Hollywood, FL 33020 | Numero Francais:<a href="callto:01.76.63.32.16" style="color: #2c2c2c; text-decoration: none;"> 01.76.63.32.16
+		</a><br>Droits d&#39;auteur © <a href="www.SYLC.com" style="color: #2c2c2c; text-decoration: none;">SYLC.com</a>. 
+		Tous droits réservés 
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		
+		
+		
+	</table>
+
+</div>
+</body>
+
+</html>

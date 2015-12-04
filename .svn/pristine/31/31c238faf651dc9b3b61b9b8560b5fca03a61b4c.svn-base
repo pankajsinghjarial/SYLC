@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tabbed_td{
+	border-right:1px solid #999;
+	width:13%;
+}
+#car_tabs{
+	list-style:none;
+	border-top:1px solid #999;
+}
+#car_tabs li.active,#car_tabs li:hover{
+	border-bottom:1px solid #999;
+	font-weight:bold;
+	background-color:#434343;
+	color:#FFF;
+	cursor:pointer;
+}
+#car_tabs li span.error{
+	background: url(../images/error_msg_icon.gif) no-repeat scroll right center window;
+    float: right;
+    width: 20px;	
+}
+#car_tabs li{
+	line-height:25px;
+	border-bottom:1px solid #999;
+	background-color:#fff;
+	color:#000;
+	padding:0 0 0 5px;
+	cursor:pointer;
+}
+#car_tabs li span{
+	cursor:pointer;	
+}
+.tab_zero_height{
+	height:0;
+	visibility:hidden;
+}
+#tabbed{
+	overflow:hidden;
+}
+#tabbed div.table {
+	overflow:hidden;
+}
+#tabbed div.table table {
+	vertical-align:top;
+}
+.show_error{
+	border: 1px solid #FF0000;
+    margin: 0 0 0 10px;
+    padding: 2px 10px;
+}

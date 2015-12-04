@@ -1,0 +1,50 @@
+[22-Aug-2013 16:47:07] PHP Fatal error:  Call to undefined function  add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[22-Aug-2013 23:48:50] PHP Fatal error:  Call to undefined function  add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[23-Aug-2013 05:44:42] PHP Fatal error:  Call to undefined function  add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[23-Aug-2013 12:08:54] PHP Fatal error:  Call to undefined function  add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[23-Aug-2013 14:35:19] PHP Fatal error:  Call to undefined function  add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[05-Nov-2013 00:01:07] PHP Fatal error:  Call to undefined function  add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[05-Nov-2013 07:11:21] PHP Fatal error:  Call to undefined function  add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[05-Nov-2013 11:22:10] PHP Fatal error:  Call to undefined function  add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[05-Nov-2013 17:36:20] PHP Fatal error:  Call to undefined function  add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[06-Nov-2013 00:24:43] PHP Fatal error:  Call to undefined function  add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[09-Jan-2014 01:22:09] PHP Fatal error:  Call to undefined function  add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[09-Jan-2014 09:41:29] PHP Fatal error:  Call to undefined function  add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[09-Jan-2014 15:40:08] PHP Fatal error:  Call to undefined function  add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[09-Jan-2014 22:41:34] PHP Fatal error:  Call to undefined function  add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[10-Jan-2014 02:10:51] PHP Fatal error:  Call to undefined function  add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[06-Feb-2014 22:32:03 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[07-Feb-2014 04:24:19 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[07-Feb-2014 10:57:16 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[07-Feb-2014 13:18:55 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[07-Feb-2014 19:19:03 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[09-May-2014 23:12:22 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[10-May-2014 06:46:49 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[10-May-2014 14:10:37 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[11-May-2014 14:28:01 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[31-Jul-2014 11:33:05 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[31-Jul-2014 17:10:30 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[01-Aug-2014 00:45:16 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[01-Aug-2014 08:50:36 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[02-Nov-2014 15:28:05 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[23-Dec-2014 07:56:52 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[16-Apr-2015 02:54:20 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[16-Apr-2015 09:26:41 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[16-Apr-2015 10:30:27 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[16-Apr-2015 15:24:50 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[16-Apr-2015 16:00:16 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[16-Apr-2015 21:54:49 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[16-Apr-2015 22:04:39 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[17-Apr-2015 04:26:00 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[17-Apr-2015 10:57:07 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[17-Apr-2015 18:04:24 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[01-Aug-2015 22:42:57 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[06-Aug-2015 07:27:33 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[12-Aug-2015 06:14:11 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[31-Aug-2015 07:13:45 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[31-Aug-2015 14:56:01 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[01-Sep-2015 00:03:52 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[01-Sep-2015 05:20:59 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[03-Oct-2015 04:52:04 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[09-Oct-2015 02:39:26 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79
+[13-Oct-2015 03:06:43 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/upgrade.php on line 79

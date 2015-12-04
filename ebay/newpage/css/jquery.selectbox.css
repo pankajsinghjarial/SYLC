@@ -1,0 +1,12 @@
+.customStyleSelectBox {
+/* Styles For Your Select Box */
+}
+
+.customStyleSelectBox.changed {
+/* You can use this if you want a different style after user has made a selection */
+}
+
+/* on the next line we add a down arrow on the right to indicate that it is a select box */
+.customStyleSelectBoxInner {
+background:url(canvas-list-nav-item-arrow-.gif) no-repeat center right;
+}

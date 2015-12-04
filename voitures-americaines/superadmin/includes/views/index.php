@@ -1,0 +1,68 @@
+<?php
+ $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "laraveldemo";
+
+// Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+
+
+	$sql = "SELECT * FROM newsletter where id='1'";
+	$result = $conn->query($sql);
+	$row = $result->fetch_assoc();
+if (isset($_POST['content'])) {
+
+   
+
+
+
+    $text = $firstname = mysqli_real_escape_string($conn, $_POST['content']);
+    $sql = "update newsletter set text='$text' where id='1'";
+
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+$sql = "SELECT * FROM newsletter where id='1'";
+	$result = $conn->query($sql);
+	$row = $result->fetch_assoc();
+    $conn->close();
+}
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="tinymce/js/tinymce/tinymce.min.js"></script>
+        <script type="text/javascript">
+            tinymce.init({
+                selector: "textarea",
+                plugins: [
+                    "advlist autolink lists link image charmap print preview anchor",
+                    "searchreplace visualblocks code fullscreen",
+                    "insertdatetime media table contextmenu paste"
+                ],
+                toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"
+            });
+
+            tinymce.init({
+                images_upload_base_path: "/some/basepath"
+            });
+        </script>
+    </head>
+    <body>
+        <h1></h1>
+
+        <form method="post" action="">
+            <textarea name="content" style="width:100%;height:600px;">
+	<?php echo $row['text']; ?>
+            </textarea>
+            <input type="submit"/>
+        </form>

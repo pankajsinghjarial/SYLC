@@ -1,0 +1,14 @@
+,tommyc@pelicanww.com
+
+
+Paypal PRO email :
+pilatesinmotion@optonline.net
+
+Paypal API username :
+PilatesInMotion_api1.optonline.net
+
+Paypal API password : 
+8B2AA2TECJP5CPT5
+
+Paypal API signature : 
+AkVd-UzQsouPEMA4bv42U8ISWftsAiEtYmYP.0V1JO7wsfMS-6xdWw-n

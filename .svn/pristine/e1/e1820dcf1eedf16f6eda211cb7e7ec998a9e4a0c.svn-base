@@ -1,0 +1,251 @@
+[20-Mar-2014 17:36:06 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[20-Mar-2014 17:36:06 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[20-Mar-2014 17:36:06 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[20-Mar-2014 17:36:38 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[20-Mar-2014 17:36:43 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[23-Apr-2014 10:24:46 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[23-Apr-2014 10:24:46 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[23-Apr-2014 10:24:46 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[23-Apr-2014 10:24:55 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[25-Jun-2014 13:38:35 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[25-Jun-2014 13:38:35 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[25-Jun-2014 13:38:35 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[25-Jun-2014 13:38:55 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[25-Jun-2014 13:38:55 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[26-Jun-2014 18:11:56 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[26-Jun-2014 18:12:00 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[26-Jun-2014 18:12:00 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[26-Jun-2014 18:12:00 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[26-Jun-2014 18:12:11 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[26-Jun-2014 18:12:11 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[26-Jun-2014 18:12:42 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[26-Jun-2014 18:12:42 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[30-Jun-2014 10:15:56 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[30-Jun-2014 10:16:06 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[30-Jun-2014 10:16:06 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[30-Jun-2014 10:16:06 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[30-Jun-2014 10:16:30 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[30-Jun-2014 10:16:30 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[30-Jun-2014 10:16:48 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[30-Jun-2014 10:16:57 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[30-Jun-2014 10:16:57 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[30-Jun-2014 10:16:57 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[30-Jun-2014 10:17:12 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[30-Jun-2014 10:17:12 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[30-Jun-2014 10:17:18 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[30-Jun-2014 10:17:18 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[30-Jun-2014 10:17:18 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[30-Jun-2014 10:17:30 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[30-Jun-2014 10:17:30 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[17-Sep-2014 10:25:03 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[17-Sep-2014 10:25:15 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[17-Sep-2014 10:25:15 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[17-Sep-2014 10:25:15 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[17-Sep-2014 10:26:46 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[17-Sep-2014 10:26:46 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[17-Sep-2014 10:26:50 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[17-Sep-2014 10:26:50 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[17-Sep-2014 10:26:50 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[17-Sep-2014 10:27:11 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[17-Sep-2014 10:27:12 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[17-Sep-2014 10:27:21 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[17-Sep-2014 10:27:21 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[17-Sep-2014 10:27:21 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[17-Sep-2014 10:27:57 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[17-Sep-2014 10:27:57 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[17-Sep-2014 10:28:01 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[17-Sep-2014 10:28:01 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[17-Sep-2014 10:28:01 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[17-Sep-2014 10:28:53 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[17-Sep-2014 10:28:54 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[29-Oct-2014 10:37:41 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[29-Oct-2014 10:37:53 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[29-Oct-2014 10:37:53 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[29-Oct-2014 10:37:53 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[29-Oct-2014 10:38:13 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[29-Oct-2014 10:38:15 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[25-Nov-2014 06:52:31 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[25-Nov-2014 06:52:36 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[25-Nov-2014 06:52:40 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[25-Nov-2014 06:52:40 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[25-Nov-2014 06:52:40 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[25-Nov-2014 06:53:00 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[25-Nov-2014 06:53:00 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[25-Nov-2014 06:53:05 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[25-Nov-2014 06:53:05 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[25-Nov-2014 06:53:05 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[25-Nov-2014 06:53:17 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[25-Nov-2014 06:53:17 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[25-Nov-2014 06:53:23 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[25-Nov-2014 06:53:23 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[25-Nov-2014 06:53:23 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[25-Nov-2014 06:53:35 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[25-Nov-2014 06:53:35 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[25-Nov-2014 06:53:42 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[25-Nov-2014 06:53:45 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[25-Nov-2014 06:53:49 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[25-Nov-2014 06:53:49 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[25-Nov-2014 06:53:49 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[25-Nov-2014 06:54:02 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[25-Nov-2014 06:54:02 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[25-Nov-2014 06:54:07 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[25-Nov-2014 06:54:07 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[25-Nov-2014 06:54:07 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[25-Nov-2014 06:54:21 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[25-Nov-2014 06:54:22 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[25-Nov-2014 06:54:26 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[25-Nov-2014 06:54:26 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[25-Nov-2014 06:54:26 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[25-Nov-2014 06:54:37 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[25-Nov-2014 06:54:37 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[25-Nov-2014 06:54:41 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[25-Nov-2014 06:54:41 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[25-Nov-2014 06:54:41 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[25-Nov-2014 06:54:58 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[25-Nov-2014 06:54:58 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[11-Dec-2014 03:19:03 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[11-Dec-2014 03:19:07 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[11-Dec-2014 03:19:07 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[11-Dec-2014 03:19:07 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[11-Dec-2014 03:19:34 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[11-Dec-2014 03:19:34 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[11-Dec-2014 14:53:46 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[11-Dec-2014 15:38:19 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[11-Dec-2014 15:38:19 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[11-Dec-2014 15:38:19 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[11-Dec-2014 15:38:51 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[11-Dec-2014 15:38:51 America/New_York] PHP Notice:  Uninitialized string offset: 0 in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[11-Dec-2014 15:38:58 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[11-Dec-2014 15:38:59 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[31-Dec-2014 09:02:55 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[31-Dec-2014 09:03:06 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[31-Dec-2014 09:03:06 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[31-Dec-2014 09:03:06 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[31-Dec-2014 09:03:59 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[31-Dec-2014 09:04:00 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[07-Jan-2015 14:58:04 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[07-Jan-2015 14:58:06 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[07-Jan-2015 14:58:28 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[07-Jan-2015 14:58:28 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[07-Jan-2015 14:58:28 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[07-Jan-2015 14:58:38 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[07-Jan-2015 14:58:38 America/New_York] PHP Notice:  Uninitialized string offset: 0 in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[07-Jan-2015 14:58:48 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[07-Jan-2015 14:58:48 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[08-Jan-2015 12:17:39 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[08-Jan-2015 12:17:59 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[08-Jan-2015 12:17:59 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[08-Jan-2015 12:17:59 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[08-Jan-2015 12:18:50 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[08-Jan-2015 12:18:51 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[08-Jan-2015 12:19:10 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[08-Jan-2015 12:19:11 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[08-Jan-2015 18:13:02 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[08-Jan-2015 18:13:12 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[08-Jan-2015 18:13:12 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[08-Jan-2015 18:13:12 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[08-Jan-2015 18:13:44 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[08-Jan-2015 18:13:45 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[14-Jan-2015 09:50:17 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[14-Jan-2015 09:50:30 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[14-Jan-2015 09:50:30 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[14-Jan-2015 09:50:30 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[14-Jan-2015 09:50:44 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[14-Jan-2015 09:50:44 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[14-Jan-2015 09:50:51 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[14-Jan-2015 09:50:51 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[14-Jan-2015 09:50:51 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[14-Jan-2015 09:51:25 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[14-Jan-2015 09:51:25 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[14-Jan-2015 09:51:29 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[14-Jan-2015 09:51:29 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[14-Jan-2015 09:51:29 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[14-Jan-2015 09:51:49 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[14-Jan-2015 09:51:50 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[14-Jan-2015 09:52:00 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[14-Jan-2015 09:52:00 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[14-Jan-2015 09:52:00 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[14-Jan-2015 09:52:15 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[14-Jan-2015 09:52:15 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[14-Jan-2015 09:53:38 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[14-Jan-2015 09:53:38 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[14-Jan-2015 09:53:38 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[14-Jan-2015 09:54:05 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[14-Jan-2015 09:54:06 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[20-Jan-2015 16:00:01 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[20-Jan-2015 16:00:22 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[20-Jan-2015 16:00:23 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[03-Feb-2015 15:33:45 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[03-Feb-2015 15:34:14 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[03-Feb-2015 15:34:18 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[03-Feb-2015 15:34:21 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[03-Feb-2015 15:34:24 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[03-Feb-2015 15:34:24 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[03-Feb-2015 15:34:24 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[03-Feb-2015 15:34:48 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[03-Feb-2015 15:34:48 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[05-Feb-2015 14:33:28 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[05-Feb-2015 14:33:37 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[05-Feb-2015 14:33:42 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[05-Feb-2015 14:33:46 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[05-Feb-2015 14:33:56 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[05-Feb-2015 14:33:57 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[06-Apr-2015 22:25:56 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[06-Apr-2015 22:26:21 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[06-Apr-2015 22:27:18 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[28-Apr-2015 07:39:18 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[28-Apr-2015 07:39:32 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[28-Apr-2015 07:39:32 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[28-Apr-2015 07:39:32 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[28-Apr-2015 07:39:52 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[28-Apr-2015 07:39:52 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[28-Apr-2015 07:40:08 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[28-Apr-2015 07:40:08 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[28-Apr-2015 07:40:08 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[28-Apr-2015 07:40:25 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[28-Apr-2015 07:40:25 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[28-Apr-2015 07:40:38 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[28-Apr-2015 07:40:38 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[28-Apr-2015 07:40:38 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[28-Apr-2015 07:40:52 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[28-Apr-2015 07:40:52 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[28-Apr-2015 07:41:01 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[28-Apr-2015 07:41:01 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[28-Apr-2015 07:41:01 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[28-Apr-2015 07:41:15 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[28-Apr-2015 07:41:16 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[04-May-2015 05:37:22 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[04-May-2015 05:37:37 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[04-May-2015 05:37:37 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[04-May-2015 05:37:37 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[04-May-2015 05:37:51 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[04-May-2015 05:37:52 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[21-May-2015 12:10:56 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[21-May-2015 12:11:08 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[21-May-2015 12:11:08 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[21-May-2015 12:11:08 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[21-May-2015 12:11:08 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[21-May-2015 12:11:08 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[21-May-2015 12:11:08 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[21-May-2015 12:11:22 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[21-May-2015 12:11:23 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[16-Jun-2015 08:19:18 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[20-Jun-2015 15:29:18 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[20-Jun-2015 15:29:28 America/New_York] PHP Notice:  Undefined variable: title in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 132
+[20-Jun-2015 15:29:28 America/New_York] PHP Notice:  Undefined variable: fees in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 152
+[20-Jun-2015 15:29:28 America/New_York] PHP Notice:  Undefined variable: status in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/form/add_form.php on line 172
+[20-Jun-2015 15:29:41 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[20-Jun-2015 15:29:41 America/New_York] PHP Notice:  Uninitialized string offset: 0 in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[20-Jun-2015 15:29:47 America/New_York] PHP Warning:  Illegal string offset 'name' in /home3/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[20-Jun-2015 15:29:47 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[26-Jun-2015 09:43:43 America/New_York] PHP Notice:  Undefined variable: adjacents in /home3/sylcexpo/public_html/voitures-americaines/admin/fees/code/code.php on line 84
+[17-Sep-2015 17:01:14 America/New_York] PHP Warning:  Illegal string offset 'name' in /home/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[17-Sep-2015 17:01:14 America/New_York] PHP Warning:  Illegal string offset 'name' in /home/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[18-Sep-2015 07:59:22 America/New_York] PHP Warning:  Illegal string offset 'name' in /home/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[18-Sep-2015 07:59:22 America/New_York] PHP Warning:  Illegal string offset 'name' in /home/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[18-Sep-2015 08:00:31 America/New_York] PHP Warning:  Illegal string offset 'name' in /home/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[18-Sep-2015 08:00:31 America/New_York] PHP Warning:  Illegal string offset 'name' in /home/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[18-Sep-2015 08:01:42 America/New_York] PHP Warning:  Illegal string offset 'name' in /home/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[18-Sep-2015 08:01:42 America/New_York] PHP Warning:  Illegal string offset 'name' in /home/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[18-Sep-2015 08:02:11 America/New_York] PHP Warning:  Illegal string offset 'name' in /home/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39
+[18-Sep-2015 08:02:11 America/New_York] PHP Warning:  Illegal string offset 'name' in /home/sylcexpo/public_html/voitures-americaines/classes/validation.class.php on line 39

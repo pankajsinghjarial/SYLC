@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <onestepcheckout_adminhtml_onestepcheckout_index>
+        <reference name="content">
+            <block type="onestepcheckout/adminhtml_onestepcheckout" name="onestepcheckout" />
+        </reference>
+    </onestepcheckout_adminhtml_onestepcheckout_index>
+	
+	<adminhtml_sales_order_view>
+	 
+			<reference name="order_tab_info">
+				<action method="setTemplate"><template>mw_onestepcheckout/sales/order/view/tab/info.phtml</template></action>
+				<block type="onestepcheckout/adminhtml_onestepcheckout_sales_order_view_tab_info_customermessages" name="customer_messages" template="mw_onestepcheckout/sales/order/view/tab/info/customermessages.phtml"></block>
+				<block type="onestepcheckout/adminhtml_onestepcheckout_sales_order_view_tab_info_deliverydate" name="deliverydate" template="mw_onestepcheckout/sales/order/view/tab/info/deliverydate.phtml"></block>
+			</reference>
+		
+	</adminhtml_sales_order_view>
+	
+	<adminhtml_system_config_edit>		
+			<reference name="head">
+			<action method="addCss"><stylesheet>mw_onestepcheckout/css/colorpicker.css</stylesheet></action>
+    		<action method="addJs"><script>mw_js/jquery.js</script></action>    		
+    		<action method="addJs"><script>mw_onestepcheckout/colorpicker.js</script></action>
+    		<action method="addJs"><script>mw_onestepcheckout/validate.js</script></action>
+			</reference>
+	</adminhtml_system_config_edit>
+</layout>

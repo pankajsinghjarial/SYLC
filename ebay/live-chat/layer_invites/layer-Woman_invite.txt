@@ -1,0 +1,1 @@
+<MAP NAME=myimagemap><AREA HREF=javascript:openLiveHelp() SHAPE=RECT COORDS=126,71,429,172><AREA HREF=javascript:closeDHTML() SHAPE=RECT COORDS=311,5,440,45></MAP>

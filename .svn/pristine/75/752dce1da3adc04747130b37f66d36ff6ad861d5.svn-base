@@ -1,0 +1,240 @@
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined index: limit in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 6
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined index: start in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 47
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined variable: type in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 91
+[07-Apr-2015 16:50:59 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[07-Apr-2015 16:50:59 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 203
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 212
+[07-Apr-2015 16:50:59 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined index: limit in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 6
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined index: start in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 47
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined variable: type in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 91
+[08-Apr-2015 16:47:38 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[08-Apr-2015 16:47:38 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 203
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 212
+[08-Apr-2015 16:47:38 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined index: limit in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 6
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined index: start in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 47
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined variable: type in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 91
+[22-Apr-2015 12:44:54 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[22-Apr-2015 12:44:54 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 203
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 212
+[22-Apr-2015 12:44:54 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined index: limit in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 6
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined index: start in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 47
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined variable: type in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 91
+[24-Apr-2015 10:45:36 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[24-Apr-2015 10:45:36 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 203
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 212
+[24-Apr-2015 10:45:36 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined index: limit in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 6
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined index: start in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 47
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined variable: type in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 91
+[28-Apr-2015 11:18:40 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[28-Apr-2015 11:18:40 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 203
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 212
+[28-Apr-2015 11:18:40 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined index: limit in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 6
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined index: start in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 47
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined variable: type in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 91
+[14-May-2015 09:59:18 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[14-May-2015 09:59:18 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 203
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 212
+[14-May-2015 09:59:18 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined index: limit in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 6
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined index: start in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 47
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined variable: type in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 91
+[20-May-2015 18:03:37 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[20-May-2015 18:03:37 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 203
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 212
+[20-May-2015 18:03:37 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined index: limit in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 6
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined index: start in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 47
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined variable: type in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 91
+[22-May-2015 15:11:11 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[22-May-2015 15:11:11 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 203
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 212
+[22-May-2015 15:11:11 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined index: limit in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 6
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined index: start in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 47
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined variable: type in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 91
+[29-May-2015 11:29:44 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[29-May-2015 11:29:44 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 203
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 212
+[29-May-2015 11:29:44 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined index: limit in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 6
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined index: start in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 47
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined variable: type in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 91
+[01-Jun-2015 10:01:18 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[01-Jun-2015 10:01:18 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 203
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 212
+[01-Jun-2015 10:01:18 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[02-Jun-2015 07:22:37 America/New_York] PHP Notice:  Undefined index: limit in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 6
+[02-Jun-2015 07:22:37 America/New_York] PHP Notice:  Undefined index: start in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 47
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  Undefined variable: type in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 91
+[02-Jun-2015 07:22:38 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[02-Jun-2015 07:22:38 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 203
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 212
+[02-Jun-2015 07:22:38 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[29-Jun-2015 11:39:00 America/New_York] PHP Notice:  Undefined index: limit in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 6
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined index: start in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 47
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined variable: type in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 86
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/newsletter/code/guest_code.php on line 91
+[29-Jun-2015 11:39:01 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[29-Jun-2015 11:39:01 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 154
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 203
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/newsletter/view/view.php on line 212
+[29-Jun-2015 11:39:01 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129

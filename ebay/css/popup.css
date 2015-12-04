@@ -1,0 +1,171 @@
+/*---- popup ----*/
+.popup {
+	width:500px;
+	height:500px;
+	margin:0 auto; overflow:hidden;
+}
+
+/*---- popup_head ----*/
+.popup_head {
+	width:500px;
+	height:72px;
+	overflow:hidden;
+	background:url(../images/top_headbg.png) top no-repeat;
+}
+.popup_head p {
+	font-family:"Trebuchet MS"; font-size:22px; font-weight:bold; color:#ffffff; text-align:center; padding:8px 0 0 0;
+	}
+	
+/*---- popup_cnt ----*/	
+.popup_cnt {
+	width:498px;
+	overflow:hidden;
+	background:#ffffff;
+	margin:0 auto;
+}	
+.popup_cnt01 {
+	width:450px;
+	overflow:hidden;
+	margin:33px 0 0 30px;
+}
+.input_text {
+	font-family:"Trebuchet MS"; font-size:14px; text-align:right;  color:#333333;  padding:10px 23px 0 0;
+	}
+.input_text01 {
+	font-family:"Trebuchet MS"; font-size:14px; text-align:right;  color:#333333;  padding:4px 23px 0 0;
+	}
+
+.input_outer {
+	width:284px;
+	height:37px;
+	background:url(../images/input_outer.jpg) no-repeat;
+	border:none;
+	margin:0 0 10px 0;
+}
+.input_outer input {
+	width:265px;
+	border:0px;
+	color:#515151;
+	font-size:13px;
+	background:none;
+	margin:9px 0 0 6px;
+}
+.input_outer select {
+	width:272px;
+	border:none;
+	color:#515151;
+	font-size:13px;
+	background:none;
+	margin:9px 0 0 4px;
+	
+}
+
+.input_outermessage {
+	width:284px;
+	height:84px;
+	background:url(../images/message_outer.png) top no-repeat;
+	border:0;
+    margin:0 0 20px 0;
+
+}
+.input_outermessage textarea {
+	width:272px;
+	height:70px;
+	border:0px;
+	color:#6c6c6c;
+	font-size:13px;
+	background:none;
+	margin:6px 0 0 3px;
+}
+
+.submit_btn {
+	background:url(../images/btn.jpg) no-repeat;
+	border:none;
+	width:169px;
+	margin:2px 0 6px 0;
+	height:50px;
+	cursor:pointer;
+}
+	
+/*---- popup_bottom ----*/	
+.popup_bottom {
+	width:499px;
+	height:12px;
+	overflow:hidden;
+	margin:0 0 0 1px;
+	
+}
+
+
+
+/*#homer {
+	background:#fff url(../images/pop_up_bg.jpg) repeat-x left top;
+}
+
+#homer_iner {
+	padding-right: 15px;
+	padding-left: 15px;
+	width:400px;
+}
+
+#homer h2 {
+	font: 20px HelveticaCondensed;
+	color: #0053a3;
+	text-transform: uppercase;
+	background: url(../images/heading_line.jpg) repeat-x left bottom;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+#homer h3 {
+	font: 16px HelveticaCondensed;
+	color: #0053a3;
+	text-transform: uppercase;
+	background: url(../images/heading_line.jpg) repeat-x left bottom;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+input.input_text {
+	background: url(../images/input_bg.jpg) no-repeat left top;
+	padding: 8px;
+	height: 14px;
+	width: 208px;
+	border-style: none;
+	margin-bottom: 11px;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #333;
+}
+textarea.text_area {
+	padding: 8px;
+	width: 208px;
+	margin-bottom: 11px;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #333;
+	resize:none;
+}
+input.form-submit {
+	background: url(../images/form_submit.gif) no-repeat left top;
+	height: 37px;
+	width: 142px;
+	border-style: none;
+	cursor: pointer;
+	margin-right: auto;
+	margin-left: auto;
+}
+.text_box_iner {
+	 margin: 0 auto;
+    padding-top: 15px;
+    width: 226px;
+
+}
+select.sele{
+	background: url(../images/input_bg.jpg) no-repeat scroll 0 0 transparent;;
+   padding: 8px;
+	height: 31px;
+	width: 224px;
+	border-style: none;
+	margin-bottom: 11px;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+*/

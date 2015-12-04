@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>sylc-404-error</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="css/colorbox.css" />
+<script type="text/javascript" src="js/html5.js"></script>
+<script type="text/javascript" src="js/IE9.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/jquery.colorbox.js"></script>
+<script>
+	$(document).ready(function(){
+		//Examples of how to assign the ColorBox event to elements
+		$(".youtube").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+	});
+</script>
+</head>
+<body>
+<!-- nav start -->
+<nav>
+  <div class="wrapper">
+    <div class="nav_left">
+      <ul>
+        <li><a href="index.html">Accueil</a> </li>
+        <li><a href="presentation.html">Présentation</a></li>
+        <li><a href="media.html">Média</a></li>
+        <li><a href="classic_car.html">Inventaire</a></li>
+      </ul>
+    </div>
+    <div class="nav_right">
+      <ul>
+        <li><a href="search_classic_car.html">Recherche</a></li>
+        <li><a href="notre-mission.html">Logistique</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <!-- logo start -->
+    <div class="logo"><a href="index.html"><img  src="images/logo.png" width="300" height="77" alt=""></a></div>
+    <!-- logo start --> 
+  </div>
+</nav>
+<!-- nav end --> 
+<!-- section start -->
+<section>
+  <div class="section_indent">
+    <div class="error_text01">OOPS!</div>
+    <div class="error_text02">The page you requested cannot be found<br>
+404 (Page Not Found) Error</div>
+    <div class="error_text03">Please choose from the menu above</div>
+
+  </div>
+</section>
+<!-- section end --> 
+
+
+<!-- footer start -->
+<footer>
+  <div class="wrapper">
+    <div class="footer_top">
+      <ul>
+        <li>
+          <div class="socil_icon">
+            <ul>
+              <li><a href="http://www.facebook.com/Sylccorporation" target="_blank"><img src="images/fb-icon.png" width="30" height="30" alt=""></a></li>
+              <li><a href="http://www.youtube.com/user/yoathome?feature=results_main" target="_blank"><img src="images/youtube.png" width="30" height="30" alt=""></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><img src="images/phone-icon.png" class="img_left" alt="">(Fr) 01.76.63.32.16</li>
+        <li><img src="images/icon02.png" class="img_left01" alt="">Hollywood, FL 33020</li>
+        <li><img src="images/message-icon.png" class="img_left" alt=""><a href="mailto:info@sylc-export.com">info@sylc-export.com</a></li>
+      </ul>
+    </div>
+    <div class="footer_left">
+      <div class="link_outer">
+        <p>Liens du Site</p>
+        <ul>
+          <li><a href="presentation.html">Présentation</a></li>
+          <li><a href="media.html">Média</a></li>
+          <li><a href="classic_car.html">Inventaire</a></li>
+          <li><a href="search_classic_car.html">Recherche</a></li>
+        </ul>
+      </div>
+      <div class="link_outer">
+        <p>À Propos de Nous</p>
+        <ul>
+          <li><a href="notre-mission.html">Logistique</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="our_services.html">Nos services</a></li>
+          <li><a href="contact.html">Contactez-nous</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer_right">
+      <p>Top Marques à Vendre</p>
+      <ul>
+        <li><a href="new_car.html">Dodge</a></li>
+        <li><a href="new_car.html">Lincone</a></li>
+        <li><a href="new_car.html">Ford</a></li>
+        <li><a href="new_car.html">General Motors</a></li>
+      </ul>
+      <ul>
+        <li><a href="new_car.html">Chevrolet</a></li>
+        <li><a href="new_car.html">Cadillac</a></li>
+        <li><a href="new_car.html">Jeep</a></li>
+        <li><a href="new_car.html">Hummer</a></li>
+      </ul>
+      <ul>
+        <li><a href="new_car.html">Pontiac</a></li>
+        <li><a href="new_car.html">Buick</a></li>
+        <li><a href="new_car.html">GMC</a></li>
+        <li><a href="new_car.html">Mustang</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div class="copyright_outer">
+    <p>Hollywood, FL 33020  |  Numero Francais: 01.76.63.32.16<br>
+      Droits d'auteur © <a href="#">SYLC.com.</a> Tous droits réservés </p>
+  </div>
+</footer>
+<!-- footer end -->
+</body>
+</html>

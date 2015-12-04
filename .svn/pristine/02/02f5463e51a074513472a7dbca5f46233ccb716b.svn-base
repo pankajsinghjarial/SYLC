@@ -1,0 +1,201 @@
+/* Slider
+http://www.freshdesignweb.com/fashion-responsive-slider-tutorial.html
+*/
+/* Slider
+/*-----------------------------------------------------------------------------------*/
+.slider_container{ width:960px; margin:auto; clear:both; padding:0 0 0 0;}
+.flex-caption{ position: absolute; right:11px; bottom:20px;}
+.caption_title_line{ width:450px; height:75px; padding:5px 15px 10px 15px;background:url(images/slider_caption_bg.png) repeat;color: #303030;}
+.flex-caption h2{ color:#303030;font-size:20px; padding:5px 0 5px 0; margin:0px;font-family: 'Ovo', serif;}
+
+.flex-container a:active,
+.flexslider a:active {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {width: 100%; margin: 0; padding: 0 0 0 0;background:url(images/shadow_bottom.png) no-repeat center bottom;}
+.flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {max-width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+.no-js .slides > li:first-child {display: block;}
+.flexslider {position: relative; zoom: 1;}
+.flexslider .slides {zoom: 1;}
+.flexslider .slides > li {position: relative;}
+.flex-container {zoom: 1; position: relative;}
+
+/* Direction Nav */
+.flex-direction-nav li a {width:30px; height:70px; margin:0; display: block; position: absolute; right:11px; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li a.next {background:url(../images/sprites.png) no-repeat right 0; top:100px; left:11px;}
+.flex-direction-nav li a.prev {background:url(../images/sprites.png) no-repeat 0 0;top:100px; }
+
+.flex-direction-nav li a.disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+
+/* Control Nav */
+.flex-control-nav {width: 100%; position: absolute; bottom:12px; text-align: left; z-index:125; left:12px;}
+.flex-control-nav li {margin: 0 3px 0 0; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-nav li:first-child {margin: 0 3px 0 0;}
+.flex-control-nav li a {width: 13px; height: 13px; display: block; cursor: pointer; background:url(../images/sprites.png) 0 -80px no-repeat;  text-indent: -9999px;}
+
+.flex-control-nav li a.active {background-position: -15px -80px; cursor: default;}
+
+
+/*---- nav----*/
+
+.navigation{background:#e42313;
+	height:42px;
+	width:100%;
+	min-widht:960px;}
+.horizontal-nav {
+		  width:960px;
+	margin:0 auto;
+	padding:0px;
+    }
+    .horizontal-nav > ul {
+      
+         position:relative;
+		list-style-type:none; 
+    }
+    .horizontal-nav > ul > li {
+        float: left;
+        border-left: 1px solid #b70000;
+		vertical-align:middle;
+    }
+    .horizontal-nav > ul > li:first-child {
+        border-left: 0 none;
+    }
+    .horizontal-nav > ul > li > a {
+        display: table-cell;
+        padding: 0 14px 0 13px;
+       text-decoration:none;
+	   vertical-align:middle; 
+	 
+      height:42px;
+        border-left: 1px solid rgba(255,255,255, 0.25);
+		color:#fff;
+	font:13px/16px Arial, Helvetica, sans-serif;
+    }
+    .horizontal-nav > ul >li:first-child a {
+        border-left: 0 none;
+    }
+    
+ .horizontal-nav ul li {
+	 
+	margin: 0; padding: 0;
+	 
+}
+
+
+/* dropdown level one css */
+
+ul#topnav li .sub { position: absolute;top: 42px;background:#ffffff;	 padding: 0; float: left;z-index:150; display: none; box-shadow:0 0 3px #666;left:0;}
+
+ 
+ul#topnav li .sub ul{list-style: none;	margin: 0px; width: 318px;float: left; }
+ul#topnav .sub ul li {	width: 100%;	color: #fff;}
+ul#topnav .sub ul li h2 img{ position:absolute; left:00px; top:0; box-shadow:0px 0px 5px #666; }
+ul#topnav .sub ul li a {float: none;  	background: url(../images/navlist_arrow.png) no-repeat 121px 3px;font:12px/16px Arial, Helvetica, sans-serif;margin:2px 0; 	padding-left:130px;	display: block;	text-decoration: none;	color: #333134;}
+ul#topnav li .sub .product_row  ul { width:100%; padding-bottom:0;}
+ul#topnav .sub .product_row ul li{ background:#f7f7f7; display:inline; width:305px; padding-bottom:10px; float:left; margin:0 0px 0 10px;}
+/* end of dropdown level one css */
+
+
+
+
+
+
+
+ul#topnav .sub ul li h2 {font:15px/20px 'cartogothic_stdbold',Arial, Helvetica, sans-serif; 	color:#fff;	margin:0 15px;	padding:5px 5px 5px 105px;	position:relative;}
+ ul#topnav li .row {clear: both; float: left; width: 100%; padding: 25px 0% 10px;}
+.product_row{background:#d9d9d9; padding:10px 0; clear:both; width:100%; overflow:hidden;}
+.pro_left_img {
+	height: 162px;
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;width:118px;float:left;
+}
+
+.pro_left_img * {
+    vertical-align: middle;
+}
+ 
+.pro_left_img {
+    display: block;
+}
+.pro_left_img span{
+    display:inline-block;
+    height: 100%;
+    width: 1px;
+}
+
+
+.pro_rt_text{ float:right; width:184px; text-transform:uppercase;}
+.pro_title{ font: 15px/20px 'cartogothic_stdbold',Arial, Helvetica, sans-serif; text-transform:uppercase; padding:25px 0 5px; }
+.pro_rt_text p{ font: 12px/20px Arial, Helvetica, sans-serif; color:#333;}
+.pro_rt_text p span{font: 16px/20px Arial, Helvetica, sans-serif; color:#ed1c24; text-transform:uppercase;}
+ul#topnav ul li a.readmore{ background:url(../images/read-arrow.png) no-repeat 95% center;font: 15px/20px 'cartogothic_stdbold',Arial, Helvetica, sans-serif; color:#fff; padding:5px  30px  5px  8px; float:right; text-transform:none; margin:20px 10px 0 0px; position:absolute;top:156px;}
+
+
+
+ 
+ul#topnav li .sub_level_02 .row{padding:25px 0 0;}
+/* dropdown background changes*/
+
+
+ul#topnav li .sub_level_01{ border:3px solid #bf5387;}
+ul#topnav a.level_01:hover, ul#topnav li:hover a.level_01, ul#topnav a.level_01.sel {background-color: #bf5387;}
+ul#topnav .sub_level_01 ul li h2 {background-color:#bf5387;}
+ul#topnav .sub_level_01 ul li a.readmore{ background-color:#bf5387;}
+
+
+ul#topnav li .sub_level_02{ border:3px solid #84548b;}
+ul#topnav .sub_level_02 ul li a.readmore{ background-color:#84548b;}
+ul#topnav .sub_level_02 ul li h2 {background-color:#84548b;}
+ul#topnav a.level_02:hover, ul#topnav li:hover a.level_02, ul#topnav a.level_02.sel {background-color: #84548b;}
+
+ul#topnav .sub_level_03 ul li a.readmore{ background-color:#8ac07a;}
+ul#topnav .sub_level_03 ul li h2 {background-color:#8ac07a;}
+ul#topnav a.level_03:hover, ul#topnav li:hover a.level_03, ul#topnav a.level_03.sel {background-color: #8ac07a;}
+ul#topnav li .sub_level_03{ border:3px solid #8ac07a;}
+
+ul#topnav .sub_level_04 ul li a.readmore{ background-color:#b01206;}
+ul#topnav .sub_level_04 ul li h2 {background-color:#e42314;}
+ul#topnav a.level_04:hover, ul#topnav li:hover a.level_04, ul#topnav a.level_04.sel {background-color: #b01206;}
+ul#topnav li .sub_level_04{ border:3px solid #b01206;}
+
+ul#topnav .sub_level_05 ul li a.readmore{ background-color:#55a8bf;}
+ul#topnav .sub_level_05 ul li h2 {background-color:#55a8bf;}
+ul#topnav a.level_05:hover, ul#topnav li:hover a.level_05, ul#topnav a.level_05.sel {background-color: #55a8bf;}
+ul#topnav li .sub_level_05{ border:3px solid #55a8bf;}
+
+
+ul#topnav .sub_level_06 ul li a.readmore{ background-color:#bf80c8;}
+ul#topnav .sub_level_06 ul li h2 {background-color:#bf80c8;}
+ul#topnav a.level_06:hover, ul#topnav li:hover a.level_06, ul#topnav a.level_06.sel {background-color: #bf80c8;}
+ul#topnav li .sub_level_06{ border:3px solid #bf80c8;}
+
+ul#topnav .sub_level_07 ul li a.readmore{ background-color:#4a8dae;}
+ul#topnav .sub_level_07 ul li h2 {background-color:#4a8dae;}
+ul#topnav a.level_07:hover, ul#topnav li:hover a.level_07, ul#topnav a.level_07.sel {background-color: #4a8dae;}
+ul#topnav li .sub_level_07{ border:3px solid #4a8dae;}
+
+
+
+
+
+/* Media Queries
+/*-----------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1000px) {
+.slider_container{ width:90%; margin:0 0 0 2%; clear:both; background:none; padding:30px 0 0 0;}
+.flexslider {width: 100%; margin: 0; padding:0 0 30px 0;background:none;}
+.flex-direction-nav li a {width:45px; height:42px; margin:0; display: block; position: absolute; right:-10px; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li a.next {background:url(images/next.png) no-repeat center; bottom:85px;}
+.flex-direction-nav li a.prev {background:url(images/prev.png) no-repeat center;bottom:40px;}
+.flex-caption { display:none;}
+}

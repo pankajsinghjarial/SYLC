@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body style="margin:0; padding:0;">
+ 
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #ccc;">
+    <thead>
+      <tr>
+        <td width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="44%" style="padding:1% 1%;"><img src="images/logo.jpg" width="287" height="75" alt=" " /></td>
+              <td width="4%">&nbsp;</td>
+              <td width="46%" style="padding:1% 2%;"><p style="font-size:14px; font-family:Arial, Helvetica, sans-serif; font-weight:bold;line-height:18px;"><strong style="font-size:22px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; line-height:28px;">SYLC CORPORATION</strong><br />
+                  1822 N. DIXIE HWY, Hollywood, Florida 33020<br />
+                  PHONE: 305-332-9761<br />
+                  FAX: 305-647-6533</p></td>
+            </tr>
+          </table></td>
+      </tr>
+      <tr>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="76%" style="border-bottom:ridge  5px #787878;">&nbsp;</td>
+              <td width="16%" style="font-size:22px; font-family:Arial, Helvetica, sans-serif; color:#F60; font-weight:bold;line-height:20px; text-align:center;" rowspan="2">INVOICE</td>
+              <td width="8%" style="border-bottom:ridge  5px #787878;">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="76%">&nbsp;</td>
+              <td width="8%">&nbsp;</td>
+            </tr>
+          </table></td>
+      </tr>
+    </thead>
+    <tbody width="100%">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+ 
+</body>
+</html>

@@ -1,0 +1,72 @@
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined index: limit in /home/httpsylc/public_html/superadmin/contact/phone/code/guest_code.php on line 6
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined index: start in /home/httpsylc/public_html/superadmin/contact/phone/code/guest_code.php on line 47
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/phone/code/guest_code.php on line 86
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: type in /home/httpsylc/public_html/superadmin/contact/phone/code/guest_code.php on line 86
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/phone/code/guest_code.php on line 91
+[22-Apr-2015 12:44:57 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[22-Apr-2015 12:44:57 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 203
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 203
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 203
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 203
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 203
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 212
+[22-Apr-2015 12:44:57 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined index: limit in /home/httpsylc/public_html/superadmin/contact/phone/code/guest_code.php on line 6
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined index: start in /home/httpsylc/public_html/superadmin/contact/phone/code/guest_code.php on line 47
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/phone/code/guest_code.php on line 86
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: type in /home/httpsylc/public_html/superadmin/contact/phone/code/guest_code.php on line 86
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/phone/code/guest_code.php on line 91
+[24-Apr-2015 10:45:38 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[24-Apr-2015 10:45:38 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 203
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 203
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 203
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 203
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 203
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 212
+[24-Apr-2015 10:45:38 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined index: limit in /home/httpsylc/public_html/superadmin/contact/phone/code/guest_code.php on line 6
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined index: start in /home/httpsylc/public_html/superadmin/contact/phone/code/guest_code.php on line 47
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/phone/code/guest_code.php on line 86
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: type in /home/httpsylc/public_html/superadmin/contact/phone/code/guest_code.php on line 86
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: searchword in /home/httpsylc/public_html/superadmin/contact/phone/code/guest_code.php on line 91
+[20-May-2015 18:03:39 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[20-May-2015 18:03:39 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 154
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 203
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 203
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 203
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 203
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 203
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  Undefined variable: addToPagging in /home/httpsylc/public_html/superadmin/contact/phone/view/view.php on line 212
+[20-May-2015 18:03:39 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129

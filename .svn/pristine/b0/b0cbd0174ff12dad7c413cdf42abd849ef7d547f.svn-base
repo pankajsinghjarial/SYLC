@@ -1,0 +1,614 @@
+
+/* wp-socializer-buttons-css.css */
+
+/* 1   */ /*
+/* 2   *|  * WP Socializer Social buttons - CSS File - v2.7
+/* 3   *|  * Author: Aakash Chakravarthy
+/* 4   *|  */
+/* 5   */ 
+/* 6   */ .wp-socializer{
+/* 7   */ 	display: block;
+/* 8   */ 	margin: 0px 0px 10px;
+/* 9   */ 	padding: 0px;
+/* 10  */ }
+/* 11  */ .wp-socializer ul {
+/* 12  */ 	display: inline;
+/* 13  */ 	margin: 0 !important;
+/* 14  */ 	padding: 0 !important;
+/* 15  */ }
+/* 16  */ .wp-socializer ul li {
+/* 17  */ 	background: none;
+/* 18  */ 	list-style-type: none !important;
+/* 19  */ 	margin: 0px 5px 5px 0px !important;
+/* 20  */ 	padding: 0px !important;
+/* 21  */ 	float: left !important;
+/* 22  */ }
+/* 23  */ .wp-socializer ul li:before, .wp-socializer ul li:after{
+/* 24  */ 	display: none !important;
+/* 25  */ }
+/* 26  */ .wp-socializer img, .wp-socializer-single img{
+/* 27  */ 	float: none;
+/* 28  */ 	vertical-align:middle;
+/* 29  */ 	margin: 0px 5px 0px 0px !important;
+/* 30  */ 	padding: 0px !important;
+/* 31  */ 	max-width: none\9; /* IE max-width fix on v2.1 */
+/* 32  */ }
+/* 33  */ .wp-socializer-single{
+/* 34  */ 	margin-right: 10px;
+/* 35  */ }
+/* 36  */ .addthis_button img{
+/* 37  */ 	border: 0;
+/* 38  */ 	margin: 0;
+/* 39  */ 	padding: 0;
+/* 40  */ }
+/* 41  */ .wp-socializer-clearer{
+/* 42  */ 	clear: left;
+/* 43  */ }
+/* 44  */ 
+/* 45  */ /** EFFECTS **/
+/* 46  */ .wp-socializer-opacity li {
+/* 47  */ 	-webkit-opacity: 0.5;
+/* 48  */ 	-moz-opacity: 0.5;
+/* 49  */ 	filter:alpha(opacity=50);
+/* 50  */ 	opacity: 0.5;
+
+/* wp-socializer-buttons-css.css */
+
+/* 51  */ }
+/* 52  */ .wp-socializer-opacity li:hover {
+/* 53  */ 	-webkit-opacity: 1;
+/* 54  */ 	-moz-opacity: 1;
+/* 55  */ 	filter:alpha(opacity=100);
+/* 56  */ 	opacity: 1;
+/* 57  */ }
+/* 58  */ .wp-socializer-jump li img{
+/* 59  */ 	-webkit-transition: all 200ms linear;
+/* 60  */ 	-moz-transition: all 200ms linear;
+/* 61  */ 	-o-transition: all 200ms linear;
+/* 62  */ 	transition: all 200ms linear;
+/* 63  */ }
+/* 64  */ .wp-socializer-jump li:hover img{
+/* 65  */ 	transform: translateY(-5px);
+/* 66  */ 	-ms-transform: translateY(-5px);
+/* 67  */ 	-webkit-transform: translateY(-5px);
+/* 68  */ 	-o-transform: translateY(-5px);
+/* 69  */ 	-moz-transform: translateY(-5px);
+/* 70  */ }
+/* 71  */ .wp-socializer-magnify li img{
+/* 72  */ 	-webkit-transition: all 200ms linear;
+/* 73  */ 	-moz-transition: all 200ms linear;
+/* 74  */ 	-o-transition: all 200ms linear;
+/* 75  */ 	transition: all 200ms linear;
+/* 76  */ }
+/* 77  */ .wp-socializer-magnify li:hover img{
+/* 78  */ 	transform: scale(1.3);
+/* 79  */ 	-ms-transform: scale(1.3);
+/* 80  */ 	-webkit-transform: scale(1.3);
+/* 81  */ 	-o-transform: scale(1.3);
+/* 82  */ 	-moz-transform: scale(1.3);
+/* 83  */ }
+/* 84  */ /** Columns **/
+/* 85  */ .columns-5 li{
+/* 86  */ 	width: 19%;
+/* 87  */ }
+/* 88  */ .columns-4 li{
+/* 89  */ 	width: 24%;
+/* 90  */ }
+/* 91  */ .columns-3 li{
+/* 92  */ 	width: 32% !important;
+/* 93  */ }
+/* 94  */ .columns-2 li{
+/* 95  */ 	width: 48%;
+/* 96  */ }
+/* 97  */ 
+/* 98  */ /** TEMPLATES **/
+/* 99  */ .wp-socializer-buttons{
+/* 100 */ 	margin: 0px 0px 10px !important;
+
+/* wp-socializer-buttons-css.css */
+
+/* 101 */ 	padding: 0px !important;
+/* 102 */ }
+/* 103 */ .wp-socializer-buttons .wpsr-btn{
+/* 104 */ 	margin: 0px;
+/* 105 */ 	padding: 0px;
+/* 106 */ 	float: left;
+/* 107 */ 	margin-right: 10px;
+/* 108 */ }
+/* 109 */ .wp-socializer-buttons .wpsr-btn iframe{
+/* 110 */ 	margin: 0px !important; /** Fix for Facebook v2.4.2 **/
+/* 111 */ }
+/* 112 */ 
+/* 113 */ /* FLOATING SHARE BAR */
+/* 114 */ .wpsr-floatbar-float_left{
+/* 115 */ 	position: absolute;
+/* 116 */ 	border: 1px solid;
+/* 117 */ 	border-color: #ccc;
+/* 118 */ 	background-color: #fff;
+/* 119 */ 	padding: 0px 5px 0px 6px !important;
+/* 120 */ 	width: 60px;
+/* 121 */ 	margin: 0px 0px 0px 0px !important;
+/* 122 */ 	z-index: 9999;
+/* 123 */ 	border-radius: 10px;
+/* 124 */ 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+/* 125 */ 	text-align: center;
+/* 126 */ }
+/* 127 */ .wpsr-floatbar-float_left .wpsr_floatbt{
+/* 128 */ 	margin: 10px 0px;
+/* 129 */ 	padding: 0px;
+/* 130 */ }
+/* 131 */ .wpsr-floatbar-bottom_fixed{
+/* 132 */ 	position: fixed;
+/* 133 */ 	border: 1px solid;
+/* 134 */ 	border-color: #ccc;
+/* 135 */ 	background-color: #fff;
+/* 136 */ 	background-image: url(/wp-content/plugins/wp-socializer/public/css/images/grey-bg.png);
+/* 137 */ 	background-repeat: repeat-x;
+/* 138 */ 	background-position: 0px -30px;
+/* 139 */ 	bottom: -1px;
+/* 140 */ 	width: 900px;
+/* 141 */ 	z-index: 9999;
+/* 142 */ 	padding: 0px 0px 0px 15px;
+/* 143 */ 	border-radius: 10px 10px 0px 0px;
+/* 144 */ 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+/* 145 */ 	left: 0px;
+/* 146 */ 	right: 0px;
+/* 147 */ 	margin: 0 auto;
+/* 148 */ 	height: 35px;
+/* 149 */ }
+/* 150 */ .wpsr-floatbar-bottom_fixed .wpsr_floatbt{
+
+/* wp-socializer-buttons-css.css */
+
+/* 151 */ 	float: left;
+/* 152 */ 	margin-right: 10px;
+/* 153 */ 	border-right: 1px solid;
+/* 154 */ 	border-color: #ccc;
+/* 155 */ 	padding: 8px 5px 0px 0px;
+/* 156 */ 	text-align: center;
+/* 157 */ 	height: 35px;
+/* 158 */ }
+/* 159 */ 
+/* 160 */ /* FLOATING BAR THEMES */
+/* 161 */ .wpsr-floatbar-bottom_fixed.wpsr-floatbar-dark{
+/* 162 */ 	border-color: #333;
+/* 163 */ 	background-color: #333;
+/* 164 */ 	background-image: url(/wp-content/plugins/wp-socializer/public/css/images/dark-bg.png);
+/* 165 */ 	background-position: 0px 0px;
+/* 166 */ 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+/* 167 */ }
+/* 168 */ .wpsr-floatbar-float_left.wpsr-floatbar-dark{
+/* 169 */ 	border-color: #333;
+/* 170 */ 	background-color: #333;
+/* 171 */ }
+/* 172 */ .wpsr-floatbar-dark .wpsr_floatbt{
+/* 173 */ 	border-color: #333;
+/* 174 */ }
+/* 175 */ .wpsr-floatbar-dark .wpsr_floatbt a{
+/* 176 */ 	color: white !important;
+/* 177 */ }
+/* 178 */ .wpsr-floatbar-dark .wpsr_floatbt .wpsr_commentsbt a{
+/* 179 */ 	color: black !important;
+/* 180 */ }
+/* 181 */ 
+/* 182 */ /* LINK BACK */
+/* 183 */ .wpsr-floatbar-float_left .wpsr-linkback{
+/* 184 */ 	margin: 15px 0 0 0;
+/* 185 */ 	position: absolute;
+/* 186 */ }
+/* 187 */ .wpsr-floatbar-float_left .wpsr-linkback a{
+/* 188 */ 	font-size: 8px;
+/* 189 */ 	color: #ccc;
+/* 190 */ 	text-decoration: none;
+/* 191 */ 	opacity: 0.05;
+/* 192 */ 	-webkit-transition: opacity .8s linear;
+/* 193 */ 	display: block;
+/* 194 */ 	margin: 0px;
+/* 195 */ 	padding: 0px;
+/* 196 */ }
+/* 197 */ .wpsr-floatbar-float_left .wpsr-linkback a:hover{
+/* 198 */  	opacity: 1;
+/* 199 */ }
+/* 200 */ .wpsr-floatbar-float_left .wpsr_linkaw{
+
+/* wp-socializer-buttons-css.css */
+
+/* 201 */ 	margin: -5px 0 0 0 !important;
+/* 202 */ }
+/* 203 */ .wpsr-floatbar-bottom_fixed .wpsr-linkback{
+/* 204 */ 	margin: 6px 0 0 0;
+/* 205 */ 	position: absolute;
+/* 206 */ 	bottom: -70px;
+/* 207 */ }
+/* 208 */ .wpsr-floatbar-bottom_fixed .wpsr-linkback a{
+/* 209 */ 	font-size: 8px;
+/* 210 */ 	color: #ccc;
+/* 211 */ 	text-decoration: none;
+/* 212 */ 	opacity: 0.05;
+/* 213 */ 	-webkit-transition: opacity .8s linear;
+/* 214 */ 	display: block;
+/* 215 */ 	margin: 0px;
+/* 216 */ 	padding: 0px;
+/* 217 */ }
+/* 218 */ 
+/* 219 */ /* Hide btn */
+/* 220 */ .wpsr_hidebt{
+/* 221 */ 	background: url(/wp-content/plugins/wp-socializer/public/css/images/grey-toggle.png) no-repeat center center;
+/* 222 */ 	float: right;
+/* 223 */ 	height: 35px;
+/* 224 */ 	width: 35px;
+/* 225 */ 	cursor: pointer;
+/* 226 */ }
+/* 227 */ .wpsr_hidebt:hover{
+/* 228 */ 	opacity: 0.5;
+/* 229 */ }
+/* 230 */ 
+/* 231 */ /* Comments Button */
+/* 232 */ .wpsr_commentsbt .wpsr_cmt_bubble{
+/* 233 */ 	background: url(/wp-content/plugins/wp-socializer/public/css/images/comments-bg.png) no-repeat center top;
+/* 234 */ 	height: 35px;
+/* 235 */ 	width: 50px;
+/* 236 */ 	text-align: center;
+/* 237 */ 	margin: 0 auto;
+/* 238 */ 	line-height: 0px;
+/* 239 */ }
+/* 240 */ .wpsr_commentsbt .wpsr_cmt_bubble a{
+/* 241 */ 	display: inline-block;
+/* 242 */ 	margin-top: 15px;
+/* 243 */ 	text-decoration: none;
+/* 244 */ }
+/* 245 */ .wpsr_commentsbt .wpsr_cmt_button{
+/* 246 */ 	background: url(/wp-content/plugins/wp-socializer/public/css/images/grey-bg.png) repeat-x -70px;
+/* 247 */ 	border: 1px solid #ccc;
+/* 248 */ 	-webkit-border-radius: 3px;
+/* 249 */ 	border-radius: 3px;
+/* 250 */ 	padding: 2px;
+
+/* wp-socializer-buttons-css.css */
+
+/* 251 */ 	line-height: 0px;
+/* 252 */ }
+/* 253 */ .wpsr_commentsbt .wpsr_cmt_button:hover, .wpsr_commentsbt .wpsr_cmt_bubble:hover{
+/* 254 */ 	opacity: 0.5;
+/* 255 */ }
+/* 256 */ .wpsr_commentsbt .wpsr_cmt_button a{
+/* 257 */ 	color: #666666;
+/* 258 */ 	text-decoration: none;
+/* 259 */ 	font: 10px Arial, Helvetica, sans-serif;
+/* 260 */ 	border: 0px;
+/* 261 */ }
+/* 262 */ 
+/* 263 */ /* Left float min mode */
+/* 264 */ .wpsr_floatbt_min{
+/* 265 */ 	left: 50% !important;
+/* 266 */ 	top: 50% !important;
+/* 267 */ 	position: fixed !important;
+/* 268 */ 	width: 200px;
+/* 269 */ 	margin-left: -100px !important;
+/* 270 */ 	margin-top: -100px !important;
+/* 271 */ 	display: none;
+/* 272 */ }
+/* 273 */ .wpsr_floatbt_min .wpsr_floatbt{
+/* 274 */ 	float: left;
+/* 275 */ 	margin: 10px 1%;
+/* 276 */ 	width: 31%;
+/* 277 */ 	min-height: 70px;
+/* 278 */ 	max-height: 70px;
+/* 279 */ 	overflow: hidden;
+/* 280 */ }
+/* 281 */ .wpsr_floatbt_min .wpsr-linkback{
+/* 282 */ 	display: none;
+/* 283 */ }
+/* 284 */ .wpsr_shareminbt{
+/* 285 */ 	display: none;
+/* 286 */ 	background: url(/wp-content/plugins/wp-socializer/public/buttons/min-floatbar.png);
+/* 287 */ 	position: fixed;
+/* 288 */ 	top: 50%;
+/* 289 */ 	left: 0;
+/* 290 */ 	width: 64px;
+/* 291 */ 	height: 64px;
+/* 292 */ 	margin-top: -32px;
+/* 293 */ }
+/* 294 */ 
+/* 295 */ /* ADJUSTMENTS */
+/* 296 */ .wpsr-floatbar-float_left .wpsr_floatbt .fb-like{
+/* 297 */ 	width: 50px !important;
+/* 298 */ 	overflow: hidden; /* FB locale buttons fix */
+/* 299 */ }
+/* 300 */ .wpsr-floatbar-float_left .wpsr_floatbt .fb-like:hover{
+
+/* wp-socializer-buttons-css.css */
+
+/* 301 */ 	overflow: visible;
+/* 302 */ }
+/* 303 */ 
+/* 304 */ .wpsr_floatbt .wp-socializer-single{
+/* 305 */ 	margin: 0px;
+/* 306 */ }
+/* 307 */ /* Fix fbpop cliping*/  
+/* 308 */ .fb-like span > iframe{
+/* 309 */ 	max-width: none !important;
+/* 310 */ 	position: static !important;
+/* 311 */ 	z-index: 9999 !important;
+/* 312 */ }
+/* 313 */ /* Hide fbpop to bottom_fixed */
+/* 314 */ .wpsr-floatbar-bottom_fixed .fb-like > span{
+/* 315 */ 	overflow: hidden !important;
+/* 316 */ }
+/* 317 */ /* Pintrest push down, since v2.4.9.5 */
+/* 318 */ .wpsr-btn a[data-pin-config="above"]{
+/* 319 */ 	margin-bottom: -45px !important;
+/* 320 */ }
+/* 321 */ 
+/* 322 */ /* Clearfix */
+/* 323 */ .clearfix:after {
+/* 324 */ 	visibility: hidden;
+/* 325 */ 	display: block;
+/* 326 */ 	font-size: 0;
+/* 327 */ 	content: " ";
+/* 328 */ 	clear: both;
+/* 329 */ 	height: 0;
+/* 330 */ }
+/* 331 */ * html .clearfix { zoom: 1; } /* IE6 */
+/* 332 */ *:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/* styles.css */
+
+/* 1   */ .download-info .download-button,
+/* 2   */ .download-info .more-button {
+/* 3   */ 	width: 120px;
+/* 4   */ 	height: 0;
+/* 5   */ 	padding-top: 36px;
+/* 6   */ 	overflow: hidden;
+/* 7   */ 	display: block;
+/* 8   */ }
+/* 9   */ 
+/* 10  */ .download-info .download-button {
+/* 11  */ 	background: url(/wp-content/plugins/download-monitor/page-addon/downloadbutton.gif) no-repeat top left;
+/* 12  */ }
+/* 13  */ 
+/* 14  */ .download-info .more-button {
+/* 15  */ 	background: url(/wp-content/plugins/download-monitor/page-addon/morebutton.gif) no-repeat top left;
+/* 16  */ }
+/* 17  */ 
+/* 18  */ form#download-page-search {
+/* 19  */ 	border:1px solid #ddd;
+/* 20  */ 	-moz-border-radius: 4px;
+/* 21  */ 	-webkit-border-radius: 4px;
+/* 22  */ 	margin: 8px 0 16px !important;
+/* 23  */ 	padding: 12px !important;
+/* 24  */ }
+/* 25  */ form#download-page-search p, form#download-page-search input, form#download-page-search label {
+/* 26  */ 	margin: 0 !important;
+/* 27  */ 	padding: 0 !important;
+/* 28  */ 	line-height: 1 !important;
+/* 29  */ 	vertical-align: middle !important;
+/* 30  */ }
+/* 31  */ form#download-page-search input {
+/* 32  */ 	margin-left: 8px !important;
+/* 33  */ }
+/* 34  */ form#download-page-search br {
+/* 35  */ 	display: none;
+/* 36  */ }
+/* 37  */ div.download-info.single {
+/* 38  */ 	overflow:hidden;
+/* 39  */ 	padding-left: 140px;
+/* 40  */ }
+/* 41  */ .download-info-heading {
+/* 42  */ 	margin: 8px 0 12px !important;
+/* 43  */ }
+/* 44  */ .download-desc-heading {
+/* 45  */ 	margin: 8px 0 12px !important;
+/* 46  */ 	color: #999;
+/* 47  */ 	font-weight: bold;
+/* 48  */ 	padding: 4px 0;
+/* 49  */ 	border-bottom: 1px solid #ddd;
+/* 50  */ }
+
+/* styles.css */
+
+/* 51  */ #download-page small {
+/* 52  */ 	margin-left: 4px;
+/* 53  */ 	font-size: 11px;
+/* 54  */ 	letter-spacing: -0.1px
+/* 55  */ }
+/* 56  */ #download-page small small {
+/* 57  */ 	margin-left: 0
+/* 58  */ }
+/* 59  */ #download-page small a {
+/* 60  */ 	color: #999
+/* 61  */ }
+/* 62  */ div.side-section {
+/* 63  */ 	float:left;
+/* 64  */ 	width:120px;
+/* 65  */ 	text-align: center;
+/* 66  */ 	margin-left: -140px;
+/* 67  */ 	position: relative;
+/* 68  */ }
+/* 69  */ div.main-section {
+/* 70  */ 	float: right;
+/* 71  */ 	position: relative;
+/* 72  */ 	width:100%;
+/* 73  */ }
+/* 74  */ div.download-info p {
+/* 75  */ 	margin: 8px 0 12px !important;
+/* 76  */ 	padding: 0 !important;
+/* 77  */ }
+/* 78  */ img.download-image {
+/* 79  */ 	padding: 3px;
+/* 80  */ 	background:#fff;
+/* 81  */ 	border:1px solid #ddd;
+/* 82  */ 	margin-bottom: 0 !important;
+/* 83  */ }
+/* 84  */ table.download-meta {
+/* 85  */ 	margin: 0 0 12px !important;
+/* 86  */ 	padding: 0 !important;
+/* 87  */ }
+/* 88  */ table.download-meta td, table.download-meta th {
+/* 89  */ 	padding: 4px 0;
+/* 90  */ 	border-bottom: 1px solid #ddd;
+/* 91  */ }
+/* 92  */ table.download-meta thead {
+/* 93  */ 	display: none;
+/* 94  */ }
+/* 95  */ table.download-meta tbody th {
+/* 96  */ 	color: #999;
+/* 97  */ 	font-weight: bold;
+/* 98  */ }
+/* 99  */ 
+/* 100 */ #download-page-featured, #download-page-tags {
+
+/* styles.css */
+
+/* 101 */ 	border:1px solid #ddd;
+/* 102 */ 	-moz-border-radius: 4px;
+/* 103 */ 	-webkit-border-radius: 4px;
+/* 104 */ 	padding: 12px;
+/* 105 */ 	margin: 8px 0 16px !important;	
+/* 106 */ }
+/* 107 */ div#download-page-featured ul, div#download-page-tags ul {
+/* 108 */ 	overflow: hidden;
+/* 109 */ 	margin:0;
+/* 110 */ 	padding: 0;
+/* 111 */ 	text-indent: 0;
+/* 112 */ }
+/* 113 */ div#download-page-featured li:before, div#download-page-tags li:before {
+/* 114 */ 	content: "";
+/* 115 */ }
+/* 116 */ div#download-page-featured li {
+/* 117 */ 	clear: left;
+/* 118 */ 	float: left;
+/* 119 */ 	list-style: none;
+/* 120 */ 	width: 47%;
+/* 121 */ 	padding-right: 3% !important;
+/* 122 */ 	margin:0 0 4px !important;
+/* 123 */ 	border-right:1px dotted #ddd;
+/* 124 */ }
+/* 125 */ div#download-page-featured li.alternate {
+/* 126 */ 	clear: none;
+/* 127 */ 	float: right;
+/* 128 */ 	border: 0;
+/* 129 */ 	padding: 0 !important;
+/* 130 */ 	width: 47%;
+/* 131 */ }
+/* 132 */ div#download-page-featured a {
+/* 133 */ 	display: table-row;
+/* 134 */ }
+/* 135 */ div#download-page-featured img {
+/* 136 */ 	width: 42px;
+/* 137 */ 	height: 42px;
+/* 138 */ 	padding: 3px;
+/* 139 */ 	background:#fff;
+/* 140 */ 	border:1px solid #ddd;
+/* 141 */ 	vertical-align: middle;
+/* 142 */ 	margin: 0 8px 0 0;
+/* 143 */ }
+/* 144 */ div#download-page-featured span {
+/* 145 */ 	display: table-cell;
+/* 146 */ 	vertical-align: middle;
+/* 147 */ }
+/* 148 */ 
+/* 149 */ div#download-page-featured a:hover, #download-page-categories a:hover {
+/* 150 */ 	text-decoration: none;
+
+/* styles.css */
+
+/* 151 */ }
+/* 152 */ div#download-page-featured h3, #download-page-categories h3, div#download-page-tags h3 {
+/* 153 */ 	margin: 0 0 12px !important;
+/* 154 */ 	padding:  0 0 8px 0;
+/* 155 */ 	border-bottom:1px solid #ddd;
+/* 156 */ }
+/* 157 */ #download-page-categories {
+/* 158 */ 	overflow: hidden;
+/* 159 */ }
+/* 160 */ #download-page-categories .category {
+/* 161 */ 	float: left;
+/* 162 */ 	width: 48%;
+/* 163 */ 	clear: both;
+/* 164 */ 	border:1px solid #ddd;
+/* 165 */ 	-moz-border-radius: 4px;
+/* 166 */ 	-webkit-border-radius: 4px;
+/* 167 */ 	margin: 8px 3% 8px 0 !important;
+/* 168 */ }
+/* 169 */ #download-page-categories .category.alternate {
+/* 170 */ 	margin: 8px 0 8px 0 !important;
+/* 171 */ 	clear: none;
+/* 172 */ }
+/* 173 */ #download-page-categories .category .inner {
+/* 174 */ 	padding: 12px;
+/* 175 */ }
+/* 176 */ #download-page-categories .category ol {
+/* 177 */ 	margin: 0;
+/* 178 */ 	padding: 0;
+/* 179 */ 	border: 0;
+/* 180 */ 	text-indent: 0;
+/* 181 */ }
+/* 182 */ #download-page-categories .category li {
+/* 183 */ 	margin:0;
+/* 184 */ 	padding: 2px 0;
+/* 185 */ 	list-style-position: inside;
+/* 186 */ 	border: 0;
+/* 187 */ }
+/* 188 */ 
+/* 189 */ div#download-page-tags ul {
+/* 190 */ 	text-align: center;
+/* 191 */ }
+/* 192 */ div#download-page-tags li {
+/* 193 */ 	display: inline;
+/* 194 */ 	margin: 0;
+/* 195 */ 	padding: 0 6px;
+/* 196 */ }
+/* 197 */ div#download-page-tags li a {
+/* 198 */ 	line-height: 1.5em;
+/* 199 */ }
+/* 200 */ 
+
+/* styles.css */
+
+/* 201 */ p.sorting a.active {
+/* 202 */ 	background: #999;
+/* 203 */ 	color: #fff;
+/* 204 */ 	padding: 2px;
+/* 205 */ }
+/* 206 */ #download-page .pagination {
+/* 207 */ 	margin: 0;
+/* 208 */ 	padding: 0;
+/* 209 */ 	text-indent: 0;
+/* 210 */ }
+/* 211 */ #download-page .pagination li:before {
+/* 212 */ 	content: "";
+/* 213 */ }
+/* 214 */ #download-page .pagination li {
+/* 215 */ 	display: inline;
+/* 216 */ 	margin: 0 4px 0 0;
+/* 217 */ 	padding: 0;
+/* 218 */ }
+
+/* wp-paginate.css */
+
+/* 1  */ /*
+/* 2  *|  * WP-Paginate - WordPress Pagination Function
+/* 3  *|  * Revision: $Id: wp-paginate.css 1044618 2014-12-14 23:43:29Z emartin24 $
+/* 4  *|  * Copyright 2014 Studio Fuel (http://www.studiofuel.com)
+/* 5  *|  */
+/* 6  */ .wp-paginate {padding:0; margin:0;}
+/* 7  */ .wp-paginate li {display:inline; list-style:none;}
+/* 8  */ .wp-paginate a {background:#ddd; border:1px solid #ccc; color:#666; margin-right:4px; padding:4px 8px; text-align:center; text-decoration:none;}
+/* 9  */ .wp-paginate a:hover, .wp-paginate a:active {background:#ccc; color:#888;}
+/* 10 */ .wp-paginate .title {color:#555; margin-right:4px;}
+/* 11 */ .wp-paginate .gap {color:#999; margin-right:4px;}
+/* 12 */ .wp-paginate .current {color:#fff; background:#f00; border:1px solid #89adcf; margin-right:4px; padding:2px 6px;}
+/* 13 */ .wp-paginate .page {}
+/* 14 */ .wp-paginate .prev, .wp-paginate .next {}
+/* 15 */ 
+/* 16 */ /* style overrides for comments pagination */
+/* 17 */ .wp-paginate-comments {}
+/* 18 */ .wp-paginate-comments li {}
+/* 19 */ .wp-paginate-comments a {}
+/* 20 */ .wp-paginate-comments a:hover, .wp-paginate-comments a:active {}
+/* 21 */ .wp-paginate-comments .title {}
+/* 22 */ .wp-paginate-comments .gap {}
+/* 23 */ .wp-paginate-comments .current {}
+/* 24 */ .wp-paginate-comments .page {}
+/* 25 */ .wp-paginate-comments .prev, .wp-paginate-comments .next {}

@@ -1,0 +1,5 @@
+.suivant_txt{ line-height: 17px;}
+ul.detail_tabul li a{ padding-top:5px !important; padding-bottom:5px !important;}
+ul.detail_tabul li a.hover{ padding-top:8px !important; padding-bottom:8px !important;}
+ul.detail_tabul li a.active{ padding-top:8px !important; padding-bottom:8px !important;}
+.arrow_down{bottom:-4px;}

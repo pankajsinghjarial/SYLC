@@ -1,0 +1,1200 @@
+<?php 
+//===========================================================================
+//* --    ~~                Crafty Syntax Live Help                ~~    -- *
+//===========================================================================
+//           URL:   http://www.craftysyntax.com/    EMAIL: ericg@craftysyntax.com
+//         Copyright (C) 2003-2012 Eric Gerdes   (http://www.craftysyntax.com )
+// --------------------------------------------------------------------------
+ 
+// --------------------------------------------------------------------------
+// NOTICE: Do NOT remove the copyright and/or license information any files. 
+//         doing so will automatically terminate your rights to use program.
+//         If you change the program you MUST clause your changes and note
+//         that the original program is Crafty Syntax Live help or you will 
+//         also be terminating your rights to use program and any segment 
+//         of it.        
+// --------------------------------------------------------------------------
+// LICENSE:
+//     This program is free software; you can redistribute it and/or
+//     modify it under the terms of the GNU General Public License
+//     as published by the Free Software Foundation; 
+//     This program is distributed in the hope that it will be useful,
+//     but WITHOUT ANY WARRANTY; without even the implied warranty of
+//     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//     GNU General Public License for more details.
+//
+//     You should have received a copy of the GNU General Public License
+//     along with this program in a file named LICENSE.txt .
+// --------------------------------------------------------------------------  
+require_once 'functions.php';
+require_once 'security.php';
+require_once 'config.php';
+require_once 'config_cslh.php';
+
+$errors ="";
+$installationtype = "";
+$skipwrite = false;
+if(empty($UNTRUSTED['txtpath'])) $UNTRUSTED['txtpath'] = "";
+if(!(empty($UNTRUSTED['installationtype'])))
+  $installationtype = $UNTRUSTED['installationtype'];
+else {
+  $installationtype = "";
+  $UNTRUSTED['installationtype']  = "";
+}
+          
+if(!(isset($UNTRUSTED['manualinstall']))){ $UNTRUSTED['manualinstall']=""; }
+if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN')
+  $UNTRUSTED['manualinstall']="YES";
+  
+// The version that this setup.php installs:
+$version = "3.3.6";
+
+if(empty($UNTRUSTED['action'])){ $UNTRUSTED['action']  = ""; }
+
+// first check to see if CSLH is already installed:
+if ($installed == true){     
+	  // check version installed.
+	  if($version == $CSLH_Config['version']){
+	  	 // already installed ask to delete setup.php:
+       print "<br><br><font color=990000>Please delete file named:<b>setup.php</b></font><br> File is only used for installation and the installation program has already been run. <br><br>";
+       print "<a href=config_cslh.php?removesetup=1>Click here to have server try to remove file.</a> (This may fail if server does not run as user. If so, delete it manually and then re-visit index.php file)";
+       print "<br><br>";
+       print "<br>After removing file <a href=index.php>click here</a>";
+       exit;	
+    } else {
+       $UNTRUSTED['action'] = "INSTALL";
+        // set upgrade installationtype
+        if($CSLH_Config['version'] == "2.2"){ $installationtype = "upgrade22"; }
+         if($CSLH_Config['version'] == "2.3"){ $installationtype = "upgrade22"; }
+         if($CSLH_Config['version'] == "2.4"){ $installationtype = "upgrade24"; }
+         if($CSLH_Config['version'] == "2.5"){ $installationtype = "upgrade25"; }
+         if($CSLH_Config['version'] == "2.6"){ $installationtype = "upgrade26"; }
+         if($CSLH_Config['version'] == "2.7"){ $installationtype = "upgrade27"; }
+         if($CSLH_Config['version'] == "2.7.1"){ $installationtype = "upgrade271"; }
+         if($CSLH_Config['version'] == "2.7.2"){ $installationtype = "upgrade272"; }
+         if($CSLH_Config['version'] == "2.7.3"){ $installationtype = "upgrade273"; }
+         if($CSLH_Config['version'] == "2.7.4"){ $installationtype = "upgrade274"; }    
+         if($CSLH_Config['version'] == "2.8.0"){ $installationtype = "upgrade280"; }    
+         if($CSLH_Config['version'] == "2.8.1"){ $installationtype = "upgrade281"; } 
+         if($CSLH_Config['version'] == "2.8.2"){ $installationtype = "upgrade282"; }     
+         if($CSLH_Config['version'] == "2.8.3"){ $installationtype = "upgrade283"; }  
+         if($CSLH_Config['version'] == "2.8.4"){ $installationtype = "upgrade284"; }     
+         if($CSLH_Config['version'] == "2.9.0"){ $installationtype = "upgrade290"; }     
+         if($CSLH_Config['version'] == "2.9.1"){ $installationtype = "upgrade291"; }  
+         if($CSLH_Config['version'] == "2.9.2"){ $installationtype = "upgrade292"; }  
+         if($CSLH_Config['version'] == "2.9.3"){ $installationtype = "upgrade293"; }  
+         if($CSLH_Config['version'] == "2.9.4"){ $installationtype = "upgrade294"; }  
+         if($CSLH_Config['version'] == "2.9.5"){ $installationtype = "upgrade295"; }  
+         if($CSLH_Config['version'] == "2.9.6"){ $installationtype = "upgrade296"; }  
+         if($CSLH_Config['version'] == "2.9.7"){ $installationtype = "upgrade297"; }      
+         if($CSLH_Config['version'] == "2.9.8"){ $installationtype = "upgrade298"; }  
+         if($CSLH_Config['version'] == "2.9.9"){ $installationtype = "upgrade299"; }  
+         if($CSLH_Config['version'] == "2.10.0"){ $installationtype = "upgrade2100"; }  
+         if($CSLH_Config['version'] == "2.10.1"){ $installationtype = "upgrade2101"; }  
+         if($CSLH_Config['version'] == "2.10.2"){ $installationtype = "upgrade2102"; }  
+         if($CSLH_Config['version'] == "2.10.3"){ $installationtype = "upgrade2103"; }  
+         if($CSLH_Config['version'] == "2.10.4"){ $installationtype = "upgrade2104"; } 
+         if($CSLH_Config['version'] == "2.10.5"){ $installationtype = "upgrade2105"; }
+         if($CSLH_Config['version'] == "2.11.0"){ $installationtype = "upgrade2110"; }
+         if($CSLH_Config['version'] == "2.11.1"){ $installationtype = "upgrade2111"; }
+         if($CSLH_Config['version'] == "2.11.2"){ $installationtype = "upgrade2112"; }
+         if($CSLH_Config['version'] == "2.11.3"){ $installationtype = "upgrade2113"; }
+         if($CSLH_Config['version'] == "2.11.4"){ $installationtype = "upgrade2114"; }
+         if($CSLH_Config['version'] == "2.11.5"){ $installationtype = "upgrade2115"; }
+         if($CSLH_Config['version'] == "2.11.6"){ $installationtype = "upgrade2116"; }
+         if($CSLH_Config['version'] == "2.11.7"){ $installationtype = "upgrade2117"; }
+         if($CSLH_Config['version'] == "2.12.0"){ $installationtype = "upgrade2120"; }    
+         if($CSLH_Config['version'] == "2.12.1"){ $installationtype = "upgrade2121"; }      
+         if($CSLH_Config['version'] == "2.12.2"){ $installationtype = "upgrade2122"; }  
+         if($CSLH_Config['version'] == "2.12.3"){ $installationtype = "upgrade2123"; } 
+         if($CSLH_Config['version'] == "2.12.4"){ $installationtype = "upgrade2124"; } 
+         if($CSLH_Config['version'] == "2.12.5"){ $installationtype = "upgrade2125"; }
+         if($CSLH_Config['version'] == "2.12.6"){ $installationtype = "upgrade2126"; }
+         if($CSLH_Config['version'] == "2.12.7"){ $installationtype = "upgrade2127"; }
+         if($CSLH_Config['version'] == "2.12.8"){ $installationtype = "upgrade2128"; }
+         if($CSLH_Config['version'] == "2.12.9"){ $installationtype = "upgrade2129"; } 
+         if($CSLH_Config['version'] == "2.13.0"){ $installationtype = "upgrade2130"; }                  
+         if($CSLH_Config['version'] == "2.13.1"){ $installationtype = "upgrade2131"; }  
+         if($CSLH_Config['version'] == "2.14.0"){ $installationtype = "upgrade2140"; } 
+         if($CSLH_Config['version'] == "2.14.1"){ $installationtype = "upgrade2141"; } 
+         if($CSLH_Config['version'] == "2.14.2"){ $installationtype = "upgrade2142"; } 
+         if($CSLH_Config['version'] == "2.14.3"){ $installationtype = "upgrade2143"; } 
+         if($CSLH_Config['version'] == "2.14.4"){ $installationtype = "upgrade2144"; } 
+         if($CSLH_Config['version'] == "2.14.5"){ $installationtype = "upgrade2145"; } 
+         if($CSLH_Config['version'] == "2.14.6"){ $installationtype = "upgrade2146"; } 
+         if($CSLH_Config['version'] == "2.15.0"){ $installationtype = "upgrade2150"; } 
+         if($CSLH_Config['version'] == "2.16.0"){ $installationtype = "upgrade2160"; } 
+         if($CSLH_Config['version'] == "2.16.1"){ $installationtype = "upgrade2161"; } 
+         if($CSLH_Config['version'] == "2.16.2"){ $installationtype = "upgrade2162"; } 
+         if($CSLH_Config['version'] == "2.16.3"){ $installationtype = "upgrade2163"; } 
+         if($CSLH_Config['version'] == "2.16.4"){ $installationtype = "upgrade2164"; } 
+         if($CSLH_Config['version'] == "2.16.5"){ $installationtype = "upgrade2165"; }
+         if($CSLH_Config['version'] == "2.16.6"){ $installationtype = "upgrade2166"; }          
+         if($CSLH_Config['version'] == "2.16.7"){ $installationtype = "upgrade2167"; }       
+         if($CSLH_Config['version'] == "2.16.8"){ $installationtype = "upgrade2168"; }    
+         if($CSLH_Config['version'] == "2.16.9"){ $installationtype = "upgrade2169"; }  
+         if($CSLH_Config['version'] == "3.0.0"){ $installationtype = "upgrade300"; } 
+         if($CSLH_Config['version'] == "3.0.1"){ $installationtype = "upgrade301"; }                                                              
+         if($CSLH_Config['version'] == "3.0.2"){ $installationtype = "upgrade302"; }    
+         if($CSLH_Config['version'] == "3.0.3"){ $installationtype = "upgrade303"; }    
+         if($CSLH_Config['version'] == "3.0.4"){ $installationtype = "upgrade304"; }    
+         if($CSLH_Config['version'] == "3.0.5"){ $installationtype = "upgrade305"; }    
+         if($CSLH_Config['version'] == "3.0.6"){ $installationtype = "upgrade306"; } 
+         if($CSLH_Config['version'] == "3.0.7"){ $installationtype = "upgrade307"; } 
+         if($CSLH_Config['version'] == "3.0.8"){ $installationtype = "upgrade308"; } 
+         if($CSLH_Config['version'] == "3.0.9"){ $installationtype = "upgrade309"; } 
+         if($CSLH_Config['version'] == "3.1.0"){ $installationtype = "upgrade310"; }                                        
+         if($CSLH_Config['version'] == "3.1.1"){ $installationtype = "upgrade311"; }   
+         if($CSLH_Config['version'] == "3.1.2"){ $installationtype = "upgrade312"; }   
+         if($CSLH_Config['version'] == "3.1.3"){ $installationtype = "upgrade313"; }  
+         if($CSLH_Config['version'] == "3.1.4"){ $installationtype = "upgrade314"; }            
+         if($CSLH_Config['version'] == "3.1.5"){ $installationtype = "upgrade315"; }          
+         if($CSLH_Config['version'] == "3.1.6"){ $installationtype = "upgrade316"; }     
+         if($CSLH_Config['version'] == "3.1.7"){ $installationtype = "upgrade317"; }     
+         if($CSLH_Config['version'] == "3.1.8"){ $installationtype = "upgrade318"; }     
+         if($CSLH_Config['version'] == "3.1.9"){ $installationtype = "upgrade319"; }   
+         if($CSLH_Config['version'] == "3.1.10"){ $installationtype = "upgrade3110"; }   
+         if($CSLH_Config['version'] == "3.1.11"){ $installationtype = "upgrade3111"; }   
+         if($CSLH_Config['version'] == "3.2.0"){ $installationtype = "upgrade320"; }   
+         if($CSLH_Config['version'] == "3.2.1"){ $installationtype = "upgrade321"; }   
+         if($CSLH_Config['version'] == "3.2.2"){ $installationtype = "upgrade322"; }                                                 
+         if($CSLH_Config['version'] == "3.2.3"){ $installationtype = "upgrade323"; }  
+         if($CSLH_Config['version'] == "3.2.4"){ $installationtype = "upgrade324"; } 
+         if($CSLH_Config['version'] == "3.2.5"){ $installationtype = "upgrade325"; } 
+         if($CSLH_Config['version'] == "3.2.6"){ $installationtype = "upgrade326"; } 
+         if($CSLH_Config['version'] == "3.2.7"){ $installationtype = "upgrade327"; } 
+         if($CSLH_Config['version'] == "3.2.8"){ $installationtype = "upgrade328"; }                            
+         if($CSLH_Config['version'] == "3.3.0"){ $installationtype = "upgrade330"; }      
+         if($CSLH_Config['version'] == "3.3.1"){ $installationtype = "upgrade331"; }                                                   
+         if($CSLH_Config['version'] == "3.3.2"){ $installationtype = "upgrade332"; }      
+         if($CSLH_Config['version'] == "3.3.3"){ $installationtype = "upgrade333"; }      
+         if($CSLH_Config['version'] == "3.3.4"){ $installationtype = "upgrade334"; }      
+         if($CSLH_Config['version'] == "3.3.5"){ $installationtype = "upgrade335"; }      
+         if($CSLH_Config['version'] == "3.3.6"){ $installationtype = "upgrade336"; }      
+                                    
+                  if(!(empty($installationtype))){
+         	  $UNTRUSTED['password1'] = "na";
+         	  $UNTRUSTED['password2'] = "na";
+         	  $UNTRUSTED['email'] = "na";
+         	  $UNTRUSTED['homepage'] = "na";
+         	  $UNTRUSTED['dbtype_setup'] = "mysql";
+         	  $UNTRUSTED['txtpath'] = "";
+         	  $UNTRUSTED['dbpath'] = "";
+         	  $UNTRUSTED['speaklanguage'] = "";
+         	  $UNTRUSTED['username'] = "";
+         	  $UNTRUSTED['opening'] = "";
+         	  
+         	  
+         	  $UNTRUSTED['server_setup'] = $server;
+            $UNTRUSTED['database_setup'] = $database;
+            $UNTRUSTED['datausername_setup'] = $datausername;
+            $UNTRUSTED['mypassword_setup'] = $password; 
+            $UNTRUSTED['rootpath'] = $application_root;
+            $skipwrite = true;
+         }
+      }   
+  }
+
+ 
+// INSTALL CHECK AND SETUP OF config.php 
+//========================================================================================= 
+if ($UNTRUSTED['action'] == "INSTALL"){
+	
+ // check for errors.
+ if ($UNTRUSTED['password1'] == ""){  
+   $errors .= "<li>You did not enter in a password.";
+ }
+
+ if ($UNTRUSTED['password1'] != $UNTRUSTED['password2']){  
+    $errors .= "<li>The two passwords you entered do not equal eachother .. you might of mistyped it password the second time . please retype the passwords you entered in again.";
+ }
+
+ if(empty($UNTRUSTED['email'])){ $errors .= "<li>You did not enter in a e-mail address. This is important for if you ever lose your password. "; }
+
+ if($UNTRUSTED['dbtype_setup'] == "mysql"){
+   if (empty($UNTRUSTED['database_setup'])){ $errors .= "<li>You did not enter in a Mysql database name "; }
+   if (empty($UNTRUSTED['datausername_setup'])){ $errors .= "<li>You did not enter in a Mysql Username name "; }        
+   if($errors == ""){
+     $conn = mysql_connect($UNTRUSTED['server_setup'],$UNTRUSTED['datausername_setup'],$UNTRUSTED['mypassword_setup']);		
+     if(!$conn) {
+    	  $errors .= "<li>Connection to the database failed. You may have the wrong database username/password "; 
+     } 
+     if(!mysql_select_db($UNTRUSTED['database_setup'],$conn)) {
+		    $errors .= "<li>Database select failed. You may have the wrong database "; 
+     }
+   } // errors == ""
+  } // dbtype_setup = mysql
+
+ if( (empty($UNTRUSTED['homepage']) || ($UNTRUSTED['homepage'] == "http://www.urltoyourwebsite.com"))){ 
+	  $errors .= "<li>You did not enter in a valid homepage address. ";
+ } 
+
+ if ($errors == ""){
+  
+  // define undefined:
+  if(empty($UNTRUSTED['dbpath'])) 
+     $UNTRUSTED['dbpath'] = "";
+  if(empty($UNTRUSTED['dbpath_setup'])) 
+     $UNTRUSTED['dbpath_setup'] = "";
+
+  // setup the config file..
+  $fcontents = @implode ('', @file('config.orig.php'));
+  if(empty($fcontents)){
+  	$fcontents = "<?php 
+ 
+// set this to true if false you will be re-directed to the setup page
+\$installed=true;  
+
+if(empty(\$_SERVER)){ \$_SERVER = \$HTTP_SERVER_VARS; }
+
+// if this program has not been installed and this is not the setup.php
+// re-direct to that page to setup database..
+if( (\$installed == false) && (!preg_match(\"/setup.php/i\", \$_SERVER['PHP_SELF'])) ){ 
+ Header(\"Location: setup.php\");
+ exit;
+}
+
+// if this file has insecure permissions:
+if(\$installed==true){
+ \$perm = @stat(\"config.php\");
+ if(!(empty(\$perm[2]))){
+  if( (\$perm[2] == \"33279\") || (\$perm[2] == \"33278\") || (\$perm[2] == \"33270\")  ){
+  	@chmod(\"config.php\", 0755);
+  	\$perm = @stat(\"config.php\");
+    if(!(empty(\$perm[2]))){
+      if( (\$perm[2] == \"33279\") || (\$perm[2] == \"33278\") || (\$perm[2] == \"33270\")  ){
+  	      print \"<font color=990000>You must secure this program. Insecure permissions on config.php</font>\";
+  	      print \"<br>While installing CSLH you might of needed to change the permissions of config.php so \";
+  	      print \"that it is writable by the web server. config.php no longer needs to be written to so \";
+  	      print \" please chmod config.php to not have write permissions for everyone. you can do this by\";
+  	      print \" UNCHECKING the box that reads write permissions for the file:\";
+          print \"<br><br><img src=directions2.gif>\";    
+          exit;
+       }
+     }
+    }      
+  }
+ } 
+ 
+ // dbtype either is either:
+ // mysql       - this is for Mysql support
+ // txt-db-api  - txt database support. 
+ \$dbtype = \"INPUT-DBTYPE\";
+
+ //database connections for MYSQL 
+ \$server = \"INPUT-SERVER\";
+ \$database = \"INPUT-DATABASE\";
+ \$datausername = \"INPUT-DATAUSERNAME\";
+ \$password = \"INPUT-PASSWORD\";
+
+ // change this to the full SERVER path to your files 
+ // on the server .. not the HTTP PATH.. for example enter in
+ // \$application_root = \"/usr/local/apache/htdocs/livehelp/\"
+ // not /livehelp/
+ // keep ending slash.
+ // WINDOWS would look something like:
+ // \$application_root = \"D:\\virtual www customers\\craftysyntax\\livehelp_1_6\\\";
+ \$application_root = \"INPUT-ROOTPATH\";
+
+ // if using txt-db-api need the path to the txt databases directory
+ \$DB_DIR = \"INPUT-TXTPATH\";
+ // if using txt-db-api need to have the full path to the txt-db-api
+ // you must set this property to something like /home/website/livehelp/txt-db-api/ 
+ \$API_HOME_DIR = \"INPUT-ROOTPATH\" . \"txt-db-api/\";
+ ?>";
+  }
+  $fcontents = str_replace("installed=false","installed=true",$fcontents);
+  $fcontents = str_replace("INPUT-DBTYPE",addslashes($UNTRUSTED['dbtype_setup']),$fcontents);
+  $fcontents = str_replace("INPUT-SERVER",addslashes($UNTRUSTED['server_setup']),$fcontents);
+  $fcontents = str_replace("INPUT-DATABASE",addslashes($UNTRUSTED['database_setup']),$fcontents);
+  $fcontents = str_replace("INPUT-DATAUSERNAME",addslashes($UNTRUSTED['datausername_setup']),$fcontents);
+  $fcontents = str_replace("INPUT-PASSWORD",addslashes($UNTRUSTED['mypassword_setup']),$fcontents);
+  $lastchar = substr($UNTRUSTED['txtpath'],-1);
+  $txtpath = ($lastchar != C_DIR) ?  $UNTRUSTED['txtpath'] . C_DIR : $UNTRUSTED['txtpath'];
+  $lastchar = substr($UNTRUSTED['rootpath'],-1);  
+  $rootpath = ($lastchar != C_DIR) ?  $UNTRUSTED['rootpath'] . C_DIR : $UNTRUSTED['rootpath'];
+  $lastchar = substr($UNTRUSTED['dbpath'],-1);  
+  $dbpath = ($lastchar != C_DIR) ?  $UNTRUSTED['dbpath'] . C_DIR:  $UNTRUSTED['dbpath'];
+  $lastchar = substr($UNTRUSTED['homepage'],-1);
+  $homepage = ($lastchar != "/") ?  $UNTRUSTED['homepage'] . "/" :  $UNTRUSTED['homepage'];
+  
+  if(empty($UNTRUSTED['s_homepage']))
+     $UNTRUSTED['s_homepage'] = $UNTRUSTED['homepage'];
+     
+  $lastchar = substr($UNTRUSTED['s_homepage'],-1);
+  $s_homepage = ($lastchar != "/") ?  $UNTRUSTED['s_homepage'] . "/" :  $UNTRUSTED['s_homepage'];
+   
+  $fcontents = str_replace("INPUT-TXTPATH",addslashes($txtpath),$fcontents);
+  $fcontents = str_replace("INPUT-ROOTPATH",addslashes($rootpath),$fcontents);
+  //$fcontents = str_replace("INPUT-DBPATH",addslashes($dbpath_setup),$fcontents);
+  $fcontents = str_replace("INPUT-HTTP",$homepage,$fcontents);
+ 
+  $insert_query = "INSERT INTO livehelp_config (version, site_title, use_flush, membernum, offset, show_typing,webpath,s_webpath,speaklanguage,maxexe,refreshrate,chatmode,adminsession,maxreferers,maxvisits,maxmonths,maxoldhits,maxrecords,admin_refresh,owner_email) VALUES ('$version', 'Live Help!', 'YES', 0, 0, 'Y','".filter_sql($homepage)."','".filter_sql($s_homepage)."','".filter_sql($UNTRUSTED['speaklanguage'])."',180,1,'xmlhttp-flush-refresh','Y',50,75,12,1,75000,'auto','".filter_sql($UNTRUSTED['email'])."')";
+  $insert_query2 = "INSERT INTO livehelp_users (username,displayname,password,isonline,isoperator,isadmin,isnamed,email,show_arrival,user_alert,auto_invite,greeting,photo,alertchat,alerttyping,alertinsite) VALUES ('".filter_sql($UNTRUSTED['username'])."','".filter_sql($UNTRUSTED['username'])."','".filter_sql(md5($UNTRUSTED['password1']))."','N','Y','Y','Y','".filter_sql($UNTRUSTED['email'])."','N','N','Y','How may I help You?','','new_chats.wav','click_x.wav','youve_got_visitors.wav')";   
+  $insert_query3 = "INSERT INTO livehelp_departments (nameof, onlineimage, offlineimage, requirename, messageemail, leaveamessage, opening, offline, creditline, layerinvite, imagemap,whilewait,timeout,topframeheight,topbackground,topbackcolor,midbackground,midbackcolor,botbackground,botbackcolor,colorscheme,busymess,website) VALUES ('default', 'onoff_images/online1.gif', 'onoff_images/offline1.gif', 'Y', '".filter_sql($UNTRUSTED['email'])."', 'YES', '<blockquote>".filter_sql($UNTRUSTED['opening'])."</blockquote>', '<blockquote>Sorry no operators are currently online to provide Live support at this time.</blockquote>', 'L','dhtmlimage.gif','<MAP NAME=myimagemap><AREA HREF=javascript:openLiveHelp() SHAPE=RECT COORDS=0,0,400,197><AREA HREF=javascript:openLiveHelp() SHAPE=RECT COORDS=0,157,213,257><AREA HREF=javascript:closeDHTML() SHAPE=RECT COORDS=237,157,400,257></MAP>','Please be patient while an operator is contacted... ','150','85','header_images/customersupports.png','#FFFFFF','background_images/chat_bubble_bg.png','#FFFFFF','bottom_images/chat_bubble.png','#F0F0F0','white','<blockquote>Sorry all operators are currently helping other clients and are unable to provide Live support at this time.<br>Would you like to continue to wait for an operator or leave a message?<br><table width=450><tr><td><a href=livehelp.php?page=livehelp.php&department=[department]&tab=1 target=_top><font size=+1>Continue to wait</font></a></td><td align=center><b>or</b></td><td><a href=leavemessage.php?department=[department]><font size=+1>Leave A Message</a></td></tr></table><blockquote>','1')";
+  $insert_query4 = "INSERT INTO livehelp_operator_departments (recno, user_id, department, extra) VALUES (1, 1, 1, '')";
+
+  // update the config file.
+ if($UNTRUSTED['manualinstall'] != "YES"){
+    if(!($skipwrite)){
+      $fp = @fopen ("config.php", "w+");
+      fwrite($fp,$fcontents);
+      fclose($fp);
+    }
+ } else {
+    print "<b>config.php:</b> Select all of the code below and then copy and paste it over your existing config.php file on the server <br><br><font color=990000><b>Note:</b> Be sure there is no Returns or spaces before and after the &lt;?php and ?&gt; markers";
+    print "<table bgcolor=DDDDDD><tr><td><pre>" . htmlspecialchars($fcontents) . "</pre></td></tr></table>";
+  }
+ } // errors == ""
+} // action == INSTALL
+
+
+// INSTALL/UPGRADE DATABASE 
+//========================================================================================= 
+if ($UNTRUSTED['action'] == "INSTALL"){
+
+ if($errors == ""){
+ 	 if(empty($installationtype))
+   	 $installationtype = $UNTRUSTED['installationtype'];
+
+     $missingfields = 1;
+
+   if($installationtype == "upgrade22"){
+     $sql = "ALTER TABLE `livehelp_config` ADD `speaklanguage` VARCHAR(60) DEFAULT 'English' NOT NULL ";
+     mysql_query($sql,$conn);
+     $sql = "UPDATE livehelp_users set onchannel=user_id where isadmin='Y'";	
+     mysql_query($sql,$conn);
+     $installationtype = "upgrade24";
+   }
+
+   if($installationtype == "upgrade24"){
+     $sql = "UPDATE livehelp_config set speaklanguage='English',version='$version'";
+     mysql_query($sql,$conn);
+     $sql = "UPDATE livehelp_users set onchannel=user_id where isadmin='Y'";	
+     mysql_query($sql,$conn);
+     $installationtype = "upgrade25";
+   }
+
+   if($installationtype == "upgrade25"){
+ 
+       $sql = "ALTER TABLE livehelp_users ADD auto_invite CHAR(1) NOT NULL ";
+       mysql_query($sql,$conn);
+
+       $sql = "ALTER TABLE livehelp_users ADD istyping CHAR(1) NOT NULL  default '3' ";
+       mysql_query($sql,$conn);
+
+       $sql = "ALTER TABLE livehelp_users ADD visits INT(8) NOT NULL ";
+       mysql_query($sql,$conn);
+	
+       $sql = "DROP TABLE IF EXISTS livehelp_modules_dep";
+       mysql_query($sql,$conn);
+       $sql = 
+       "CREATE TABLE livehelp_modules_dep (
+         rec int(10) NOT NULL auto_increment,
+         departmentid int(10) NOT NULL default '0',
+         modid int(10) NOT NULL default '0',
+         ordernum int(8) NOT NULL default '0',
+         isactive char(1) NOT NULL default 'N'
+         defaultset char(1) NOT NULL default '',
+         PRIMARY KEY  (rec)
+       )ENGINE=MyISAM 
+       ";
+ 		$results = mysql_query($sql,$conn);
+		if(!$results) 
+		{
+			echo "<H2>Query went bad!</H2>\n";
+			echo mysql_errno().":  ".mysql_error()."<P>";
+			$wentwrong = true;
+		}
+
+       $sql = "DROP TABLE IF EXISTS livehelp_autoinvite";
+       mysql_query($sql,$conn);
+       $sql = 
+       "CREATE TABLE `livehelp_autoinvite` (
+         `idnum` int(10) NOT NULL auto_increment,
+          isactive char(1) NOT NULL default '',  
+         `department` int(10) NOT NULL default '0',
+         `message` text NULL,
+         `page` varchar(255) NOT NULL default '',
+         `visits` int(8) NOT NULL default '0',
+         `referer` varchar(255) NOT NULL default '',
+         `typeof` varchar(30) NOT NULL default '',     
+         `seconds` int(11) unsigned NOT NULL default '15',
+          PRIMARY KEY  (idnum)
+        )ENGINE=MyISAM ";
+ 		$results = mysql_query($sql,$conn);
+		if(!$results) 
+		{
+			echo "<H2>Query went bad!</H2>\n";
+			echo mysql_errno().":  ".mysql_error()."<P>";
+			$wentwrong = true;
+		}
+
+       $sql = "DROP TABLE IF EXISTS livehelp_modules";
+       mysql_query($sql,$conn);
+       $sql = 
+       "CREATE TABLE livehelp_modules (
+         id int(10) NOT NULL auto_increment,
+         name varchar(30) NOT NULL default '',
+         path varchar(255) NOT NULL default '',
+         adminpath varchar(255) NOT NULL default '',
+         query_string varchar(255) NOT NULL default '',  
+         PRIMARY KEY  (id)
+       )ENGINE=MyISAM
+       ";
+ 		$results = mysql_query($sql,$conn);
+		if(!$results) 
+		{
+			echo "<H2>Query went bad!</H2>\n";
+			echo mysql_errno().":  ".mysql_error()."<P>";
+			$wentwrong = true;
+		}
+       $results = mysql_query("INSERT INTO `livehelp_modules` (id,name,path) VALUES (1, 'Live Help!', 'livehelp.php')",$conn);
+       $results = mysql_query("INSERT INTO `livehelp_modules` (id,name,path) VALUES (2, 'Contact', 'leavemessage.php')",$conn);
+       $results = mysql_query("INSERT INTO `livehelp_modules` (id,name,path,adminpath) VALUES (3, 'Q & A', 'user_qa.php','qa.php')",$conn);
+       $results = mysql_query("INSERT INTO `livehelp_modules_dep` VALUES (1, 1, 1, 1, 'N', '')",$conn);
+       $results = mysql_query("INSERT INTO `livehelp_modules_dep` VALUES (2, 1, 2, 2, 'N', 'Y')",$conn);
+ 
+      
+      $installationtype = "upgrade26";
+  }
+
+    if($installationtype == "upgrade26"){
+       $sql = "UPDATE livehelp_config set speaklanguage='English',version='$version'";
+       mysql_query($sql,$conn);
+       $installationtype = "upgrade27";
+     }
+
+     if($installationtype == "upgrade27"){
+        $sql = "ALTER TABLE `livehelp_config` CHANGE `version` `version` VARCHAR( 10 ) DEFAULT '$version' NOT NULL ";
+        mysql_query($sql,$conn);
+        $installationtype = "upgrade271";
+     }
+
+     if( ($installationtype == "upgrade271") || 
+         ($installationtype == "upgrade272") || 
+         ($installationtype == "upgrade273") ||         
+         ($installationtype == "upgrade274") ){
+
+
+         $sql = "ALTER TABLE `livehelp_departments` ADD `layerinvite` VARCHAR( 255 ) NOT NULL";
+         mysql_query($sql,$conn);       
+                  
+         $sql = "ALTER TABLE `livehelp_config` ADD `s_webpath` VARCHAR(255) NOT NULL ";
+         mysql_query($sql,$conn);
+
+         $sql = "ALTER TABLE `livehelp_config` ADD `scratch_space` TEXT NULL ";
+         mysql_query($sql,$conn);
+
+        $sql = "ALTER TABLE `livehelp_users` ADD `jsrn` INT(5) NOT NULL ";
+         mysql_query($sql,$conn);
+  
+        $sql = "ALTER TABLE `livehelp_messages` ADD `typeof` VARCHAR(30) NOT NULL ";
+         mysql_query($sql,$conn);                                      
+     
+         // select out all of the online and offline images and remove the path 
+         // to the live help (this is taken care of by webpath and s_webpath now.
+         $sql = "SELECT * FROM livehelp_departments";
+         $result = mysql_query($sql,$conn);
+         while ($row = mysql_fetch_array($result,MYSQL_ASSOC)) {
+             $onlineimage = str_replace($UNTRUSTED['homepage'],"",$row['onlineimage']);
+             $offlineimage = str_replace($UNTRUSTED['homepage'],"",$row['offlineimage']);
+             $layerinvite = str_replace($UNTRUSTED['homepage'],"",$row['layerinvite']);
+             $recno = $row['recno'];
+             $sql = "UPDATE livehelp_departments set onlineimage='".filter_sql($onlineimage)."',offlineimage='".filter_sql($offlineimage)."',layerinvite='".filter_sql($layerinvite)."' WHERE recno=".intval($recno);
+             mysql_query($sql,$conn);
+         }          
+
+        $installationtype = "upgrade280";
+     }
+
+     if( ($installationtype == "upgrade280") || 
+         ($installationtype == "upgrade281")
+        ){         	
+        
+        $sql = "ALTER TABLE `livehelp_users` ADD `hostname` VARCHAR( 255 ) NOT NULL ,ADD `useragent` VARCHAR( 255 ) NOT NULL ,ADD `ipaddress` VARCHAR( 255 ) NOT NULL ;";
+        mysql_query($sql,$conn);      
+
+        $scratch = "
+          Welcome to Crafty Syntax Live Help 
+ 
+All the administrative functions are located to the left of this text. 
+ 
+You can use this section to keep notes for yourself and other admins, etc.  
+
+To change the text that is located in this box just click on the small 
+edit button on the top right corner of this box. 
+
+        ";
+        $sql = "UPDATE livehelp_config set scratch_space='$scratch'";
+        mysql_query($sql,$conn);
+        
+        $installationtype = "upgrade282";
+     }
+     
+if( ($installationtype == "upgrade282") ){ 
+	 
+     $sql = "ALTER TABLE `livehelp_referers` ADD `parentrec` INT( 10 ) NOT NULL";
+     mysql_query($sql,$conn);
+
+     $sql = "ALTER TABLE `livehelp_referers_total` ADD `dateof` INT( 7 ) NOT NULL";
+     mysql_query($sql,$conn);
+     
+     $sql = "ALTER TABLE `livehelp_referers_total` ADD `parentrec` INT( 10 ) NOT NULL";
+     mysql_query($sql,$conn);
+
+     $sql = "ALTER TABLE `livehelp_visits_total` ADD `dateof` INT( 7 ) NOT NULL";
+     mysql_query($sql,$conn);
+          
+     $sql = "ALTER TABLE `livehelp_config` ADD `admin_refresh` VARCHAR(30) NOT NULL";
+     mysql_query($sql,$conn);
+
+     $sql = "ALTER TABLE `livehelp_autoinvite` ADD `typeof` VARCHAR(30) NOT NULL";
+     mysql_query($sql,$conn);
+
+     $sql = "ALTER TABLE `livehelp_departments` ADD `imagemap` TEXT NULL";
+     mysql_query($sql,$conn);
+
+     $sql = "ALTER TABLE `livehelp_operator_channels` ADD `txtcolor` VARCHAR( 10 ) NOT NULL";
+     mysql_query($sql,$conn);     
+
+     $sql = "ALTER TABLE `livehelp_operator_channels` ADD `channelcolor` VARCHAR( 10 ) NOT NULL";
+     mysql_query($sql,$conn);  
+                         
+     $sql = "UPDATE livehelp_departments set creditline='L',imagemap='<MAP NAME=myimagemap><AREA HREF=javascript:openLiveHelp() SHAPE=RECT COORDS=0,0,400,197><AREA HREF=javascript:openLiveHelp() SHAPE=RECT COORDS=0,157,213,257><AREA HREF=javascript:closeDHTML() SHAPE=RECT COORDS=237,157,400,257></MAP>'";
+     mysql_query($sql,$conn);
+
+$installationtype = "upgrade284";
+}
+
+if( ($installationtype == "upgrade284") ){                                 
+     $sql = "ALTER TABLE `livehelp_departments` ADD `whilewait` TEXT NULL";
+     mysql_query($sql,$conn);
+     
+     $sql = "ALTER TABLE `livehelp_quick` ADD `ishtml` VARCHAR( 3 ) NOT NULL ";
+     mysql_query($sql,$conn);
+
+     $sql = "ALTER TABLE `livehelp_users` ADD `sessionid` VARCHAR( 40 ) NOT NULL ";
+     mysql_query($sql,$conn);
+
+     $sql = "ALTER TABLE `livehelp_users` ADD `sessiondata` TEXT NULL ";
+     mysql_query($sql,$conn);
+     
+     $sql = "ALTER TABLE `livehelp_users` ADD `cookied` CHAR( 1 ) DEFAULT 'N' NOT NULL";
+     mysql_query($sql,$conn);
+     
+     $sql = "ALTER TABLE `livehelp_users` ADD `expires` bigint(14) NOT NULL";
+     mysql_query($sql,$conn);
+          
+     $sql = "ALTER TABLE `livehelp_users` ADD `authenticated` CHAR(1) NOT NULL ";
+     mysql_query($sql,$conn);
+
+    $sql = "ALTER TABLE `livehelp_departments` ADD `timeout` INT( 4 ) NOT NULL";
+    mysql_query($sql,$conn);
+
+    $sql = "UPDATE `livehelp_departments` SET `timeout`=150";
+    mysql_query($sql,$conn);
+      
+    $sql = "ALTER TABLE `livehelp_transcripts` ADD `sessionid` VARCHAR( 40 ) NOT NULL , ADD `sessiondata` TEXT NULL , ADD `department` INT( 10 ) NOT NULL ";
+    mysql_query($sql,$conn);      
+      
+    $sql = "
+      CREATE TABLE `livehelp_questions` (
+      `id` INT( 10 ) NOT NULL AUTO_INCREMENT ,
+      `department` INT( 10 ) NOT NULL  default '0',
+      `ordering` INT( 8 ) NOT NULL default '0',
+      `headertext` TEXT NULL,
+      `fieldtype` VARCHAR( 30 ) NOT NULL default '0',
+      `options` TEXT NULL,
+      `flags` VARCHAR( 60 ) NOT NULL default '',
+      `module` VARCHAR( 60 ) NOT NULL default '',
+      `required` CHAR( 1 ) DEFAULT 'N' NOT NULL,
+      PRIMARY KEY ( `id` ) ,
+      INDEX ( `department` ) 
+      )ENGINE=MyISAM
+    ";
+    mysql_query($sql,$conn);
+          
+    $sql = 
+       "CREATE TABLE `livehelp_smilies` (
+        `smilies_id` smallint(5) unsigned NOT NULL auto_increment,
+        `code` varchar(50) default NULL,
+        `smile_url` varchar(100) default NULL,
+        `emoticon` varchar(75) default NULL,
+        PRIMARY KEY  (`smilies_id`)
+       ) ENGINE=MyISAM
+       ";
+ 		   $results = mysql_query($sql,$conn);
+ 		$sql = "INSERT INTO `livehelp_smilies` VALUES (1, ':D', 'icon_biggrin.gif', 'Very Happy')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (2, ':-D', 'icon_biggrin.gif', 'Very Happy')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (3, ':grin:', 'icon_biggrin.gif', 'Very Happy')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (4, ':)', 'icon_smile.gif', 'Smile')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (5, ':-)', 'icon_smile.gif', 'Smile')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (6, ':smile:', 'icon_smile.gif', 'Smile')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (7, ':(', 'icon_sad.gif', 'Sad')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (8, ':-(', 'icon_sad.gif', 'Sad')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (9, ':sad:', 'icon_sad.gif', 'Sad')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (10, ':o', 'icon_surprised.gif', 'Surprised')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (11, ':-o', 'icon_surprised.gif', 'Surprised')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (12, ':eek:', 'icon_surprised.gif', 'Surprised')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (13, ':shock:', 'icon_eek.gif', 'Shocked')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (14, ':?', 'icon_confused.gif', 'Confused')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (15, ':-?', 'icon_confused.gif', 'Confused')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (16, ':???:', 'icon_confused.gif', 'Confused')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (17, '8)', 'icon_cool.gif', 'Cool')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (18, '8-)', 'icon_cool.gif', 'Cool')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (19, ':cool:', 'icon_cool.gif', 'Cool')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (20, ':lol:', 'icon_lol.gif', 'Laughing')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (21, ':x', 'icon_mad.gif', 'Mad')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (22, ':-x', 'icon_mad.gif', 'Mad')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (23, ':mad:', 'icon_mad.gif', 'Mad')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (24, ':P', 'icon_razz.gif', 'Razz')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (25, ':-P', 'icon_razz.gif', 'Razz')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (26, ':razz:', 'icon_razz.gif', 'Razz')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (27, ':oops:', 'icon_redface.gif', 'Embarassed')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (28, ':cry:', 'icon_cry.gif', 'Crying or Very sad')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (29, ':evil:', 'icon_evil.gif', 'Evil or Very Mad')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (30, ':twisted:', 'icon_twisted.gif', 'Twisted Evil')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (31, ':roll:', 'icon_rolleyes.gif', 'Rolling Eyes')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (32, ':wink:', 'icon_wink.gif', 'Wink')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (33, ';)', 'icon_wink.gif', 'Wink')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (34, ';-)', 'icon_wink.gif', 'Wink')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (35, ':!:', 'icon_exclaim.gif', 'Exclamation')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (36, ':?:', 'icon_question.gif', 'Question')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (37, ':idea:', 'icon_idea.gif', 'Idea')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (38, ':arrow:', 'icon_arrow.gif', 'Arrow')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (39, ':|', 'icon_neutral.gif', 'Neutral')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (40, ':-|', 'icon_neutral.gif', 'Neutral')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (41, ':neutral:', 'icon_neutral.gif', 'Neutral')";
+ 		$results = mysql_query($sql,$conn);
+$sql = "INSERT INTO  `livehelp_smilies` VALUES (42, ':mrgreen:', 'icon_mrgreen.gif', 'Mr. Green')";
+ 		$results = mysql_query($sql,$conn);
+     mysql_query($sql,$conn);		          
+     
+        $scratch = "
+           Welcome to Crafty Syntax Live Help 
+
+All the administrative functions are located to the left of this text. 
+ 
+You can use this section to keep notes for yourself and other admins, etc. 
+ 
+To change the text that is located in this box just click on the small 
+edit button on the top right corner of this box. 
+ 
+        ";
+        $sql = "UPDATE livehelp_config set scratch_space='$scratch'";
+
+$installationtype = "upgrade290";
+}
+if( ($installationtype == "upgrade290") ){ 
+	 
+	  $sql = "ALTER TABLE `livehelp_config` CHANGE `speaklanguage` `speaklanguage` VARCHAR( 60 ) DEFAULT 'English' NOT NULL";
+	  mysql_query($sql,$conn);
+    
+    $sql = "ALTER TABLE `livehelp_departments` ADD `leavetxt` TEXT NULL";
+    mysql_query($sql,$conn);               
+
+    $sql = "UPDATE livehelp_departments set leavetxt='<h3><SPAN CLASS=wh>LEAVE A MESSAGE:</SPAN></h3>Please type in your comments/questions in the below box <br> and provide an e-mail address so we can get back to you'";
+    mysql_query($sql,$conn);    
+    
+$installationtype = "upgrade291";
+}
+if( ($installationtype == "upgrade291") || ($installationtype == "upgrade292") ){ 
+
+ 
+    $sql = "ALTER TABLE `livehelp_users` ADD `greeting` TEXT NULL";
+    mysql_query($sql,$conn); 
+    
+    $sql = "ALTER TABLE `livehelp_users` ADD `photo` VARCHAR( 255 ) NOT NULL";
+    mysql_query($sql,$conn); 
+    
+    $sql = "UPDATE `livehelp_users` set `greeting`='How may I help You?',photo=''";
+    mysql_query($sql,$conn); 
+
+$installationtype = "upgrade293"; 
+}
+
+if($installationtype == "upgrade293") {
+	
+	 $sql = "ALTER TABLE `livehelp_users` ADD `chataction` BIGINT( 14 ) NOT NULL";
+	 mysql_query($sql,$conn);
+	 $sql = "ALTER TABLE `livehelp_config` ADD PRIMARY KEY ( `version` )";
+	 mysql_query($sql,$conn);
+	 
+$installationtype = "upgrade294"; 
+} 
+
+if( ($installationtype == "upgrade294") || ($installationtype == "upgrade295") ){
+
+   $sql = "ALTER TABLE `livehelp_users` ADD `new_session` CHAR( 1 ) DEFAULT 'Y' NOT NULL";
+   mysql_query($sql,$conn);
+$installationtype = "upgrade296"; 
+}
+
+if($installationtype == "upgrade296"){
+   $sql = "ALTER TABLE `livehelp_users` ADD `showtype` INT( 10 ) DEFAULT '1' NOT NULL";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_config` ADD `maxexe` int(5) DEFAULT '180'";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_transcripts` CHANGE `daytime` `daytime` BIGINT( 14 ) DEFAULT NULL";
+   mysql_query($sql,$conn);      	
+   $sql = "ALTER TABLE `livehelp_visit_track` CHANGE `whendone` `whendone` BIGINT(14) DEFAULT NULL"; 
+   mysql_query($sql,$conn);  
+   $sql = "ALTER TABLE `livehelp_config` ADD `refreshrate` INT(4) DEFAULT '1' NOT NULL";
+   mysql_query($sql,$conn);    
+   $sql = "UPDATE livehelp_config set admin_refresh='auto',membernum='0',speaklanguage='English',version='$version'";
+   mysql_query($sql,$conn);
+   
+   $installationtype = "upgrade297";    
+}
+if($installationtype == "upgrade297"){
+
+
+   $sql = "ALTER TABLE `livehelp_departments` ADD `topframeheight` INT( 10 ) DEFAULT '85' NOT NULL";
+   mysql_query($sql,$conn);   
+   $sql = "ALTER TABLE `livehelp_departments` ADD `topbackground` VARCHAR( 255 ) NOT NULL default 'header_images/customersupports.png'";
+   mysql_query($sql,$conn);   
+   $sql = "ALTER TABLE `livehelp_departments` ADD `colorscheme` VARCHAR( 255 ) NOT NULL default 'white'";
+   mysql_query($sql,$conn);   
+   $sql = "ALTER TABLE `livehelp_transcripts` ADD `email` VARCHAR( 60 ) NOT NULL default ''";
+   mysql_query($sql,$conn);   
+   $sql = "UPDATE livehelp_departments set topframeheight='85',topbackground='header_images/customersupports.png',colorscheme='white'";
+   mysql_query($sql,$conn);   
+   $installationtype = "upgrade298";   
+ }
+   
+if( ($installationtype == "upgrade298") || ($installationtype == "upgrade299") ){
+   $sql = "ALTER TABLE `livehelp_config` ADD `chatmode` VARCHAR( 60 ) NOT NULL";
+   mysql_query($sql,$conn);   
+
+   $sql = "ALTER TABLE `livehelp_config` ADD `adminsession` CHAR( 1 ) DEFAULT 'Y' NOT NULL";
+   mysql_query($sql,$conn);  
+
+   $sql = "ALTER TABLE `livehelp_users` ADD `chattype` CHAR( 1 ) DEFAULT 'Y' NOT NULL";
+   mysql_query($sql,$conn);
+   
+   $sql = "ALTER TABLE `livehelp_users` ADD `externalchats` VARCHAR( 255 ) DEFAULT '' NOT NULL";
+   mysql_query($sql,$conn);
+
+   $sql = "ALTER TABLE `livehelp_operator_channels` ADD `txtcolor_alt` VARCHAR( 10 ) NOT NULL";
+   mysql_query($sql,$conn);      
+
+        $scratch = "
+        
+  Welcome to Crafty Syntax Live Help 
+  
+All the administrative functions are located to the left of this text. 
+ 
+You can use this section to keep notes for yourself and other admins, etc.
+ 
+To change the text that is located in this box just click on the small 
+edit button on the top right corner of this box. 
+ 
+        ";
+        $sql = "UPDATE livehelp_config set scratch_space='$scratch'";
+        mysql_query($sql,$conn);
+        
+  $installationtype = "upgrade2100";
+}   
+
+if($installationtype == "upgrade2100"){
+
+   $sql = "ALTER TABLE `livehelp_quick` CHANGE `department` `department` VARCHAR( 60 ) DEFAULT '0' NOT NULL";
+   mysql_query($sql,$conn);        
+   
+   $installationtype = "upgrade2101";
+  }
+  
+if($installationtype == "upgrade2101"){  
+
+    $sql = "
+CREATE TABLE `livehelp_operator_history` (
+  `id` int(11) unsigned NOT NULL auto_increment,
+  `opid` int(11) unsigned NOT NULL default '0',
+  `action` varchar(60) NOT NULL default '',
+  `dateof` bigint(14) NOT NULL default '0',
+  `sessionid` varchar(40) NOT NULL default '',
+  `transcriptid` int(10) NOT NULL default '0',
+  `totaltime` int(10) NOT NULL default '0',
+  `channel` int(10) NOT NULL default '0',
+  PRIMARY KEY  (`id`),
+  INDEX ( `opid` ), 
+  INDEX ( `dateof` )   
+) ENGINE=MyISAM AUTO_INCREMENT=1
+    ";
+    mysql_query($sql,$conn);
+   
+   $sql = "ALTER TABLE `livehelp_departments` ADD `speaklanguage` VARCHAR( 60 ) NOT NULL";
+   mysql_query($sql,$conn);
+
+   $sql = "ALTER TABLE `livehelp_departments` ADD `busymess` TEXT NULL";
+   mysql_query($sql,$conn);
+
+   $sql = "ALTER TABLE `livehelp_config` ADD `ignoreips` TEXT NULL";
+   mysql_query($sql,$conn);   
+     
+   $sql = "UPDATE livehelp_departments set busymess='<blockquote>Sorry all operators are currently helping other clients and are unable to provide Live support at this time.<br>Would you like to continue to wait for an operator or leave a message?<br><table width=450><tr><td><a href=livehelp.php?page=livehelp.php?page=livehelp.php&department=[department]&tab=1 target=_top><font size=+1>Continue to wait</font></a></td><td align=center><b>or</b></td><td><a href=leavemessage.php?department=[department]><font size=+1>Leave a message</a></td></tr></table><blockquote>'";
+   mysql_query($sql,$conn);
+         
+   $installationtype = "upgrade2102";
+  }
+  
+ 
+if( ($installationtype == "upgrade2103") || ($installationtype == "upgrade2102") ){ 
+ 
+   $sql = "ALTER TABLE `livehelp_config` ADD `directoryid` VARCHAR( 32 ) NOT NULL";
+   mysql_query($sql,$conn); 
+
+   $sql = "ALTER TABLE `livehelp_config` ADD `tracking` CHAR( 1 ) DEFAULT 'N' NOT NULL";
+   mysql_query($sql,$conn); 
+
+   $sql = "ALTER TABLE `livehelp_config` ADD `colorscheme` VARCHAR( 30 ) DEFAULT 'white' NOT NULL";
+   mysql_query($sql,$conn); 
+
+   $sql = "ALTER TABLE `livehelp_users` ADD `layerinvite` INT( 10 ) DEFAULT '0' NOT NULL";
+   mysql_query($sql,$conn); 
+   
+    $sql = "
+    CREATE TABLE `livehelp_layerinvites` (
+  `layerid` int(10) NOT NULL default '0',
+  `name` varchar(60) NOT NULL default '',
+  `imagename` varchar(60) NOT NULL default '',
+  `imagemap` text NULL,
+  `department` varchar(60) NOT NULL default '',
+  `user` int(10) NOT NULL default '0',
+  PRIMARY KEY  (`layerid`)
+   ) ENGINE=MyISAM";
+   mysql_query($sql,$conn); 
+
+   $installationtype = "upgrade2104";
+}
+
+if($installationtype == "upgrade2104"){
+	 
+	 // auto invites are now in the database by id number but is is only 1 to 99:
+   for($i=0;$i<26;$i++){
+   	 $j= $i+100;
+  	 $sql = "UPDATE livehelp_autoinvite SET message='$i' WHERE message='$j'";
+	   mysql_query($sql,$conn);
+ 	 } 
+	    
+   $installationtype = "upgrade2105";
+}
+
+if($installationtype == "upgrade2105"){
+	 
+	 //turn off max execution timeout .. this might take 45 seconds or 
+	 // more to do it the tables are big:
+  @ini_set("max_execution_time",0);
+
+	 // most of the data inside livehelp_visit_track is orphaned data
+	 // and is the cause of most of the performance issues in 2.10.x
+	 // this optimizes the tables after truncate:
+	 $sql = "TRUNCATE livehelp_visit_track";
+	 mysql_query($sql,$conn); 	    
+	 $sql = "ALTER TABLE `livehelp_visit_track` CHANGE `location` `location` VARCHAR( 255 ) NOT NULL";
+   mysql_query($sql,$conn);       
+   $sql = "ALTER TABLE `livehelp_visit_track` CHANGE `id` `sessionid` VARCHAR( 40 ) DEFAULT '0' NOT NULL"; 
+   mysql_query($sql,$conn);             
+   $sql = "ALTER TABLE `livehelp_visit_track` ADD INDEX ( `location` )";
+   mysql_query($sql,$conn);                
+   $sql = "ALTER TABLE `livehelp_visit_track` ADD INDEX ( `whendone` )"; 
+   mysql_query($sql,$conn);    
+   $sql = "ALTER TABLE `livehelp_visit_track` CHANGE `referrer` `referrer` VARCHAR( 255 ) NOT NULL";
+   mysql_query($sql,$conn);    
+   
+   $sql = "ALTER TABLE `livehelp_channels` ADD `sessionid` VARCHAR( 40 ) NOT NULL";
+   mysql_query($sql,$conn);    
+ 
+   $sql = "ALTER TABLE `livehelp_users` CHANGE `camefrom` `camefrom` VARCHAR( 255 ) NOT NULL";
+   mysql_query($sql,$conn); 
+   $sql = "ALTER TABLE `livehelp_users` ADD `askquestions` CHAR( 1 ) DEFAULT 'Y' NOT NULL";
+   mysql_query($sql,$conn); 
+   $sql = "ALTER TABLE `livehelp_users` ADD `showvisitors` CHAR( 1 ) DEFAULT 'N' NOT NULL";
+   mysql_query($sql,$conn); 
+   $sql = "ALTER TABLE `livehelp_users` CHANGE `showedup` `showedup` BIGINT( 14 ) DEFAULT '0' NOT NULL";
+   mysql_query($sql,$conn); 
+ 
+   $sql = "ALTER TABLE `livehelp_operator_history` ADD INDEX ( `opid` )";
+   mysql_query($sql,$conn);      
+   $sql = "ALTER TABLE `livehelp_operator_history` ADD INDEX ( `dateof` )"; 
+   mysql_query($sql,$conn);                  
+
+	 $sql = "ALTER TABLE `livehelp_config` ADD `matchip` CHAR(1) DEFAULT 'N' NOT NULL";
+   mysql_query($sql,$conn); 
+	 $sql = "ALTER TABLE `livehelp_config` ADD `gethostnames` CHAR(1) DEFAULT 'N' NOT NULL";
+   mysql_query($sql,$conn); 
+	 $sql = "ALTER TABLE `livehelp_config` ADD `maxreferers` INT( 10 ) DEFAULT '50' NOT NULL";
+   mysql_query($sql,$conn); 
+	 $sql = "ALTER TABLE `livehelp_config` ADD `maxvisits` INT( 10 ) DEFAULT '100' NOT NULL";
+   mysql_query($sql,$conn);  
+	 $sql = "ALTER TABLE `livehelp_config` ADD `maxmonths` INT( 10 ) DEFAULT '12' NOT NULL";
+   mysql_query($sql,$conn);    
+	 $sql = "ALTER TABLE `livehelp_config` ADD `maxoldhits` INT( 10 ) NOT NULL";
+   mysql_query($sql,$conn);  
+	 $sql = "ALTER TABLE `livehelp_config` ADD `maxrecords` INT( 10 ) NOT NULL";
+   mysql_query($sql,$conn);                
+	 $sql = "ALTER TABLE `livehelp_config` ADD `showgames` CHAR(1) NOT NULL";
+   mysql_query($sql,$conn);   
+	 $sql = "ALTER TABLE `livehelp_config` ADD `showsearch` CHAR(1) NOT NULL";
+   mysql_query($sql,$conn); 
+	 $sql = "ALTER TABLE `livehelp_config` ADD `showdirectory` CHAR(1) NOT NULL";
+   mysql_query($sql,$conn); 
+ 
+   $sql = "ALTER TABLE `livehelp_referers` RENAME `livehelp_referers_daily`";
+   mysql_query($sql,$conn);      
+   $sql = "ALTER TABLE `livehelp_referers_daily` DROP INDEX `uniquevisits`";
+   mysql_query($sql,$conn);    
+   $sql = "ALTER TABLE `livehelp_referers_daily` DROP INDEX `camefrom`";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_referers_daily` DROP INDEX `dayof`";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_referers_daily` CHANGE `camefrom` `pageurl` VARCHAR( 255 ) DEFAULT '' NOT NULL";    
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_referers_daily` CHANGE `dayof` `dateof` INT( 8 ) DEFAULT '0' NOT NULL";
+   mysql_query($sql,$conn);         
+   $sql = "ALTER TABLE `livehelp_referers_daily` CHANGE `uniquevisits` `levelvisits` int(11) unsigned NOT NULL default '0'";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_referers_daily` ADD `directvisits` INT( 11 ) UNSIGNED DEFAULT '0' NOT NULL";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_referers_daily` ADD `level` INT( 10 ) DEFAULT '0' NOT NULL";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_referers_daily` ADD INDEX ( `pageurl` )";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_referers_daily` ADD INDEX ( `parentrec` )";
+   mysql_query($sql,$conn);      
+   $sql = "ALTER TABLE `livehelp_referers_daily` ADD INDEX ( `levelvisits` )";
+   mysql_query($sql,$conn); 
+   $sql = "ALTER TABLE `livehelp_referers_daily` ADD INDEX ( `directvisits` )";
+   mysql_query($sql,$conn); 
+   $sql = "ALTER TABLE `livehelp_referers_daily` ADD INDEX ( `dateof` )";
+   mysql_query($sql,$conn);       
+   
+                           
+   $sql = "ALTER TABLE `livehelp_referers_total` RENAME `livehelp_referers_monthly`";
+   mysql_query($sql,$conn); 
+   $sql = "ALTER TABLE `livehelp_referers_monthly` DROP INDEX `ctotal`";
+   mysql_query($sql,$conn);    
+   $sql = "ALTER TABLE `livehelp_referers_monthly` DROP INDEX `camefrom`";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_referers_monthly` CHANGE `camefrom` `pageurl` VARCHAR( 255 ) DEFAULT '' NOT NULL";    
+   mysql_query($sql,$conn);       
+   $sql = "ALTER TABLE `livehelp_referers_monthly` CHANGE `ctotal` `levelvisits` int(11) unsigned NOT NULL default '0'";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_referers_monthly` ADD `directvisits` INT( 11 ) UNSIGNED DEFAULT '0' NOT NULL";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_referers_monthly` ADD `level` INT( 10 ) DEFAULT '0' NOT NULL";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_referers_monthly` ADD INDEX ( `pageurl` )";
+   mysql_query($sql,$conn);     
+   $sql = "ALTER TABLE `livehelp_referers_monthly` ADD INDEX ( `levelvisits` )";
+   mysql_query($sql,$conn); 
+   $sql = "ALTER TABLE `livehelp_referers_monthly` ADD INDEX ( `directvisits` )";
+   mysql_query($sql,$conn); 
+   $sql = "ALTER TABLE `livehelp_referers_monthly` ADD INDEX ( `dateof` )";
+   mysql_query($sql,$conn);     
+   
+   $sql = "ALTER TABLE `livehelp_visits` RENAME `livehelp_visits_daily`";
+   mysql_query($sql,$conn); 
+   $sql = "ALTER TABLE `livehelp_visits_daily` DROP INDEX `uniquevisits`";
+   mysql_query($sql,$conn);    
+   $sql = "ALTER TABLE `livehelp_visits_daily` DROP INDEX `dayof`";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_visits_daily` CHANGE `dayof` `dateof` INT( 8 ) DEFAULT '0' NOT NULL";
+   mysql_query($sql,$conn);         
+   $sql = "ALTER TABLE `livehelp_visits_daily` CHANGE `uniquevisits` `directvisits` int(11) unsigned NOT NULL default '0'";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_visits_daily` ADD `levelvisits` INT( 11 ) UNSIGNED DEFAULT '0' NOT NULL";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_visits_daily` ADD `parentrec` INT( 11 ) UNSIGNED DEFAULT '0' NOT NULL";
+   mysql_query($sql,$conn);
+   $sql = "UPDATE `livehelp_visits_daily` SET `levelvisits`=`directvisits`";
+   mysql_query($sql,$conn);   
+   $sql = "ALTER TABLE `livehelp_visits_daily` ADD `level` INT( 10 ) DEFAULT '0' NOT NULL";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_visits_daily` ADD INDEX ( `pageurl` )";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_visits_daily` ADD INDEX ( `parentrec` )";
+   mysql_query($sql,$conn);      
+   $sql = "ALTER TABLE `livehelp_visits_daily` ADD INDEX ( `levelvisits` )";
+   mysql_query($sql,$conn); 
+   $sql = "ALTER TABLE `livehelp_visits_daily` ADD INDEX ( `directvisits` )";
+   mysql_query($sql,$conn); 
+   $sql = "ALTER TABLE `livehelp_visits_daily` ADD INDEX ( `dateof` )";
+   mysql_query($sql,$conn); 
+
+   $sql = "ALTER TABLE `livehelp_visits_total` RENAME `livehelp_visits_monthly`";
+   mysql_query($sql,$conn);          
+   $sql = "ALTER TABLE `livehelp_visits_monthly` DROP INDEX `ctotal`";
+   mysql_query($sql,$conn);          
+   $sql = "ALTER TABLE `livehelp_visits_monthly` CHANGE `ctotal` `directvisits` int(11) unsigned NOT NULL default '0'";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_visits_monthly` ADD `levelvisits` INT( 11 ) UNSIGNED DEFAULT '0' NOT NULL";
+   mysql_query($sql,$conn);
+   $sql = "UPDATE `livehelp_visits_monthly` SET `levelvisits`=`directvisits`";
+   mysql_query($sql,$conn);  
+   $sql = "ALTER TABLE `livehelp_visits_monthly` ADD `level` INT( 10 ) DEFAULT '0' NOT NULL";
+   mysql_query($sql,$conn);
+   $sql = "ALTER TABLE `livehelp_visits_monthly` ADD `parentrec` INT( 11 ) UNSIGNED DEFAULT '0' NOT NULL";
+   mysql_query($sql,$conn);   
+   $sql = "ALTER TABLE `livehelp_visits_monthly` ADD INDEX ( `parentrec` )";
+   mysql_query($sql,$conn);      
+   $sql = "ALTER TABLE `livehelp_visits_monthly` ADD INDEX ( `pageurl` )";
+   mysql_query($sql,$conn);     
+   $sql = "ALTER TABLE `livehelp_visits_monthly` ADD INDEX ( `levelvisits` )";
+   mysql_query($sql,$conn); 
+   $sql = "ALTER TABLE `livehelp_visits_monthly` ADD INDEX ( `directvisits` )";
+   mysql_query($sql,$conn); 
+   $sql = "ALTER TABLE `livehelp_visits_monthly` ADD INDEX ( `dateof` )";
+   mysql_query($sql,$conn);   
+            
+   $installationtype = "upgrade2111";
+  }   
+  
+if( ($installationtype == "upgrade2110") || ($installationtype == "upgrade2111")){  
+	
+    $sql = "DROP TABLE IF EXISTS livehelp_referers";
+    mysql_query($sql,$conn);		
+ 
+    $sql = "DROP TABLE IF EXISTS livehelp_referers_total";
+    mysql_query($sql,$conn);	
+
+    $sql = "DROP TABLE IF EXISTS livehelp_visits";
+    mysql_query($sql,$conn);
+ 
+    $sql = "DROP TABLE IF EXISTS livehelp_visits_total";
+    mysql_query($sql,$conn);
+    
+    $sql = "ALTER TABLE `livehelp_config` ADD `usertracking` CHAR( 1 ) DEFAULT 'N' NOT NULL ";
+    mysql_query($sql,$conn);
+
+    $sql = "ALTER TABLE `livehelp_config` ADD `resetbutton` CHAR( 1 ) DEFAULT 'N' NOT NULL ";
+    mysql_query($sql,$conn);
+    
+    $sql = "ALTER TABLE `livehelp_users` ADD `cookieid` VARCHAR( 40 ) NOT NULL";
+    mysql_query($sql,$conn);
+    
+    $sql = "CREATE TABLE `livehelp_identity_daily` (
+  `id` int(11) unsigned NOT NULL auto_increment,
+  `isnamed` char(1) NOT NULL default 'N',
+  `groupidentity` int(11) NOT NULL default '0',
+  `groupusername` int(11) NOT NULL default '0',
+  `identity` varchar(100) NOT NULL default '',
+  `cookieid` varchar(40) NOT NULL default '',
+  `ipaddress` varchar(30) NOT NULL default '',
+  `username` varchar(100) NOT NULL default '',
+  `dateof` bigint(14) NOT NULL default '0',
+  `uservisits` int(10) NOT NULL default '0',
+  `seconds` int(10) NOT NULL default '0',
+  `useragent` varchar(255) NOT NULL default '',
+  PRIMARY KEY  (`id`),
+  KEY `isnamed` (`isnamed`),
+  KEY `groupidentity` (`groupidentity`),
+  KEY `groupusername` (`groupusername`),
+  KEY `identity` (`identity`),
+  KEY `cookieid` (`cookieid`),
+  KEY `username` (`username`),
+  KEY `dateof` (`dateof`)
+) ENGINE=MyISAM";
+    mysql_query($sql,$conn);
+
+
+    $sql = "CREATE TABLE `livehelp_identity_monthly` (
+  `id` int(11) unsigned NOT NULL auto_increment,
+  `isnamed` char(1) NOT NULL default 'N',
+  `groupidentity` int(11) NOT NULL default '0',
+  `groupusername` int(11) NOT NULL default '0',
+  `identity` varchar(100) NOT NULL default '',
+  `cookieid` varchar(40) NOT NULL default '',
+  `ipaddress` varchar(30) NOT NULL default '',
+  `username` varchar(100) NOT NULL default '',
+  `dateof` bigint(14) NOT NULL default '0',
+  `uservisits` int(10) NOT NULL default '0',
+  `seconds` int(10) NOT NULL default '0',
+  `useragent` varchar(255) NOT NULL default '',
+  PRIMARY KEY  (`id`),
+  KEY `isnamed` (`isnamed`),
+  KEY `groupidentity` (`groupidentity`),
+  KEY `groupusername` (`groupusername`),
+  KEY `identity` (`identity`),
+  KEY `cookieid` (`cookieid`),
+  KEY `username` (`username`),
+  KEY `dateof` (`dateof`)
+) ENGINE=MyISAM";
+    mysql_query($sql,$conn);
+    
+
+   $installationtype = "upgrade2112";
+              	
+   $sql = "UPDATE livehelp_config set showgames='Y',showsearch='Y',showdirectory='Y',maxreferers=50,maxvisits=75,maxmonths=12,maxoldhits=1,maxrecords=75000,chatmode='xmlhttp-flush-refresh',admin_refresh='auto',membernum='0',speaklanguage='English',version='$version'";
+   mysql_query($sql,$conn);
+   
+   }
+
+if( ($installationtype == "upgrade2112") || ($installationtype == "upgrade2113") || ($installationtype == "upgrade2114") || ($installationtype == "upgrade2115") || ($installationtype == "upgrade2116") ){
+   $sql = "UPDATE livehelp_config set showgames='Y',showsearch='Y',showdirectory='Y',maxreferers=50,maxvisits=75,maxmonths=12,maxoldhits=1,maxrecords=75000,chatmode='xmlhttp-flush-refresh',admin_refresh='auto',version='$version'";
+   mysql_query($sql,$conn);
+   $installationtype = "upgrade2117";
+ }
+ 
+if($installationtype == "upgrade2117"){
+	 
+	  $sql = "ALTER TABLE `livehelp_departments` ADD `emailfun` CHAR( 1 ) DEFAULT 'Y' NOT NULL";
+    mysql_query($sql,$conn);
+
+	  $sql = "ALTER TABLE `livehelp_departments` ADD `dbfun` CHAR( 1 ) DEFAULT 'Y' NOT NULL";
+    mysql_query($sql,$conn);    
+
+	  $sql = "ALTER TABLE `livehelp_departments` ADD `everythingelse` text NULL";
+    mysql_query($sql,$conn);   
+
+	  $sql = "ALTER TABLE `livehelp_config` ADD `reftracking` CHAR( 1 ) DEFAULT 'N' NOT NULL";
+    mysql_query($sql,$conn);   
+ 
+ 	  $sql = "ALTER TABLE `livehelp_config` ADD `keywordtrack` CHAR( 1 ) DEFAULT 'N' NOT NULL";
+    mysql_query($sql,$conn); 
+
+ 	  $sql = "ALTER TABLE `livehelp_config` ADD `topkeywords` int(10) DEFAULT '50' NOT NULL";
+    mysql_query($sql,$conn);     
+ 
+ 	  $sql = "ALTER TABLE `livehelp_config` ADD `reme

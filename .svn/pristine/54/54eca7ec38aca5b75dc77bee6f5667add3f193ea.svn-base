@@ -1,0 +1,525 @@
+<html>
+<head>
+<title>TotalApps-Merchant-Account</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body style="padding:10px;">
+<!-- Save for Web Slices (TotalApps-Merchant-Account.psd) -->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding:0px; border:1px solid #000; font-family:Arial, Helvetica, sans-serif;">
+<!--th start-->
+<tr>
+<th align="center" style="padding:5px 0; background:#000; font-size:100%; color:#fff; ">11. SCHEDULE OF CHARGES</th>
+</tr>
+<!--th end-->
+
+<tr>
+<td align="left" valign="top" width="100%">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="33%" valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" width="100%" >
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" width="10%" align="left"><input name="" type="checkbox" value=""></td>
+    <td valign="middle" align="left" style="font-size:10px; color:#333333; ">Interchange/Cost Plus: _____% + $_____ </td>
+  </tr>
+  
+  <tr>
+    <td valign="top" align="left" width="10%"><input name="" type="checkbox" value=""></td>
+    <td valign="middle" align="left" style="font-size:10px; color:#333333; ">Tiered Pricing: (Default if below is completed)</td>
+  </tr>
+</table>
+    </td>
+  </tr>
+  <tr>
+  <td height="10"></td>
+  </tr>
+  <tr>
+    <td valign="top" width="100%"  >
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" height="30" align="center" width="25%">&nbsp;</td>
+    <td valign="top" align="center" width="25%" style="font-size:11px; color:#333; font-weight:bold;">Checkcard Rate</td>
+    <td valign="top" align="center" width="25%" style="font-size:11px; color:#333; font-weight:bold;">Credit Rate</td>
+    <td valign="top" align="center" style="font-size:11px; color:#333; font-weight:bold;">Trans Fee</td>
+  </tr>
+  <tr>
+    <td valign="top" height="20" align="left" style="font-size:10px; color:#333;" >Visa:</td>
+    <td valign="top" align="center" style="font-size:10px; color:#333;">______%</td>
+    <td valign="top" align="center" style="font-size:10px; color:#333;">______%</td>
+    <td valign="top" align="center" style="font-size:10px; color:#333;">$______</td>
+  </tr>
+  <tr>
+    <td valign="top" height="20" align="left" style="font-size:10px; color:#333;" >MasterCard:</td>
+    <td valign="top" align="center" style="font-size:10px; color:#333;">______%</td>
+    <td valign="top" align="center" style="font-size:10px; color:#333;">______%</td>
+    <td valign="top" align="center" style="font-size:10px; color:#333;">$______</td>
+  </tr>
+  <tr>
+    <td valign="top" height="25" align="left" style="font-size:10px; color:#333;" >Discover:</td>
+    <td valign="top" align="center" style="font-size:10px; color:#333;">______%</td>
+    <td valign="top" align="center" style="font-size:10px; color:#333;">______%</td>
+    <td valign="top" align="center" style="font-size:10px; color:#333;">$______</td>
+  </tr>
+  <tr>
+    <td valign="top" colspan="4" height="20" align="left" style="font-size:10px; color:#333;" >American Express #:</td>
+  </tr>
+  <tr>
+    <td valign="top" colspan="3" height="25" align="left" style="font-size:10px; color:#333;" >________________________________</td>
+     <td valign="top" align="center" style="font-size:10px; color:#333;">$______</td>
+  </tr>
+</table>
+    </td>
+  </tr>
+   <tr>
+    <td valign="top" width="100%"  >
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" width="10%" align="left"><input name="" type="checkbox" value=""></td>
+    <td valign="middle" align="left" style="font-size:10px; color:#333333; ">Apply for American Express</td>
+  </tr>
+</table>
+    </td>
+  </tr>
+  
+</table>
+
+</td>
+
+
+<td width="28%" align="left" valign="top" style="border-right:1px solid #333; border-left:1px solid #333; font-family:Arial, Helvetica, sans-serif; ">
+<table width="100%" border="0" cellspacing="0" cellpadding="2">
+<tr>
+<td width="70%" height="16" align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; border-right:1px solid #333;">AVS Voice Authorization</td>
+<td align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333;">$</td>
+</tr>
+<tr>
+<td width="70%" height="16" align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; border-right:1px solid #333;">VRU &amp; ARU Fee</td>
+<td align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; ">$</td>
+</tr>
+<tr>
+<td width="70%" height="15" align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; border-right:1px solid #333;">Voice Authorization Fee</td>
+<td align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; ">$</td>
+</tr>
+<tr>
+<td width="70%" height="15" align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; border-right:1px solid #333;">Chargeback Fee</td>
+<td align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333;">$</td>
+</tr>
+<tr>
+<td width="70%" height="15" align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; border-right:1px solid #333;">Retrieval Fee</td>
+<td align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; ">$</td>
+</tr>
+<tr>
+<td width="70%" height="15" align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; border-right:1px solid #333;">ACH/Batch Settlement</td>
+<td align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333;">$</td>
+</tr>
+<tr>
+<td width="70%" height="15" align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; border-right:1px solid #333;">AVS Fee</td>
+<td align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333;">$</td>
+</tr>
+<tr>
+<td width="70%" height="15" align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; border-right:1px solid #333;">Monthly Minimum</td>
+<td align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333;">$</td>
+</tr>
+<tr>
+<td width="70%" height="15" align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; border-right:1px solid #333;">Service/Statement Fee</td>
+<td align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; ">$</td>
+</tr>
+<tr>
+<td width="70%" height="15" align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; border-right:1px solid #333;">Merchant Club</td>
+<td align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333;">$</td>
+</tr>
+<tr>
+<td width="70%" height="15" align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; border-right:1px solid #333;">Application Fee</td>
+<td align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333;">$</td>
+</tr>
+<tr>
+<td width="70%" height="15" align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; border-right:1px solid #333;">Monthly Maintenance Fee</td>
+<td align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; ">$</td>
+</tr>
+<tr>
+<td width="70%" height="15" align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333; border-right:1px solid #333;">Online Reporting Fee</td>
+<td align="left" valign="middle" style="font-size:10px; color:#333; border-bottom:1px solid #333;">$</td>
+</tr>
+<tr>
+<td width="70%" height="15" align="left" valign="middle" style="font-size:10px; color:#333;  border-right:1px solid #333;">Regulatory Bundle Fee</td>
+<td align="left" valign="middle" style="font-size:10px; color:#333;">$</td>
+</tr>
+</table>
+</td>
+
+
+<td align="left" valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" style="border-bottom:1px solid #333;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="80%" valign="top" style="border-right:1px solid #333;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td valign="middle" width="45%" style="font-size:10px; color:#333; ">PCI Compliance Fee</td>
+    <td valign="top" width="8%"><input name="" type="checkbox" value=""></td>
+    <td width="18%" valign="middle" style="font-size:10px; color:#333; ">Annual</td>
+    <td valign="top" width="8%"><input name="" type="checkbox" value=""></td>
+    <td valign="middle" style="font-size:10px; color:#333; ">Monthly</td>
+  </tr>
+</table>
+
+    </td>
+    <td valign="middle" align="left" style="font-size:10px; color:#333;">$</td>
+  </tr>
+</table>
+
+    </td>
+  </tr>
+  
+ <tr>
+    <td valign="middle" style="border-bottom:1px solid #333;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="80%" height="15" valign="middle" style="border-right:1px solid #333; font-size:10px; color:#333;">Early Termination Fee (One Time Fee)</td>
+    <td valign="middle" align="left" style="font-size:10px; color:#333;">$</td>
+  </tr>
+</table>
+
+    </td>
+  </tr>
+  
+  <tr>
+    <td valign="middle" style="border-bottom:1px solid #333;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="80%" height="15" valign="middle" style="border-right:1px solid #333; font-size:10px; color:#333;">eIDS Chargeback/Retrieval Online Tool</td>
+    <td valign="middle" align="left" style="font-size:10px; color:#333;">$</td>
+  </tr>
+</table>
+
+    </td>
+  </tr>
+  
+  <tr>
+    <td valign="middle" style="border-bottom:1px solid #333;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="80%" height="15" valign="middle" style="border-right:1px solid #333; font-size:10px; color:#333;">Other Fee</td>
+    <td valign="middle" align="left" style="font-size:10px; color:#333;">$</td>
+  </tr>
+</table>
+
+    </td>
+  </tr>
+  <tr>
+  <td valign="middle" align="center" style="font-size:11px; color:#333; font-weight:bold; border-bottom:1px solid #333;">Select All that Apply</td>
+  </tr>
+  <tr>
+  <td valign="top" style="border-bottom:1px solid #333;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td valign="top"  width="10%" align="left" style="border-right:1px solid #333;"><input name="" type="checkbox" value=""></td>
+    <td  valign="middle" width="70%" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">MobilePay Activation Fee</td>
+    <td valign="middle" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">$</td>
+  </tr>
+</table>
+  </td>
+  </tr>
+  <tr>
+  <td valign="top" style="border-bottom:1px solid #333;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td valign="top"  width="10%" align="left" style="border-right:1px solid #333;"><input name="" type="checkbox" value=""></td>
+    <td  valign="middle" width="70%" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">MobilePay Activation Fee</td>
+    <td valign="middle" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">$</td>
+  </tr>
+</table>
+  </td>
+  </tr>
+  <tr>
+  <td valign="top" style="border-bottom:1px solid #333;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td valign="top"  width="10%" align="left" style="border-right:1px solid #333;"><input name="" type="checkbox" value=""></td>
+    <td  valign="middle" width="70%" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">Wireless Monthly Fee</td>
+    <td valign="middle" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">$</td>
+  </tr>
+</table>
+  </td>
+  </tr>
+  <tr>
+  <td valign="top" style="border-bottom:1px solid #333;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td valign="top"  width="10%" align="left" style="border-right:1px solid #333;"><input name="" type="checkbox" value=""></td>
+    <td  valign="middle" width="70%" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">Wireless Transaction Fee</td>
+    <td valign="middle" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">$</td>
+  </tr>
+</table>
+  </td>
+  </tr>
+  <tr>
+  <td valign="top" style="border-bottom:1px solid #333;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td valign="top"  width="10%" align="left" style="border-right:1px solid #333;"><input name="" type="checkbox" value=""></td>
+    <td  valign="middle" width="70%" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">Gateway Setup Fee</td>
+    <td valign="middle" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">$</td>
+  </tr>
+</table>
+  </td>
+  </tr>
+  <tr>
+  <td valign="top" style="border-bottom:1px solid #333;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td valign="top"  width="10%" align="left" style="border-right:1px solid #333;"><input name="" type="checkbox" value=""></td>
+    <td  valign="middle" width="70%" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">Gateway Monthly Fee</td>
+    <td valign="middle" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">$</td>
+  </tr>
+</table>
+  </td>
+  </tr>
+  <tr>
+  <td valign="top" style="border-bottom:1px solid #333;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td valign="top"  width="10%" align="left" style="border-right:1px solid #333;"><input name="" type="checkbox" value=""></td>
+    <td  valign="middle" width="70%" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">Gateway Transaction Fee</td>
+    <td valign="middle" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">$</td>
+  </tr>
+</table>
+  </td>
+  </tr>
+  <tr>
+  <td valign="top" style="border-bottom:1px solid #333;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td valign="top"  width="10%" align="left" style="border-right:1px solid #333;"><input name="" type="checkbox" value=""></td>
+    <td  valign="middle" width="70%" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">Equipment Encryption</td>
+    <td valign="middle" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">$</td>
+  </tr>
+</table>
+  </td>
+  </tr>
+  <tr>
+  <td valign="top" style="border-bottom:1px solid #333;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td valign="top"  width="10%" align="left" style="border-right:1px solid #333;"><input name="" type="checkbox" value=""></td>
+    <td  valign="middle" width="70%" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">Equipment Swap</td>
+    <td valign="middle" align="left" style="border-right:1px solid #333; font-size:10px; color:#333;">$</td>
+  </tr>
+</table>
+  </td>
+  </tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td valign="top" style="border-bottom:1px solid #333; border-top:1px solid #333; font-size:10px; color:#333; padding:5px;">
+Qualified Rate is assessed when your transactions meet certain criteria set by the applicable Association and Processor. When your Card transactions fail to meet those
+qualification criteria, we will process your transactions at the higher Mid-qualified Discount Rate (Rate 2) of ________% + $0.10 or, in certain circumstances, at a Non-qualified
+Discount Rate (Rate : / Standard*) of ________% + $0.10. Both rates are a surcharge to the qualified rate. An interchange transaction fee of $0.1073 is assessed on each
+bankcard transaction. Rates may appear on your statement as Electronic or Standard.
+</td>
+</tr>
+
+<tr>
+<td width="100%" valign="top" style="border-bottom:1px solid #333;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" width="50%" style="border-right:1px solid #333;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td height="10"></td>
+    </tr>
+  <tr>
+    <td valign="top" height="30" align="left" width="25%">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" align="left" width="25%"><input name="" type="checkbox" value=""></td>
+    <td valign="middle" align="left" style="font-size:11px; color:#333; font-weight:bold; text-decoration:underline;">ERR Rate:</td>
+  </tr>
+</table>
+
+    </td>
+    <td valign="top" align="center" width="25%" style="font-size:10px; color:#333; font-weight:bold">Discount<br/>Rate</td>
+    <td valign="top" align="center" width="25%" style="font-size:10px; color:#333; font-weight:bold">Non-Qualified<br/>Fee</td>
+    <td valign="top" align="center" style="font-size:10px; color:#333; font-weight:bold">Authorization<br/>Fee</td>
+  </tr>
+   <tr>
+    <td valign="top" height="20" align="left" width="25%"  style="font-size:10px; color:#333; font-weight:bold" > Visa Qualified:</td>
+    <td valign="top" align="center" width="25%" style="font-size:10px; color:#333; font-weight:bold">_________%</td>
+    <td valign="top" align="center" width="25%" style="font-size:10px; color:#333; font-weight:bold">_________%</td>
+    <td valign="top" align="center" style="font-size:10px; color:#333; font-weight:bold">$_________</td>
+  </tr>
+  <tr>
+    <td valign="top" height="20" align="left" width="25%"  style="font-size:10px; color:#333; font-weight:bold" >MC Qualified:</td>
+    <td valign="top" align="center" width="25%" style="font-size:10px; color:#333; font-weight:bold">_________%</td>
+    <td valign="top" align="center" width="25%" style="font-size:10px; color:#333; font-weight:bold">_________%</td>
+    <td valign="top" align="center" style="font-size:10px; color:#333; font-weight:bold">$_________</td>
+  </tr>
+  <tr>
+    <td valign="top" height="20" align="left" width="25%"  style="font-size:10px; color:#333; font-weight:bold" >Discover Qualified:</td>
+    <td valign="top" align="center" width="25%" style="font-size:10px; color:#333; font-weight:bold">_________%</td>
+    <td valign="top" align="center" width="25%" style="font-size:10px; color:#333; font-weight:bold">_________%</td>
+    <td valign="top" align="center" style="font-size:10px; color:#333; font-weight:bold">$_________</td>
+  </tr>
+</table>
+
+    </td>
+    
+    
+    <td valign="top">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td valign="top" style="font-size:10px; color:#333; padding:10px 0 0 10px; font-weight:bold;"><span style="font-size:12px;">EBT:</span> FCS #: _______________________ Transaction Fee: $_________</td>
+  </tr>
+  <tr>
+    <td valign="top" style="font-size:10px; color:#333; padding:10px 0 0 10px; font-weight:bold;">Benefit Issuance Availability: Days _________ Hours _________</td>
+  </tr>
+  <tr>
+    <td valign="top" style="font-size:10px; color:#333; padding:10px 0 0 10px; font-weight:bold;">Check all EBT services provided at this location:</td>
+  </tr>
+  
+  <tr>
+    <td valign="top" style="padding:0 0 0 10px;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" width="5%"><input name="" type="checkbox" value=""></td>
+    <td valign="middle" align="left" width="25%" style="font-size:10px; color:#333;">Food Stamps</td>
+    <td valign="top" width="5%"><input name="" type="checkbox" value=""></td>
+   <td valign="middle" align="left" width="25%" style="font-size:10px; color:#333;">Cash Benefits</td>
+    <td valign="top" width="5%"><input name="" type="checkbox" value=""></td>
+   <td valign="middle" align="left" style="font-size:10px; color:#333;">Purchase with Cash Back</td>
+  </tr>
+  <tr>
+    <td valign="top" ><input name="" type="checkbox" value=""></td>
+    <td valign="middle" align="left" width="25%" style="font-size:10px; color:#333;">Purchase</td>
+    <td valign="top" ><input name="" type="checkbox" value=""></td>
+   <td valign="middle" align="left" style="font-size:10px; color:#333;">Cash Withdrawal</td>
+    <td valign="top" >&nbsp;</td>
+   <td valign="middle" align="left" style="font-size:10px; color:#333;">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="middle" height="25"><input name="" type="checkbox" value=""></td>
+    <td valign="middle" align="left" colspan="5" style="font-size:10px; color:#333;">If Cash Issuance, the limit amount: $_________</td>
+  </tr>
+</table>
+
+    
+    </td>
+  </tr>
+</table>
+
+    </td>
+  </tr>
+</table>
+
+
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="100%" style="border-bottom:1px solid #333; ">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="50%" valign="top" style="border-right:1px solid #333;" >
+    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+  <tr>
+    <td valign="top" height="20" style="font-size:10px; color:#333; font-weight:bold; padding:5px 0 0 5px;"><span style="font-size:12px;"> PIN-Debit Card:</span> Monthly Network Access Fee: $_________</td>
+  </tr>
+  <tr>
+    <td height="15" valign="top" style="font-size:10px; color:#333; font-weight:bold; padding:5px 0 0 5px;">Authorization/Transaction Fee: $_________ + Network Fees (default)</td>
+  </tr>
+  <tr>
+    <td valign="top" style="font-size:10px; color:#333; font-weight:bold; padding:5px 0 0 5px;">OR + _________ Network Fees</td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding:5px 0 0 5px;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="5%" valign="top" align="left"><input name="" type="checkbox" value=""></td>
+    <td valign="middle" align="left" style="font-size:10px; color:#333; font-weight:bold;">Cash Back: $_________ Max</td>
+  </tr>
+</table>
+
+    </td>
+  </tr>
+</table>
+    </td>
+    
+    <td valign="top"> 
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td valign="top" width="100%" style="padding:5px 0 0 10px;"> 
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="20%" valign="middle" align="left" style="font-size:12px; color:#333; font-weight:bold;">Petroleum:</td>
+    <td width="25%" valign="middle" align="left" style="font-size:10px; color:#333; font-weight:bold;">Pay at the Pump:</td>
+    <td width="6%" valign="top"><input name="" type="checkbox" value=""></td>
+    <td  width="6%" valign="middle" align="left" style="font-size:10px; color:#333; font-weight:bold;">Yes</td>
+    <td width="6%" valign="top"><input name="" type="checkbox" value=""></td>
+    <td   valign="middle" align="left" style="font-size:10px; color:#333; font-weight:bold;">No</td>
+  </tr>
+</table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" width="100%" style="padding:5px 0 0 10px; font-size:10px; color:#333; font-weight:bold;">Wright Express (WEX) #:________________________________ </td>
+  </tr>
+  
+  <tr> 
+    <td valign="top" width="100%" style="padding:5px 0 0 10px;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" width="5%"><input name="" type="checkbox" value=""></td>
+    <td valign="middle" align="left" style="font-size:10px; color:#333; font-weight:bold;">WEX Rate: &nbsp;&nbsp;&nbsp;&nbsp; ________% &nbsp;&nbsp;&nbsp;&nbsp;Authorization Fee: $_________</td>
+  </tr>
+</table>
+    </td>
+  </tr>
+   <tr> 
+    <td valign="top" width="100%" style="padding:5px 0 0 10px; font-size:10px; color:#333; font-weight:bold;">Voyager #: ____________________________________________</td>
+  </tr>
+  
+   <tr> 
+    <td valign="top" width="100%" style="padding:5px 0 0 10px;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" width="5%"><input name="" type="checkbox" value=""></td>
+    <td valign="middle" align="left" style="font-size:10px; color:#333; font-weight:bold;">Voyager Rate: &nbsp;&nbsp;&nbsp;&nbsp; ________% &nbsp;&nbsp;&nbsp;&nbsp;Authorization Fee: $_________</td>
+  </tr>
+</table>
+    </td>
+  </tr>
+</table>
+
+    </td>
+  </tr>
+</table>
+
+
+</td>
+</tr>
+
+<tr>
+<td valign="top" align="left" style="font-size:10px; color:#333;  padding:5px;">
+<span style="font-size:12px; font-weight:bold;"> Other Bank Fees:</span><br/>
+Regulatory Fee: $3.95. Returned Item Fee: $25 (charged if amounts due are not avail able when a debit is attempted); Decline Fee (an amount equal to the Authoriza tion
+Fee amount and charged per item). The following Visa, MasterCard and Discover fees are assessed by the appropriate association and passed on to the Merchant: NABU,
+VAP, Acquirer Support, Cross Border, Zero Floor Limit, Assessments, IAF & ISA. Annual Fee: $75; Monthly Compliance Fee: $3.87 (does not affect your compliance
+responsibilities and obligations associated with your merchant account).
+</td>
+</tr>
+</table>
+
+<!-- End Save for Web Slices -->
+</body>
+</html>

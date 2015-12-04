@@ -1,0 +1,12 @@
+�NHV<?php exit; ?>a:6:{s:10:"last_error";s:0:"";s:10:"last_query";s:153:"SELECT meta_key, meta_value, meta_id, post_id
+			FROM wp_postmeta 
+			WHERE post_id = 4645
+			AND `meta_key` NOT REGEXP '^_'
+			ORDER BY meta_key,meta_id";s:11:"last_result";a:1:{i:0;O:8:"stdClass":4:{s:8:"meta_key";s:33:"voitures americaines-1967 Eleanor";s:10:"meta_value";s:754:"1967 Eleanor S Code
+
+Moteur V8 390, Carburateur 2x4 Cores Holley, Assistance de Freinage, Freins a Disque, Volant Shelby, Feux Arrières Séquentiels et plus encore
+
+1967 Ford Mustang S Code avec son V8 Block 390, très rare, en excellente condition, superbe châssis, superbe intérieur, rien a faire simplement prête pour le Cruising a un prix défiant toute concurrence.
+
+Appelez maintenant pour réserver cette denrée rare, cette affaire.
+Dossier complet sur demande, laisser votre numéro de téléphone vous donnera accès a un service privilégié et plus rapide. Le prix est TTC tout inclus livre, avec Sylc-Export fini les intermédiaires coûteux. Si cette beauté ne vous a pas interpellé n’hésitez pas a consulter notre boutique.";s:7:"meta_id";s:5:"31514";s:7:"post_id";s:4:"4645";}}s:8:"col_info";a:4:{i:0;O:8:"stdClass":13:{s:4:"name";s:8:"meta_key";s:5:"table";s:11:"wp_postmeta";s:3:"def";s:0:"";s:10:"max_length";i:33;s:8:"not_null";i:0;s:11:"primary_key";i:0;s:12:"multiple_key";i:1;s:10:"unique_key";i:0;s:7:"numeric";i:0;s:4:"blob";i:0;s:4:"type";s:6:"string";s:8:"unsigned";i:0;s:8:"zerofill";i:0;}i:1;O:8:"stdClass":13:{s:4:"name";s:10:"meta_value";s:5:"table";s:11:"wp_postmeta";s:3:"def";s:0:"";s:10:"max_length";i:754;s:8:"not_null";i:0;s:11:"primary_key";i:0;s:12:"multiple_key";i:0;s:10:"unique_key";i:0;s:7:"numeric";i:0;s:4:"blob";i:1;s:4:"type";s:4:"blob";s:8:"unsigned";i:0;s:8:"zerofill";i:0;}i:2;O:8:"stdClass":13:{s:4:"name";s:7:"meta_id";s:5:"table";s:11:"wp_postmeta";s:3:"def";s:0:"";s:10:"max_length";i:5;s:8:"not_null";i:1;s:11:"primary_key";i:1;s:12:"multiple_key";i:0;s:10:"unique_key";i:0;s:7:"numeric";i:1;s:4:"blob";i:0;s:4:"type";s:3:"int";s:8:"unsigned";i:1;s:8:"zerofill";i:0;}i:3;O:8:"stdClass":13:{s:4:"name";s:7:"post_id";s:5:"table";s:11:"wp_postmeta";s:3:"def";s:0:"";s:10:"max_length";i:4;s:8:"not_null";i:1;s:11:"primary_key";i:0;s:12:"multiple_key";i:1;s:10:"unique_key";i:0;s:7:"numeric";i:1;s:4:"blob";i:0;s:4:"type";s:3:"int";s:8:"unsigned";i:1;s:8:"zerofill";i:0;}}s:8:"num_rows";i:1;s:10:"return_val";i:1;}

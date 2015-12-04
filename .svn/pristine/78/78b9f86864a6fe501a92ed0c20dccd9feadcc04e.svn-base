@@ -1,0 +1,516 @@
+[03/10/2015 1:41 PM] - SUCCESS : Logging User Out with login admin because they changed their username.
+[03/10/2015 1:48 PM] - FAILURE : Error inserting record into ame_aiowps_login_activity
+[03/10/2015 1:49 PM] - FAILURE : Error inserting record into ame_aiowps_login_activity
+[03/10/2015 1:53 PM] - FAILURE : Error inserting record into ame_aiowps_login_activity
+[03/10/2015 1:53 PM] - FAILURE : Error inserting record into ame_aiowps_login_activity
+[03/10/2015 1:55 PM] - FAILURE : Error inserting record into ame_aiowps_login_activity
+[03/10/2015 1:57 PM] - FAILURE : Error inserting record into ame_aiowps_login_activity
+[03/10/2015 2:00 PM] - FAILURE : Error inserting record into ame_aiowps_login_activity
+[03/10/2015 4:19 PM] - FAILURE : Error inserting record into ame_aiowps_login_activity
+[03/11/2015 6:44 AM] - FAILURE : Error inserting record into ame_aiowps_login_activity
+[03/11/2015 7:06 AM] - FAILURE : Error inserting record into ame_aiowps_login_activity
+[03/11/2015 1:04 PM] - FAILURE : Error inserting record into ame_aiowps_login_activity
+[03/26/2015 9:45 AM] - FAILURE : Error inserting record into ame_aiowps_login_activity
+[04/26/2015 10:10 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 81.213.206
+[04/26/2015 10:11 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 194.90.160
+[04/26/2015 10:11 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 81.248.5
+[04/26/2015 10:16 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 190.78.49
+[04/26/2015 10:19 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 201.35.29
+[04/26/2015 10:19 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 88.249.243
+[04/26/2015 10:20 PM] - NOTICE : Login attempt from blocked IP range - 190.78.49.*
+[04/26/2015 10:20 PM] - NOTICE : Login attempt from blocked IP range - 190.78.49.*
+[04/26/2015 10:20 PM] - NOTICE : Login attempt from blocked IP range - 190.78.49.*
+[04/26/2015 10:20 PM] - NOTICE : Login attempt from blocked IP range - 190.78.49.*
+[04/26/2015 10:20 PM] - NOTICE : Login attempt from blocked IP range - 190.78.49.*
+[04/26/2015 10:22 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 212.174.249
+[04/26/2015 10:23 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 88.248.121
+[04/26/2015 10:26 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 81.214.55
+[04/26/2015 10:28 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 213.153.226
+[04/26/2015 10:32 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 10:32 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 10:32 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 10:32 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 10:32 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 10:33 PM] - NOTICE : Login attempt from blocked IP range - 213.153.226.*
+[04/26/2015 10:33 PM] - NOTICE : Login attempt from blocked IP range - 213.153.226.*
+[04/26/2015 10:33 PM] - NOTICE : Login attempt from blocked IP range - 213.153.226.*
+[04/26/2015 10:33 PM] - NOTICE : Login attempt from blocked IP range - 213.153.226.*
+[04/26/2015 10:33 PM] - NOTICE : Login attempt from blocked IP range - 213.153.226.*
+[04/26/2015 10:37 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 10:37 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 10:37 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 10:37 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 10:37 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 10:40 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 10:40 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 10:40 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 10:40 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 10:40 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 10:43 PM] - NOTICE : Login attempt from blocked IP range - 212.174.249.*
+[04/26/2015 10:43 PM] - NOTICE : Login attempt from blocked IP range - 212.174.249.*
+[04/26/2015 10:43 PM] - NOTICE : Login attempt from blocked IP range - 212.174.249.*
+[04/26/2015 10:43 PM] - NOTICE : Login attempt from blocked IP range - 212.174.249.*
+[04/26/2015 10:43 PM] - NOTICE : Login attempt from blocked IP range - 212.174.249.*
+[04/26/2015 10:51 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 10:51 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 10:51 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 10:51 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 10:51 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 10:52 PM] - NOTICE : Login attempt from blocked IP range - 201.35.29.*
+[04/26/2015 10:52 PM] - NOTICE : Login attempt from blocked IP range - 201.35.29.*
+[04/26/2015 10:52 PM] - NOTICE : Login attempt from blocked IP range - 201.35.29.*
+[04/26/2015 10:52 PM] - NOTICE : Login attempt from blocked IP range - 201.35.29.*
+[04/26/2015 10:52 PM] - NOTICE : Login attempt from blocked IP range - 201.35.29.*
+[04/26/2015 10:53 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 177.129.90
+[04/26/2015 10:59 PM] - NOTICE : Login attempt from blocked IP range - 81.214.55.*
+[04/26/2015 11:00 PM] - NOTICE : Login attempt from blocked IP range - 81.214.55.*
+[04/26/2015 11:00 PM] - NOTICE : Login attempt from blocked IP range - 81.214.55.*
+[04/26/2015 11:00 PM] - NOTICE : Login attempt from blocked IP range - 81.214.55.*
+[04/26/2015 11:00 PM] - NOTICE : Login attempt from blocked IP range - 81.214.55.*
+[04/26/2015 11:02 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 11:02 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 11:02 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 11:02 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 11:02 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 11:10 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 78.188.167
+[04/26/2015 11:12 PM] - NOTICE : Login attempt from blocked IP range - 81.214.55.*
+[04/26/2015 11:12 PM] - NOTICE : Login attempt from blocked IP range - 81.214.55.*
+[04/26/2015 11:12 PM] - NOTICE : Login attempt from blocked IP range - 81.214.55.*
+[04/26/2015 11:12 PM] - NOTICE : Login attempt from blocked IP range - 81.214.55.*
+[04/26/2015 11:12 PM] - NOTICE : Login attempt from blocked IP range - 81.214.55.*
+[04/26/2015 11:14 PM] - NOTICE : Login attempt from blocked IP range - 81.214.55.*
+[04/26/2015 11:14 PM] - NOTICE : Login attempt from blocked IP range - 81.214.55.*
+[04/26/2015 11:14 PM] - NOTICE : Login attempt from blocked IP range - 81.214.55.*
+[04/26/2015 11:14 PM] - NOTICE : Login attempt from blocked IP range - 81.214.55.*
+[04/26/2015 11:14 PM] - NOTICE : Login attempt from blocked IP range - 81.214.55.*
+[04/26/2015 11:15 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 81.213.206
+[04/26/2015 11:20 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 11:20 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 11:20 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 11:20 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 11:20 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 11:22 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 11:22 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 11:22 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 11:22 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 11:22 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 11:25 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 81.248.5
+[04/26/2015 11:31 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 194.90.160
+[04/26/2015 11:32 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 46.25.29
+[04/26/2015 11:35 PM] - NOTICE : Login attempt from blocked IP range - 46.25.29.*
+[04/26/2015 11:35 PM] - NOTICE : Login attempt from blocked IP range - 46.25.29.*
+[04/26/2015 11:35 PM] - NOTICE : Login attempt from blocked IP range - 46.25.29.*
+[04/26/2015 11:35 PM] - NOTICE : Login attempt from blocked IP range - 46.25.29.*
+[04/26/2015 11:35 PM] - NOTICE : Login attempt from blocked IP range - 46.25.29.*
+[04/26/2015 11:36 PM] - NOTICE : Login attempt from blocked IP range - 78.188.167.*
+[04/26/2015 11:36 PM] - NOTICE : Login attempt from blocked IP range - 78.188.167.*
+[04/26/2015 11:36 PM] - NOTICE : Login attempt from blocked IP range - 78.188.167.*
+[04/26/2015 11:36 PM] - NOTICE : Login attempt from blocked IP range - 78.188.167.*
+[04/26/2015 11:36 PM] - NOTICE : Login attempt from blocked IP range - 78.188.167.*
+[04/26/2015 11:37 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 11:37 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 11:37 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 11:37 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 11:37 PM] - NOTICE : Login attempt from blocked IP range - 81.213.206.*
+[04/26/2015 11:40 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 177.43.37
+[04/26/2015 11:45 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 88.248.121
+[04/26/2015 11:45 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 190.78.49
+[04/26/2015 11:45 PM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/26/2015 11:45 PM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/26/2015 11:45 PM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/26/2015 11:45 PM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/26/2015 11:45 PM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/26/2015 11:46 PM] - NOTICE : Login attempt from blocked IP range - 177.129.90.*
+[04/26/2015 11:46 PM] - NOTICE : Login attempt from blocked IP range - 177.129.90.*
+[04/26/2015 11:46 PM] - NOTICE : Login attempt from blocked IP range - 177.129.90.*
+[04/26/2015 11:46 PM] - NOTICE : Login attempt from blocked IP range - 177.129.90.*
+[04/26/2015 11:46 PM] - NOTICE : Login attempt from blocked IP range - 177.129.90.*
+[04/26/2015 11:58 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 11:58 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 11:58 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 11:58 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/26/2015 11:58 PM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/27/2015 12:00 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 201.35.29
+[04/27/2015 12:05 AM] - NOTICE : Login attempt from blocked IP range - 78.188.167.*
+[04/27/2015 12:05 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 88.249.243
+[04/27/2015 12:05 AM] - NOTICE : Login attempt from blocked IP range - 78.188.167.*
+[04/27/2015 12:05 AM] - NOTICE : Login attempt from blocked IP range - 78.188.167.*
+[04/27/2015 12:05 AM] - NOTICE : Login attempt from blocked IP range - 78.188.167.*
+[04/27/2015 12:05 AM] - NOTICE : Login attempt from blocked IP range - 78.188.167.*
+[04/27/2015 12:07 AM] - NOTICE : Login attempt from blocked IP range - 194.90.160.*
+[04/27/2015 12:07 AM] - NOTICE : Login attempt from blocked IP range - 194.90.160.*
+[04/27/2015 12:07 AM] - NOTICE : Login attempt from blocked IP range - 194.90.160.*
+[04/27/2015 12:07 AM] - NOTICE : Login attempt from blocked IP range - 194.90.160.*
+[04/27/2015 12:07 AM] - NOTICE : Login attempt from blocked IP range - 194.90.160.*
+[04/27/2015 12:09 AM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/27/2015 12:09 AM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/27/2015 12:09 AM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/27/2015 12:10 AM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/27/2015 12:10 AM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/27/2015 12:10 AM] - NOTICE : Login attempt from blocked IP range - 88.248.121.*
+[04/27/2015 12:11 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:11 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:11 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:11 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:11 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:11 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:12 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 212.174.249
+[04/27/2015 12:20 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:20 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:20 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:20 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:20 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:22 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:22 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:22 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:22 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:22 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:26 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 81.248.5
+[04/27/2015 12:34 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 190.205.253
+[04/27/2015 12:34 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:34 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:34 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:34 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:34 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:35 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 194.90.160
+[04/27/2015 12:35 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 177.129.90
+[04/27/2015 12:36 AM] - NOTICE : Login attempt from blocked IP range - 194.90.160.*
+[04/27/2015 12:36 AM] - NOTICE : Login attempt from blocked IP range - 194.90.160.*
+[04/27/2015 12:36 AM] - NOTICE : Login attempt from blocked IP range - 194.90.160.*
+[04/27/2015 12:36 AM] - NOTICE : Login attempt from blocked IP range - 194.90.160.*
+[04/27/2015 12:36 AM] - NOTICE : Login attempt from blocked IP range - 194.90.160.*
+[04/27/2015 12:38 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:38 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:38 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:38 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:38 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:40 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 213.153.226
+[04/27/2015 12:41 AM] - NOTICE : Login attempt from blocked IP range - 177.129.90.*
+[04/27/2015 12:41 AM] - NOTICE : Login attempt from blocked IP range - 177.129.90.*
+[04/27/2015 12:41 AM] - NOTICE : Login attempt from blocked IP range - 177.129.90.*
+[04/27/2015 12:41 AM] - NOTICE : Login attempt from blocked IP range - 177.129.90.*
+[04/27/2015 12:41 AM] - NOTICE : Login attempt from blocked IP range - 177.129.90.*
+[04/27/2015 12:42 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:42 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:42 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:42 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:42 AM] - NOTICE : Login attempt from blocked IP range - 81.248.5.*
+[04/27/2015 12:43 AM] - NOTICE : Login attempt from blocked IP range - 212.174.249.*
+[04/27/2015 12:43 AM] - NOTICE : Login attempt from blocked IP range - 212.174.249.*
+[04/27/2015 12:43 AM] - NOTICE : Login attempt from blocked IP range - 212.174.249.*
+[04/27/2015 12:43 AM] - NOTICE : Login attempt from blocked IP range - 212.174.249.*
+[04/27/2015 12:43 AM] - NOTICE : Login attempt from blocked IP range - 212.174.249.*
+[04/27/2015 12:51 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 78.188.167
+[04/27/2015 12:52 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 187.22.61
+[04/27/2015 12:55 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 81.214.55
+[04/27/2015 12:57 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 190.78.49
+[04/27/2015 12:58 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:58 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:58 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:58 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:58 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 12:59 AM] - NOTICE : Login attempt from blocked IP range - 212.174.249.*
+[04/27/2015 12:59 AM] - NOTICE : Login attempt from blocked IP range - 212.174.249.*
+[04/27/2015 12:59 AM] - NOTICE : Login attempt from blocked IP range - 212.174.249.*
+[04/27/2015 12:59 AM] - NOTICE : Login attempt from blocked IP range - 212.174.249.*
+[04/27/2015 12:59 AM] - NOTICE : Login attempt from blocked IP range - 212.174.249.*
+[04/27/2015 1:00 AM] - NOTICE : Login attempt from blocked IP range - 190.78.49.*
+[04/27/2015 1:00 AM] - NOTICE : Login attempt from blocked IP range - 190.78.49.*
+[04/27/2015 1:00 AM] - NOTICE : Login attempt from blocked IP range - 190.78.49.*
+[04/27/2015 1:00 AM] - NOTICE : Login attempt from blocked IP range - 190.78.49.*
+[04/27/2015 1:00 AM] - NOTICE : Login attempt from blocked IP range - 190.78.49.*
+[04/27/2015 1:01 AM] - NOTICE : Login attempt from blocked IP range - 213.153.226.*
+[04/27/2015 1:01 AM] - NOTICE : Login attempt from blocked IP range - 213.153.226.*
+[04/27/2015 1:01 AM] - NOTICE : Login attempt from blocked IP range - 213.153.226.*
+[04/27/2015 1:01 AM] - NOTICE : Login attempt from blocked IP range - 213.153.226.*
+[04/27/2015 1:01 AM] - NOTICE : Login attempt from blocked IP range - 213.153.226.*
+[04/27/2015 1:04 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 1:04 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 1:04 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 1:04 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 1:04 AM] - NOTICE : Login attempt from blocked IP range - 88.249.243.*
+[04/27/2015 1:06 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 177.43.37
+[04/27/2015 1:06 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 46.25.29
+[04/27/2015 1:07 AM] - NOTICE : Login attempt from blocked IP range - 78.188.167.*
+[04/27/2015 1:07 AM] - NOTICE : Login attempt from blocked IP range - 78.188.167.*
+[04/27/2015 1:07 AM] - NOTICE : Login attempt from blocked IP range - 78.188.167.*
+[04/27/2015 1:07 AM] - NOTICE : Login attempt from blocked IP range - 78.188.167.*
+[04/27/2015 1:07 AM] - NOTICE : Login attempt from blocked IP range - 78.188.167.*
+[04/27/2015 8:35 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 46.25.29
+[04/27/2015 8:37 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 78.188.167
+[04/29/2015 3:59 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 194.90.160
+[04/29/2015 8:15 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 78.188.167
+[04/29/2015 8:17 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 24.133.87
+[04/29/2015 8:19 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 81.213.206
+[05/04/2015 2:06 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 94.156.217
+[05/04/2015 2:10 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 212.174.249
+[05/06/2015 2:43 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 177.43.37
+[05/06/2015 2:44 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 81.213.206
+[05/07/2015 1:20 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 190.78.49
+[05/07/2015 1:21 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 213.143.50
+[05/07/2015 1:21 PM] - NOTICE : Login attempt from blocked IP range - 213.143.50.*
+[05/07/2015 1:22 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 81.213.206
+[05/07/2015 1:23 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 24.133.87
+[05/14/2015 3:06 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 212.174.249
+[05/15/2015 11:06 AM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 88.247.43
+[05/16/2015 12:47 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 177.129.90
+[05/16/2015 12:49 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 177.43.37
+[06/01/2015 9:20 PM] - FAILURE : Error inserting record into ame_aiowps_login_activity
+[07/09/2015 8:09 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 8.28.87
+[07/09/2015 8:10 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:10 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:11 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:12 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:13 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:14 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:15 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:16 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:16 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:18 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:19 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:19 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:20 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:21 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:22 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:23 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:24 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:25 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:26 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:27 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:28 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:29 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:30 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:31 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:32 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:32 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:33 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:34 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:35 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:36 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:37 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:39 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:39 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:40 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:41 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:42 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:43 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:43 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:44 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:45 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:46 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:47 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:48 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:49 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:50 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:51 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:51 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:52 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:53 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:54 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:55 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:56 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:57 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:58 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:59 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 8:59 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:00 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:01 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:02 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:03 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:04 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:05 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:06 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:07 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:08 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:13 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 8.28.87
+[07/09/2015 9:13 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:14 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:16 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:17 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:17 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:18 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:19 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:20 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:21 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:22 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:23 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:24 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:25 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:26 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:26 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:27 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:28 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:29 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:30 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:31 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:32 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:33 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:34 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:35 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:35 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:37 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:37 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:40 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:40 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:41 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:42 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:43 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:44 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:45 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:46 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:46 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:48 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:49 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:50 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:51 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:51 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:52 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:53 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:54 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:55 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:56 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:57 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:58 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:58 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 9:59 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:00 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:01 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:02 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:03 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:04 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:05 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:06 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:07 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:08 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:09 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:10 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:11 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:12 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:13 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:17 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 8.28.87
+[07/09/2015 10:18 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:19 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:20 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:20 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:21 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:22 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:23 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:24 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:25 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:26 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:26 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:27 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:28 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:29 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:30 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:31 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:32 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:33 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:33 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:35 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:35 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:36 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:37 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:38 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:39 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:40 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:41 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:41 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:42 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:43 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:44 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:45 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:46 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:47 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:48 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:49 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:50 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:50 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:51 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:52 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:53 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:54 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:55 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:56 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:57 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:58 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 10:59 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:00 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:01 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:01 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:02 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:03 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:04 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:05 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:06 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:07 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:08 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:09 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:10 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:11 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:12 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:13 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:14 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:15 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:16 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:17 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:21 PM] - NOTICE : The following IP address range has been locked out for exceeding the maximum login attempts: 8.28.87
+[07/09/2015 11:22 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:23 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:24 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:25 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:25 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:26 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:27 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:28 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:29 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:30 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:31 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:32 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:33 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:34 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:36 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:36 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:37 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:38 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:39 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:40 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:41 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:42 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:43 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:43 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:44 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:45 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:46 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:47 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:48 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:49 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:50 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:51 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:52 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:52 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:53 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:54 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:55 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:56 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:57 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:58 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/09/2015 11:58 PM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:00 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:00 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:01 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:02 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:03 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:04 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:05 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:07 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:08 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:09 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:10 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:11 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:12 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:13 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:13 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:15 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[07/10/2015 12:15 AM] - NOTICE : Login attempt from blocked IP range - 8.28.87.*
+[08/03/2015 10:01 AM] - FAILURE : Error inserting record into ame_aiowps_login_activity

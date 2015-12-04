@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Did_You_Mean</name>
+    <version>1.1.1</version>
+    <stability>beta</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension provides suggestions, Spell-Check and misspell according to your search keyword from all products available in your store.</summary>
+    <description>This extension provides suggestions, Spell-Check and misspell according to your search keyword from all products available in your store.</description>
+    <notes>This extension provides suggestions, Spell-Check and misspell according to your search keyword from all products available in your store.</notes>
+    <authors><author><name>Vikas Jain</name><user>vikasajm</user><email>vikas.jain@fullestop.com</email></author></authors>
+    <date>2012-08-06</date>
+    <time>12:34:05</time>
+    <contents><target name="mageetc"><dir><dir name="modules"><file name="Jain_Didyoumean.xml" hash="87b9c997f8a691a0c6122e2f8be5668d"/></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="didyoumean.xml" hash="c84cd7435556e64c10baccccaf80012d"/></dir><dir name="template"><dir name="didyoumean"><file name="didyoumean.phtml" hash="a16e44a3dba91bb9bea622d0496018db"/></dir></dir></dir></dir></dir></dir></target><target name="magelocal"><dir><dir name="Jain"><dir name="Didyoumean"><dir><dir name="Helper"><file name="Data.php" hash="6fc822e75038990efb7e88f092994287"/></dir><dir name="controllers"><file name="ResultController.php" hash="51515b4f455cc16c72c4c648d9f3e402"/></dir><dir name="etc"><file name="config.xml" hash="c80302db8a58a4ffca7f5f7db76ded6a"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name></name><channel>connect.magentocommerce.com/core</channel><min></min><max></max></package></required></dependencies>
+</package>

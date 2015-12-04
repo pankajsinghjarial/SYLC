@@ -1,0 +1,86 @@
+
+.tabcontent{
+display:none;
+}
+
+@media print {
+.tabcontent {
+display:block !important;
+}
+}
+
+
+@media print {
+.tabcontent {
+display:block !important;
+}
+}
+
+/* ######### CSS for Indented CSS Tabs. Remove if not using ######### */
+
+
+.indentmenu{
+
+width: 100%; /*leave this value as is in most cases*/
+}
+
+.indentmenu ul{
+margin: 0;
+padding: 0;
+float: left;
+/* width: 80%; width of menu*/
+overflow:hidden;
+
+}
+
+.indentmenu ul li{
+float:left; margin-right:5px;
+}
+
+.indentmenu ul li a{
+float: left;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #232323; /*text color*/
+font-size:16px;
+padding: 5px 25px;
+
+text-decoration: none;
+
+text-align:center;
+border-top: 1px solid #d4d4d4; /*navy border*/
+border-left: 1px solid #d4d4d4; /*navy border*/
+background:url(../images/tab-bg.jpg) repeat-x left top;
+
+border-right: 1px solid #d4d4d4; /*navy divider between menu items*/
+}
+
+.indentmenu ul li a:visited{
+color: #000000;
+}
+
+.indentmenu ul li a.selected{
+color: #000000 !important;
+padding: 5px 25px; 
+
+background: black url(../images/tab-bg-hover.jpg) repeat-x left top;
+}
+
+
+
+
+.tabcontentstyle{ /*style of tab content oontainer*/
+border: 1px solid gray;
+width: 450px;
+margin-bottom: 1em;
+padding: 10px;
+}
+
+.tabcontent{
+display:none;
+}
+
+@media print {
+.tabcontent {
+display:block !important;
+}
+}

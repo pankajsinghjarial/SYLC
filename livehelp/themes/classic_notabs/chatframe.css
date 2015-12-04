@@ -1,0 +1,30 @@
+body { 
+ 
+  background: #DDDDDD url('patch.png');  
+  background-attachment: fixed;
+  font: 12px Arial,Helvetica,sans-serif;
+}
+
+.typeinglayerspacer {
+	width: 375px;
+	height: 1px;
+}
+
+.operator {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.operatorName {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+.guest {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.guestName {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}

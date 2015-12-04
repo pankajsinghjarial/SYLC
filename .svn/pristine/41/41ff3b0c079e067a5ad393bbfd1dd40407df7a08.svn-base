@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jain_Didyoumean>
+            <version>0.1.0</version>
+        </Jain_Didyoumean>
+    </modules>
+	   <global> 
+
+		<rewrite>
+            <jain_didyoumean>
+                <from><![CDATA[#^/catalogsearch/result/#]]></from>
+                <to>/didyoumean/result/</to>
+            </jain_didyoumean>
+        </rewrite>	
+        <helpers>
+            <jain_didyoumean>
+                <class>Jain_Didyoumean_Helper</class>
+            </jain_didyoumean>
+        </helpers>
+    </global>
+	 <frontend>
+        <routers>
+            <jain_didyoumean>
+                <use>standard</use>
+                <args>
+                    <module>Jain_Didyoumean</module>
+                    <frontName>didyoumean</frontName>
+                </args>
+            </jain_didyoumean>
+        </routers>
+        <layout>
+            <updates>
+                <jain_didyoumean module="Jain_Didyoumean">
+                    <file>didyoumean.xml</file>
+                </jain_didyoumean>
+            </updates>
+        </layout>
+    </frontend>	
+</config>

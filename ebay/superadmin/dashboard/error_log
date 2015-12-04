@@ -1,0 +1,269 @@
+[02-Apr-2015 04:51:48 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[02-Apr-2015 04:51:48 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[02-Apr-2015 04:51:48 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Apr-2015 04:51:48 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Apr-2015 04:51:48 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[02-Apr-2015 04:51:48 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Apr-2015 04:51:48 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[02-Apr-2015 04:51:48 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Apr-2015 04:51:48 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[02-Apr-2015 04:51:48 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Apr-2015 04:51:48 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[02-Apr-2015 05:11:12 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[02-Apr-2015 05:11:12 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[02-Apr-2015 05:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Apr-2015 05:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Apr-2015 05:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[02-Apr-2015 05:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Apr-2015 05:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[02-Apr-2015 05:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Apr-2015 05:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[02-Apr-2015 05:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Apr-2015 05:11:12 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[03-Apr-2015 05:21:35 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[03-Apr-2015 05:21:35 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[03-Apr-2015 05:21:35 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Apr-2015 05:21:35 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Apr-2015 05:21:35 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[03-Apr-2015 05:21:35 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Apr-2015 05:21:35 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[03-Apr-2015 05:21:35 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Apr-2015 05:21:35 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[03-Apr-2015 05:21:35 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Apr-2015 05:21:35 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[03-Apr-2015 07:26:06 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[03-Apr-2015 07:26:06 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[03-Apr-2015 07:26:06 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Apr-2015 07:26:06 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Apr-2015 07:26:06 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[03-Apr-2015 07:26:06 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Apr-2015 07:26:06 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[03-Apr-2015 07:26:06 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Apr-2015 07:26:06 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[03-Apr-2015 07:26:06 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Apr-2015 07:26:06 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[03-Apr-2015 11:32:34 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[03-Apr-2015 11:32:34 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[03-Apr-2015 11:32:34 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Apr-2015 11:32:34 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Apr-2015 11:32:34 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[03-Apr-2015 11:32:34 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Apr-2015 11:32:34 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[03-Apr-2015 11:32:34 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Apr-2015 11:32:34 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[03-Apr-2015 11:32:34 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Apr-2015 11:32:34 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[07-Apr-2015 00:09:12 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[07-Apr-2015 00:09:12 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[07-Apr-2015 00:09:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[07-Apr-2015 00:09:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[07-Apr-2015 00:09:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[07-Apr-2015 00:09:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[07-Apr-2015 00:09:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[07-Apr-2015 00:09:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[07-Apr-2015 00:09:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[07-Apr-2015 00:09:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[07-Apr-2015 00:09:12 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[08-Apr-2015 09:54:38 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[08-Apr-2015 09:54:38 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[08-Apr-2015 09:54:38 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[08-Apr-2015 09:54:38 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[08-Apr-2015 09:54:38 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[08-Apr-2015 09:54:38 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[08-Apr-2015 09:54:38 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[08-Apr-2015 09:54:38 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[08-Apr-2015 09:54:38 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[08-Apr-2015 09:54:38 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[08-Apr-2015 09:54:38 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[09-Apr-2015 05:16:01 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[09-Apr-2015 05:16:01 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[09-Apr-2015 05:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[09-Apr-2015 05:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[09-Apr-2015 05:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[09-Apr-2015 05:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[09-Apr-2015 05:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[09-Apr-2015 05:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[09-Apr-2015 05:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[09-Apr-2015 05:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[09-Apr-2015 05:16:01 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[09-Apr-2015 08:46:50 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[09-Apr-2015 08:46:50 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[09-Apr-2015 08:46:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[09-Apr-2015 08:46:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[09-Apr-2015 08:46:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[09-Apr-2015 08:46:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[09-Apr-2015 08:46:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[09-Apr-2015 08:46:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[09-Apr-2015 08:46:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[09-Apr-2015 08:46:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[09-Apr-2015 08:46:50 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[17-Apr-2015 13:58:54 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[17-Apr-2015 13:58:54 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[17-Apr-2015 13:58:54 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[17-Apr-2015 13:58:54 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[17-Apr-2015 13:58:54 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[17-Apr-2015 13:58:54 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[17-Apr-2015 13:58:54 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[17-Apr-2015 13:58:54 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[17-Apr-2015 13:58:54 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[17-Apr-2015 13:58:54 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[17-Apr-2015 13:58:54 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[27-Apr-2015 05:09:19 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[27-Apr-2015 05:09:19 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[27-Apr-2015 05:09:19 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[27-Apr-2015 05:09:19 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[27-Apr-2015 05:09:19 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[27-Apr-2015 05:09:19 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[27-Apr-2015 05:09:19 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[27-Apr-2015 05:09:19 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[27-Apr-2015 05:09:19 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[27-Apr-2015 05:09:19 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[27-Apr-2015 05:09:19 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[27-Apr-2015 05:56:51 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[27-Apr-2015 05:56:51 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[27-Apr-2015 05:56:51 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[27-Apr-2015 05:56:51 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[27-Apr-2015 05:56:51 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[27-Apr-2015 05:56:51 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[27-Apr-2015 05:56:51 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[27-Apr-2015 05:56:51 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[27-Apr-2015 05:56:51 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[27-Apr-2015 05:56:51 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[27-Apr-2015 05:56:51 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[01-Jul-2015 09:42:14 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[01-Jul-2015 09:42:14 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[01-Jul-2015 09:42:14 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[01-Jul-2015 09:42:14 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[01-Jul-2015 09:42:14 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[01-Jul-2015 09:42:14 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[01-Jul-2015 09:42:14 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[01-Jul-2015 09:42:14 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[01-Jul-2015 09:42:14 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[01-Jul-2015 09:42:14 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[01-Jul-2015 09:42:14 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[01-Jul-2015 11:06:50 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[01-Jul-2015 11:06:50 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[01-Jul-2015 11:06:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[01-Jul-2015 11:06:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[01-Jul-2015 11:06:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[01-Jul-2015 11:06:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[01-Jul-2015 11:06:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[01-Jul-2015 11:06:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[01-Jul-2015 11:06:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[01-Jul-2015 11:06:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[01-Jul-2015 11:06:50 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[01-Jul-2015 11:08:04 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[01-Jul-2015 11:08:04 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[01-Jul-2015 11:08:04 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[01-Jul-2015 11:08:04 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[01-Jul-2015 11:08:04 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[01-Jul-2015 11:08:04 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[01-Jul-2015 11:08:04 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[01-Jul-2015 11:08:04 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[01-Jul-2015 11:08:04 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[01-Jul-2015 11:08:04 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[01-Jul-2015 11:08:04 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[02-Jul-2015 03:11:12 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[02-Jul-2015 03:11:12 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[02-Jul-2015 03:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Jul-2015 03:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Jul-2015 03:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[02-Jul-2015 03:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Jul-2015 03:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[02-Jul-2015 03:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Jul-2015 03:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[02-Jul-2015 03:11:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Jul-2015 03:11:12 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[02-Jul-2015 03:16:01 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[02-Jul-2015 03:16:01 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[02-Jul-2015 03:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Jul-2015 03:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Jul-2015 03:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[02-Jul-2015 03:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Jul-2015 03:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[02-Jul-2015 03:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Jul-2015 03:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[02-Jul-2015 03:16:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[02-Jul-2015 03:16:01 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[03-Jul-2015 02:37:13 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[03-Jul-2015 02:37:13 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[03-Jul-2015 02:37:13 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Jul-2015 02:37:13 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Jul-2015 02:37:13 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[03-Jul-2015 02:37:13 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Jul-2015 02:37:13 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[03-Jul-2015 02:37:13 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Jul-2015 02:37:13 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[03-Jul-2015 02:37:13 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[03-Jul-2015 02:37:13 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[07-Jul-2015 06:10:26 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[07-Jul-2015 06:10:26 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[07-Jul-2015 06:10:26 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[07-Jul-2015 06:10:26 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[07-Jul-2015 06:10:26 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[07-Jul-2015 06:10:26 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[07-Jul-2015 06:10:26 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[07-Jul-2015 06:10:26 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[07-Jul-2015 06:10:26 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[07-Jul-2015 06:10:26 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[07-Jul-2015 06:10:26 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[08-Jul-2015 02:59:27 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[08-Jul-2015 02:59:27 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[08-Jul-2015 02:59:27 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[08-Jul-2015 02:59:27 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[08-Jul-2015 02:59:27 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[08-Jul-2015 02:59:27 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[08-Jul-2015 02:59:27 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[08-Jul-2015 02:59:27 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[08-Jul-2015 02:59:27 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[08-Jul-2015 02:59:27 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[08-Jul-2015 02:59:27 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[14-Jul-2015 02:02:50 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[14-Jul-2015 02:02:50 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[14-Jul-2015 02:02:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[14-Jul-2015 02:02:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[14-Jul-2015 02:02:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[14-Jul-2015 02:02:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[14-Jul-2015 02:02:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[14-Jul-2015 02:02:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[14-Jul-2015 02:02:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[14-Jul-2015 02:02:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[14-Jul-2015 02:02:50 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[16-Jul-2015 01:49:16 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[16-Jul-2015 01:49:16 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[16-Jul-2015 01:49:16 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[16-Jul-2015 01:49:16 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[16-Jul-2015 01:49:16 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[16-Jul-2015 01:49:16 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[16-Jul-2015 01:49:16 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[16-Jul-2015 01:49:16 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[16-Jul-2015 01:49:16 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 134
+[16-Jul-2015 01:49:16 America/New_York] PHP Notice:  Trying to get property of non-object in /home/httpsylc/public_html/superadmin/dashboard/index.php on line 138
+[16-Jul-2015 01:49:16 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[17-Jul-2015 01:00:58 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[17-Jul-2015 01:00:58 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[17-Jul-2015 01:00:58 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[17-Jul-2015 14:59:18 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[17-Jul-2015 14:59:18 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[17-Jul-2015 14:59:18 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[20-Jul-2015 02:01:23 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[20-Jul-2015 02:01:23 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[20-Jul-2015 02:01:23 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[20-Jul-2015 02:56:51 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[20-Jul-2015 02:56:52 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[20-Jul-2015 02:56:52 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[03-Aug-2015 10:48:50 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home/sylcexpo/public_html/ebay/superadmin/includes/views/admin_header.php on line 122
+[03-Aug-2015 10:48:50 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home/sylcexpo/public_html/ebay/superadmin/includes/views/admin_header.php on line 249
+[03-Aug-2015 10:48:50 America/Denver] PHP Notice:  ob_end_flush(): failed to delete and flush buffer. No buffer to delete or flush in /home/sylcexpo/public_html/ebay/superadmin/includes/views/admin_footer.php on line 129
+[25-Oct-2015 13:18:49 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home/sylcexpo/public_html/ebay/superadmin/includes/views/admin_header.php on line 122
+[25-Oct-2015 13:18:49 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home/sylcexpo/public_html/ebay/superadmin/includes/views/admin_header.php on line 249
+[25-Oct-2015 13:18:49 America/Denver] PHP Notice:  ob_end_flush(): failed to delete and flush buffer. No buffer to delete or flush in /home/sylcexpo/public_html/ebay/superadmin/includes/views/admin_footer.php on line 129
+[03-Nov-2015 13:33:26 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home/sylcexpo/public_html/ebay/superadmin/includes/views/admin_header.php on line 122
+[03-Nov-2015 13:33:26 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home/sylcexpo/public_html/ebay/superadmin/includes/views/admin_header.php on line 249
+[03-Nov-2015 13:33:26 America/Denver] PHP Notice:  ob_end_flush(): failed to delete and flush buffer. No buffer to delete or flush in /home/sylcexpo/public_html/ebay/superadmin/includes/views/admin_footer.php on line 129
+[03-Nov-2015 19:50:10 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home/sylcexpo/public_html/ebay/superadmin/includes/views/admin_header.php on line 122
+[03-Nov-2015 19:50:10 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home/sylcexpo/public_html/ebay/superadmin/includes/views/admin_header.php on line 249
+[03-Nov-2015 19:50:10 America/Denver] PHP Notice:  ob_end_flush(): failed to delete and flush buffer. No buffer to delete or flush in /home/sylcexpo/public_html/ebay/superadmin/includes/views/admin_footer.php on line 129
+[04-Nov-2015 13:19:41 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home/sylcexpo/public_html/ebay/superadmin/includes/views/admin_header.php on line 122
+[04-Nov-2015 13:19:41 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home/sylcexpo/public_html/ebay/superadmin/includes/views/admin_header.php on line 249
+[04-Nov-2015 13:19:41 America/Denver] PHP Notice:  ob_end_flush(): failed to delete and flush buffer. No buffer to delete or flush in /home/sylcexpo/public_html/ebay/superadmin/includes/views/admin_footer.php on line 129

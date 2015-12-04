@@ -1,0 +1,8 @@
+a:4:{i:0;s:61:"Module "Quadra_Cybermut" requires module "Quadra_Extensions".";i:1;s:800:"#0 D:\Web\Sites\seobrand\la-centrale\app\code\core\Mage\Core\Model\Config.php(849): Mage::throwException('Module "Quadra_...')
+#1 D:\Web\Sites\seobrand\la-centrale\app\code\core\Mage\Core\Model\Config.php(812): Mage_Core_Model_Config->_sortModuleDepends(Array)
+#2 D:\Web\Sites\seobrand\la-centrale\app\code\core\Mage\Core\Model\Config.php(315): Mage_Core_Model_Config->_loadDeclaredModules()
+#3 D:\Web\Sites\seobrand\la-centrale\app\code\core\Mage\Core\Model\App.php(414): Mage_Core_Model_Config->loadModules()
+#4 D:\Web\Sites\seobrand\la-centrale\app\code\core\Mage\Core\Model\App.php(343): Mage_Core_Model_App->_initModules()
+#5 D:\Web\Sites\seobrand\la-centrale\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#6 D:\Web\Sites\seobrand\la-centrale\index.php(87): Mage::run('', 'store')
+#7 {main}";s:3:"url";s:6:"/admin";s:11:"script_name";s:10:"/index.php";}

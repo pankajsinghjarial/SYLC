@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Sylc-Air Cargo</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" src="js/html5.js"></script>
+<script type="text/javascript" src="js/IE9.js"></script>
+</head>
+<body>
+<!-- nav start -->
+<nav>
+  <div class="wrapper">
+    <div class="nav_left">
+      <ul>
+        <li><a href="index.html">Accueil</a> </li>
+        <li><a href="presentation.html">Présentation</a></li>
+        <li><a href="media.html">Média</a></li>
+        <li><a href="classic_car.html">Inventaire</a></li>
+      </ul>
+    </div>
+    <div class="nav_right">
+      <ul>
+        <li><a href="search_classic_car.html">Recherche</a></li>
+        <li><a href="notre-mission.html">Logistique</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <!-- logo start -->
+    <div class="logo"><a href="index.html"><img  src="images/logo.png" width="300" height="77" alt=""></a></div>
+    <!-- logo start --> 
+  </div>
+</nav>
+<!-- nav end --> 
+<!-- inner_container start -->
+<div class="inner_container">
+  <div class="inner_banner1">
+    <div class="wrapper">
+      <div class="big_title">Air Cargo</div>
+      <div class="wrapper_indent">
+        <div class="container_left">
+          <div class="containt_nav">
+            <ul>
+              <li><a href="notre-mission.html" >Notre Mission</a></li>
+              <li><a href="transport-domestique.html">Transport Domestique</a></li>
+              <li><a href="transport.html">Transport Maritime </a></li>
+              <li><a href="air-cargo.html" class="selected">Air Cargo</a></li>
+            </ul>
+          </div>
+          <a href="business_moment.html"><img src="images/affaires.jpg" width="200" height="506" alt=""> </a>
+        </div>
+        <div class="containt_indent">
+        <p>
+        De nos jours il est tres difficile de trouver des transporteurs fiables et efficaces. C'est pour cela que SYLC CORPORATION vous fait beneficier de son reseau de transporteurs agrees au meilleur tarif du marche. Deplus vous beneficiez d'un eventail d'options en fonction de votre budget. Nous vous proposons des transports fermes ou ouverts, s'il vous faut le vehicule dans les plus brefs delais, moyennant un supplement, votre voiture americaine peut etre enlevee dans les 12h qui suit votre demande.Contactez nous pour un devis gratuit.
+        </p>
+          <div class="air_outer">
+          
+          <div class="form_outer">
+          <table  class="form_table">
+           			<tr>
+                    <td class="form_td"><div class="form_text">Air Cargo  de:</div></td>
+                    <td><div class="input_outer_02">
+                    <select name="Domestique de:" >
+            		</select>
+            </div>
+            </td>
+                    </tr>
+                     
+                    <tr>
+                    <td class="form_td"><div class="form_text">a:</div></td>
+                    <td><div class="input_outer_02">
+                    <select name="a:" >
+            		</select>
+                    </div></td>
+                    </tr>
+                    <tr>
+                    <td class="form_td01"><div class="form_text">Notes:</div></td>
+                    <td><div class="input_outer_01"><textarea name="" cols="1" rows="3" class="textarea_01" onclick="this.value=''" onblur="if(this.value=='')this.value=''" ></textarea></div></td>
+                    </tr>
+                    
+                    
+                    <tr>
+                    <td class="form_td"><div class="form_text">Contact:</div></td>
+                    <td><div class="input_outer"><input name="" type="text" class="input_01" value=""    /></div></td>
+                    </tr>
+                    <tr>
+                    <td class="form_td"><div class="form_text">Telephone: </div></td>
+                    <td><div class="input_outer"><input name="" type="text" class="input_01" value=""    /></div></td>
+                    </tr>
+                    <tr>
+                    <td class="form_td"><div class="form_text">Email:</div></td>
+                    <td><div class="input_outer"><input name="" type="text" class="input_01" value=""    /></div></td>
+                    </tr>
+                    
+                     <tr>
+                     <td><input class="checkbox" name="" type="checkbox" value=""></td>
+                    <td><div class="form_text01">J'ai lu et j'accepte expréssement la <a href="#">politique de confidentialité.</a></div></td>
+                    </tr>
+                     <tr>
+                     <td></td>
+                    <td><input name="submit" type="submit" class="submit_btn" value="" /></td>
+                    </tr>
+                    
+           </table>
+          </div>
+          
+          
+          </div>
+          	
+        </div>
+        
+        <div class="container_right">
+        <div class="stock_outer">
+        <p>VOITURES Classic</p>
+        <div class="stock_indent">
+          <img src="images/car01.jpg" width="200" height="111" alt="">
+          <p>Mustang V6<span><a href="#">Détails</a><img src="images/arrow.png" width="6" height="7" alt=""></span></p>
+          
+          </div>
+        <div class="stock_indent">
+          <img src="images/car02.jpg" width="200" height="111" alt="">
+          <p>Ford F-150<span><a href="#">Détails</a><img src="images/arrow.png" width="6" height="7" alt=""></span></p>
+          </div>
+          
+          <div class="stock_indent">
+          <img src="images/car03.jpg" width="200" height="111" alt="">
+          <p>Ford F-150<span><a href="#">Détails</a><img src="images/arrow.png" width="6" height="7" alt=""></span></p>
+          </div>
+          
+          <span><a href="classic_car.html">Voir Tous</a></span>
+        
+        </div>
+        
+        <div class="transit_outer">
+        <p>VOITURES EN TRANSIT</p>
+        <img src="images/car-001.png"  alt="">
+        <img src="images/car-002.png"  alt="">
+        <img src="images/car-003.png"  alt="">
+        <span><a href="#">Voir Tous</a></span>
+        
+        </div>
+        
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- inner_container end -->
+<div class="clear"></div>
+<!-- footer start -->
+<footer>
+  <div class="wrapper">
+    <div class="footer_top">
+      <ul>
+        <li>
+          <div class="socil_icon">
+            <ul>
+              <li><a href="http://www.facebook.com/Sylccorporation" target="_blank"><img src="images/fb-icon.png" width="30" height="30" alt=""></a></li>
+              <li><a href="http://www.youtube.com/user/yoathome?feature=results_main" target="_blank"><img src="images/youtube.png" width="30" height="30" alt=""></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><img src="images/phone-icon.png" class="img_left" alt="">(Fr) 01.76.63.32.16</li>
+        <li><img src="images/icon02.png" class="img_left01" alt="">Hollywood, FL 33020</li>
+        <li><img src="images/message-icon.png" class="img_left" alt=""><a href="mailto:info@sylc-export.com">info@sylc-export.com</a></li>
+      </ul>
+    </div>
+    <div class="footer_left">
+      <div class="link_outer">
+        <p>Liens du Site</p>
+        <ul>
+          <li><a href="presentation.html">Présentation</a></li>
+          <li><a href="media.html">Média</a></li>
+          <li><a href="classic_car.html">Inventaire</a></li>
+          <li><a href="search_classic_car.html">Recherche</a></li>
+        </ul>
+      </div>
+      <div class="link_outer">
+        <p>À Propos de Nous</p>
+        <ul>
+          <li><a href="notre-mission.html">Logistique</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="our_services.html">Nos services</a></li>
+          <li><a href="contact.html">Contactez-nous</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer_right">
+      <p>Top Marques à Vendre</p>
+      <ul>
+        <li><a href="new_car.html">Dodge</a></li>
+        <li><a href="new_car.html">Lincone</a></li>
+        <li><a href="new_car.html">Ford</a></li>
+        <li><a href="new_car.html">General Motors</a></li>
+      </ul>
+      <ul>
+        <li><a href="new_car.html">Chevrolet</a></li>
+        <li><a href="new_car.html">Cadillac</a></li>
+        <li><a href="new_car.html">Jeep</a></li>
+        <li><a href="new_car.html">Hummer</a></li>
+      </ul>
+      <ul>
+        <li><a href="new_car.html">Pontiac</a></li>
+        <li><a href="new_car.html">Buick</a></li>
+        <li><a href="new_car.html">GMC</a></li>
+        <li><a href="new_car.html">Mustang</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div class="copyright_outer">
+    <p>Hollywood, FL 33020  |  Numero Francais: 01.76.63.32.16<br>
+      Droits d'auteur © <a href="#">SYLC.com.</a> Tous droits réservés </p>
+  </div>
+</footer>
+<!-- footer end -->
+</body>
+</html>

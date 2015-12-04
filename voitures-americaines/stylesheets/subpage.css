@@ -1,0 +1,298 @@
+body.subpage {
+  background: #c8c8c8 url('../images/sub_background.png') repeat-x;
+}
+body.subpage #container {
+  background: url('../images/sub_header.png') no-repeat top center;
+}
+h2#page_title {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  font: bold 27px Georgia, serif;
+  color: #865127;
+  text-align: center;
+  text-shadow: #f3e5b0 0 1px 0;
+  letter-spacing: -1px;
+  margin: 27px 0 15px;
+/*  padding: 0 50px 0 0;*/
+}
+
+.errors {
+  background-color: #f9f9f9;
+  border-color: #aaa;
+}
+
+body.subpage #content .body {
+  padding-top: 5px;
+  padding-right: 0;
+  width: 934px;
+}
+.left {
+  width: 550px;
+  float: left;
+  padding: 5px 25px 0 30px;
+}
+.left.thankyou {
+   width: 534px;
+}
+.sidebar {
+  width: 310px;
+  float: left;
+}
+.sidebar .section {
+  padding: 20px 0 0;
+}
+body.subpage h4 {
+  padding-bottom: 14px;
+  font-size: 18px;
+}
+
+.left p {
+  padding: 0 0 10px;
+}
+
+/**
+ * FAQ Page
+ */
+body.selling #page_title,
+body.faq #page_title {
+  background-image: url('../images/sub_selling_title.png');
+}
+body.what_we_buy #page_title {
+  background-image: url('../images/sub_what_we_buy_title.png');
+}
+body.about #page_title {
+  background-image: url('../images/sub_about_title.png');
+}
+body.privacy #page_title {
+  background-image: url('../images/sub_what_we_buy_title.png');
+}
+body.terms #page_title {
+  background-image: url('../images/sub_terms_title.png');
+}
+body.payouts #page_title {
+  background-image: url('../images/sub_payouts_title.png');
+}
+body.process #page_title {
+  background-image: url('../images/sub_process_title.png');
+}
+body.affiliates #page_title {
+  background-image: url('../images/sub_affiliates_title.png');
+}
+body.guarantee #page_title {
+  background-image: url('../images/sub_guarantee_title.png');
+}
+body.alternative #page_title {
+  background-image: url('../images/sub_alternative_title.png');
+}
+body.thankyou #page_title {
+  background-image: url('../images/sub_thankyou_title.png');
+}
+
+/**
+ * Form
+ */
+body.subpage #form h2 a,
+body.subpage #form .second_step_header.current a {
+  color: #666;
+  text-shadow: #fefefe 0 1px 0;
+}
+body.subpage #form label {
+  color: #808080;
+  text-shadow: none;
+}
+body.subpage #form .current a { background-image: url('../images/sub_steps.png'); }
+
+body.subpage #form .first_step_header.disabled a {
+  background-image: url('../images/sub_steps.png');
+  color: #b3b3b3;
+  text-shadow: #fff 0 1px 0;
+}
+body.subpage #form .second_step_header.disabled a {
+  background-image: url('../images/sub_steps.png');
+  color: #b3b3b3;
+  padding-top: 9px;
+  height: 29px;
+}
+body.subpage #form .second_step_header.current a {
+  background-image: url('../images/sub_steps.png');
+  
+}
+
+body.subpage #form dd input { background-image: url('../images/sub_steps.png'); }
+body.subpage #form input#zip_code { background-image: url('../images/sub_steps.png'); }
+body.subpage .first_step { background-image: url('../images/sub_steps.png'); }
+body.subpage .second_step { background-image: url('../images/sub_steps.png'); }
+
+/**
+ * Tables
+ */
+th {
+  background-color: #c6a60d;
+  color: #fff;
+  text-shadow: #a47b06 0 1px 0;
+  border-top: 1px solid #bd9d04;
+  border-bottom: 1px solid #bd9d04;
+}
+th, td {
+  padding: 5px 10px;
+  text-align: left;
+}
+td {
+  border-bottom: 1px solid #f2f2f2;
+}
+th td {
+  font-size: 12px;
+}
+tr td {
+  font-size: 11px;
+}
+tr:last-child > td {
+  border-bottom: none;
+}
+
+body.subpage .columns div:first-child {
+  padding: 0 30px 0 0;
+}
+body.subpage .column {
+  width: 260px;
+}
+body.subpage .column p {
+  padding: 0 0 20px;
+}
+
+/**
+ * FAQ Gallery
+ */
+body.selling .gallery .fade_left,
+body.selling .gallery .fade_right {
+  height: 290px;
+}
+body.selling .gallery {
+  width: 588px;
+  position: relative;
+  margin: 30px 0 25px -24px;
+}
+body.selling .gallery ul {
+  margin: -11px 0 0 500px;
+}
+body.selling .viewer {
+  width: 588px; height: 247px;
+  overflow: hidden;
+}
+body.selling .viewer .items {
+  width: 5000px;
+  overflow: hidden;
+}
+body.selling .viewer .item {
+  width: 588px; height: 247px;
+  float: left;
+  text-align: center;
+}
+
+/**
+ * What We Buy
+ */
+body.what_we_buy .body .left ul {
+  overflow: hidden;
+  padding: 15px 0;
+}
+body.what_we_buy #content .body .left ul li {
+  background: url('../images/bullet.png') no-repeat 20px 13px;
+  width: 251px;
+  padding: 6px 0;
+  float: left;
+  border-left: 1px solid #eee;
+  font-weight: bold;
+  font-size: 13px;
+  color: #bb951d;
+}
+body.what_we_buy .body li span {
+  display: block;
+  color: #808080;
+  padding: 0 0 0 40px;
+}
+.info {
+  background: #fafafa;
+  padding: 20px 20px;
+  border: 1px solid #f0f0f0;
+  margin: 45px 0 0;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/**
+ * FAQ
+ */
+.faq_types {
+  margin: 35px 0 0;
+}
+.faq_types li {
+  float: left;
+  padding: 0 10px 0 0;
+  width: 176px; height: 44px;
+  position: relative;
+}
+.faq_types li.last { padding-right: 0; }
+.faq_types li a {
+  text-decoration: none;
+  display: block;
+  background: #fafafa url('../images/faq_arrow.png') no-repeat 150px 15px;
+  border: 1px solid #ededed;
+  width: 144px;
+  padding: 12px 0 12px 30px;
+  color: #808080;
+  font-weight: bold;
+  position: absolute;
+}
+.faq_types li a:hover {
+  background-color: #fff;
+  color: #8c572a;
+}
+.faq_types li a.active,
+.faq_types li a:active {
+  background-image: url('../images/faq_arrow_down.png');
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 23px;
+  z-index: 15;
+  color: #8c572a;
+}
+.panels {
+  padding-top: 10px;
+}
+.panels .panel {
+  border: 1px solid #ededed;
+  width: 496px;
+  padding: 25px;
+}
+.panel .section {
+  font-size: 13px;
+}
+.question {
+  padding: 0 0 10px;
+}
+.question a {
+  text-decoration: none;
+  background: url('../images/faq_expand.png') no-repeat 0 1px;
+  color: #999;
+  font-weight: bold;
+  padding: 0 0 0 24px;
+}
+.question a:hover {
+  color: #777;
+}
+.question a.active {
+  background-position: 0 -18px;
+  color: #bb951d;
+}
+.answer {
+  border-bottom: 1px solid #ededed;
+  margin: 0 0 20px 24px;
+}
+.answer p {
+  padding: 0 0 20px;
+}
+#form .first_step h2 {
+  color: #666;
+  text-shadow: #fefefe 0 1px 0;
+}

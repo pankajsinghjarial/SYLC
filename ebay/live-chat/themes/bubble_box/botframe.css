@@ -1,0 +1,16 @@
+body { 
+ 
+  background: #FFFFFF;
+  background-attachment: fixed;
+  font: 12px Arial,Helvetica,sans-serif;
+}
+
+textarea {
+	margin: 1;
+	padding: 1;	
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #EEEEEE;
+	border: 1px solid #DDDDDD;
+}

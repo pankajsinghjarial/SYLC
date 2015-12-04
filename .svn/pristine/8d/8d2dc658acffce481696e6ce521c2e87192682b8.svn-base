@@ -1,0 +1,84 @@
+div.jContent
+{
+	
+		
+}
+
+div.slides
+{
+	float:none !important; 
+	padding-top:9px;
+}
+
+div.jContent p
+{
+	padding: 6px 0px 0px 10px;	
+	margin: 0px 0px 0px 0px;
+}
+
+div.jContent a
+{
+	float: left;
+	display: block;	
+}
+
+div.jContent a.hide
+{
+	visibility: hidden;
+}
+
+/* horizontal */
+div.jc-horizontal
+{
+	  position:relative;
+	 
+}
+.panel{ }
+
+div.jc-horizontal a
+{
+	width: 35px;
+	height: 34px;
+}
+
+
+div.jc-horizontal a.prev
+{
+	 left: -36px;
+    position: absolute;
+    top: 49px;
+	background: url(../images/navButtons.png)  no-repeat left top;
+}
+
+div.jc-horizontal a.prev:hover
+{
+	background: url(../images/navButtons.png) no-repeat left bottom;;
+}
+
+div.jc-horizontal a.next
+{right: -36px;
+    position: absolute;
+    top: 49px;
+ 
+	background: url(../images/navButtons.png) no-repeat right top;
+}
+
+div.jc-horizontal a.next:hover
+{
+	background: url(../images/navButtons.png) no-repeat right bottom;
+}
+
+ 
+
+/* auto and circle */
+div.jc-auto
+{
+	margin: 0; 
+}
+
+
+div.js-circle
+{
+	
+}
+

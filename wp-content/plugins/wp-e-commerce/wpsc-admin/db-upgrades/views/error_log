@@ -1,0 +1,17 @@
+[02-Jan-2014 12:19:50] PHP Fatal error:  Call to undefined function  esc_html_e() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[16-Apr-2015 09:58:45 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[16-Apr-2015 15:25:05 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[16-Apr-2015 21:55:18 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[17-Apr-2015 02:52:01 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[17-Apr-2015 03:43:57 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[17-Apr-2015 09:18:48 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[17-Apr-2015 13:52:32 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[18-Apr-2015 06:52:24 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[25-Aug-2015 16:58:33 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[03-Sep-2015 07:37:11 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[03-Sep-2015 07:57:11 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[03-Sep-2015 08:17:11 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[03-Sep-2015 08:37:58 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[03-Sep-2015 08:59:08 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[06-Sep-2015 12:17:52 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3
+[18-Oct-2015 12:26:45 America/Denver] PHP Fatal error:  Call to undefined function esc_html_e() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-admin/db-upgrades/views/main.php on line 3

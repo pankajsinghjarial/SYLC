@@ -1,0 +1,12 @@
+[02-Jul-2015 03:15:32 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[02-Jul-2015 03:15:32 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[02-Jul-2015 03:15:32 America/New_York] PHP Notice:  Undefined variable: old_password in /home/httpsylc/public_html/superadmin/settings/form/setting_form.php on line 109
+[02-Jul-2015 03:15:32 America/New_York] PHP Notice:  Undefined variable: new_password in /home/httpsylc/public_html/superadmin/settings/form/setting_form.php on line 114
+[02-Jul-2015 03:15:32 America/New_York] PHP Notice:  Undefined variable: new_password_again in /home/httpsylc/public_html/superadmin/settings/form/setting_form.php on line 119
+[02-Jul-2015 03:15:32 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129
+[02-Jul-2015 03:15:54 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 122
+[02-Jul-2015 03:15:54 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/httpsylc/public_html/superadmin/includes/views/admin_header.php on line 249
+[02-Jul-2015 03:15:54 America/New_York] PHP Notice:  Undefined variable: old_password in /home/httpsylc/public_html/superadmin/settings/form/setting_form.php on line 109
+[02-Jul-2015 03:15:54 America/New_York] PHP Notice:  Undefined variable: new_password in /home/httpsylc/public_html/superadmin/settings/form/setting_form.php on line 114
+[02-Jul-2015 03:15:54 America/New_York] PHP Notice:  Undefined variable: new_password_again in /home/httpsylc/public_html/superadmin/settings/form/setting_form.php on line 119
+[02-Jul-2015 03:15:54 America/New_York] PHP Notice:  ob_end_flush() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete and flush buffer. No buffer to delete or flush in /home/httpsylc/public_html/superadmin/includes/views/admin_footer.php on line 129

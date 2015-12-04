@@ -1,0 +1,23 @@
+#top_bar .dropdown .options {
+  top: 8px;
+}
+#navigation li.login > .dropdown {
+  left: -1px;
+}
+.first_step .droplet_placeholder {
+  width: 64px;
+}
+dt.zip_code {
+  width: 25px;
+  padding-right: 0;
+}
+input.submit {
+  line-height: 31px;
+}
+#navigation input.submit {
+  line-height: 27px;
+}
+.sell_now .column li {
+  background: url('../images/bullet.png') no-repeat 0 8px;
+  padding: 0 0 0 10px;
+}

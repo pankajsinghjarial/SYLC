@@ -1,0 +1,198 @@
+rootid,store,categories,category_image,description,url_key,is_active,meta_title,url_path,is_anchor,meta_keywords,meta_description,display_mode
+2,admin,Equipements de Nettoyage,,,equipements-de-nettoyage,1,,equipements-de-nettoyage.html,1,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Droguerie-Petit Matériel,droguerie-img.jpg,,droguerie-petit-materiel,1,,equipements-de-nettoyage/droguerie-petit-materiel.html,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Droguerie-Petit Matériel/Laine D'Acier,,,laine-d-acier,1,,equipements-de-nettoyage/droguerie-petit-materiel/laine-d-acier.html,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Droguerie-Petit Matériel/Abrasifs et Tampon Pad,,,abrasifs-et-tampon-pad,1,,equipements-de-nettoyage/droguerie-petit-materiel/abrasifs-et-tampon-pad.html,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Droguerie-Petit Matériel/Disques Abrasifs,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Droguerie-Petit Matériel/Gamme D'arrosage,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Droguerie-Petit Matériel/Tapis d'accueil,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Droguerie-Petit Matériel/Eponges,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Droguerie-Petit Matériel/Brosserie,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Droguerie-Petit Matériel/Brosserie Alimentaire,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Droguerie-Petit Matériel/Pulvérisateur-Doseurs,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Droguerie-Petit Matériel/Ampoules-Matériels électriques,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Matériel Sol,materiel-sol-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Matériel Sol/Serpillères-Gazes-Franges,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Matériel Sol/Support balai trapèze,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Matériel Sol/Balai ciseaux-Balai frange,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Matériel Sol/Matériel Sol,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Matériel Sol/Raclette Sol,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Matériel Sol/Seaux,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Matériel Sol/Pelles,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Divers Chimie,divers-chimie-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Divers Chimie/Javel-Insecticides,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Divers Chimie/Anti-Graffiti,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Divers Chimie/Divers,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Protection Individuelle,protection-individuelle-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Protection Individuelle/Familles de Gants,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Protection Individuelle/Lunettes et Chaussures,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Protection Individuelle/Sécurité,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Produits bactéricides,produits-bactericides-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Produits bactéricides/Aérosol Bactéricide,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Produits bactéricides/Gel mains Hydroalcoolique,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Produits bactéricides/Détergents surodorants bactéricides,,,,1,,,0,,,PRODUCTS
+2,admin,Equipements de Nettoyage/Produits bactéricides/Lavette microfibre bactéricide,,,,1,,,0,,,PRODUCTS
+2,admin,"Equipements de Nettoyage/Produits bactéricides/Lingettes bactéricides ""Aseptonet",,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage,,,materiel-de-nettoyage,1,,materiel-de-nettoyage.html,1,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Aspirateurs industriels poussière,aspirateurs-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Aspirateurs industriels poussière/Aspirateurs industriels poussière,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Aspirateurs industriels poussière/Aspirateur dorsal,,,,1,,,0,,,PRODUCTS
+2,admin,"Matériel De Nettoyage/Aspirateurs industriels poussière/Aspirateur ""Trolley""",,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Aspirateurs industriels poussière/Aspiro-Brosseurs,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Aspirateurs industriels poussière/Aspirateurs à batteriet,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Aspirateurs industriels mixtes,industriels-mixtes-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Aspirateurs industriels mixtes/Aspirateurs Eau-poussière 15 à 20 litres,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Aspirateurs industriels mixtes/Aspirateur Eau-Poussière 20 à  60 litres,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Aspirateurs industriels mixtes/Aspirateur injecteur /extracteur,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Monobrosse,monobrosse-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Monobrosse/Monobrosses 150 tours,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Monobrosse/Monobrosses 400 tours,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Monobrosse/Monobrosses 1000 tours T.H.V.,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Monobrosse/Monobrosses bi-vitesse,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Monobrosse/Monobrosses circulaire  escaliers,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Monobrosse/Monobrosses pliables (faible encombrement),,,,1,,,0,,,PRODUCTS
+2,admin,"Matériel De Nettoyage/Monobrosse/Monobrosses ""Taski""",,,,1,,,0,,,PRODUCTS
+2,admin,"Matériel De Nettoyage/Monobrosse/Monobrosses ""Ergodisc""",,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Machines Injection Extraction,injection-extraction-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Machines Injection Extraction/Machines injection-extraction 15 litres,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Machines Injection Extraction/Machines injection-extraction 50 litres,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Machines Injection Extraction/Injection-Extraction (transports aérien ou ferroviaire),,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Autolaveuses Balayeuse,autolaveuses-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Autolaveuses Balayeuse/Autolaveuses à batterie,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Autolaveuses Balayeuse/Autolaveuses à cable,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Autolaveuses Balayeuse/Autolaveuses autotractées,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Autolaveuses Balayeuse/Autolaveuses autoportées,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Autolaveuses Balayeuse/Autolaveuses faible encombrement,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Chariots d'entretien,chariots-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Chariots d'entretien/Chariot de lavage,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Chariots d'entretien/Chariot de ménage,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Chariots d'entretien/Chariot de ménage-lavage,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Chariots d'entretien/Chariot hôtelier,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Chariots d'entretien/Chariot porte-sacs,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Nettoyeurs Haute Pression,nettoyeurs-haute.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Nettoyeurs Haute Pression/Nettoyeurs haute pression,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Nettoyeurs Haute Pression/Nettoyeurs haute pression autonome,,,,1,,,0,,,PRODUCTS
+2,admin,Matériel De Nettoyage/Nettoyeurs Haute Pression/Nettoyeurs haute pression Eau chaude,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces,,,traitements-sols-et-surfaces,1,,traitements-sols-et-surfaces.html,1,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Décapants-Dégraissants,decapants-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Décapants-Dégraissants/Détergents désodorisants surconcentrés,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Décapants-Dégraissants/Détergents neutres surodorants,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Décapants-Dégraissants/Nettoyants désinfectants,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Décapants-Dégraissants/Détergents bactéricides,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Décapants-Dégraissants/Décapants d'émulsion,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Décapants-Dégraissants/Dégraissants industriels sols,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Décapants-Dégraissants/Détergents décapants polyvalents,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Décapants-Dégraissants/Détergents en doses,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Protection et entretien des sols- Bouche-pores,protection-et-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Protection et entretien des sols- Bouche-pores/Bouche-pores acrylique,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Protection et entretien des sols- Bouche-pores/Emulsion acrylique (cire pour sols modernes),,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Protection et entretien des sols- Bouche-pores/Produits de cristallisation de marbres Cire bois,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Protection et entretien des sols- Bouche-pores/Shampoings et détachants moquette,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Nettoyant Surface,nettoyant-surface-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Nettoyant Surface/Nettoyants vitres,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Nettoyant Surface/Nettoyants polyvalents (surfaces modernes),,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Nettoyant Surface/Doses bactéricides 20 ml,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Nettoyant Surface/Crème à récurer,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Nettoyant Surface/Lingettes bactéricides,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Nettoyant Surface/Polish meubles,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Nettoyant Surface/Nettoyants et rénovateurs métaux,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Nettoyant Surface/Anti-Graffiti,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Nettoyant Surface/Anti-Gum,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Gamme Ecologique,gamme-eco-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Gamme Ecologique/Détergents sols écologique,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Gamme Ecologique/Nettoyants surfaces écologique,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Gamme Ecologique/Nettoyants sanitaires écologique,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Gamme Ecologique/Nettoyants vitres écologique,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Gamme Ecologique/Liquide vaisselle écologique,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Gamme Ecologique/Produits écologique en doses 20ml,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Gamme Ecologique/Gel W.C. écologique,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Gamme Ecologique/Essuie-mains écologique,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Gamme Ecologique/Papier hygiénique écologique,,,,1,,,0,,,PRODUCTS
+2,admin,Traitements Sols et Surfaces/Gamme Ecologique/Produits écologique nouvelle génération,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire,,,hygiene-sanitaire,1,,hygiene-sanitaire.html,1,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Détergents Désincrustants, Savons",savons-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Détergents Désincrustants, Savons/Crème à récurer sanitaires",,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Détergents Désincrustants, Savons/Gels W.C.",,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Détergents Désincrustants, Savons/Détartrants sanitaires",,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Détergents Désincrustants, Savons/Produits entretien sanitaires",,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Détergents Désincrustants, Savons/Savons et crèmes",,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Détergents Désincrustants, Savons/Désinfectants de contact",,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Détergents Désincrustants, Savons/Crème à récurer ""Actif""",,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Détergents,detergents-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Détergents/Bactys, désinfectant de contact",,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Détergents/Crème à récurer ""Actif""",,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Détergents/Détergent ""Odorum"" Fresco (5 litres)",,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Détergents/Odorum doses senteur ""Lavande"" (500 doses)",,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Papiers Hygiéniques,papiers-hyg-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Papiers Hygiéniques/Papier hygiénique en rouleaux,,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Papiers Hygiéniques/Papier rouleau ""Maxi-Jumbo""",,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Papiers Hygiéniques/Papier hygiénique feuille à feuille,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Essuie-Mains,essuie-mains-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Essuie-Mains/Essuie-mains enchevêtré,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Essuie-Mains/Essuie- mains dévidage central,,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Distributeurs Papiers, distributeurs savons",distributeurs-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Distributeurs Papiers, distributeurs savons/Distributeurs papier W.C.",,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Distributeurs Papiers, distributeurs savons/Distributeur essuie-mains",,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Distributeurs Papiers, distributeurs savons/Distributeurs Savon",,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Distributeurs Papiers, distributeurs savons/Porte rouleaux",,,,1,,,0,,,PRODUCTS
+2,admin,"Hygiéne Sanitaire/Distributeurs Papiers, distributeurs savons/Sèche mains électriques",,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Assainisseurs d'ambiance,assainisseurs-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Assainisseurs d'ambiance/Parfum d'ambiance,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Assainisseurs d'ambiance/Recharges assainisseur,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Assainisseurs d'ambiance/Aérosol bactéricide,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Assainisseurs d'ambiance/Aérosol désodorisants,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Assainisseurs d'ambiance/Blocs désodorisants,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Assainisseurs d'ambiance/Destructeurs d'odeur,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Accessoires sanitaires,accessoires-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Accessoires sanitaires/Balayette W.C.,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Accessoires sanitaires/Poubelle sanitaires,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Accessoires sanitaires/Sèche-mains,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Sanitaire/Accessoires sanitaires/Lavette microfibre,,,,1,,,0,,,PRODUCTS
+2,admin,Essuyage Industriel,,,essuyage-industriel,1,,essuyage-industriel.html,1,,,PRODUCTS
+2,admin,Essuyage Industriel/Microfibres polyvalentes,microfibres-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,"Essuyage Industriel/Microfibres polyvalentes/Lavette ""microclean"" spéciale vitres",,,,1,,,0,,,PRODUCTS
+2,admin,Essuyage Industriel/Microfibres polyvalentes/Lavettes microfibres bactéricides,,,,1,,,0,,,PRODUCTS
+2,admin,Essuyage Industriel/Microfibres polyvalentes/Lavette microfibre,,,,1,,,0,,,PRODUCTS
+2,admin,Essuyage Industriel/Tissu d'essuyage,tissu-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Essuyage Industriel/Tissu d'essuyage/Lavette essuie vite,,,,1,,,0,,,PRODUCTS
+2,admin,Essuyage Industriel/Tissu d'essuyage/Peau Vileda,,,,1,,,0,,,PRODUCTS
+2,admin,Essuyage Industriel/Tissu d'essuyage/Torchonette Vileda,,,,1,,,0,,,PRODUCTS
+2,admin,Essuyage Industriel/Tissu d'essuyage/Chamoisine,,,,1,,,0,,,PRODUCTS
+2,admin,Essuyage Industriel/Tissu d'essuyage/Chiffons,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge ,,,hygiene-cuisine-hygiene-du-linge,1,,hygiene-cuisine-hygiene-du-linge.html,1,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Lessives liquides assouplissants linge,lessives-liquides-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Lessives liquides assouplissants linge/Lessives liquide,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Lessives liquides assouplissants linge/Lessive en poudre,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Lessives liquides assouplissants linge/Assouplissant liquide,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Nettoyants désinfectants (cuisine),nettoyants-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Nettoyants désinfectants (cuisine)/Nettoyants désinfectants (contact alimentaire),,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Nettoyants désinfectants (cuisine)/Dégraissants contact alimentaire,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Nettoyants désinfectants (cuisine)/Dégraissants fours et plaques,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Nettoyants désinfectants (cuisine)/Détergent désinfectant multi-usages,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Nettoyants désinfectants (cuisine)/Liquide plonge manuelle,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Brosserie alimentaire,brosserie-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Brosserie alimentaire/Balais brosse lave-ponts,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Brosserie alimentaire/Brosse poignée,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Brosserie alimentaire/Raclette sols,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Lavage Vaisselle en  machine,lavage-vaisselle.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Lavage Vaisselle en  machine/Pastilles de lavage machine,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Lavage Vaisselle en  machine/Liquide lavage machine,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Appareils automatiques de dilution,appareils-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Appareils automatiques de dilution/Appareils de dilution,,,,1,,,0,,,PRODUCTS
+2,admin,Hygiéne Cuisine  Hygiéne du linge/Appareils automatiques de dilution/Doseurs automatiques,,,,1,,,0,,,PRODUCTS
+2,admin,Collecte des Déchets,,,collecte-des-dechets,1,,collecte-des-dechets.html,1,,,PRODUCTS
+2,admin,Collecte des Déchets/Matériel voirie,materiel-voirie-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Collecte des Déchets/Matériel voirie/Chariots de voierie,,,,1,,,0,,,PRODUCTS
+2,admin,Collecte des Déchets/Matériel voirie/Pelles de deneigement,,,,1,,,0,,,PRODUCTS
+2,admin,Collecte des Déchets/Matériel voirie/Epandeurs sels de déneigement,,,,1,,,0,,,PRODUCTS
+2,admin,Collecte des Déchets/Poubelles,poubelles-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Collecte des Déchets/Poubelles/Corbeille papier,,,,1,,,0,,,PRODUCTS
+2,admin,Collecte des Déchets/Poubelles/Corbeille à pédale,,,,1,,,0,,,PRODUCTS
+2,admin,Collecte des Déchets/Poubelles/Corbeille couvercle basculant,,,,1,,,0,,,PRODUCTS
+2,admin,Collecte des Déchets/Poubelles/Poubelles de 90 à 130 litres,,,,1,,,0,,,PRODUCTS
+2,admin,Collecte des Déchets/Poubelles/Conteneurs à déchets de 160 à 1100 litres,,,,1,,,0,,,PRODUCTS
+2,admin,Collecte des Déchets/Sacs poubelles,sacs-poubelles-img.jpg,,,1,,,0,,,PRODUCTS
+2,admin,Collecte des Déchets/Sacs poubelles/Sacs à déchets de 10 à 50 litres,,,,1,,,0,,,PRODUCTS
+2,admin,Collecte des Déchets/Sacs poubelles/Sacs à déchets de 60 à 130 litres,,,,1,,,0,,,PRODUCTS
+2,admin,Collecte des Déchets/Sacs poubelles/Housses conteneurs de 160 à 1100 litres,,,,1,,,0,,,PRODUCTS
+2,admin,Collecte des Déchets/Sacs poubelles/Sacs à déchets écologiques,,,,1,,,0,,,PRODUCTS

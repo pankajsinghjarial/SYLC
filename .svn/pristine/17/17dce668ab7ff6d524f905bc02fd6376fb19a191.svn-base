@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Sylc-Dialogure</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" src="js/html5.js"></script>
+<script type="text/javascript" src="js/IE9.js"></script>
+</head>
+<body class="dialogure_containt_outer">
+<div class="dialogure_wrapper">
+	<div class="dialogure_containt">
+    	<div class="dialogure_head">
+        <p>Soutien a la Clientele</p>
+        </div>
+        <div class="dialogure_indent">
+        <p><span>LAISSER UN MESSAGE:</span><br>Inscrivez vous a notre Newsletter afin de recevoir les offres du moment, des americaines triees sur le volet pour repondre a vos priorites top qualite au meilleur prix.</p>
+        
+        <div class="form_outer">
+          <table class="form_table">
+                    
+                   
+                   
+                    <tr>
+                    <td class="form_td0111"><div class="form_text">Email*:</div></td>
+                    <td><div class="input_outer"><input name="" type="text" class="input_01" value=""    /></div></td>
+                    </tr>
+              <tr>
+                    <td class="form_td0111"><div class="form_text">Question:</div></td>
+                    <td><div class="input_outer_01"><textarea name="" cols="1" rows="3" class="textarea_01" onclick="this.value=''" onblur="if(this.value=='')this.value=''" ></textarea></div></td>
+                    </tr>
+              
+                     <tr>
+                     <td></td>
+                    <td><input name="submit" type="submit" class="submit_btn001" value="" /></td>
+                    </tr>
+                    
+           </table>
+          </div>
+        </div>
+    
+    </div>
+
+</div>
+
+</div>
+<!-- dialogure end -->
+</body>
+</html>

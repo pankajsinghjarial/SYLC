@@ -1,0 +1,75 @@
+[25-Jul-2013 15:15:57] PHP Fatal error:  Class 'wpsc_checkout' not found in /home1/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-shopping_cart_page.php on line 3
+[01-Sep-2013 08:26:49] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-grid_view.php on line 3
+[01-Sep-2013 08:37:12] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-products_page.php on line 3
+[01-Sep-2013 08:49:25] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-single_product.php on line 8
+[01-Sep-2013 09:24:44] PHP Fatal error:  Call to undefined function  get_term() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-category_widget.php on line 2
+[01-Sep-2013 09:43:50] PHP Fatal error:  Class 'wpsc_checkout' not found in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-shopping_cart_page.php on line 3
+[01-Sep-2013 16:02:48] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-grid_view.php on line 3
+[01-Sep-2013 16:27:23] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-products_page.php on line 3
+[01-Sep-2013 17:57:30] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-single_product.php on line 8
+[01-Sep-2013 19:10:58] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-grid_view.php on line 3
+[01-Sep-2013 19:24:24] PHP Fatal error:  Call to undefined function  get_term() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-category_widget.php on line 2
+[01-Sep-2013 20:33:38] PHP Fatal error:  Class 'wpsc_checkout' not found in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-shopping_cart_page.php on line 3
+[02-Sep-2013 01:44:33] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-products_page.php on line 3
+[02-Sep-2013 03:05:55] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-single_product.php on line 8
+[02-Sep-2013 03:28:01] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-grid_view.php on line 3
+[02-Sep-2013 03:33:50] PHP Fatal error:  Call to undefined function  get_term() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-category_widget.php on line 2
+[02-Sep-2013 04:25:23] PHP Fatal error:  Class 'wpsc_checkout' not found in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-shopping_cart_page.php on line 3
+[02-Sep-2013 06:56:10] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-grid_view.php on line 3
+[02-Sep-2013 07:26:50] PHP Fatal error:  Call to undefined function  get_term() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-category_widget.php on line 2
+[02-Sep-2013 09:44:00] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-grid_view.php on line 3
+[02-Sep-2013 09:57:35] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-products_page.php on line 3
+[02-Sep-2013 10:03:01] PHP Fatal error:  Call to undefined function  get_option() in /home3/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-single_product.php on line 8
+[10-Aug-2015 12:50:26 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-featured_product.php on line 2
+[24-Aug-2015 02:33:46 America/Denver] PHP Fatal error:  Call to undefined function is_user_logged_in() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-user-log.php on line 15
+[24-Aug-2015 02:33:59 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-grid_view.php on line 3
+[24-Aug-2015 02:34:19 America/Denver] PHP Fatal error:  Call to undefined function wpsc_output_breadcrumbs() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-list_view.php on line 6
+[24-Aug-2015 02:34:44 America/Denver] PHP Fatal error:  Call to undefined function wpsc_cart_item_count() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-cart_widget.php on line 7
+[24-Aug-2015 02:35:10 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-products_page.php on line 3
+[24-Aug-2015 02:35:35 America/Denver] PHP Fatal error:  Call to undefined function wpsc_start_category_query() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-category-list.php on line 9
+[24-Aug-2015 02:36:00 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-single_product.php on line 8
+[24-Aug-2015 02:36:51 America/Denver] PHP Fatal error:  Call to undefined function get_term() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-category_widget.php on line 2
+[24-Aug-2015 02:37:17 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-featured_product.php on line 2
+[24-Aug-2015 02:37:44 America/Denver] PHP Fatal error:  Class 'wpsc_checkout' not found in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-shopping_cart_page.php on line 3
+[24-Aug-2015 02:38:15 America/Denver] PHP Fatal error:  Call to undefined function wpsc_transaction_theme() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-transaction_results.php on line 13
+[24-Aug-2015 08:18:58 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-products_page.php on line 3
+[24-Aug-2015 08:19:08 America/Denver] PHP Fatal error:  Call to undefined function get_term() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-category_widget.php on line 2
+[24-Aug-2015 08:19:18 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-single_product.php on line 8
+[24-Aug-2015 08:19:29 America/Denver] PHP Fatal error:  Class 'wpsc_checkout' not found in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-shopping_cart_page.php on line 3
+[24-Aug-2015 08:19:39 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-grid_view.php on line 3
+[24-Aug-2015 14:50:59 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-single_product.php on line 8
+[24-Aug-2015 14:51:10 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-grid_view.php on line 3
+[24-Aug-2015 14:51:20 America/Denver] PHP Fatal error:  Call to undefined function get_term() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-category_widget.php on line 2
+[24-Aug-2015 14:51:30 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-products_page.php on line 3
+[24-Aug-2015 14:51:40 America/Denver] PHP Fatal error:  Class 'wpsc_checkout' not found in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-shopping_cart_page.php on line 3
+[24-Aug-2015 20:45:43 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-products_page.php on line 3
+[24-Aug-2015 20:46:09 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-single_product.php on line 8
+[24-Aug-2015 20:46:19 America/Denver] PHP Fatal error:  Class 'wpsc_checkout' not found in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-shopping_cart_page.php on line 3
+[24-Aug-2015 20:46:29 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-grid_view.php on line 3
+[24-Aug-2015 20:46:39 America/Denver] PHP Fatal error:  Call to undefined function get_term() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-category_widget.php on line 2
+[25-Aug-2015 03:12:28 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-products_page.php on line 3
+[25-Aug-2015 03:12:38 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-grid_view.php on line 3
+[25-Aug-2015 03:12:48 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-single_product.php on line 8
+[25-Aug-2015 03:12:58 America/Denver] PHP Fatal error:  Call to undefined function get_term() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-category_widget.php on line 2
+[25-Aug-2015 03:13:08 America/Denver] PHP Fatal error:  Class 'wpsc_checkout' not found in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-shopping_cart_page.php on line 3
+[12-Sep-2015 21:17:20 America/Denver] PHP Fatal error:  Call to undefined function get_term() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-category_widget.php on line 2
+[14-Sep-2015 14:02:33 America/Denver] PHP Fatal error:  Call to undefined function wpsc_transaction_theme() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-transaction_results.php on line 13
+[14-Sep-2015 14:37:38 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-grid_view.php on line 3
+[17-Sep-2015 03:56:55 America/Denver] PHP Fatal error:  Call to undefined function get_term() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-category_widget.php on line 2
+[19-Sep-2015 01:10:12 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-grid_view.php on line 3
+[21-Sep-2015 00:19:37 America/Denver] PHP Fatal error:  Call to undefined function get_term() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-category_widget.php on line 2
+[22-Sep-2015 04:08:15 America/Denver] PHP Fatal error:  Class 'wpsc_checkout' not found in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-shopping_cart_page.php on line 3
+[23-Sep-2015 01:18:22 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-grid_view.php on line 3
+[25-Sep-2015 19:55:11 America/Denver] PHP Fatal error:  Call to undefined function is_user_logged_in() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-user-log.php on line 15
+[26-Sep-2015 04:04:41 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-products_page.php on line 3
+[30-Sep-2015 05:06:06 America/Denver] PHP Fatal error:  Call to undefined function wpsc_output_breadcrumbs() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-list_view.php on line 6
+[03-Oct-2015 13:51:49 America/Denver] PHP Fatal error:  Class 'wpsc_checkout' not found in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-shopping_cart_page.php on line 3
+[04-Oct-2015 04:12:36 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-products_page.php on line 3
+[06-Oct-2015 02:49:42 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-single_product.php on line 8
+[09-Oct-2015 19:06:42 America/Denver] PHP Fatal error:  Call to undefined function wpsc_start_category_query() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-category-list.php on line 9
+[11-Oct-2015 11:03:04 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-products_page.php on line 3
+[12-Oct-2015 07:16:36 America/Denver] PHP Fatal error:  Call to undefined function wpsc_cart_item_count() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-cart_widget.php on line 7
+[15-Oct-2015 16:58:56 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-single_product.php on line 8
+[16-Oct-2015 02:31:52 America/Denver] PHP Fatal error:  Class 'wpsc_checkout' not found in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-shopping_cart_page.php on line 3
+[17-Oct-2015 23:09:56 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-featured_product.php on line 2
+[24-Oct-2015 08:22:57 America/Denver] PHP Fatal error:  Call to undefined function get_option() in /home/sylcexpo/public_html/wp-content/plugins/wp-e-commerce/wpsc-theme/wpsc-single_product.php on line 8

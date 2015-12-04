@@ -1,0 +1,208 @@
+/* CSS Document */
+
+/*--------------- wrapper -------------------*/
+
+body{margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#0f0f0f; padding:0px; }
+
+
+.wrapper{ width:960px; margin:0 auto; overflow:hidden;}
+#wrapper_content{ width:960px; margin:0 auto; }
+
+
+/*--------------- listings -------------------*/
+/* --------------------------------------
+    RESET
+----------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------------- custom --------------------- */
+
+.clear {
+	clear:both;
+}
+.left {
+	float:left;
+	width:100%;
+}
+.right {
+	float:right;
+	width:100%;
+}
+.point {
+	cursor:pointer;
+}
+.f_right {
+	float:right;
+}
+.f_left {
+	float:left;
+}
+.aligncenter {
+	text-align:center;
+}
+.alignleft {
+	text-align:left;
+}
+.alignright {
+	text-align:right;
+}
+
+/* --------------------- links --------------------- */
+
+a img {
+	border:0;
+}
+
+a:focus {
+	outline:0px;
+}
+
+a {
+	color:#000000;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#c7020d;
+	text-decoration:underline;
+}
+
+a {
+	text-decoration:none;
+}
+
+/* --------------------- links --------------------- */
+
+
+#header{width:100%; height:132px; background:url(../images/head_bg.jpg) repeat-x center top; margin:0px; padding:0px;}
+
+#banner{width:100%;  margin:0px; padding:0 0 0 0; height:742px;  background:url(../images/banner.jpg) no-repeat center top;}
+
+#container{width:100%; margin:0px; padding:0px; background:url(../images/bg.jpg) no-repeat center top; overflow:hidden;}
+
+
+a.logo{background:url(../images/logo.jpg) no-repeat left top; margin:18px 0 0 0; display:block; width:380px; height:98px; float:left;}
+.commingsoon{background:url(../images/comingsoon.jpg) no-repeat right top; margin:7px 0 0 0;  width:349px; height:114px; float:right; }
+
+.commingsoon p{font-size:14px; font-family:Georgia, "Times New Roman", Times, serif; padding:66px 0 0 16px; line-height:18px; color:#000000;}
+
+
+ul.banner_form{list-style-type:none; margin:0px; padding:0px; overflow:hidden;}
+ul.banner_form li{list-style:none outside none; margin:0px; padding:0px;}
+ul.banner_form li.banner_txt{padding:44px 0 0 42px; display:block; margin:0px; width:539px;  float:left;}
+ul.banner_form li.form_panel{padding:10px 1px 0 0; margin:0px;  width:349px;  float:right;}
+
+.banner_top{background:url(../images/form_head.jpg) no-repeat right top; margin:7px 0 0 0;  width:349px; height:152px;}
+.contactus_panel{background:url(../images/contactus.jpg) no-repeat right top; margin:0 0 9px 0;  width:348px; height:86px;}
+.banner_bot{background:url(../images/form_bot.jpg) no-repeat right top; margin:0 0 0 0;  width:349px; min-height:430px;}
+
+.arrow{position:absolute; top:750px; margin-left:2px; }
+
+ul.fields{list-style:none outside none; margin:0px; padding:15px 0 0 15px;}
+ul.fields li{list-style:none outside none; margin:0px; padding:0 0 7px 0;}
+ul.fields li input.input{ background:url(../images/input.png) no-repeat 0 0 transparent;  border:0; margin:0 0 0 0; padding:14px 6px 14px 18px;  width:300px; height:16px;  color:#000; font-family:Georgia, "Times New Roman", Times, serif; font-size:13px;}
+ul.fields li input.submit{   padding:0 0 0 0; margin:19px 0 0 49px;  width:243px; height:80px; }
+
+
+#footer{width:960px; height:53px; margin:0px; padding:0px; font-size:10px; color:#676767; text-align:center; font-family:Arial, Helvetica, sans-serif;}
+#footer p.links{color:#b5b5b5; padding:10px 0 8px 0;}
+#footer p.links a{color:#676767; text-decoration:none; font-family:Arial, Helvetica, sans-serif;}
+#footer p.links a:hover{color:#b5b5b5; text-decoration:underline;}
+
+#content{margin:0 0 0 0;  width:960px;  background:url(../images/page_bg.png) repeat left top;   }
+.content_inner{padding:10px 13px 0 12px;}
+.content_top{background:url(../images/page_top.png) repeat left top; width:960px; height:4px; margin:12px 0 0 0;}
+
+
+.first_row{width:100%; padding:0 0 15px 0; margin:0px; overflow:hidden;}
+
+.col_first{float:left; width:502px; height:434px; }
+.col_second{float:right; width:421px; height:434px; }
+
+.col_first_header{background: url(../images/1box_bg.png) repeat-x left top; margin:0px; height:54px; padding:20px 0 0 16px;}
+.col_first_mid{background: url(../images/rightcol_bg.png) repeat left top; width:100%; height:360px;}
+.col_first_mid_inner{padding:18px 26px 0 22px;}
+.adds{position:absolute;  margin-left:-235px; margin-top:-5px; width:0px; height:0px;}
+.col_first p{font-family:Arial, Helvetica, sans-serif; color:#000; font-size:14px; line-height:20px; padding:0 0 5px 0;}
+strong{font-weight:bold;}
+.col_second_header{background: url(../images/red_strip.png) repeat-x left top; margin:0px; height:36px; padding:20px 0 0 17px; font-weight:400; font-family:"Myriad Pro", Arial, Helvetica, sans-serif; font-size:24px; color:#fff; text-transform:uppercase;}
+
+.addwords{width:960px; margin:0px; padding:0px;}
+
+.botArrow{ width:978px; position:relative; left:-9px; }
+.col_second_mid{background: url(../images/rightbox_bg.jpg) no-repeat left top; margin:0px; height:378px; padding:0 0 0 0;}
+.col_second_mid_inner{padding:16px 7px 0 11px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000; line-height:18px;}
+.pour_top{padding: 0 0 12px 5px; background:url(../images/dots.png) repeat-x bottom center; margin:0 0 18px 0;}
+.pour_bot{padding: 0 5px 0 5px; margin:0 0 10px 0;}
+.pour_bot p{font-size:12px; color:#535353; font-family:Arial, Helvetica, sans-serif; line-height:16px; padding-bottom:8px;}
+p.subheading{font-family:"Myriad Pro", Arial, Helvetica, sans-serif; font-size:20px; font-weight:600; color:#000; margin-bottom:15px; padding:0px;}
+.pour_bot_img{float:left; margin:0 15px 0 0;}
+
+
+.col_first1{float:left; width:502px; height:498px; background:#f1f1f1 url(../images/2box_bg.png) repeat-x left top; }
+.col_second1{float:right; width:421px; height:498px; margin:2px 0 0 0; }
+
+.col_first_header1{ margin:0px; height:44px; padding:20px 0 0 16px;}
+.col_first_mid1{width:100%; height:434px;}
+
+.col_first_mid1_inner{padding:0 10px 0 8px;}
+.bankamerica{padding:0 0 44px 0;}
+.cert{padding:0 0 15px 0;}
+
+.pour_bot1{padding: 0 5px 15px 0; margin:0 0 18px 0; background:url(../images/line.png) repeat-x left bottom;}
+.pour_bot1 img{margin:0 10px 0 0; float:left; width:106px;}
+.testimonial{font-family:Arial, Helvetica, sans-serif; background:url(../images/quote.png) no-repeat left top; padding:7px 0 10px 0;  float:right; width:283px; text-indent:30px;}
+.col_second_mid_inner1{padding:23px 7px 0 9px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#535353; line-height:16px;}
+
+.name{padding:12px 0 0 0; margin:0px; color:#ad4e4a; font-size:12px; font-family:Arial, Helvetica, sans-serif; }
+.col_second_mid1{background: url(../images/rightsideBox2.jpg) no-repeat left top; margin:0px; height:442px; padding:0 0 0 0;}
+
+.backgroundnone{background:none; padding:0px; margin:0px;}
+
+.roaddesign{background:url(../images/roadmap_bg.png) no-repeat center top; height:416px;  }
+
+.roaddesign ul{list-style:none outside none; margin:0px; padding:56px 0 0 0; width:380px; float:right; text-align:left; margin-right:40px;}
+
+.roaddesign ul li{list-style:none outside none; margin:0px; padding:0 0 24px 0; color:#1e1e1e; font-size:14px; font-family:Arial, Helvetica, sans-serif; line-height:18px;}
+.roaddesign ul li p{padding:0 16px 10px 0;}
+
+.thankyou{width:100%; height:785px; text-align:center; padding:60px 0 0 0; background:url(../images/bottomthank.png) no-repeat center bottom; margin:0 0 30px 0;}
+.thankcontent{font-family:Arial, Helvetica, sans-serif; font-size:32px; padding:28px 0 37px 0; line-height:36px; color:#0f0f0f; }

@@ -1,0 +1,3 @@
+<FilesMatch "\.(html|css|js|gif|jpg|jpeg|png|ico|swf)$">
+    Header set Cache-Control "max-age=259200, proxy-revalidate"
+</FilesMatch>

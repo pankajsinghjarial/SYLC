@@ -1,0 +1,471 @@
+
+/* scripts.js */
+
+/* 1   */ (function($) {
+/* 2   */ 
+/* 3   */ 	if (typeof _wpcf7 == 'undefined' || _wpcf7 === null) {
+/* 4   */ 		_wpcf7 = {};
+/* 5   */ 	}
+/* 6   */ 
+/* 7   */ 	_wpcf7 = $.extend({
+/* 8   */ 		cached: 0
+/* 9   */ 	}, _wpcf7);
+/* 10  */ 
+/* 11  */ 	$.fn.wpcf7InitForm = function() {
+/* 12  */ 		this.ajaxForm({
+/* 13  */ 			beforeSubmit: function(arr, $form, options) {
+/* 14  */ 				$form.wpcf7ClearResponseOutput();
+/* 15  */ 				$form.find('[aria-invalid]').attr('aria-invalid', 'false');
+/* 16  */ 				$form.find('img.ajax-loader').css({ visibility: 'visible' });
+/* 17  */ 				return true;
+/* 18  */ 			},
+/* 19  */ 			beforeSerialize: function($form, options) {
+/* 20  */ 				$form.find('[placeholder].placeheld').each(function(i, n) {
+/* 21  */ 					$(n).val('');
+/* 22  */ 				});
+/* 23  */ 				return true;
+/* 24  */ 			},
+/* 25  */ 			data: { '_wpcf7_is_ajax_call': 1 },
+/* 26  */ 			dataType: 'json',
+/* 27  */ 			success: $.wpcf7AjaxSuccess,
+/* 28  */ 			error: function(xhr, status, error, $form) {
+/* 29  */ 				var e = $('<div class="ajax-error"></div>').text(error.message);
+/* 30  */ 				$form.after(e);
+/* 31  */ 			}
+/* 32  */ 		});
+/* 33  */ 
+/* 34  */ 		if (_wpcf7.cached) {
+/* 35  */ 			this.wpcf7OnloadRefill();
+/* 36  */ 		}
+/* 37  */ 
+/* 38  */ 		this.wpcf7ToggleSubmit();
+/* 39  */ 
+/* 40  */ 		this.find('.wpcf7-submit').wpcf7AjaxLoader();
+/* 41  */ 
+/* 42  */ 		this.find('.wpcf7-acceptance').click(function() {
+/* 43  */ 			$(this).closest('form').wpcf7ToggleSubmit();
+/* 44  */ 		});
+/* 45  */ 
+/* 46  */ 		this.find('.wpcf7-exclusive-checkbox').wpcf7ExclusiveCheckbox();
+/* 47  */ 
+/* 48  */ 		this.find('.wpcf7-list-item.has-free-text').wpcf7ToggleCheckboxFreetext();
+/* 49  */ 
+/* 50  */ 		this.find('[placeholder]').wpcf7Placeholder();
+
+/* scripts.js */
+
+/* 51  */ 
+/* 52  */ 		if (_wpcf7.jqueryUi && ! _wpcf7.supportHtml5.date) {
+/* 53  */ 			this.find('input.wpcf7-date[type="date"]').each(function() {
+/* 54  */ 				$(this).datepicker({
+/* 55  */ 					dateFormat: 'yy-mm-dd',
+/* 56  */ 					minDate: new Date($(this).attr('min')),
+/* 57  */ 					maxDate: new Date($(this).attr('max'))
+/* 58  */ 				});
+/* 59  */ 			});
+/* 60  */ 		}
+/* 61  */ 
+/* 62  */ 		if (_wpcf7.jqueryUi && ! _wpcf7.supportHtml5.number) {
+/* 63  */ 			this.find('input.wpcf7-number[type="number"]').each(function() {
+/* 64  */ 				$(this).spinner({
+/* 65  */ 					min: $(this).attr('min'),
+/* 66  */ 					max: $(this).attr('max'),
+/* 67  */ 					step: $(this).attr('step')
+/* 68  */ 				});
+/* 69  */ 			});
+/* 70  */ 		}
+/* 71  */ 
+/* 72  */ 		this.find('.wpcf7-character-count').wpcf7CharacterCount();
+/* 73  */ 
+/* 74  */ 		this.find('.wpcf7-validates-as-url').change(function() {
+/* 75  */ 			$(this).wpcf7NormalizeUrl();
+/* 76  */ 		});
+/* 77  */ 	};
+/* 78  */ 
+/* 79  */ 	$.wpcf7AjaxSuccess = function(data, status, xhr, $form) {
+/* 80  */ 		if (! $.isPlainObject(data) || $.isEmptyObject(data)) {
+/* 81  */ 			return;
+/* 82  */ 		}
+/* 83  */ 
+/* 84  */ 		var $responseOutput = $form.find('div.wpcf7-response-output');
+/* 85  */ 
+/* 86  */ 		$form.wpcf7ClearResponseOutput();
+/* 87  */ 
+/* 88  */ 		$form.find('.wpcf7-form-control').removeClass('wpcf7-not-valid');
+/* 89  */ 		$form.removeClass('invalid spam sent failed');
+/* 90  */ 
+/* 91  */ 		if (data.captcha) {
+/* 92  */ 			$form.wpcf7RefillCaptcha(data.captcha);
+/* 93  */ 		}
+/* 94  */ 
+/* 95  */ 		if (data.quiz) {
+/* 96  */ 			$form.wpcf7RefillQuiz(data.quiz);
+/* 97  */ 		}
+/* 98  */ 
+/* 99  */ 		if (data.invalids) {
+/* 100 */ 			$.each(data.invalids, function(i, n) {
+
+/* scripts.js */
+
+/* 101 */ 				$form.find(n.into).wpcf7NotValidTip(n.message);
+/* 102 */ 				$form.find(n.into).find('.wpcf7-form-control').addClass('wpcf7-not-valid');
+/* 103 */ 				$form.find(n.into).find('[aria-invalid]').attr('aria-invalid', 'true');
+/* 104 */ 			});
+/* 105 */ 
+/* 106 */ 			$responseOutput.addClass('wpcf7-validation-errors');
+/* 107 */ 			$form.addClass('invalid');
+/* 108 */ 
+/* 109 */ 			$(data.into).trigger('wpcf7:invalid');
+/* 110 */ 			$(data.into).trigger('invalid.wpcf7'); // deprecated
+/* 111 */ 
+/* 112 */ 		} else if (1 == data.spam) {
+/* 113 */ 			$responseOutput.addClass('wpcf7-spam-blocked');
+/* 114 */ 			$form.addClass('spam');
+/* 115 */ 
+/* 116 */ 			$(data.into).trigger('wpcf7:spam');
+/* 117 */ 			$(data.into).trigger('spam.wpcf7'); // deprecated
+/* 118 */ 
+/* 119 */ 		} else if (1 == data.mailSent) {
+/* 120 */ 			$responseOutput.addClass('wpcf7-mail-sent-ok');
+/* 121 */ 			$form.addClass('sent');
+/* 122 */ 
+/* 123 */ 			if (data.onSentOk) {
+/* 124 */ 				$.each(data.onSentOk, function(i, n) { eval(n) });
+/* 125 */ 			}
+/* 126 */ 
+/* 127 */ 			$(data.into).trigger('wpcf7:mailsent');
+/* 128 */ 			$(data.into).trigger('mailsent.wpcf7'); // deprecated
+/* 129 */ 
+/* 130 */ 		} else {
+/* 131 */ 			$responseOutput.addClass('wpcf7-mail-sent-ng');
+/* 132 */ 			$form.addClass('failed');
+/* 133 */ 
+/* 134 */ 			$(data.into).trigger('wpcf7:mailfailed');
+/* 135 */ 			$(data.into).trigger('mailfailed.wpcf7'); // deprecated
+/* 136 */ 		}
+/* 137 */ 
+/* 138 */ 		if (data.onSubmit) {
+/* 139 */ 			$.each(data.onSubmit, function(i, n) { eval(n) });
+/* 140 */ 		}
+/* 141 */ 
+/* 142 */ 		$(data.into).trigger('wpcf7:submit');
+/* 143 */ 		$(data.into).trigger('submit.wpcf7'); // deprecated
+/* 144 */ 
+/* 145 */ 		if (1 == data.mailSent) {
+/* 146 */ 			$form.resetForm();
+/* 147 */ 		}
+/* 148 */ 
+/* 149 */ 		$form.find('[placeholder].placeheld').each(function(i, n) {
+/* 150 */ 			$(n).val($(n).attr('placeholder'));
+
+/* scripts.js */
+
+/* 151 */ 		});
+/* 152 */ 
+/* 153 */ 		$responseOutput.append(data.message).slideDown('fast');
+/* 154 */ 		$responseOutput.attr('role', 'alert');
+/* 155 */ 
+/* 156 */ 		$.wpcf7UpdateScreenReaderResponse($form, data);
+/* 157 */ 	};
+/* 158 */ 
+/* 159 */ 	$.fn.wpcf7ExclusiveCheckbox = function() {
+/* 160 */ 		return this.find('input:checkbox').click(function() {
+/* 161 */ 			var name = $(this).attr('name');
+/* 162 */ 			$(this).closest('form').find('input:checkbox[name="' + name + '"]').not(this).prop('checked', false);
+/* 163 */ 		});
+/* 164 */ 	};
+/* 165 */ 
+/* 166 */ 	$.fn.wpcf7Placeholder = function() {
+/* 167 */ 		if (_wpcf7.supportHtml5.placeholder) {
+/* 168 */ 			return this;
+/* 169 */ 		}
+/* 170 */ 
+/* 171 */ 		return this.each(function() {
+/* 172 */ 			$(this).val($(this).attr('placeholder'));
+/* 173 */ 			$(this).addClass('placeheld');
+/* 174 */ 
+/* 175 */ 			$(this).focus(function() {
+/* 176 */ 				if ($(this).hasClass('placeheld'))
+/* 177 */ 					$(this).val('').removeClass('placeheld');
+/* 178 */ 			});
+/* 179 */ 
+/* 180 */ 			$(this).blur(function() {
+/* 181 */ 				if ('' == $(this).val()) {
+/* 182 */ 					$(this).val($(this).attr('placeholder'));
+/* 183 */ 					$(this).addClass('placeheld');
+/* 184 */ 				}
+/* 185 */ 			});
+/* 186 */ 		});
+/* 187 */ 	};
+/* 188 */ 
+/* 189 */ 	$.fn.wpcf7AjaxLoader = function() {
+/* 190 */ 		return this.each(function() {
+/* 191 */ 			var loader = $('<img class="ajax-loader" />')
+/* 192 */ 				.attr({ src: _wpcf7.loaderUrl, alt: _wpcf7.sending })
+/* 193 */ 				.css('visibility', 'hidden');
+/* 194 */ 
+/* 195 */ 			$(this).after(loader);
+/* 196 */ 		});
+/* 197 */ 	};
+/* 198 */ 
+/* 199 */ 	$.fn.wpcf7ToggleSubmit = function() {
+/* 200 */ 		return this.each(function() {
+
+/* scripts.js */
+
+/* 201 */ 			var form = $(this);
+/* 202 */ 
+/* 203 */ 			if (this.tagName.toLowerCase() != 'form') {
+/* 204 */ 				form = $(this).find('form').first();
+/* 205 */ 			}
+/* 206 */ 
+/* 207 */ 			if (form.hasClass('wpcf7-acceptance-as-validation')) {
+/* 208 */ 				return;
+/* 209 */ 			}
+/* 210 */ 
+/* 211 */ 			var submit = form.find('input:submit');
+/* 212 */ 			if (! submit.length) return;
+/* 213 */ 
+/* 214 */ 			var acceptances = form.find('input:checkbox.wpcf7-acceptance');
+/* 215 */ 			if (! acceptances.length) return;
+/* 216 */ 
+/* 217 */ 			submit.removeAttr('disabled');
+/* 218 */ 			acceptances.each(function(i, n) {
+/* 219 */ 				n = $(n);
+/* 220 */ 				if (n.hasClass('wpcf7-invert') && n.is(':checked')
+/* 221 */ 				|| ! n.hasClass('wpcf7-invert') && ! n.is(':checked')) {
+/* 222 */ 					submit.attr('disabled', 'disabled');
+/* 223 */ 				}
+/* 224 */ 			});
+/* 225 */ 		});
+/* 226 */ 	};
+/* 227 */ 
+/* 228 */ 	$.fn.wpcf7ToggleCheckboxFreetext = function() {
+/* 229 */ 		return this.each(function() {
+/* 230 */ 			var $wrap = $(this).closest('.wpcf7-form-control');
+/* 231 */ 
+/* 232 */ 			if ($(this).find(':checkbox, :radio').is(':checked')) {
+/* 233 */ 				$(this).find(':input.wpcf7-free-text').prop('disabled', false);
+/* 234 */ 			} else {
+/* 235 */ 				$(this).find(':input.wpcf7-free-text').prop('disabled', true);
+/* 236 */ 			}
+/* 237 */ 
+/* 238 */ 			$wrap.find(':checkbox, :radio').change(function() {
+/* 239 */ 				var $cb = $('.has-free-text', $wrap).find(':checkbox, :radio');
+/* 240 */ 				var $freetext = $(':input.wpcf7-free-text', $wrap);
+/* 241 */ 
+/* 242 */ 				if ($cb.is(':checked')) {
+/* 243 */ 					$freetext.prop('disabled', false).focus();
+/* 244 */ 				} else {
+/* 245 */ 					$freetext.prop('disabled', true);
+/* 246 */ 				}
+/* 247 */ 			});
+/* 248 */ 		});
+/* 249 */ 	};
+/* 250 */ 
+
+/* scripts.js */
+
+/* 251 */ 	$.fn.wpcf7CharacterCount = function() {
+/* 252 */ 		return this.each(function() {
+/* 253 */ 			var $count = $(this);
+/* 254 */ 			var name = $count.attr('data-target-name');
+/* 255 */ 			var down = $count.hasClass('down');
+/* 256 */ 			var starting = parseInt($count.attr('data-starting-value'), 10);
+/* 257 */ 			var maximum = parseInt($count.attr('data-maximum-value'), 10);
+/* 258 */ 			var minimum = parseInt($count.attr('data-minimum-value'), 10);
+/* 259 */ 
+/* 260 */ 			var updateCount = function($target) {
+/* 261 */ 				var length = $target.val().length;
+/* 262 */ 				var count = down ? starting - length : length;
+/* 263 */ 				$count.attr('data-current-value', count);
+/* 264 */ 				$count.text(count);
+/* 265 */ 
+/* 266 */ 				if (maximum && maximum < length) {
+/* 267 */ 					$count.addClass('too-long');
+/* 268 */ 				} else {
+/* 269 */ 					$count.removeClass('too-long');
+/* 270 */ 				}
+/* 271 */ 
+/* 272 */ 				if (minimum && length < minimum) {
+/* 273 */ 					$count.addClass('too-short');
+/* 274 */ 				} else {
+/* 275 */ 					$count.removeClass('too-short');
+/* 276 */ 				}
+/* 277 */ 			};
+/* 278 */ 
+/* 279 */ 			$count.closest('form').find(':input[name="' + name + '"]').each(function() {
+/* 280 */ 				updateCount($(this));
+/* 281 */ 
+/* 282 */ 				$(this).keyup(function() {
+/* 283 */ 					updateCount($(this));
+/* 284 */ 				});
+/* 285 */ 			});
+/* 286 */ 		});
+/* 287 */ 	};
+/* 288 */ 
+/* 289 */ 	$.fn.wpcf7NormalizeUrl = function() {
+/* 290 */ 		return this.each(function() {
+/* 291 */ 			var val = $.trim($(this).val());
+/* 292 */ 
+/* 293 */ 			if (val && ! val.match(/^[a-z][a-z0-9.+-]*:/i)) { // check the scheme part
+/* 294 */ 				val = val.replace(/^\/+/, '');
+/* 295 */ 				val = 'http://' + val;
+/* 296 */ 			}
+/* 297 */ 
+/* 298 */ 			$(this).val(val);
+/* 299 */ 		});
+/* 300 */ 	};
+
+/* scripts.js */
+
+/* 301 */ 
+/* 302 */ 	$.fn.wpcf7NotValidTip = function(message) {
+/* 303 */ 		return this.each(function() {
+/* 304 */ 			var $into = $(this);
+/* 305 */ 
+/* 306 */ 			$into.find('span.wpcf7-not-valid-tip').remove();
+/* 307 */ 			$into.append('<span role="alert" class="wpcf7-not-valid-tip">' + message + '</span>');
+/* 308 */ 
+/* 309 */ 			if ($into.is('.use-floating-validation-tip *')) {
+/* 310 */ 				$('.wpcf7-not-valid-tip', $into).mouseover(function() {
+/* 311 */ 					$(this).wpcf7FadeOut();
+/* 312 */ 				});
+/* 313 */ 
+/* 314 */ 				$(':input', $into).focus(function() {
+/* 315 */ 					$('.wpcf7-not-valid-tip', $into).not(':hidden').wpcf7FadeOut();
+/* 316 */ 				});
+/* 317 */ 			}
+/* 318 */ 		});
+/* 319 */ 	};
+/* 320 */ 
+/* 321 */ 	$.fn.wpcf7FadeOut = function() {
+/* 322 */ 		return this.each(function() {
+/* 323 */ 			$(this).animate({
+/* 324 */ 				opacity: 0
+/* 325 */ 			}, 'fast', function() {
+/* 326 */ 				$(this).css({'z-index': -100});
+/* 327 */ 			});
+/* 328 */ 		});
+/* 329 */ 	};
+/* 330 */ 
+/* 331 */ 	$.fn.wpcf7OnloadRefill = function() {
+/* 332 */ 		return this.each(function() {
+/* 333 */ 			var url = $(this).attr('action');
+/* 334 */ 
+/* 335 */ 			if (0 < url.indexOf('#')) {
+/* 336 */ 				url = url.substr(0, url.indexOf('#'));
+/* 337 */ 			}
+/* 338 */ 
+/* 339 */ 			var id = $(this).find('input[name="_wpcf7"]').val();
+/* 340 */ 			var unitTag = $(this).find('input[name="_wpcf7_unit_tag"]').val();
+/* 341 */ 
+/* 342 */ 			$.getJSON(url,
+/* 343 */ 				{ _wpcf7_is_ajax_call: 1, _wpcf7: id, _wpcf7_request_ver: $.now() },
+/* 344 */ 				function(data) {
+/* 345 */ 					if (data && data.captcha) {
+/* 346 */ 						$('#' + unitTag).wpcf7RefillCaptcha(data.captcha);
+/* 347 */ 					}
+/* 348 */ 
+/* 349 */ 					if (data && data.quiz) {
+/* 350 */ 						$('#' + unitTag).wpcf7RefillQuiz(data.quiz);
+
+/* scripts.js */
+
+/* 351 */ 					}
+/* 352 */ 				}
+/* 353 */ 			);
+/* 354 */ 		});
+/* 355 */ 	};
+/* 356 */ 
+/* 357 */ 	$.fn.wpcf7RefillCaptcha = function(captcha) {
+/* 358 */ 		return this.each(function() {
+/* 359 */ 			var form = $(this);
+/* 360 */ 
+/* 361 */ 			$.each(captcha, function(i, n) {
+/* 362 */ 				form.find(':input[name="' + i + '"]').clearFields();
+/* 363 */ 				form.find('img.wpcf7-captcha-' + i).attr('src', n);
+/* 364 */ 				var match = /([0-9]+)\.(png|gif|jpeg)$/.exec(n);
+/* 365 */ 				form.find('input:hidden[name="_wpcf7_captcha_challenge_' + i + '"]').attr('value', match[1]);
+/* 366 */ 			});
+/* 367 */ 		});
+/* 368 */ 	};
+/* 369 */ 
+/* 370 */ 	$.fn.wpcf7RefillQuiz = function(quiz) {
+/* 371 */ 		return this.each(function() {
+/* 372 */ 			var form = $(this);
+/* 373 */ 
+/* 374 */ 			$.each(quiz, function(i, n) {
+/* 375 */ 				form.find(':input[name="' + i + '"]').clearFields();
+/* 376 */ 				form.find(':input[name="' + i + '"]').siblings('span.wpcf7-quiz-label').text(n[0]);
+/* 377 */ 				form.find('input:hidden[name="_wpcf7_quiz_answer_' + i + '"]').attr('value', n[1]);
+/* 378 */ 			});
+/* 379 */ 		});
+/* 380 */ 	};
+/* 381 */ 
+/* 382 */ 	$.fn.wpcf7ClearResponseOutput = function() {
+/* 383 */ 		return this.each(function() {
+/* 384 */ 			$(this).find('div.wpcf7-response-output').hide().empty().removeClass('wpcf7-mail-sent-ok wpcf7-mail-sent-ng wpcf7-validation-errors wpcf7-spam-blocked').removeAttr('role');
+/* 385 */ 			$(this).find('span.wpcf7-not-valid-tip').remove();
+/* 386 */ 			$(this).find('img.ajax-loader').css({ visibility: 'hidden' });
+/* 387 */ 		});
+/* 388 */ 	};
+/* 389 */ 
+/* 390 */ 	$.wpcf7UpdateScreenReaderResponse = function($form, data) {
+/* 391 */ 		$('.wpcf7 .screen-reader-response').html('').attr('role', '');
+/* 392 */ 
+/* 393 */ 		if (data.message) {
+/* 394 */ 			var $response = $form.siblings('.screen-reader-response').first();
+/* 395 */ 			$response.append(data.message);
+/* 396 */ 
+/* 397 */ 			if (data.invalids) {
+/* 398 */ 				var $invalids = $('<ul></ul>');
+/* 399 */ 
+/* 400 */ 				$.each(data.invalids, function(i, n) {
+
+/* scripts.js */
+
+/* 401 */ 					if (n.idref) {
+/* 402 */ 						var $li = $('<li></li>').append($('<a></a>').attr('href', '#' + n.idref).append(n.message));
+/* 403 */ 					} else {
+/* 404 */ 						var $li = $('<li></li>').append(n.message);
+/* 405 */ 					}
+/* 406 */ 
+/* 407 */ 					$invalids.append($li);
+/* 408 */ 				});
+/* 409 */ 
+/* 410 */ 				$response.append($invalids);
+/* 411 */ 			}
+/* 412 */ 
+/* 413 */ 			$response.attr('role', 'alert').focus();
+/* 414 */ 		}
+/* 415 */ 	};
+/* 416 */ 
+/* 417 */ 	$.wpcf7SupportHtml5 = function() {
+/* 418 */ 		var features = {};
+/* 419 */ 		var input = document.createElement('input');
+/* 420 */ 
+/* 421 */ 		features.placeholder = 'placeholder' in input;
+/* 422 */ 
+/* 423 */ 		var inputTypes = ['email', 'url', 'tel', 'number', 'range', 'date'];
+/* 424 */ 
+/* 425 */ 		$.each(inputTypes, function(index, value) {
+/* 426 */ 			input.setAttribute('type', value);
+/* 427 */ 			features[value] = input.type !== 'text';
+/* 428 */ 		});
+/* 429 */ 
+/* 430 */ 		return features;
+/* 431 */ 	};
+/* 432 */ 
+/* 433 */ 	$(function() {
+/* 434 */ 		_wpcf7.supportHtml5 = $.wpcf7SupportHtml5();
+/* 435 */ 		$('div.wpcf7 > form').wpcf7InitForm();
+/* 436 */ 	});
+/* 437 */ 
+/* 438 */ })(jQuery);
+/* 439 */ 
+
+;
+/* bj-lazy-load.min.js */
+
+/* 1 */ "use strict";var BJLL_options=BJLL_options||{},BJLL={_ticking:!1,check:function(){if(!BJLL._ticking){BJLL._ticking=!0,"undefined"==typeof BJLL.threshold&&(BJLL.threshold="undefined"!=typeof BJLL_options.threshold?parseInt(BJLL_options.threshold):200);var winH=document.documentElement.clientHeight||body.clientHeight,updated=!1,els=document.getElementsByClassName("lazy-hidden");[].forEach.call(els,function(el){var elemRect=el.getBoundingClientRect();winH-elemRect.top+BJLL.threshold>0&&(BJLL.show(el),updated=!0)}),BJLL._ticking=!1,updated&&BJLL.check()}},show:function(el){el.className=el.className.replace(/(?:^|\s)lazy-hidden(?!\S)/g,""),el.addEventListener("load",function(){BJLL.customEvent(el,"lazyloaded")},!1);var type=el.getAttribute("data-lazy-type");if("image"==type)el.setAttribute("src",el.getAttribute("data-lazy-src")),null!=el.getAttribute("data-srcset")&&el.setAttribute("srcset",el.getAttribute("data-srcset"));else if("iframe"==type){var s=el.getAttribute("data-lazy-src"),div=document.createElement("div");div.innerHTML=s;var iframe=div.firstChild;el.parentNode.replaceChild(iframe,el)}},customEvent:function(el,eventName){var event;document.createEvent?(event=document.createEvent("HTMLEvents"),event.initEvent(eventName,!0,!0)):(event=document.createEventObject(),event.eventType=eventName),event.eventName=eventName,document.createEvent?el.dispatchEvent(event):el.fireEvent("on"+event.eventType,event)}};window.addEventListener("load",BJLL.check,!1),window.addEventListener("scroll",BJLL.check,!1),window.addEventListener("resize",BJLL.check,!1),document.getElementsByTagName("body").item(0).addEventListener("post-load",BJLL.check,!1);

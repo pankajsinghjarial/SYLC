@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title></title>
+       
+
+<script>function checkId(){
+    var x=document.forms["myForm"]["email"].value;
+    var atpos=x.indexOf("@");
+    var dotpos=x.lastIndexOf(".");
+    
+   var elem1 = document.getElementById("name").value;
+      var elem2 = document.getElementById("phone").value;
+         var elem3 = document.getElementById("email").value;
+         
+   
+    if ((!isNaN(elem1)) || (elem1 === "")|| (elem1 === null)){
+       alert("Please type a valid name!"); 
+    }
+if((elem2 === "") || (elem2 === null) || isNaN(elem2) || (elem2.length>10)||(elem2.length<10)){
+    alert("Type a valide phone#!")
+}
+else if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
+  {
+  alert("Not a valid e-mail address");
+  return false;
+  }else{
+  document.myForm.submit();
+  }
+alert("Thank you!!!");
+}
+    
+</script>
+	</head>
+	<body>
+        <!--Add your own HTML!-->  
+        <form action="php echo $_SERVER["PHP_SELF"];?" align="right" id="myForm" methode="post" onsubmit="return checkId()"  enctype="text/plain">
+       Name: <input type="text" id="name"><br/>
+       Phone: <input type="text" id="phone"><br/>
+       email: <input type="text" id="email">
+      
+       <hr/>
+       <br/>
+     <input type="submit" name="Submit" value="Send">
+	</form>
+	</body>
+</html>

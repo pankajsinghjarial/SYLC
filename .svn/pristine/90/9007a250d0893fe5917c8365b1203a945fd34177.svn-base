@@ -1,0 +1,188 @@
+[01-Dec-2014 15:48:30 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[01-Dec-2014 15:50:15 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[02-Dec-2014 03:28:19 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[02-Dec-2014 03:30:05 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[02-Dec-2014 14:33:01 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[02-Dec-2014 14:36:19 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[03-Dec-2014 05:41:40 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[03-Dec-2014 05:44:30 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[06-Jan-2015 16:49:55 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[06-Jan-2015 16:50:56 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[06-Jan-2015 23:09:34 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[06-Jan-2015 23:10:34 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[07-Jan-2015 06:40:07 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[07-Jan-2015 06:41:06 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[17-Feb-2015 22:14:39 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home3/sylcexpo/public_html/wp-includes/nav-menu-template.php on line 16
+[17-Feb-2015 22:14:41 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-includes/author-template.php on line 454
+[17-Feb-2015 22:15:43 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home3/sylcexpo/public_html/wp-includes/general-template.php on line 1760
+[17-Feb-2015 22:16:16 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss.php on line 19
+[19-Apr-2015 16:15:48 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[19-Apr-2015 16:17:33 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[19-Apr-2015 21:49:15 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[19-Apr-2015 21:51:13 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[20-Apr-2015 03:22:35 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[20-Apr-2015 03:25:36 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[20-Apr-2015 11:03:52 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[20-Apr-2015 11:05:55 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[23-Sep-2015 08:49:43 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home/sylcexpo/public_html/wp-includes/category-template.php on line 891
+[23-Sep-2015 08:49:44 America/Denver] PHP Fatal error:  Class 'WP_Widget' not found in /home/sylcexpo/public_html/wp-includes/default-widgets.php on line 14
+[23-Sep-2015 08:49:44 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/canonical.php on line 556
+[23-Sep-2015 08:49:45 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-includes/post-formats.php on line 164
+[23-Sep-2015 08:49:46 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/admin-bar.php on line 48
+[23-Sep-2015 08:49:46 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/post.php on line 167
+[23-Sep-2015 08:49:46 America/Denver] PHP Fatal error:  Call to undefined function add_shortcode() in /home/sylcexpo/public_html/wp-includes/media.php on line 781
+[23-Sep-2015 08:49:46 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/ms-default-constants.php on line 153
+[23-Sep-2015 08:49:46 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/sylcexpo/public_html/wp-includes/registration-functions.php on line 7
+[23-Sep-2015 08:49:46 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-atom.php on line 8
+[23-Sep-2015 08:49:46 America/Denver] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/sylcexpo/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[23-Sep-2015 08:49:46 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/theme.php on line 678
+[23-Sep-2015 08:49:47 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/post.php on line 167
+[23-Sep-2015 08:49:47 America/Denver] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/script-loader.php on line 25
+[23-Sep-2015 08:49:47 America/Denver] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/script-loader.php on line 25
+[23-Sep-2015 08:49:47 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sylcexpo/public_html/wp-includes/script-loader.php on line 25
+[23-Sep-2015 08:49:47 America/Denver] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/sylcexpo/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[23-Sep-2015 08:49:47 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/ms-default-constants.php on line 153
+[23-Sep-2015 08:49:47 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home/sylcexpo/public_html/wp-includes/nav-menu-template.php on line 16
+[23-Sep-2015 08:49:47 America/Denver] PHP Fatal error:  Class 'IXR_Server' not found in /home/sylcexpo/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[23-Sep-2015 08:49:47 America/Denver] PHP Fatal error:  Call to undefined function is_robots() in /home/sylcexpo/public_html/wp-includes/template-loader.php on line 28
+[23-Sep-2015 08:49:47 America/Denver] PHP Fatal error:  Call to undefined function is_main_site() in /home/sylcexpo/public_html/wp-includes/update.php on line 667
+[23-Sep-2015 08:49:47 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/general-template.php on line 1760
+[23-Sep-2015 08:49:47 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-rss2.php on line 8
+[23-Sep-2015 08:49:48 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-includes/class-wp-embed.php on line 26
+[23-Sep-2015 08:49:48 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-rdf.php on line 8
+[23-Sep-2015 08:49:48 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/admin-bar.php on line 48
+[23-Sep-2015 08:49:48 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-includes/ms-default-filters.php on line 17
+[23-Sep-2015 08:49:48 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/taxonomy.php on line 130
+[23-Sep-2015 08:49:49 America/Denver] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/sylcexpo/public_html/wp-includes/class.wp-styles.php on line 19
+[23-Sep-2015 08:49:49 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/canonical.php on line 556
+[23-Sep-2015 08:49:49 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/canonical.php on line 556
+[23-Sep-2015 08:49:50 America/Denver] PHP Fatal error:  Class 'IXR_Client' not found in /home/sylcexpo/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[23-Sep-2015 08:49:50 America/Denver] PHP Fatal error:  Call to undefined function is_admin() in /home/sylcexpo/public_html/wp-includes/vars.php on line 23
+[23-Sep-2015 08:49:50 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/kses.php on line 1455
+[23-Sep-2015 08:49:50 America/Denver] PHP Fatal error:  Call to undefined function is_main_site() in /home/sylcexpo/public_html/wp-includes/update.php on line 667
+[23-Sep-2015 08:49:50 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-includes/class-wp-embed.php on line 26
+[23-Sep-2015 08:49:50 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[23-Sep-2015 08:49:51 America/Denver] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/sylcexpo/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[23-Sep-2015 08:49:51 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/ms-functions.php on line 2031
+[23-Sep-2015 08:49:51 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-rdf.php on line 8
+[23-Sep-2015 08:49:51 America/Denver] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/class-feed.php on line 4
+[23-Sep-2015 08:49:51 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sylcexpo/public_html/wp-includes/class-feed.php on line 4
+[23-Sep-2015 08:49:51 America/Denver] PHP Fatal error:  Call to undefined function is_main_site() in /home/sylcexpo/public_html/wp-includes/update.php on line 667
+[23-Sep-2015 08:49:51 America/Denver] PHP Fatal error:  Call to undefined function is_admin() in /home/sylcexpo/public_html/wp-includes/vars.php on line 23
+[23-Sep-2015 08:49:51 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home/sylcexpo/public_html/wp-includes/category-template.php on line 891
+[23-Sep-2015 08:49:52 America/Denver] PHP Fatal error:  Call to undefined function is_robots() in /home/sylcexpo/public_html/wp-includes/template-loader.php on line 28
+[23-Sep-2015 08:49:52 America/Denver] PHP Warning:  require_once(ABSPATHWPINC/ms-load.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/ms-settings.php on line 14
+[23-Sep-2015 08:49:52 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sylcexpo/public_html/wp-includes/ms-settings.php on line 14
+[23-Sep-2015 08:49:52 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-rss.php on line 8
+[23-Sep-2015 08:49:52 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/post.php on line 167
+[23-Sep-2015 08:49:53 America/Denver] PHP Fatal error:  Class 'WP_Widget' not found in /home/sylcexpo/public_html/wp-includes/default-widgets.php on line 14
+[23-Sep-2015 08:49:54 America/Denver] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/script-loader.php on line 25
+[23-Sep-2015 08:49:54 America/Denver] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/script-loader.php on line 25
+[23-Sep-2015 08:49:54 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sylcexpo/public_html/wp-includes/script-loader.php on line 25
+[23-Sep-2015 08:49:54 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-includes/shortcodes.php on line 403
+[23-Sep-2015 08:49:54 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home/sylcexpo/public_html/wp-includes/nav-menu-template.php on line 16
+[23-Sep-2015 08:49:54 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/theme.php on line 678
+[23-Sep-2015 08:49:54 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-includes/ms-default-filters.php on line 17
+[23-Sep-2015 08:49:55 America/Denver] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/sylcexpo/public_html/wp-includes/class.wp-styles.php on line 19
+[23-Sep-2015 08:49:55 America/Denver] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/class-feed.php on line 4
+[23-Sep-2015 08:49:55 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sylcexpo/public_html/wp-includes/class-feed.php on line 4
+[23-Sep-2015 08:49:56 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home/sylcexpo/public_html/wp-includes/post-template.php on line 1241
+[23-Sep-2015 08:49:56 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-atom.php on line 8
+[23-Sep-2015 08:49:56 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home/sylcexpo/public_html/wp-includes/comment-template.php on line 1648
+[23-Sep-2015 08:49:56 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-includes/shortcodes.php on line 403
+[23-Sep-2015 08:49:56 America/Denver] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/functions.php on line 8
+[23-Sep-2015 08:49:56 America/Denver] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/functions.php on line 8
+[23-Sep-2015 08:49:56 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sylcexpo/public_html/wp-includes/functions.php on line 8
+[23-Sep-2015 08:49:56 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home/sylcexpo/public_html/wp-includes/post-template.php on line 1241
+[23-Sep-2015 08:49:56 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-includes/post-formats.php on line 164
+[23-Sep-2015 08:49:57 America/Denver] PHP Fatal error:  Call to undefined function is_robots() in /home/sylcexpo/public_html/wp-includes/template-loader.php on line 28
+[23-Sep-2015 08:49:57 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/sylcexpo/public_html/wp-includes/rss.php on line 19
+[23-Sep-2015 08:49:57 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/admin-bar.php on line 48
+[23-Sep-2015 08:49:57 America/Denver] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/sylcexpo/public_html/wp-includes/class.wp-styles.php on line 19
+[23-Sep-2015 08:49:57 America/Denver] PHP Fatal error:  Class 'IXR_Server' not found in /home/sylcexpo/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[23-Sep-2015 08:49:57 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[23-Sep-2015 08:49:57 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/sylcexpo/public_html/wp-includes/registration-functions.php on line 7
+[23-Sep-2015 08:49:58 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/sylcexpo/public_html/wp-includes/registration-functions.php on line 7
+[23-Sep-2015 08:49:58 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-rss2-comments.php on line 8
+[23-Sep-2015 08:49:58 America/Denver] PHP Fatal error:  Class 'IXR_Client' not found in /home/sylcexpo/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[23-Sep-2015 08:49:58 America/Denver] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/class-simplepie.php on line 5
+[23-Sep-2015 08:49:58 America/Denver] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/class-simplepie.php on line 5
+[23-Sep-2015 08:49:58 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sylcexpo/public_html/wp-includes/class-simplepie.php on line 5
+[23-Sep-2015 08:49:59 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/sylcexpo/public_html/wp-includes/registration.php on line 7
+[23-Sep-2015 08:49:59 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/sylcexpo/public_html/wp-includes/registration.php on line 7
+[23-Sep-2015 08:49:59 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home/sylcexpo/public_html/wp-includes/category-template.php on line 891
+[23-Sep-2015 08:49:59 America/Denver] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/sylcexpo/public_html/wp-includes/class.wp-scripts.php on line 19
+[23-Sep-2015 08:49:59 America/Denver] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/class-simplepie.php on line 5
+[23-Sep-2015 08:49:59 America/Denver] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/class-simplepie.php on line 5
+[23-Sep-2015 08:49:59 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sylcexpo/public_html/wp-includes/class-simplepie.php on line 5
+[23-Sep-2015 08:49:59 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/kses.php on line 1455
+[23-Sep-2015 08:50:00 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-atom.php on line 8
+[23-Sep-2015 08:50:00 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-rss.php on line 8
+[23-Sep-2015 08:50:00 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-rss2-comments.php on line 8
+[23-Sep-2015 08:50:00 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home/sylcexpo/public_html/wp-includes/nav-menu-template.php on line 16
+[23-Sep-2015 08:50:00 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home/sylcexpo/public_html/wp-includes/comment-template.php on line 1648
+[23-Sep-2015 08:50:00 America/Denver] PHP Fatal error:  Call to undefined function add_shortcode() in /home/sylcexpo/public_html/wp-includes/media.php on line 781
+[23-Sep-2015 08:50:00 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-atom-comments.php on line 8
+[23-Sep-2015 08:50:01 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/author-template.php on line 454
+[23-Sep-2015 08:50:01 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-includes/post-formats.php on line 164
+[23-Sep-2015 08:50:02 America/Denver] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/sylcexpo/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[23-Sep-2015 08:50:02 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-rss.php on line 8
+[23-Sep-2015 08:50:02 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-includes/default-filters.php on line 17
+[23-Sep-2015 08:50:03 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-includes/default-filters.php on line 17
+[23-Sep-2015 08:50:03 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/ms-functions.php on line 2031
+[23-Sep-2015 08:50:04 America/Denver] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/functions.php on line 8
+[23-Sep-2015 08:50:04 America/Denver] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/functions.php on line 8
+[23-Sep-2015 08:50:04 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sylcexpo/public_html/wp-includes/functions.php on line 8
+[23-Sep-2015 08:50:04 America/Denver] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/class-simplepie.php on line 5
+[23-Sep-2015 08:50:04 America/Denver] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/class-simplepie.php on line 5
+[23-Sep-2015 08:50:04 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sylcexpo/public_html/wp-includes/class-simplepie.php on line 5
+[23-Sep-2015 08:50:05 America/Denver] PHP Fatal error:  Class 'WP_Widget' not found in /home/sylcexpo/public_html/wp-includes/default-widgets.php on line 14
+[23-Sep-2015 08:50:05 America/Denver] PHP Fatal error:  Class 'IXR_Server' not found in /home/sylcexpo/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[23-Sep-2015 08:50:05 America/Denver] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/class-feed.php on line 4
+[23-Sep-2015 08:50:05 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sylcexpo/public_html/wp-includes/class-feed.php on line 4
+[23-Sep-2015 08:50:06 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-rss2.php on line 8
+[23-Sep-2015 08:50:06 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/taxonomy.php on line 130
+[23-Sep-2015 08:50:06 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/author-template.php on line 454
+[23-Sep-2015 08:50:07 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-rdf.php on line 8
+[23-Sep-2015 08:50:08 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home/sylcexpo/public_html/wp-includes/post-template.php on line 1241
+[23-Sep-2015 08:50:08 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-atom-comments.php on line 8
+[23-Sep-2015 08:50:08 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/sylcexpo/public_html/wp-includes/rss.php on line 19
+[23-Sep-2015 08:50:09 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/sylcexpo/public_html/wp-includes/rss-functions.php on line 8
+[23-Sep-2015 08:50:09 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-includes/class-wp-embed.php on line 26
+[23-Sep-2015 08:50:09 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/taxonomy.php on line 130
+[23-Sep-2015 08:50:10 America/Denver] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/sylcexpo/public_html/wp-includes/class.wp-scripts.php on line 19
+[23-Sep-2015 08:50:10 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/general-template.php on line 1760
+[23-Sep-2015 08:50:10 America/Denver] PHP Fatal error:  Call to undefined function add_shortcode() in /home/sylcexpo/public_html/wp-includes/media.php on line 781
+[23-Sep-2015 08:50:10 America/Denver] PHP Fatal error:  Class 'IXR_Client' not found in /home/sylcexpo/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[23-Sep-2015 08:50:11 America/Denver] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/sylcexpo/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[23-Sep-2015 08:50:11 America/Denver] PHP Warning:  require_once(ABSPATHWPINC/ms-load.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/ms-settings.php on line 14
+[23-Sep-2015 08:50:11 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sylcexpo/public_html/wp-includes/ms-settings.php on line 14
+[23-Sep-2015 08:50:12 America/Denver] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/sylcexpo/public_html/wp-includes/class.wp-scripts.php on line 19
+[23-Sep-2015 08:50:13 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-rss2.php on line 8
+[23-Sep-2015 08:50:13 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-atom-comments.php on line 8
+[23-Sep-2015 08:50:13 America/Denver] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/sylcexpo/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[23-Sep-2015 08:50:13 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/sylcexpo/public_html/wp-includes/class-snoopy.php on line 6
+[23-Sep-2015 08:50:13 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/sylcexpo/public_html/wp-includes/class-snoopy.php on line 6
+[23-Sep-2015 08:50:14 America/Denver] PHP Fatal error:  Call to undefined function is_admin() in /home/sylcexpo/public_html/wp-includes/vars.php on line 23
+[23-Sep-2015 08:50:14 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/ms-default-constants.php on line 153
+[23-Sep-2015 08:50:14 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/kses.php on line 1455
+[23-Sep-2015 08:50:15 America/Denver] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/functions.php on line 8
+[23-Sep-2015 08:50:15 America/Denver] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/functions.php on line 8
+[23-Sep-2015 08:50:15 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sylcexpo/public_html/wp-includes/functions.php on line 8
+[23-Sep-2015 08:50:16 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/sylcexpo/public_html/wp-includes/feed-rss2-comments.php on line 8
+[23-Sep-2015 08:50:17 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/sylcexpo/public_html/wp-includes/rss.php on line 19
+[23-Sep-2015 08:50:17 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/general-template.php on line 1760
+[23-Sep-2015 08:50:18 America/Denver] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/script-loader.php on line 25
+[23-Sep-2015 08:50:18 America/Denver] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/script-loader.php on line 25
+[23-Sep-2015 08:50:18 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sylcexpo/public_html/wp-includes/script-loader.php on line 25
+[23-Sep-2015 08:50:18 America/Denver] PHP Warning:  require_once(ABSPATHWPINC/ms-load.php): failed to open stream: No such file or directory in /home/sylcexpo/public_html/wp-includes/ms-settings.php on line 14
+[23-Sep-2015 08:50:18 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sylcexpo/public_html/wp-includes/ms-settings.php on line 14
+[23-Sep-2015 08:50:18 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/ms-functions.php on line 2031
+[23-Sep-2015 08:50:18 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-includes/default-filters.php on line 17
+[23-Sep-2015 08:50:18 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home/sylcexpo/public_html/wp-includes/comment-template.php on line 1648
+[23-Sep-2015 08:50:19 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/theme.php on line 678
+[23-Sep-2015 08:50:19 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/sylcexpo/public_html/wp-includes/class-snoopy.php on line 6
+[23-Sep-2015 08:50:19 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-includes/ms-default-filters.php on line 17
+[23-Sep-2015 08:50:19 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/sylcexpo/public_html/wp-includes/shortcodes.php on line 403
+[23-Sep-2015 08:58:34 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/sylcexpo/public_html/wp-includes/registration.php on line 7
+[23-Sep-2015 14:00:24 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/sylcexpo/public_html/wp-includes/author-template.php on line 454

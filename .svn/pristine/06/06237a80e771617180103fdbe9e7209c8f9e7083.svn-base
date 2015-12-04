@@ -1,0 +1,581 @@
+<html>
+<head>
+<title>TotalApps-Merchant-Account</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="font-family:Arial, Helvetica, sans-serif; font-weight:bold; ">
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td valign="top" align="left" width="50%"  style="font-size:10px;">DBA Name: _______________________________________________</td>
+          <td valign="top" align="left" style="font-size:10px;">Merchant #: _______________________________________________</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top" ><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #333;">
+        <tr>
+          <th valign="top" bgcolor="#000" align="center"  > <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #333;">
+              <tr>
+                <td valign="top" width="20%" align="center" bgcolor="#fff" style="font-size:12px; color:#333;">TotalApp1504(ia)</td>
+                <td valign="top" align="center" bgcolor="#000" style="font-size:100%; color:#fff">3. MERCHANT PROFILE (cont'd)</td>
+                <td valign="top" width="20%" align="center" bgcolor="#fff" style="font-size:12px; color:#333;">TotalApp1504(ia)</td>
+              </tr>
+            </table>
+          </th>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" style="padding:5px; font-size:10px; color:#333;">Mail / Telephone Order / Business to Business Information (All Questions Must Be Answered by Keyed Type of Merchants)</td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" style="padding:5px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" width="62%" height="15" align="left" style="font-size:10px; color:#333;">What % of total sales represent Business to Business (vs Business to Consumer):</td>
+                <td valign="top" width="10%" align="left" style="font-size:10px; color:#333;">B2B ______%</td>
+                <td valign="top" width="2%" align="left" style="font-size:10px; color:#333;">+</td>
+                <td valign="top" width="10%" align="left" style="font-size:10px; color:#333;">B2C ______%</td>
+                <td valign="top" width="2%" align="left" style="font-size:10px; color:#333;">=</td>
+                <td valign="top"  align="left" style="font-size:10px; color:#333;">100% (total sales)</td>
+              </tr>
+              <tr>
+                <td valign="top" width="62%" align="left" style="font-size:10px; color:#333;">What % of bankcard sales represent Business to Business (vs Business to Consumer):</td>
+                <td valign="top" width="10%" align="left" style="font-size:10px; color:#333;">B2B ______%</td>
+                <td valign="top" width="2%" align="left" style="font-size:10px; color:#333;">+</td>
+                <td valign="top" width="10%" align="left" style="font-size:10px; color:#333;">B2C ______%</td>
+                <td valign="top" width="2%" align="left" style="font-size:10px; color:#333;">=</td>
+                <td valign="top"  align="left" style="font-size:10px; color:#333;">100% (total sales)</td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" style="padding:5px 5px 0 5px; font-size:10px; color:#333;">What is the time frame from transaction to delivery? </td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" style="padding:5px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top"  width="33%" height="15" align="left" style="font-size:10px; color:#333;">(% of orders delivered in days):</td>
+                <td valign="top" width="10%" align="left" style="font-size:10px; color:#333;">0-7 ______%</td>
+                <td valign="top" width="2%" align="left" style="font-size:10px; color:#333;">+</td>
+                <td valign="top" width="10%" align="left" style="font-size:10px; color:#333;">8-14 ______%</td>
+                <td valign="top" width="2%" align="left" style="font-size:10px; color:#333;">+</td>
+                <td valign="top" width="10%"  align="left" style="font-size:10px; color:#333;">15-30 ______%</td>
+                <td valign="top" width="2%" align="left" style="font-size:10px; color:#333;">+</td>
+                <td valign="top" width="15%" align="left" style="font-size:10px; color:#333;">over 30 days ______%</td>
+                <td valign="top" width="2%" align="left" style="font-size:10px; color:#333;">=</td>
+                <td valign="top"  align="left" style="font-size:10px; color:#333;">100% delivered</td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="middle" width="62%" style="font-size:10px; color:#333;" >Visa /MC/Discover Network/American Express OnePoint sales are deposited on (check one):</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" width="8%" style="font-size:9px; color:#333;" >Date of Order</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" width="10%" style="font-size:9px; color:#333;" >Date of Delivery</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" style="font-size:9px; color:#333;" >Other: ______</td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="middle" width="32%" style="font-size:10px; color:#333;" >Who performs product/service fulfillment?</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" width="6%" style="font-size:9px; color:#333;" >Direct</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" width="6%" style="font-size:9px; color:#333;" >Vendor</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" style="font-size:9px; color:#333;" >Other &nbsp;&nbsp; If vendor or third party is involved, provide the following:</td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" style="font-size:10px; color:#333;"> Name/Address /Contact Phone #: ________________________________________________________________________________________________ </td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="middle" width="30%" style="font-size:10px; color:#333;" >Are customers required to leave a deposit?</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" width="4%" style="font-size:9px; color:#333;" >No</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" width="4%" style="font-size:9px; color:#333;" >Yes</td>
+                <td valign="middle" width="26%" style="font-size:9px; color:#333;" >If Yes, % of deposit required: _______%</td>
+                <td valign="middle" style="font-size:9px; color:#333;" >Time Frame for Delivery: _______ days</td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="middle" width="30%" style="font-size:10px; color:#333;" >Advertising Method(s) (check all that apply):</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" width="10%" style="font-size:9px; color:#333;" >Newspapers</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" width="10%" style="font-size:9px; color:#333;" >Magazines</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" width="10%" style="font-size:9px; color:#333;" >Yellow Pages</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" width="10%" style="font-size:9px; color:#333;" >Radio/TV</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" style="font-size:9px; color:#333;" >Internet</td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" align="left" style="font-size:10px; color:#333;"><span style="font-size:12px;">REQUIRED:</span> Attach Marketing Materials for ALL MOTO, B2B and Internet Businesses (attach Web page printout) </td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top" >
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #333;">
+        <tr>
+          <th width="100%" align="center" valign="top" bgcolor="#000" style="font-size:100%; color:#fff;">4. TRADE REFERENCES</th>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="50%" height="30" valign="top" align="left" style="font-size:10px; color:#333; border:1px solid #333; padding:5px;">Trade Name:</td>
+                <td width="30%" valign="top" align="left" style="font-size:10px; color:#333; border:1px solid #333; padding:5px;">Contact Name:</td>
+                <td valign="top" width="20%" align="left" style="font-size:10px; color:#333; border:1px solid #333; padding:5px;">Telephone:</td>
+              </tr>
+              <tr>
+                <td width="50%" height="30" valign="top" align="left" style="font-size:10px; color:#333; border:1px solid #333; padding:5px;">Bank Name:</td>
+                <td width="30%" valign="top" align="left" style="font-size:10px; color:#333; border:1px solid #333; padding:5px;">Contact Name:</td>
+                <td valign="top" align="left" style="font-size:10px; color:#333; border:1px solid #333; padding:5px;">Telephone:</td>
+              </tr>
+            </table></td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" >
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #333;">
+              <tr>
+                <th width="100%" align="center" valign="top" bgcolor="#000" style="font-size:100%; color:#fff;">5. BANKING INFORMATION ***ATTACH A VOIDED CHECK FROM ACCOUNT***</th>
+              </tr>
+              <tr>
+                <td width="100%" valign="top" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="50%" height="30" valign="top" align="left" style="font-size:10px; color:#333; border:1px solid #333; padding:5px;">Bank Contact:</td>
+                      <td  valign="top" align="left" style="font-size:10px; color:#333; border:1px solid #333; padding:5px;">Telephone:</td>
+                    </tr>
+                    <tr>
+                      <td width="50%" height="30" valign="top" align="left" style="font-size:10px; color:#333; border:1px solid #333; padding:5px;">Transit # (ABA Routing):</td>
+                      <td valign="top" align="left" style="font-size:10px; color:#333; border:1px solid #333; padding:5px;">Account # (DDA):</td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table>
+            </td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" ><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #333;">
+              <tr>
+                <th width="100%" align="center" valign="top" bgcolor="#000" style="font-size:100%; color:#fff;">6. MERCHANT SITE SURVEY (To be completed by sales representative)</th>
+              </tr>
+              <tr>
+                <td width="100%" valign="top"  ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td valign="top" width="50%" style="padding:2px; border:1px solid #333;" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="100%" valign="top" align="left" style="font-size:10px; color:#333;">Business Location:</td>
+                          </tr>
+                          <tr>
+                            <td width="100%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td valign="top" align="left" width="5%"><input name="" type="checkbox" value=""></td>
+                                  <td valign="middle" align="left" width="18%" style="font-size:10px; color:#333;">Store Front</td>
+                                  <td valign="top" align="left" width="5%"><input name="" type="checkbox" value=""></td>
+                                  <td valign="middle" align="left" width="9%" style="font-size:10px; color:#333;">Office</td>
+                                  <td valign="top" align="left" width="5%"><input name="" type="checkbox" value=""></td>
+                                  <td valign="middle" align="left" width="9%" style="font-size:10px; color:#333;">Home</td>
+                                  <td valign="top" align="left" width="5%"><input name="" type="checkbox" value=""></td>
+                                  <td valign="middle" align="left" width="11%" style="font-size:10px; color:#333;">Other:</td>
+                                  <td valign="middle" align="left" style="font-size:10px; color:#333;">(specify) __________</td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                      <td valign="top" width="50%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="44%" valign="top" style="border-right:1px solid #333; padding:5px; border-bottom:1px solid #333;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td width="100%" valign="top" style="font-size:8px; color:#333;">Approximate Size: (square footage)</td>
+                                </tr>
+                                <tr>
+                                  <td width="100%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td valign="top" align="left" width="10%"><input name="" type="checkbox" value=""></td>
+                                        <td valign="middle" align="left" width="22%" style="font-size:8px; color:#333;">0-500</td>
+                                        <td valign="top" align="left" width="10%"><input name="" type="checkbox" value=""></td>
+                                        <td valign="middle" align="left" width="25%" style="font-size:8px; color:#333;">501-2000</td>
+                                        <td valign="top" align="left" width="10%"><input name="" type="checkbox" value=""></td>
+                                        <td valign="middle" align="left" style="font-size:8px; color:#333;">2000+</td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table></td>
+                            <td  valign="top" style="padding:5px; border-bottom:1px solid #333;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td width="100%" valign="top" style="font-size:8px; color:#333;">Zone:</td>
+                                </tr>
+                                <tr>
+                                  <td width="100%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td valign="top" align="left" width="10%"><input name="" type="checkbox" value=""></td>
+                                        <td valign="middle" align="left" width="25%" style="font-size:8px; color:#333;">Commercial</td>
+                                        <td valign="top" align="left" width="10%"><input name="" type="checkbox" value=""></td>
+                                        <td valign="middle" align="left" width="25%" style="font-size:8px; color:#333;">Industrial</td>
+                                        <td valign="top" align="left" width="10%"><input name="" type="checkbox" value=""></td>
+                                        <td valign="middle" align="left" style="font-size:8px; color:#333;">Residential</td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td width="100%" valign="top" style="border-bottom:1px solid #333;"  ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="50%" valign="top" style="border-right:1px solid #333; padding:5px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td valign="top" align="left" style="font-size:10px; color:#333;">Does the name on the store front match the DBA name?</td>
+                          </tr>
+                          <tr>
+                            <td valign="top" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td valign="top" align="left" width="5%"><input name="" type="checkbox" value=""></td>
+                                  <td valign="middle" align="left" width="8%" style="font-size:10px; color:#333;">Yes</td>
+                                  <td valign="top" align="left" width="5%"><input name="" type="checkbox" value=""></td>
+                                  <td valign="middle" align="left" width="8%" style="font-size:10px; color:#333;">No</td>
+                                  <td valign="middle" align="left" style="font-size:10px; color:#333;">Explain if No: _________________________________</td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                      <td  valign="top" style=" padding:5px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td valign="top" align="left" style="font-size:10px; color:#333;">Is inventory and merchandise displayed consistent with the type of business?</td>
+                          </tr>
+                          <tr>
+                            <td valign="top" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td valign="top" align="left" width="5%"><input name="" type="checkbox" value=""></td>
+                                  <td valign="middle" align="left" width="8%" style="font-size:10px; color:#333;">Yes</td>
+                                  <td valign="top" align="left" width="5%"><input name="" type="checkbox" value=""></td>
+                                  <td valign="middle" align="left" width="8%" style="font-size:10px; color:#333;">No</td>
+                                  <td valign="middle" align="left" style="font-size:10px; color:#333;">Explain if No: _________________________________</td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td width="100%" valign="top"  ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="80%" style="border-right:1px solid #333; padding:5px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="40%" valign="middle" style="font-size:10px; color:#333;">Business Hours: _________to _________</td>
+                            <td width="12%" valign="middle" style="font-size:10px; color:#333;">Time Zone:</td>
+                            <td width="4%" valign="top"><input name="" type="checkbox" value=""></td>
+                            <td width="10%" valign="middle" style="font-size:10px; color:#333;">Pacific</td>
+                            <td width="4%" valign="top"><input name="" type="checkbox" value=""></td>
+                            <td width="10%" valign="middle" style="font-size:10px; color:#333;">Eastern</td>
+                            <td width="4%" valign="top"><input name="" type="checkbox" value=""></td>
+                            <td width="10%" valign="middle" style="font-size:10px; color:#333;">Central</td>
+                            <td width="4%" valign="top"><input name="" type="checkbox" value=""></td>
+                            <td width="10%" valign="middle" style="font-size:10px; color:#333;">Mountain</td>
+                          </tr>
+                        </table></td>
+                      <td valign="middle" align="left" style="font-size:10px; color:#333; padding:5px;">Number of Employees:</td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td width="100%" valign="top" ><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #333;">
+              <tr>
+                <th valign="top" bgcolor="#000" align="center" style="font-size:100%; color:#fff;">7. EQUIPMENT DETAILS</th>
+              </tr>
+              <tr>
+                <td valign="top" width="100%"><table width="80%" align="center" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td valign="middle" width="20%" align="left" style="font-size:10px; color:#333;">Terminal Provided By:</td>
+                      <td valign="middle" width="4%" align="left"><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" width="10%" align="left" style="font-size:10px; color:#333;">Total-Apps</td>
+                      <td valign="middle" width="4%" align="left"><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" width="10%" align="left" style="font-size:10px; color:#333;">Merchant</td>
+                      <td valign="middle" width="4%" align="left"><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" width="10%" align="left" style="font-size:10px; color:#333;">Agent</td>
+                      <td valign="middle" width="9%" align="left" style="font-size:10px; color:#333;">Ship To:</td>
+                      <td valign="middle" width="4%" align="left"><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" width="10%" align="left" style="font-size:10px; color:#333;">Merchant</td>
+                      <td valign="middle" width="4%" align="left"><input name="" type="checkbox" value=""></td>
+                      <td valign="middle"  align="left" style="font-size:10px; color:#333;">Agent</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td valign="top" width="100%" style="padding:5px; border-bottom:1px solid #333;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td valign="middle" align="left" width="33%" style="font-size:10px; color:#333;">Total-Apps To Build Terminal Download File?</td>
+                      <td valign="top" width="3%" align="left" ><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left" width="3%" style="font-size:9px; color:#333;">Yes</td>
+                      <td valign="top" width="3%" align="left" ><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left" width="2%" style="font-size:9px; color:#333;">No</td>
+                      <td valign="middle" align="left" width="16%" style="font-size:10px; color:#333;">Build State Only File?</td>
+                      <td valign="top" width="3%" align="left" ><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left" width="3%" style="font-size:9px; color:#333;">Yes</td>
+                      <td valign="top" width="3%" align="left" ><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left" width="2%" style="font-size:9px; color:#333;">No</td>
+                      <td valign="middle" align="left" width="19%" style="font-size:10px; color:#333;">Agent to Conduct Training?</td>
+                      <td valign="top" width="3%" align="left" ><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left" width="3%" style="font-size:9px; color:#333;">Yes</td>
+                      <td valign="top" width="3%" align="left" ><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left"  style="font-size:9px; color:#333;">No</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td valign="top" width="100%" style="border-bottom:1px solid #333;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="38%" valign="top" style="border-right:1px solid #333; padding:5px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td valign="top" align="left" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td width="10%" valign="top" ><input name="" type="checkbox" value=""></td>
+                                  <td valign="middle" align="left" style="font-size:10px; color:#333;">RE-PROGRAM (please indicate terminal model)</td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td valign="top" height="15" align="left" style="font-size:10px; color:#333;" >Terminal Model _____________________ &nbsp;&nbsp; Qty _____</td>
+                          </tr>
+                          <tr>
+                            <td valign="top" height="15" align="left" style="font-size:10px; color:#333;" >Gateway Type ______________________ &nbsp;&nbsp; Qty _____</td>
+                          </tr>
+                          <tr>
+                            <td valign="top" height="15" align="left" style="font-size:10px; color:#333;" >Software Model _____________________ &nbsp;&nbsp; Qty _____</td>
+                          </tr>
+                        </table></td>
+                      <td width="38%" valign="top" style="border-right:1px solid #333; padding:5px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td valign="top" align="left" ><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td width="10%" valign="top" >&nbsp;</td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td valign="top" height="15" align="left" style="font-size:10px; color:#333;" >PIN Pad ___________________________ &nbsp;&nbsp; Qty _____</td>
+                          </tr>
+                          <tr>
+                            <td valign="top" height="15" align="left" style="font-size:10px; color:#333;" >Check Reader ______________________ &nbsp;&nbsp; Qty _____</td>
+                          </tr>
+                          <tr>
+                            <td valign="top" height="15" align="left" style="font-size:10px; color:#333;" >Printer Model _______________________ &nbsp;&nbsp; Qty _____</td>
+                          </tr>
+                        </table></td>
+                      <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td style="padding:5px 0 0 0;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td valign="top" align="left" width="10%"><input name="" type="checkbox" value=""></td>
+                                  <td valign="middle" align="left" style="font-size:10px; color:#333;">Ship Welcome Kit Only</td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td width="10%" valign="top" align="left"><input name="" type="checkbox" value=""></td>
+                                  <td width="20%" valign="middle" align="left" style="font-size:8px; color:#333;">Call for:</td>
+                                  <td width="10%" valign="top" align="left"><input name="" type="checkbox" value=""></td>
+                                  <td width="23%" valign="middle" align="left" style="font-size:8px; color:#333;">Download</td>
+                                  <td width="10%" valign="top" align="left"><input name="" type="checkbox" value=""></td>
+                                  <td valign="middle" align="left" style="font-size:8px; color:#333;">Training</td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                          <tr>
+                            <td valign="middle" height="18" width="100%" align="left" style="font-size:10px; color:#333;">Contact: __________________ </td>
+                          </tr>
+                          <tr>
+                            <td valign="top" width="100%" height="15" align="left" style="font-size:10px; color:#333;">Telephone #: __________________ </td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td valign="top" width="100%" style="padding:5px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td valign="middle" width="60%" align="left" style="font-size:10px; color:#333;"><span style="font-size:12px;" >TERMINAL PROGRAMMING:</span> Is there an existing Manual Imprinter at this location?</td>
+                      <td valign="top" width="3%" align="left"><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" width="5%" align="left" style="font-size:10px; color:#333;">Yes</td>
+                      <td valign="top" width="3%" align="left"><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left" style="font-size:10px; color:#333;">No</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td valign="top" width="100%" style="padding:5px; font-size:10px; color:#333;">Merchant acknowledges that an imprinter is required for any non-swiped transactions. </td>
+              </tr>
+              <tr>
+                <td valign="top" width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left" width="8%" style="font-size:9px; color:#333;">Gift Cards</td>
+                      <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left" width="8%" style="font-size:9px; color:#333;">Wireless</td>
+                      <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left" width="12%" style="font-size:9px; color:#333;">Purchase Cards</td>
+                      <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left" width="14%" style="font-size:9px; color:#333;">Retail (80% swiped)</td>
+                      <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left" width="12%" style="font-size:9px; color:#333;">Retail (with tips)</td>
+                      <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left" width="15%" style="font-size:9px; color:#333;">Restaurant (with tips)</td>
+                      <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left"  style="font-size:9px; color:#333;">Petroleum</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" ><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left"  style="font-size:9px; color:#333;">Lodging</td>
+                      <td valign="top" align="left" ><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left" style="font-size:9px; color:#333;">MOTO</td>
+                      <td valign="top" align="left" ><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" colspan="3" align="left" width="12%" style="font-size:9px; color:#333;">Address Verification service (AVS)</td>
+                      <td valign="top" align="left" ><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left"  style="font-size:9px; color:#333;">4 Digit Verification</td>
+                      <td valign="top" align="left" ><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left"  style="font-size:9px; color:#333;">Invoice #</td>
+                      <td valign="top" align="left" ><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left"  style="font-size:9px; color:#333;">Server ID</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td width="100%" valign="top" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td valign="middle" width="12%" align="left" style="font-size:10px; color:#333;" >Dial Out Code:</td>
+                      <td valign="top" width="3%" align="left" ><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" width="12%" align="left" style="font-size:10px; color:#333;" >"_______"</td>
+                      <td valign="middle" width="20%" align="left" style="font-size:10px; color:#333;" >Auto Batch Closing&nbsp; Time:</td>
+                      <td valign="top" width="3%" align="left" ><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" width="12%" align="left" style="font-size:10px; color:#333;" >Default 9:00 PM</td>
+                      <td valign="top" width="3%" align="left" ><input name="" type="checkbox" value=""></td>
+                      <td valign="middle" align="left" style="font-size:10px; color:#333;" >Other: "______________"</td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="font-family:Arial, Helvetica, sans-serif; border:1px solid #333;">
+  <tr>
+    <th valign="top" align="center" bgcolor="#000" style="font-size:100%; color:#fff;">8. VISA /MASTERCARD ACCEPTANCE</th>
+  </tr>
+  <tr>
+    <td width="100%" valign="top"><table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td valign="top" align="center" style="font-size:11px; color:#333;">Accept all MasterCard, Visa and Discover Network Transactions <span style="font-size:9px;"> (presumed, unless any selections below are checked)</span></td>
+        </tr>
+        <tr>
+          <td valign="top" align="center" width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" align="left" width="28%" style="font-size:9px; color:#333;">Accept MC Credit Transactions ONLY</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" align="left" width="28%" style="font-size:9px; color:#333;">Accept Visa Credit Transactions ONLY</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" align="left"  style="font-size:9px; color:#333;">Accept Discover Network Credit Transactions ONLY</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" ><input name="" type="checkbox" value=""></td>
+                <td valign="middle" align="left"  style="font-size:9px; color:#333;">Accept MC Non-PIN Debit Transactions ONLY</td>
+                <td valign="top" align="left" ><input name="" type="checkbox" value=""></td>
+                <td valign="middle" align="left"  style="font-size:9px; color:#333;">Accept Visa Non-PIN Debit Transactions ONLY</td>
+                <td valign="top" align="left" ><input name="" type="checkbox" value=""></td>
+                <td valign="middle" align="left"  style="font-size:9px; color:#333;">Accept Discover Network Non-PIN Debit Transactions ONLY</td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="font-family:Arial, Helvetica, sans-serif; border:1px solid #333;">
+  <tr>
+    <th valign="top" align="center" bgcolor="#000" style="font-size:100%; color:#fff;">9. JCB ACCEPTANCE</th>
+  </tr>
+  <tr>
+    <td width="100%" valign="top" style="padding:5px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td valign="top" width="100%" style="font-size:10px; color:#333;">Discount Rate: _____________ By signing below, I (we) represent that all of the information contained on this application is true and complete. I (we) understand that the
+            JCB Card Acceptance Terms and Conditions will be sent to the address above with a welcome letter upon approval by JCB. I (we) agree to be bound by he JCB Card Acceptance
+            Terms and Conditions for accepting the JCB Card for purchases of goods or other services.</td>
+        </tr>
+        <tr>
+          <td valign="top" width="100%" style="font-size:12px; color:#333; padding:10px 0 0 0;">AGREED AND ACCEPTED: JCB Acceptance</td>
+        </tr>
+        <tr>
+          <td valign="top" width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="middle" align="left" width="65%" style="font-size:10px; color:#333;">Signature _______________________________________________________________</td>
+                <td width="4%" valign="top"><input name="" type="checkbox" value="" /></td>
+                <td valign="middle" align="left"  style="font-size:10px; color:#333;">Existing JCB #: ___________________________</td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="font-family:Arial, Helvetica, sans-serif; border:1px solid #333;">
+  <tr>
+    <th valign="top" align="center" bgcolor="#000" style="font-size:100%; color:#fff;">10. ADDED SERVICE ENROLLMENT</th>
+  </tr>
+  <tr>
+    <td width="100%" valign="top"><table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td valign="top" align="center" width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" align="left" width="35%" style="font-size:8px; color:#333;">American Express (Please see Section 11)</td>
+                <td valign="top" align="left" width="3%"><input name="" type="checkbox" value=""></td>
+                <td valign="middle" align="left" width="35%" style="font-size:8px; color:#333;">Merchant Cash Advance (Requires separate Third-party paperwork)</td>
+                <td valign="top" align="left" width="3%">&nbsp;</td>
+                <td valign="middle" align="left"  style="font-size:8px; color:#333;">&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" ><input name="" type="checkbox" value=""></td>
+                <td valign="middle" align="left"  style="font-size:8px; color:#333;">Gift Card Services (Requires separate Third-party paperwork)</td>
+                <td valign="top" align="left" ><input name="" type="checkbox" value=""></td>
+                <td valign="middle" align="left"  style="font-size:8px; color:#333;">PIN Debit Cards (Please see page 3)</td>
+                <td valign="top" align="left" ><input name="" type="checkbox" value=""></td>
+                <td valign="middle" align="left"  style="font-size:8px; color:#333;">Petroleum Services (Please see page 3)</td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>
